@@ -1,4 +1,4 @@
-import { randomUUID } from 'node:crypto';
+import { createHash, randomUUID } from 'node:crypto';
 import { spawn } from 'node:child_process';
 import { mkdir, readFile, realpath, rm, writeFile } from 'node:fs/promises';
 import os from 'node:os';
@@ -59,6 +59,14 @@ export type VerificationEvidence = {
 
 const MAX_OUTPUT_BYTES = 1024 * 1024;
 const RUN_FILE = 'run.json';
+// task_id and run_id each name a filesystem entry, so both must be a single safe path segment.
+const RUN_ID = /^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$/;
+// POSIX: the command leads its own process group, so a timeout can signal descendants instead of only the direct child.
+const GROUP_KILL = process.platform !== 'win32';
+// After 'exit', inherited pipes may still be open. Bound that wait before settling and stopping any survivor.
+const OUTPUT_DRAIN_GRACE_MS = 500;
+// After a timeout the whole group is signalled. If it still has not exited, settle the record anyway.
+const KILL_GRACE_MS = 1000;
 
 async function git(cwd: string, args: string[]): Promise<string> {
   return new Promise((resolve, reject) => {
@@ -72,10 +80,29 @@ async function git(cwd: string, args: string[]): Promise<string> {
   });
 }
 
+function normalizeRemote(url: string): string {
+  return url.trim().replace(/\/+$/, '').replace(/\.git$/, '');
+}
+
+// Second, independent guard behind the task_id character set: a generated name may never leave its configured root.
+function directChild(root: string, name: string, label: string): string {
+  const resolvedRoot = path.resolve(root);
+  if (typeof name !== 'string' || !RUN_ID.test(name)) throw new Error(`${label} must be a single path segment: ${JSON.stringify(name)}`);
+  const candidate = path.join(resolvedRoot, name);
+  if (path.dirname(candidate) !== resolvedRoot) throw new Error(`${label} resolves outside ${resolvedRoot}: ${JSON.stringify(name)}`);
+  return candidate;
+}
+
 function validateCard(card: TaskCard): void {
-  if (card?.schema_version !== 1 || !card.task_id?.trim()) throw new Error('task card must have schema_version 1 and task_id');
+  if (card?.schema_version !== 1) throw new Error('task card must have schema_version 1');
+  if (typeof card.task_id !== 'string' || !RUN_ID.test(card.task_id)) {
+    throw new Error('task_id must match ^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$: it names a run directory and an evidence file');
+  }
   if (!card.authorization?.requested_by?.trim() || !card.authorization.scope?.trim() || !Number.isFinite(Date.parse(card.authorization.approved_at))) {
     throw new Error('task card requires authorization requester, scope, and RFC3339 approval timestamp');
+  }
+  if (card.repository?.url !== undefined && (typeof card.repository.url !== 'string' || !card.repository.url.trim())) {
+    throw new Error('repository.url must be a non-empty string when present');
   }
   if (!/^[0-9a-f]{40,64}$/i.test(card.repository?.base_commit ?? '')) throw new Error('repository.base_commit must be a full Git object ID');
   if (!card.implementation?.instructions?.trim() || !Array.isArray(card.implementation.allowed_paths) || card.implementation.allowed_paths.length === 0) {
@@ -84,29 +111,52 @@ function validateCard(card: TaskCard): void {
   for (const allowed of card.implementation.allowed_paths) {
     if (!allowed.trim() || path.isAbsolute(allowed) || allowed.split(/[\\/]/).includes('..')) throw new Error(`invalid allowed path: ${allowed}`);
   }
+  if (card.implementation.prohibited_actions !== undefined &&
+      (!Array.isArray(card.implementation.prohibited_actions) || card.implementation.prohibited_actions.some(entry => typeof entry !== 'string'))) {
+    throw new Error('implementation.prohibited_actions must be an array of strings when present');
+  }
   if (!Array.isArray(card.verification?.commands) || card.verification.commands.length === 0 ||
       card.verification.commands.some(command => !Array.isArray(command) || command.length === 0 || command.some(arg => typeof arg !== 'string')) ||
       !Number.isFinite(card.verification.timeout_seconds) || card.verification.timeout_seconds <= 0 ||
-      !Array.isArray(card.verification.acceptance_criteria) || card.verification.acceptance_criteria.length === 0) {
+      !Array.isArray(card.verification.acceptance_criteria) || card.verification.acceptance_criteria.length === 0 ||
+      card.verification.acceptance_criteria.some(entry => typeof entry !== 'string')) {
     throw new Error('verification requires non-empty argv commands, positive timeout, and acceptance criteria');
   }
+  const checks = card.verification.required_checks;
+  if (checks !== undefined) {
+    for (const key of ['candidate_unchanged', 'verifier_worktree_clean'] as const) {
+      const value = checks[key];
+      if (value !== undefined && typeof value !== 'boolean') throw new Error(`verification.required_checks.${key} must be a boolean`);
+      if (value === false) throw new Error(`verification.required_checks.${key} cannot be false: the harness always enforces this check`);
+    }
+  }
+  const gate = card.operator_gate?.require_approval_before_durable_action;
+  if (gate !== undefined && typeof gate !== 'boolean') throw new Error('operator_gate.require_approval_before_durable_action must be a boolean');
 }
 
 async function readManifest(runDir: string): Promise<RunManifest> {
   const manifest = JSON.parse(await readFile(path.join(runDir, RUN_FILE), 'utf8')) as RunManifest;
   if (manifest.schema_version !== 1) throw new Error('unsupported run manifest version');
   validateCard(manifest.card);
+  if (typeof manifest.run_id !== 'string' || !RUN_ID.test(manifest.run_id)) throw new Error('run manifest run_id must be a single path segment');
+  if (!manifest.run_id.startsWith(`${manifest.card.task_id}-`)) throw new Error('run manifest run_id does not belong to its task card');
   return manifest;
 }
 
 export async function prepareRun(card: TaskCard, repositoryPath: string, workRoot = path.join(os.tmpdir(), 'isolated-verifier')): Promise<{ runId: string; runDir: string; implementationPath: string }> {
   validateCard(card);
   const repoPath = await realpath(repositoryPath);
+  if (card.repository.url !== undefined) {
+    const remote = await git(repoPath, ['remote', 'get-url', 'origin']).catch(() => '');
+    if (normalizeRemote(remote) !== normalizeRemote(card.repository.url)) {
+      throw new Error(`repository.url does not match the origin remote of ${repoPath}: ${card.repository.url}`);
+    }
+  }
   const base = await git(repoPath, ['rev-parse', '--verify', `${card.repository.base_commit}^{commit}`]);
   if (base !== card.repository.base_commit) throw new Error('resolved base commit does not match task card');
   await mkdir(workRoot, { recursive: true });
   const runId = `${card.task_id}-${randomUUID()}`;
-  const runDir = path.join(await realpath(workRoot), runId);
+  const runDir = directChild(await realpath(workRoot), runId, 'run directory');
   const implementationPath = path.join(runDir, 'implementer');
   await mkdir(runDir, { recursive: true });
   try {
@@ -134,6 +184,8 @@ function runCommand(argv: string[], cwd: string, timeoutSeconds: number): Promis
     const child = spawn(argv[0], argv.slice(1), {
       cwd,
       shell: false,
+      // A new process group lets a timeout reach descendants. On Windows the direct child is all we can signal.
+      detached: GROUP_KILL,
       stdio: ['ignore', 'pipe', 'pipe'],
       // Do not pass the parent process's credentials/configuration wholesale to repository tests.
       env: Object.fromEntries(['PATH', 'PATHEXT', 'SYSTEMROOT', 'WINDIR', 'TMP', 'TEMP', 'TMPDIR', 'CI'].flatMap(key => process.env[key] === undefined ? [] : [[key, process.env[key] as string]])),
@@ -154,68 +206,138 @@ function runCommand(argv: string[], cwd: string, timeoutSeconds: number): Promis
     child.stdout.on('data', collect('stdout'));
     child.stderr.on('data', collect('stderr'));
     let timedOut = false;
-    const timer = setTimeout(() => { timedOut = true; child.kill('SIGKILL'); }, timeoutSeconds * 1000);
-    child.once('error', error => {
-      clearTimeout(timer);
-      resolve({ argv, cwd, started_at: started, finished_at: new Date().toISOString(), exit_code: -1, timed_out: timedOut, stdout, stderr: `${stderr}${error.message}`, output_truncated: outputTruncated });
+    let settled = false;
+    let exitCode: number | null = null;
+    let timeoutTimer: ReturnType<typeof setTimeout> | undefined;
+    let drainTimer: ReturnType<typeof setTimeout> | undefined;
+    let killTimer: ReturnType<typeof setTimeout> | undefined;
+    const signal = (name: NodeJS.Signals) => {
+      if (child.pid === undefined) return;
+      try {
+        // POSIX: the child leads its own group, so a negative PID signals the child and every descendant.
+        if (GROUP_KILL) process.kill(-child.pid, name); else child.kill(name);
+      } catch {
+        // The group may already be gone; a surviving descendant is bounded by the grace timers below.
+      }
+    };
+    const finish = (code: number, error?: string) => {
+      if (settled) return;
+      settled = true;
+      clearTimeout(timeoutTimer);
+      clearTimeout(drainTimer);
+      clearTimeout(killTimer);
+      resolve({ argv, cwd, started_at: started, finished_at: new Date().toISOString(), exit_code: code, timed_out: timedOut, stdout, stderr: error ? `${stderr}${error}` : stderr, output_truncated: outputTruncated });
+    };
+    timeoutTimer = setTimeout(() => {
+      timedOut = true;
+      signal('SIGKILL');
+      // A descendant that survives the group signal must not hold the evidence open.
+      killTimer = setTimeout(() => finish(exitCode ?? -1), KILL_GRACE_MS);
+    }, timeoutSeconds * 1000);
+    child.once('error', error => finish(-1, error.message));
+    child.once('exit', code => {
+      exitCode = code;
+      // A command that leaves a descendant holding the inherited pipes never emits 'close'. Let the timeout
+      // decide that case (it signals the group), then bound the output drain so the record cannot hang.
+      if (timedOut) drainTimer = setTimeout(() => { signal('SIGKILL'); finish(code ?? -1); }, OUTPUT_DRAIN_GRACE_MS);
     });
-    child.once('close', code => {
-      clearTimeout(timer);
-      resolve({ argv, cwd, started_at: started, finished_at: new Date().toISOString(), exit_code: code ?? -1, timed_out: timedOut, stdout, stderr, output_truncated: outputTruncated });
-    });
+    child.once('close', code => finish(code ?? -1));
   });
+}
+
+// Ignored paths are invisible to `git add --all`, so they are detected separately and force-staged.
+async function ignoredChanges(cwd: string): Promise<string[]> {
+  const raw = await git(cwd, ['status', '--porcelain=v1', '-z', '--untracked-files=all', '--ignored=matching']);
+  return raw.split('\0').filter(entry => entry.startsWith('!! ')).map(entry => entry.slice(3));
+}
+
+async function stageIgnored(cwd: string, ignored: string[]): Promise<void> {
+  for (let index = 0; index < ignored.length; index += 100) {
+    await git(cwd, ['add', '--force', '--', ...ignored.slice(index, index + 100)]);
+  }
 }
 
 export async function verifyRun(runDir: string, evidenceDir: string): Promise<VerificationEvidence> {
   const manifest = await readManifest(runDir);
   const { card, repo_path: repo, implementation_path: implementation, run_id: runId } = manifest;
-  const verifier = path.join(runDir, 'verifier');
-  let evidence: VerificationEvidence | undefined;
+  const verifier = directChild(runDir, 'verifier', 'verifier worktree');
+  // Throws below are reserved for states where no truthful record can be produced:
+  // a missing/malformed manifest or implementation worktree, or a failure to create the verifier worktree.
+  const resolvedImplementation = await realpath(implementation);
+  const ignored = await ignoredChanges(resolvedImplementation);
+  await git(resolvedImplementation, ['add', '--all']);
+  // Record ignored changes in the candidate too, so changed_paths cannot omit something the implementer wrote.
+  if (ignored.length) await stageIgnored(resolvedImplementation, ignored);
+  const candidateTree = await git(resolvedImplementation, ['write-tree']);
+  const changedRaw = await git(resolvedImplementation, ['diff-tree', '--no-commit-id', '--name-only', '-r', '-z', card.repository.base_commit, candidateTree]);
+  const changedPaths = changedRaw ? changedRaw.split('\0').filter(Boolean) : [];
+  const denied = changedPaths.filter(file => !allowedPath(file, card.implementation.allowed_paths));
+  const patch = await git(resolvedImplementation, ['diff', '--binary', card.repository.base_commit, candidateTree]);
+  const candidateCommit = await git(resolvedImplementation, ['-c', 'user.name=Verifier MVP', '-c', 'user.email=verifier-mvp@localhost', 'commit-tree', candidateTree, '-p', card.repository.base_commit, '-m', `Candidate for ${card.task_id}`]);
+  const findings: string[] = [];
+  const commands: CommandEvidence[] = [];
+  let verifierRealPath = verifier;
+  let distinct = false;
+  let cleanBefore = false;
+  let cleanAfter = false;
+  let candidateUnchanged = false;
   try {
-    const resolvedImplementation = await realpath(implementation);
-    await git(implementation, ['add', '--all']);
-    const candidateTree = await git(implementation, ['write-tree']);
-    const changedRaw = await git(implementation, ['diff-tree', '--no-commit-id', '--name-only', '-r', '-z', card.repository.base_commit, candidateTree]);
-    const changedPaths = changedRaw ? changedRaw.split('\0').filter(Boolean) : [];
-    const denied = changedPaths.filter(file => !allowedPath(file, card.implementation.allowed_paths));
-    if (denied.length) throw new Error(`changed paths outside task scope: ${denied.join(', ')}`);
-    const patch = await git(implementation, ['diff', '--binary', card.repository.base_commit, candidateTree]);
-    const candidateCommit = await git(implementation, ['-c', 'user.name=Verifier MVP', '-c', 'user.email=verifier-mvp@localhost', 'commit-tree', candidateTree, '-p', card.repository.base_commit, '-m', `Candidate for ${card.task_id}`]);
     await git(repo, ['worktree', 'add', '--detach', verifier, candidateCommit]);
-    const verifierRealPath = await realpath(verifier);
+    verifierRealPath = await realpath(verifier);
+    distinct = resolvedImplementation !== verifierRealPath;
     const before = await git(verifier, ['status', '--porcelain', '--untracked-files=all']);
     const initialHead = await git(verifier, ['rev-parse', 'HEAD']);
     const initialTree = await git(verifier, ['rev-parse', 'HEAD^{tree}']);
-    if (resolvedImplementation === verifierRealPath) throw new Error('implementer and verifier worktrees resolve to the same path');
-    if (before) throw new Error('verifier worktree is not clean before tests');
-    if (initialHead !== candidateCommit || initialTree !== candidateTree) throw new Error('verifier checkout does not match pinned candidate');
-    const commands: CommandEvidence[] = [];
-    for (const argv of card.verification.commands) commands.push(await runCommand(argv, verifierRealPath, card.verification.timeout_seconds));
+    cleanBefore = !before;
+    // Pre-execution failures become a preserved REJECTED record instead of an exception with no evidence.
+    if (denied.length) findings.push(`changed paths outside task scope: ${denied.join(', ')}`);
+    const uncoveredIgnored = ignored.filter(file => !denied.includes(file));
+    if (uncoveredIgnored.length) findings.push(`ignored changes cannot be authorized: ${uncoveredIgnored.join(', ')}`);
+    if (!distinct) findings.push('implementer and verifier worktrees resolve to the same path');
+    if (before) findings.push(`verifier worktree is not clean before tests: ${before.split('\n').filter(Boolean).join(', ')}`);
+    if (initialHead !== candidateCommit || initialTree !== candidateTree) findings.push('verifier checkout does not match pinned candidate');
+    if (card.repository.url !== undefined) {
+      const remote = await git(repo, ['remote', 'get-url', 'origin']).catch(() => '');
+      if (normalizeRemote(remote) !== normalizeRemote(card.repository.url)) findings.push(`repository.url does not match the origin remote of ${repo}`);
+    }
+    const executed = findings.length === 0;
+    if (executed) {
+      for (const argv of card.verification.commands) commands.push(await runCommand(argv, verifierRealPath, card.verification.timeout_seconds));
+    }
     const afterStatus = await git(verifier, ['status', '--porcelain', '--untracked-files=all']);
     const finalHead = await git(verifier, ['rev-parse', 'HEAD']);
     const finalTree = await git(verifier, ['rev-parse', 'HEAD^{tree}']);
-    const cleanAfter = !afterStatus;
-    const candidateUnchanged = finalHead === candidateCommit && finalTree === candidateTree;
-    const failedCommands = commands.filter(command => command.exit_code !== 0 || command.timed_out);
-    const findings = [
-      ...failedCommands.map(command => `command failed (exit ${command.exit_code}${command.timed_out ? ', timed out' : ''}): ${command.argv.join(' ')}`),
-      ...(!cleanAfter ? ['verifier worktree is dirty after tests'] : []),
-      ...(!candidateUnchanged ? ['candidate commit/tree changed during verification'] : []),
-    ];
-    evidence = {
-      schema_version: 1, run_id: runId, task_id: card.task_id, status: findings.length ? 'REJECTED' : 'VERIFIED', created_at: new Date().toISOString(),
-      repository: { path: repo, base_commit: card.repository.base_commit, candidate_commit: candidateCommit, candidate_tree: candidateTree },
-      patch_sha256: (await import('node:crypto')).createHash('sha256').update(patch).digest('hex'), changed_paths: changedPaths,
-      implementer: { worktree: resolvedImplementation }, verifier: { worktree: verifierRealPath, distinct_from_implementer: resolvedImplementation !== verifierRealPath, clean_before: !before, clean_after: cleanAfter, candidate_unchanged: candidateUnchanged },
-      environment: { node: process.version, git: await git(repo, ['--version']), platform: process.platform, arch: process.arch }, commands, findings,
-      limitation: 'Git worktrees prove workspace separation and provenance, not OS-level containment. Repository tests run as this user; never use with hostile code or secrets.',
-    };
+    cleanAfter = !afterStatus;
+    candidateUnchanged = finalHead === candidateCommit && finalTree === candidateTree;
+    if (executed) {
+      const failedCommands = commands.filter(command => command.exit_code !== 0 || command.timed_out);
+      findings.push(
+        ...failedCommands.map(command => `command failed (exit ${command.exit_code}${command.timed_out ? ', timed out' : ''}): ${command.argv.join(' ')}`),
+        ...(!cleanAfter ? ['verifier worktree is dirty after tests'] : []),
+        ...(!candidateUnchanged ? ['candidate commit/tree changed during verification'] : []),
+      );
+    }
   } finally {
     await git(repo, ['worktree', 'remove', '--force', verifier]).catch(() => undefined);
   }
-  if (!evidence) throw new Error('verification did not produce evidence');
+  // Fields the card accepts but this harness does not evaluate are recorded as such, never left to be inferred as passed.
+  const limitation = [
+    'Git worktrees prove workspace separation and provenance, not OS-level containment. Repository tests run as this user; never use with hostile code or secrets.',
+    `Acceptance criteria were NOT evaluated by this harness (status derives from command exit codes, worktree cleanliness and candidate identity): ${card.verification.acceptance_criteria.join(' | ')}`,
+    card.implementation.prohibited_actions?.length ? `prohibited_actions are advisory and were not enforced: ${card.implementation.prohibited_actions.join(' | ')}` : '',
+    card.operator_gate ? 'operator_gate.* settings are inert: this harness performs no durable action to gate.' : '',
+  ].filter(Boolean).join(' ');
+  const evidence: VerificationEvidence = {
+    schema_version: 1, run_id: runId, task_id: card.task_id, status: findings.length ? 'REJECTED' : 'VERIFIED', created_at: new Date().toISOString(),
+    repository: { path: repo, base_commit: card.repository.base_commit, candidate_commit: candidateCommit, candidate_tree: candidateTree },
+    patch_sha256: createHash('sha256').update(patch).digest('hex'), changed_paths: changedPaths,
+    implementer: { worktree: resolvedImplementation },
+    verifier: { worktree: verifierRealPath, distinct_from_implementer: distinct, clean_before: cleanBefore, clean_after: cleanAfter, candidate_unchanged: candidateUnchanged },
+    environment: { node: process.version, git: await git(repo, ['--version']), platform: process.platform, arch: process.arch },
+    commands, findings, limitation,
+  };
   await mkdir(evidenceDir, { recursive: true });
-  const evidencePath = path.join(evidenceDir, `${runId}.json`);
+  const evidencePath = directChild(await realpath(evidenceDir), `${runId}.json`, 'evidence file');
   await writeFile(evidencePath, `${JSON.stringify(evidence, null, 2)}\n`, { flag: 'wx' });
   return evidence;
 }

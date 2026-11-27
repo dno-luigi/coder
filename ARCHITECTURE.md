@@ -22,8 +22,8 @@ The initial execution target is **Node.js with local Git worktrees**. The model/
 3. Harness validates the change set against scope, applies it, and records changed paths. Do not treat implementer-reported tests as verifier evidence.
 4. Capture the exact candidate as an immutable Git commit (or equivalent immutable Git object) derived from the pinned base. Record its commit and tree IDs. The candidate must not be modified after pinning.
 5. Create a **new detached verifier worktree** at the candidate commit. Assert it is a distinct canonical path, has no tracked or untracked changes before tests, and resolves to the recorded commit and tree IDs.
-6. Run only the task card's prescribed commands in the verifier worktree. Capture exact argv, working directory, timestamps, environment metadata (redacting secrets), stdout, stderr, and exit code. Do not accept a model summary in place of process output.
-7. Mark verification passed only if all required commands exit successfully, the candidate identity is unchanged, and the verifier worktree is clean afterward. Otherwise mark rejected and preserve failure evidence.
+6. Run only the task card's prescribed commands in the verifier worktree. Capture exact argv, working directory, timestamps, environment metadata (redacting secrets), stdout, stderr, and exit code. Do not accept a model summary in place of process output. A timed-out command's process group is signalled on POSIX and the record settles within a bounded grace, so an inherited pipe held by a descendant cannot extend the run.
+7. Mark verification passed only if all required commands exit successfully, the candidate identity is unchanged, and the verifier worktree is clean afterward. Otherwise mark rejected and preserve failure evidence. Pre-execution failures (a change outside `allowed_paths`, an ignored change, a dirty verifier checkout, or a checkout that does not match the pinned candidate) are rejection evidence too, written with an empty command list; only a missing or malformed run manifest and a failure to create the verifier worktree raise without a record.
 8. Present the task card, patch, candidate identity, and verifier evidence to the operator. Stop pending explicit approval; no automatic commit to a lasting branch, merge, or deployment.
 9. Clean up temporary worktrees and refs in a `finally` path, while retaining the evidence record and immutable candidate object for the configured retention period.
 
@@ -44,7 +44,8 @@ Persist one machine-readable record per run containing:
 - verifier worktree path identity (avoid leaking sensitive absolute paths in exported records);
 - each exact test command, start/end time, stdout, stderr, exit code, and environment summary;
 - clean-worktree and immutable-candidate checks before and after execution;
-- findings, limitations, and operator decision/approval timestamp.
+- findings, limitations, and operator decision/approval timestamp;
+- acceptance criteria copied verbatim with an explicit not-evaluated marker, plus advisory `prohibited_actions` and inert `operator_gate` settings; none of these decides the status.
 
 Evidence is append-only from the harness perspective; never overwrite a failed run with a later successful run. Redact secrets and allow configuring output limits without discarding exit status or recording that truncation occurred.
 
