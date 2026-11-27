@@ -1,6 +1,6 @@
-import { randomUUID } from 'node:crypto';
+import { createHash, randomUUID } from 'node:crypto';
 import { spawn } from 'node:child_process';
-import { mkdir, readFile, realpath, rm, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, realpath, rm, stat, writeFile } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 
@@ -19,6 +19,14 @@ export type TaskCard = {
   operator_gate?: { require_approval_before_durable_action?: boolean };
 };
 
+export type GovernanceEvidence = {
+  prebuild_id: 'governance-foundations-v1';
+  constitution: { path: string; sha256: string };
+  differential_operations: { path: string; sha256: string };
+  agent_cannot_amend: true;
+  amendment_requires_human_authority: true;
+};
+
 type RunManifest = {
   schema_version: 1;
   run_id: string;
@@ -26,6 +34,7 @@ type RunManifest = {
   repo_path: string;
   implementation_path: string;
   created_at: string;
+  governance: GovernanceEvidence;
 };
 
 type CommandEvidence = {
@@ -47,6 +56,7 @@ export type VerificationEvidence = {
   status: 'VERIFIED' | 'REJECTED';
   created_at: string;
   repository: { path: string; base_commit: string; candidate_commit: string; candidate_tree: string };
+  governance: GovernanceEvidence;
   patch_sha256: string;
   changed_paths: string[];
   implementer: { worktree: string };
@@ -59,6 +69,36 @@ export type VerificationEvidence = {
 
 const MAX_OUTPUT_BYTES = 1024 * 1024;
 const RUN_FILE = 'run.json';
+const CONSTITUTION_PATH = 'governance/ethical-constitution.md';
+const DIFFERENTIAL_PATH = 'governance/differential-operations.md';
+
+async function sha256File(file: string): Promise<string> {
+  const data = await readFile(file);
+  return createHash('sha256').update(data).digest('hex');
+}
+
+async function loadGovernance(repositoryPath: string): Promise<GovernanceEvidence> {
+  const constitution = path.join(repositoryPath, CONSTITUTION_PATH);
+  const differential = path.join(repositoryPath, DIFFERENTIAL_PATH);
+  await Promise.all([stat(constitution), stat(differential)]).catch(() => {
+    throw new Error('prebuild governance foundations are missing');
+  });
+
+  const constitutionContent = await readFile(constitution, 'utf8');
+  const differentialContent = await readFile(differential, 'utf8');
+  if (!constitutionContent.includes('**Status:** Active foundation v1') ||
+      !differentialContent.includes('**Status:** Active foundation v1')) {
+    throw new Error('prebuild governance foundations are not active foundation v1');
+  }
+
+  return {
+    prebuild_id: 'governance-foundations-v1',
+    constitution: { path: CONSTITUTION_PATH, sha256: await sha256File(constitution) },
+    differential_operations: { path: DIFFERENTIAL_PATH, sha256: await sha256File(differential) },
+    agent_cannot_amend: true,
+    amendment_requires_human_authority: true,
+  };
+}
 
 async function git(cwd: string, args: string[]): Promise<string> {
   return new Promise((resolve, reject) => {
@@ -96,12 +136,18 @@ async function readManifest(runDir: string): Promise<RunManifest> {
   const manifest = JSON.parse(await readFile(path.join(runDir, RUN_FILE), 'utf8')) as RunManifest;
   if (manifest.schema_version !== 1) throw new Error('unsupported run manifest version');
   validateCard(manifest.card);
+
+  const current = await loadGovernance(manifest.repo_path);
+  if (JSON.stringify(current) !== JSON.stringify(manifest.governance)) {
+    throw new Error('governance foundations changed after run preparation');
+  }
   return manifest;
 }
 
 export async function prepareRun(card: TaskCard, repositoryPath: string, workRoot = path.join(os.tmpdir(), 'isolated-verifier')): Promise<{ runId: string; runDir: string; implementationPath: string }> {
   validateCard(card);
   const repoPath = await realpath(repositoryPath);
+  const governance = await loadGovernance(repoPath);
   const base = await git(repoPath, ['rev-parse', '--verify', `${card.repository.base_commit}^{commit}`]);
   if (base !== card.repository.base_commit) throw new Error('resolved base commit does not match task card');
   await mkdir(workRoot, { recursive: true });
@@ -111,7 +157,7 @@ export async function prepareRun(card: TaskCard, repositoryPath: string, workRoo
   await mkdir(runDir, { recursive: true });
   try {
     await git(repoPath, ['worktree', 'add', '--detach', implementationPath, base]);
-    const manifest: RunManifest = { schema_version: 1, run_id: runId, card, repo_path: repoPath, implementation_path: implementationPath, created_at: new Date().toISOString() };
+    const manifest: RunManifest = { schema_version: 1, run_id: runId, card, repo_path: repoPath, implementation_path: implementationPath, created_at: new Date().toISOString(), governance };
     await writeFile(path.join(runDir, RUN_FILE), `${JSON.stringify(manifest, null, 2)}\n`, { flag: 'wx' });
     return { runId, runDir, implementationPath };
   } catch (error) {
@@ -135,7 +181,6 @@ function runCommand(argv: string[], cwd: string, timeoutSeconds: number): Promis
       cwd,
       shell: false,
       stdio: ['ignore', 'pipe', 'pipe'],
-      // Do not pass the parent process's credentials/configuration wholesale to repository tests.
       env: Object.fromEntries(['PATH', 'PATHEXT', 'SYSTEMROOT', 'WINDIR', 'TMP', 'TEMP', 'TMPDIR', 'CI'].flatMap(key => process.env[key] === undefined ? [] : [[key, process.env[key] as string]])),
     });
     let stdout = '';
@@ -168,7 +213,7 @@ function runCommand(argv: string[], cwd: string, timeoutSeconds: number): Promis
 
 export async function verifyRun(runDir: string, evidenceDir: string): Promise<VerificationEvidence> {
   const manifest = await readManifest(runDir);
-  const { card, repo_path: repo, implementation_path: implementation, run_id: runId } = manifest;
+  const { card, repo_path: repo, implementation_path: implementation, run_id: runId, governance } = manifest;
   const verifier = path.join(runDir, 'verifier');
   let evidence: VerificationEvidence | undefined;
   try {
@@ -177,10 +222,15 @@ export async function verifyRun(runDir: string, evidenceDir: string): Promise<Ve
     const candidateTree = await git(implementation, ['write-tree']);
     const changedRaw = await git(implementation, ['diff-tree', '--no-commit-id', '--name-only', '-r', '-z', card.repository.base_commit, candidateTree]);
     const changedPaths = changedRaw ? changedRaw.split('\0').filter(Boolean) : [];
+
+    const forbiddenGovernancePaths = ['governance/ethical-constitution.md', 'governance/differential-operations.md', 'governance/prebuild.manifest.md'];
+    const deniedGovernance = changedPaths.filter(file => forbiddenGovernancePaths.includes(file));
+    if (deniedGovernance.length) throw new Error(`governance foundations cannot be amended by a task: ${deniedGovernance.join(', ')}`);
+
     const denied = changedPaths.filter(file => !allowedPath(file, card.implementation.allowed_paths));
     if (denied.length) throw new Error(`changed paths outside task scope: ${denied.join(', ')}`);
     const patch = await git(implementation, ['diff', '--binary', card.repository.base_commit, candidateTree]);
-    const candidateCommit = await git(implementation, ['-c', 'user.name=Verifier MVP', '-c', 'user.email=verifier-mvp@localhost', 'commit-tree', candidateTree, '-p', card.repository.base_commit, '-m', `Candidate for ${card.task_id}`]);
+    const candidateCommit = await git(implementation, ['-c', 'user.name=Verifier MVP', '-c', 'user.email=verifier-mvp@localhost', 'commit-tree', candidateTree, '-p', card.repository.base_commit, '-m', `coder candidate ${runId}`]);
     await git(repo, ['worktree', 'add', '--detach', verifier, candidateCommit]);
     const verifierRealPath = await realpath(verifier);
     const before = await git(verifier, ['status', '--porcelain', '--untracked-files=all']);
@@ -189,6 +239,7 @@ export async function verifyRun(runDir: string, evidenceDir: string): Promise<Ve
     if (resolvedImplementation === verifierRealPath) throw new Error('implementer and verifier worktrees resolve to the same path');
     if (before) throw new Error('verifier worktree is not clean before tests');
     if (initialHead !== candidateCommit || initialTree !== candidateTree) throw new Error('verifier checkout does not match pinned candidate');
+
     const commands: CommandEvidence[] = [];
     for (const argv of card.verification.commands) commands.push(await runCommand(argv, verifierRealPath, card.verification.timeout_seconds));
     const afterStatus = await git(verifier, ['status', '--porcelain', '--untracked-files=all']);
@@ -205,7 +256,8 @@ export async function verifyRun(runDir: string, evidenceDir: string): Promise<Ve
     evidence = {
       schema_version: 1, run_id: runId, task_id: card.task_id, status: findings.length ? 'REJECTED' : 'VERIFIED', created_at: new Date().toISOString(),
       repository: { path: repo, base_commit: card.repository.base_commit, candidate_commit: candidateCommit, candidate_tree: candidateTree },
-      patch_sha256: (await import('node:crypto')).createHash('sha256').update(patch).digest('hex'), changed_paths: changedPaths,
+      governance,
+      patch_sha256: createHash('sha256').update(patch).digest('hex'), changed_paths: changedPaths,
       implementer: { worktree: resolvedImplementation }, verifier: { worktree: verifierRealPath, distinct_from_implementer: resolvedImplementation !== verifierRealPath, clean_before: !before, clean_after: cleanAfter, candidate_unchanged: candidateUnchanged },
       environment: { node: process.version, git: await git(repo, ['--version']), platform: process.platform, arch: process.arch }, commands, findings,
       limitation: 'Git worktrees prove workspace separation and provenance, not OS-level containment. Repository tests run as this user; never use with hostile code or secrets.',
