@@ -1,3 +1,90 @@
+Necessity Is the Mother of Invention
+
+Why This Exists
+
+This project began with a practical problem: the tools available to us were not enough to do the work we needed done.
+
+We needed a coding agent that could do more than generate code. It had to understand the task, respect its boundaries, make changes in a real working environment, and prove that those changes worked.
+
+We needed independent verification, not an agent congratulating itself for passing tests it had just written. We needed evidence tied to the exact source tree, not confident claims tied to an uncertain version of the code. And we needed the operator—not the model—to retain authority over consequential decisions.
+
+The existing tools offered pieces of this capability. But the pieces did not automatically make a reliable system.
+
+So we started designing one.
+
+The Necessity
+
+The problem was not a shortage of intelligence or code generation.
+
+It was a shortage of trustworthy execution.
+
+An agent could inspect a repository, propose a correction, and report success. But who independently checked the result? Did the verifier examine the same commit? Were the tests actually executed? Could the agent silently expand its assignment? Could a model authorize its own changes?
+
+These are not theoretical concerns. They are failure points in real development workflows.
+
+We learned that agreement between agents is not independent corroboration. A successful build is not proof that the requested experiment was valid. A passing test suite does not establish that the implementation respected its specification.
+
+The system needed structural safeguards, not better assurances.
+
+The Invention
+
+The answer is an independently governed, multi-role coding architecture.
+
+Four responsibilities form its foundation:
+
+- Supervisor — interprets the assignment, establishes scope, coordinates work, and tracks evidence.
+- Implementer — inspects the source, proposes changes, and executes authorized modifications.
+- Verifier — independently checks the resulting source tree and runs the required tests.
+- Operator — retains authority over approval, commits, merges, deployments, and policy decisions.
+
+These are separate responsibilities, not merely four personalities assigned to the same conversation.
+
+The architecture is designed so that the agent responsible for making a change cannot be the sole authority certifying that change.
+
+The Governing Principle
+
+Source is the record. Execution is reality. Evidence establishes what happened. The operator retains authority.
+
+Every meaningful change should be attributable to a specific source state. Every verification result should identify the exact tree against which it was produced. Every uncertainty should remain visible rather than being converted into an unsupported conclusion.
+
+The system should be able to explain:
+
+- What was requested.
+- What was authorized.
+- What source state was inspected.
+- What changed.
+- What was independently executed.
+- What the execution established.
+- What remains unknown.
+- Who authorized the next consequential action.
+
+This is how we make agent behavior inspectable and reproducible.
+
+Why Build Our Own?
+
+Because dependency on a tool is not the same as control over a system.
+
+Model providers, execution engines, APIs, and agent frameworks can change. Their capabilities are useful, but the architecture governing their use should remain ours.
+
+The system should be able to substitute models, providers, tools, and execution environments without surrendering its fundamental rules.
+
+We are not trying to build another chatbot with access to a terminal.
+
+We are building an environment in which specialized AI capabilities can perform real work while remaining bounded by explicit authorization, independent measurement, and verifiable evidence.
+
+The Larger Idea
+
+Necessity may be the mother of invention, but invention alone is not enough.
+
+A useful invention must survive contact with reality. It must expose its own limitations, preserve the evidence of its actions, and remain correctable by people who were not involved in producing the result.
+
+That is the standard this project is working toward.
+
+We did not set out to build an agent because agents were fashionable. We set out to build one because the work demanded a system we could actually trust—and the system did not yet exist in the form we needed.
+
+So we are building it.
+
+
 # Isolated verifier MVP
 
 A small TypeScript harness to prove workspace separation and verification provenance with exactly one implementer worktree and one independently created verifier worktree. No model/provider integration is included. This is **not a security sandbox**; do not run hostile repository code or expose credentials.
