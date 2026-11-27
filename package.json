@@ -7,7 +7,9 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "tsx --test src/*.test.ts",
-    "start": "tsx src/cli.ts"
+    "start": "tsx src/cli.ts",
+    "prebuild": "tsx src/prebuild.ts",
+    "prepare": "npm run prebuild"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",

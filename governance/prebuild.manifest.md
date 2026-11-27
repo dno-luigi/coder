@@ -1,20 +1,5 @@
 # Prebuild Foundations
 
-This file is a versioned prebuild manifest. It must be present and verified before a run creates an agent, worktree, or project.
+This versioned manifest describes the governing files. The explicit `npm run prebuild` installation step creates `prebuild.lock.json`, which records their SHA-256 digests. The lock is created once and is not refreshed automatically; an existing lock that does not match the foundations is a hard failure.
 
-```yaml
-schema_version: 1
-prebuild_id: governance-foundations-v1
-constitution:
-  sha256: "TO_BE_FILLED_BY_INSTALL_SCRIPT"
-  path: "governance/ethical-constitution.md"
-differential_operations:
-  sha256: "TO_BE_FILLED_BY_INSTALL_SCRIPT"
-  path: "governance/differential-operations.md"
-immutable:
-  agent_cannot_amend: true
-  amendment_requires_human_authority: true
-  amendment_process: "Create a new version through a separately approved and reviewed change. Never mutate the active version in place."
-```
-
-The active governance files are part of the system's build inputs. Their SHA-256 digests are recorded in every run manifest and verification evidence.
+The manifest and lock are protected from task changes. Amendments require a separately authorized human-reviewed release that creates a new foundation version. They must not be made by an agent during a governed run.
