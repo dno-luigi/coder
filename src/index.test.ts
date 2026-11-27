@@ -100,20 +100,25 @@ test('a descendant holding the inherited pipes cannot extend the run past the ti
   await cleanupRun(prepared.runDir);
 });
 
-// P0-2: `git add --all` skips ignored files, so an ignored write used to reach no scope check and no evidence.
-test('an ignored change is force-diffed into changed_paths and cannot be verified', async () => {
+// P0-2 / D3: an ignored write is detected read-only and rejected; it must never become candidate content.
+test('an ignored change is detected and rejected without entering the candidate', async () => {
   const { root, repo, card } = await fixture(async repoPath => { await writeFile(path.join(repoPath, '.gitignore'), 'secret.env\n'); });
   const prepared = await prepareRun(card, repo, path.join(root, 'work'));
   await writeFile(path.join(prepared.implementationPath, 'first.txt'), 'candidate\n');
   await writeFile(path.join(prepared.implementationPath, 'secret.env'), 'TOKEN=leaked\n');
   const evidence = await verifyRun(prepared.runDir, path.join(root, 'evidence'));
   assert.equal(evidence.status, 'REJECTED');
-  assert.ok(evidence.changed_paths.includes('secret.env'), `changed_paths omitted the ignored path: ${evidence.changed_paths.join(', ')}`);
   assert.match(evidence.findings.join('\n'), /secret\.env/);
+  assert.equal(evidence.changed_paths.includes('secret.env'), false, `ignored path entered changed_paths: ${evidence.changed_paths.join(', ')}`);
   assert.equal(evidence.commands.length, 0);
   const persisted = JSON.parse(await readFile(path.join(root, 'evidence', `${prepared.runId}.json`), 'utf8'));
   assert.equal(persisted.status, 'REJECTED');
-  assert.ok(persisted.changed_paths.includes('secret.env'));
+  assert.equal(persisted.changed_paths.includes('secret.env'), false);
+  assert.equal(persisted.commands.length, 0);
+  // Neither the candidate tree nor the patch absorbed the ignored content.
+  await assert.rejects(execFile('git', ['cat-file', '-e', `${evidence.repository.candidate_tree}:secret.env`], { cwd: repo }));
+  const diff = await execFile('git', ['diff', '--binary', card.repository.base_commit, evidence.repository.candidate_tree], { cwd: repo });
+  assert.equal(diff.stdout.includes('secret.env'), false, 'patch text contained the ignored path');
   await cleanupRun(prepared.runDir);
 });
 
@@ -222,9 +227,32 @@ test('acceptance criteria, prohibited actions and operator gate are recorded as 
   await writeFile(path.join(prepared.implementationPath, 'first.txt'), 'candidate\n');
   const evidence = await verifyRun(prepared.runDir, path.join(root, 'evidence'));
   assert.equal(evidence.status, 'VERIFIED');
-  assert.match(evidence.limitation, /Acceptance criteria were NOT evaluated/);
-  assert.match(evidence.limitation, /stdout contains candidate content/);
+  // D4: the criteria are a typed field, and the prose that duplicated them is gone.
+  assert.deepEqual(evidence.acceptance_criteria, ['stdout contains candidate content']);
+  assert.equal(evidence.acceptance_criteria_evaluated, false);
+  assert.doesNotMatch(evidence.limitation, /Acceptance criteria/);
+  assert.doesNotMatch(evidence.limitation, /stdout contains candidate content/);
   assert.match(evidence.limitation, /prohibited_actions are advisory/);
   assert.match(evidence.limitation, /operator_gate\.\* settings are inert/);
+  const persisted = JSON.parse(await readFile(path.join(root, 'evidence', `${prepared.runId}.json`), 'utf8'));
+  assert.deepEqual(persisted.acceptance_criteria, ['stdout contains candidate content']);
+  assert.equal(persisted.acceptance_criteria_evaluated, false);
+  await cleanupRun(prepared.runDir);
+});
+
+// D4: the marker must exist on the pre-execution rejection path too, not only when a command ran.
+test('a pre-execution rejection carries the acceptance-criteria marker', async () => {
+  const { root, repo, card } = await fixture();
+  card.verification.acceptance_criteria = ['only first.txt may change'];
+  const prepared = await prepareRun(card, repo, path.join(root, 'work'));
+  await writeFile(path.join(prepared.implementationPath, 'unauthorized.txt'), 'nope');
+  const evidence = await verifyRun(prepared.runDir, path.join(root, 'evidence'));
+  assert.equal(evidence.status, 'REJECTED');
+  assert.equal(evidence.commands.length, 0);
+  assert.deepEqual(evidence.acceptance_criteria, ['only first.txt may change']);
+  assert.equal(evidence.acceptance_criteria_evaluated, false);
+  const persisted = JSON.parse(await readFile(path.join(root, 'evidence', `${prepared.runId}.json`), 'utf8'));
+  assert.deepEqual(persisted.acceptance_criteria, ['only first.txt may change']);
+  assert.equal(persisted.acceptance_criteria_evaluated, false);
   await cleanupRun(prepared.runDir);
 });

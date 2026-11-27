@@ -54,6 +54,9 @@ export type VerificationEvidence = {
   environment: { node: string; git: string; platform: string; arch: string };
   commands: CommandEvidence[];
   findings: string[];
+  // The card's criteria are carried verbatim and never evaluated; the typed pair keeps them out of prose (D4).
+  acceptance_criteria: string[];
+  acceptance_criteria_evaluated: false;
   limitation: string;
 };
 
@@ -245,16 +248,11 @@ function runCommand(argv: string[], cwd: string, timeoutSeconds: number): Promis
   });
 }
 
-// Ignored paths are invisible to `git add --all`, so they are detected separately and force-staged.
+// Ignored paths are invisible to `git add --all`, so they are detected separately with a read-only status
+// call. They are never staged: an ignored write rejects the run instead of becoming candidate content (D3).
 async function ignoredChanges(cwd: string): Promise<string[]> {
   const raw = await git(cwd, ['status', '--porcelain=v1', '-z', '--untracked-files=all', '--ignored=matching']);
   return raw.split('\0').filter(entry => entry.startsWith('!! ')).map(entry => entry.slice(3));
-}
-
-async function stageIgnored(cwd: string, ignored: string[]): Promise<void> {
-  for (let index = 0; index < ignored.length; index += 100) {
-    await git(cwd, ['add', '--force', '--', ...ignored.slice(index, index + 100)]);
-  }
 }
 
 export async function verifyRun(runDir: string, evidenceDir: string): Promise<VerificationEvidence> {
@@ -266,8 +264,7 @@ export async function verifyRun(runDir: string, evidenceDir: string): Promise<Ve
   const resolvedImplementation = await realpath(implementation);
   const ignored = await ignoredChanges(resolvedImplementation);
   await git(resolvedImplementation, ['add', '--all']);
-  // Record ignored changes in the candidate too, so changed_paths cannot omit something the implementer wrote.
-  if (ignored.length) await stageIgnored(resolvedImplementation, ignored);
+  // Ignored changes are not staged, so they cannot reach write-tree, diff-tree, changed_paths or the patch.
   const candidateTree = await git(resolvedImplementation, ['write-tree']);
   const changedRaw = await git(resolvedImplementation, ['diff-tree', '--no-commit-id', '--name-only', '-r', '-z', card.repository.base_commit, candidateTree]);
   const changedPaths = changedRaw ? changedRaw.split('\0').filter(Boolean) : [];
@@ -291,8 +288,10 @@ export async function verifyRun(runDir: string, evidenceDir: string): Promise<Ve
     cleanBefore = !before;
     // Pre-execution failures become a preserved REJECTED record instead of an exception with no evidence.
     if (denied.length) findings.push(`changed paths outside task scope: ${denied.join(', ')}`);
-    const uncoveredIgnored = ignored.filter(file => !denied.includes(file));
-    if (uncoveredIgnored.length) findings.push(`ignored changes cannot be authorized: ${uncoveredIgnored.join(', ')}`);
+    // D3: detected read-only before the verifier worktree exists, so a rejected run executes nothing.
+    const ignoredOutsideScope = ignored.filter(file => !allowedPath(file, card.implementation.allowed_paths));
+    if (ignoredOutsideScope.length) findings.push(`ignored changes outside task scope: ${ignoredOutsideScope.join(', ')}`);
+    if (ignored.length) findings.push(`ignored changes cannot be authorized: ${ignored.join(', ')}`);
     if (!distinct) findings.push('implementer and verifier worktrees resolve to the same path');
     if (before) findings.push(`verifier worktree is not clean before tests: ${before.split('\n').filter(Boolean).join(', ')}`);
     if (initialHead !== candidateCommit || initialTree !== candidateTree) findings.push('verifier checkout does not match pinned candidate');
@@ -323,7 +322,6 @@ export async function verifyRun(runDir: string, evidenceDir: string): Promise<Ve
   // Fields the card accepts but this harness does not evaluate are recorded as such, never left to be inferred as passed.
   const limitation = [
     'Git worktrees prove workspace separation and provenance, not OS-level containment. Repository tests run as this user; never use with hostile code or secrets.',
-    `Acceptance criteria were NOT evaluated by this harness (status derives from command exit codes, worktree cleanliness and candidate identity): ${card.verification.acceptance_criteria.join(' | ')}`,
     card.implementation.prohibited_actions?.length ? `prohibited_actions are advisory and were not enforced: ${card.implementation.prohibited_actions.join(' | ')}` : '',
     card.operator_gate ? 'operator_gate.* settings are inert: this harness performs no durable action to gate.' : '',
   ].filter(Boolean).join(' ');
@@ -334,7 +332,10 @@ export async function verifyRun(runDir: string, evidenceDir: string): Promise<Ve
     implementer: { worktree: resolvedImplementation },
     verifier: { worktree: verifierRealPath, distinct_from_implementer: distinct, clean_before: cleanBefore, clean_after: cleanAfter, candidate_unchanged: candidateUnchanged },
     environment: { node: process.version, git: await git(repo, ['--version']), platform: process.platform, arch: process.arch },
-    commands, findings, limitation,
+    commands, findings,
+    acceptance_criteria: [...card.verification.acceptance_criteria],
+    acceptance_criteria_evaluated: false,
+    limitation,
   };
   await mkdir(evidenceDir, { recursive: true });
   const evidencePath = directChild(await realpath(evidenceDir), `${runId}.json`, 'evidence file');

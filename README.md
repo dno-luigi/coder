@@ -137,7 +137,7 @@ The command prints `runDir` and `implementationPath`. Make the authorized change
 npm start -- verify --run-dir /tmp/coder-work/<run-id> --evidence-dir /path/to/evidence
 ```
 
-The harness stages the implementer changes — force-staging ignored paths so they cannot hide from scope or evidence — rejects paths outside `allowed_paths` and any ignored change, creates an immutable candidate commit object, then creates a **new detached verifier worktree** at that exact commit. Commands are argument arrays (no shell), run in the verifier directory with a timeout, minimal inherited environment, and bounded output. A scope violation, an ignored change, a dirty verifier checkout, or a checkout that does not match the pinned candidate produces persisted `REJECTED` evidence with `commands: []` and exit code 1; only a missing or malformed `run.json` and a failure to create the verifier worktree throw without a record. A timed-out command's whole process group is signalled on POSIX and the record settles within a 1 s grace; on Windows only the direct child is signalled. Evidence is written once to `<evidence-dir>/<run-id>.json`; failed commands yield `REJECTED` and exit code 1. The implementer worktree is retained for operator review until explicitly cleaned up:
+The harness stages the implementer's tracked changes, detects ignored paths with a read-only status call and never stages them, rejects paths outside `allowed_paths` and any ignored change, creates an immutable candidate commit object, then creates a **new detached verifier worktree** at that exact commit. Commands are argument arrays (no shell), run in the verifier directory with a timeout, minimal inherited environment, and bounded output. A scope violation, an ignored change, a dirty verifier checkout, or a checkout that does not match the pinned candidate produces persisted `REJECTED` evidence with `commands: []` and exit code 1; only a missing or malformed `run.json` and a failure to create the verifier worktree throw without a record. A timed-out command's whole process group is signalled on POSIX and the record settles within a 1 s grace; on Windows only the direct child is signalled. Evidence is written once to `<evidence-dir>/<run-id>.json`; failed commands yield `REJECTED` and exit code 1. The implementer worktree is retained for operator review until explicitly cleaned up:
 
 ```sh
 npm start -- cleanup --run-dir /tmp/coder-work/<run-id>
@@ -153,7 +153,7 @@ The verifier worktree is removed after verification, including on failure. Evide
 - Verification evidence is append-only by run ID, but the filesystem is not tamper-proof against the local operator or process owner. Store/export records to a separately controlled system if stronger audit guarantees are required.
 - No command commits to a durable branch, merges, deploys, or treats implementer-reported test results as evidence.
 - `task_id` must match `^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$`: it names the run directory and the evidence file, and the run directory must also resolve to a direct child of `--work-root`.
-- Ignored paths are part of the record: ignored changes are force-staged, appear in `changed_paths`, and reject the run. An implementer that installs dependencies inside its worktree therefore makes the candidate and patch large; keep dependency trees out of the implementer worktree.
+- Ignored paths are part of the record: an ignored change is detected read-only, named in the findings, and rejects the run. It is never staged, so it never reaches `changed_paths`, the candidate tree or the patch. The consequence is stricter than it sounds: an implementer worktree containing any ignored build or dependency output is rejected, so keep dependency trees out of the implementer worktree.
 - A verifier command that leaves a descendant holding its inherited pipes does not end the run silently: the timeout signals the process group, the command is recorded as timed out, and the run is `REJECTED`.
 
 ## Task card field dispositions
@@ -163,10 +163,10 @@ Every field the card type accepts has a stated disposition; nothing is accepted 
 - `task_id` — enforced. Single path segment matching `^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$`; traversal, separators and a leading `.` are rejected at validation, and the run directory must resolve to a direct child of the work root.
 - `repository.url` — enforced when present. It must match the implementation repository's `origin` remote, compared literally after ignoring a trailing `/` and a trailing `.git`.
 - `repository.base_commit` — enforced. It must be a full commit object ID and must equal the resolved commit exactly.
-- `implementation.allowed_paths` — enforced for tracked and ignored changes. Exact paths or directory prefixes ending in `/`; globs are not implemented.
+- `implementation.allowed_paths` — enforced for tracked changes; an ignored path is rejected outright rather than evaluated against this list. Exact paths or directory prefixes ending in `/`; globs are not implemented.
 - `verification.commands`, `verification.timeout_seconds` — enforced.
 - `verification.required_checks.*` — enforced unconditionally. A `false` value is rejected at validation with a message naming the field, because the check cannot be disabled.
-- `verification.acceptance_criteria` — recorded, not evaluated. They are copied verbatim into the evidence `limitation` text with an explicit not-evaluated marker; status derives only from command exit codes, worktree cleanliness and candidate identity.
+- `verification.acceptance_criteria` — recorded in a typed field, never evaluated. They are copied verbatim into `acceptance_criteria` with `acceptance_criteria_evaluated: false` on every terminal path, including a pre-execution rejection; status derives only from command exit codes, worktree cleanliness and candidate identity.
 - `implementation.prohibited_actions` — advisory. Entries must be strings; they are recorded in the evidence `limitation` text as unenforced and are never checked against behaviour.
 - `operator_gate.*` — inert. Accepted, type-checked and recorded as inert, because this harness performs no durable action to gate.
 
