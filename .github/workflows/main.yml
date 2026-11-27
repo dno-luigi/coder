@@ -14,11 +14,18 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [20, 22]
+    name: test (node ${{ matrix.node-version }})
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - run: npm install --no-audit --no-fund
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+      - run: npm ci --no-audit --no-fund
       - run: npm test
       - run: npm run build
