@@ -1,0 +1,13 @@
+SLEEP MEDICINE CLINIC — CONSULTATION NOTE
+SYNTHETIC DOCUMENT, authored for testing. No patient data.
+
+Patient age: 52 years.
+Referral: snoring and witnessed apnoeas.
+
+Diagnosis: obstructive sleep apnoea, moderate, confirmed on attended polysomnography.
+Severity finding: apnoea-hypopnoea index 22.4 events per hour, lowest oxygen saturation 84%.
+
+Prior treatment: nasal CPAP trialled for 8 weeks with adherence of 5.1 hours per night; symptoms
+improved but the patient cannot tolerate the mask. Mandibular advancement device discussed.
+
+Requested service: initiation of bilevel positive airway pressure therapy with heated humidification.

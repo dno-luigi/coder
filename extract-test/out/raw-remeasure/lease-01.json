@@ -1,0 +1,53 @@
+{
+  "landlord_name": {
+    "status": 200,
+    "ms": 1251,
+    "cost": 0.00052948,
+    "values": [
+      {
+        "text": "One Directory Place LLC",
+        "conf": 0.988,
+        "start": 254,
+        "end": 277,
+        "spanOk": true,
+        "normContained": true
+      }
+    ],
+    "omitted": false
+  },
+  "tenant_name": {
+    "status": 200,
+    "ms": 545,
+    "cost": 0.0005294,
+    "values": [],
+    "omitted": true
+  },
+  "premises_address": {
+    "status": 200,
+    "ms": 702,
+    "cost": 0.00052924,
+    "values": [],
+    "omitted": true
+  },
+  "commencement_date": {
+    "status": 200,
+    "ms": 381,
+    "cost": 0.00052924,
+    "values": [],
+    "omitted": true
+  },
+  "base_rent": {
+    "status": 200,
+    "ms": 395,
+    "cost": 0.00053028,
+    "values": [],
+    "omitted": true
+  },
+  "security_deposit": {
+    "status": 200,
+    "ms": 535,
+    "cost": 0.00052928,
+    "values": [],
+    "omitted": true
+  }
+}

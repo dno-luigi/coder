@@ -1,0 +1,118 @@
+{
+  "chunks": [
+    {
+      "chunk": 1,
+      "start": 0,
+      "end": 19798,
+      "chars": 19798,
+      "status": 200,
+      "ms": 1411,
+      "cost": 0.00020744,
+      "found": [
+        "case_name",
+        "citation",
+        "court",
+        "decision_date",
+        "authoring_justice",
+        "disposition"
+      ]
+    },
+    {
+      "chunk": 2,
+      "start": 19738,
+      "end": 39562,
+      "chars": 19824,
+      "status": 200,
+      "ms": 593,
+      "cost": 0.00021572,
+      "found": []
+    },
+    {
+      "chunk": 3,
+      "start": 39476,
+      "end": 59214,
+      "chars": 19738,
+      "status": 200,
+      "ms": 602,
+      "cost": 0.00020032,
+      "found": []
+    },
+    {
+      "chunk": 4,
+      "start": 59214,
+      "end": 79578,
+      "chars": 20364,
+      "status": 200,
+      "ms": 437,
+      "cost": 0.00027744,
+      "found": []
+    },
+    {
+      "chunk": 5,
+      "start": 78952,
+      "end": 98690,
+      "chars": 19738,
+      "status": 200,
+      "ms": 405,
+      "cost": 0.00022112,
+      "found": []
+    }
+  ],
+  "union": {
+    "case_name": [
+      {
+        "field": "case_name",
+        "text": "Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.",
+        "conf": 0.338,
+        "verbatim": true,
+        "chunk": 1
+      }
+    ],
+    "citation": [
+      {
+        "field": "citation",
+        "text": "422 U.S. 806",
+        "conf": 0.973,
+        "verbatim": true,
+        "chunk": 1
+      }
+    ],
+    "court": [
+      {
+        "field": "court",
+        "text": "Supreme Court",
+        "conf": 0.996,
+        "verbatim": true,
+        "chunk": 1
+      }
+    ],
+    "decision_date": [
+      {
+        "field": "decision_date",
+        "text": "June 30, 1975",
+        "conf": 0.983,
+        "verbatim": true,
+        "chunk": 1
+      }
+    ],
+    "authoring_justice": [
+      {
+        "field": "authoring_justice",
+        "text": "Mr. Justice STEWART",
+        "conf": 0.881,
+        "verbatim": true,
+        "chunk": 1
+      }
+    ],
+    "disposition": [
+      {
+        "field": "disposition",
+        "text": "Vacated and remanded.",
+        "conf": 0.669,
+        "verbatim": true,
+        "chunk": 1
+      }
+    ]
+  },
+  "spent": 0.00112204
+}

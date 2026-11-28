@@ -1,0 +1,629 @@
+Obstructive Sleep Apnea in Adults - Medical Clinical Policy Bulletins | Aetna 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ -->
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Top 
+ 
+
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Obstructive Sleep Apnea in Adults
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Clinical Policy Bulletins 
+
+ Medical Clinical Policy Bulletins 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Print 
+ 
+
+ 
+ 
+ 
+ Share 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Number: 0004 
+
+ 
+ 
+ Table Of Contents
+
+ 
+ Policy 
+
+ Applicable CPT / HCPCS / ICD-10 Codes 
+
+ Background 
+
+ References 
+
+ 
+
+ 
+ 
+ 
+ 
+ Policy
+
+ Scope of Policy
+
+ This Clinical Policy Bulletin addresses diagnostic and treatment modalities and associated accessories and supplies for obstructive sleep apnea in adults. 
+
+ 
+ 
+ Medical Necessity
+
+ 
+ 
+ Diagnosis
+
+ Aetna considers the following tests medically necessary for diagnosing obstructive sleep apnea (OSA) in adults aged 18 years and older when criteria are met:
+
+ 
+ 
+ Attended Full-Channel Nocturnal Polysomnography (NPSG)
+
+ Attended full-channel nocturnal polysomnography (NPSG) (Type I device) performed in a healthcare facility is considered medically necessary for diagnosis in members with symptoms suggestive of obstructive sleep apnea (see Appendix ), when attended NPSG is used as part of a comprehensive sleep evaluation with adequate follow-up, and member has one or more of the following indications for attended NPSG:
+
+ 
+ 
+ Member has at least one of the following comorbid medical conditions that degrade the accuracy of portable monitoring:
+
+ 
+ moderate to severe pulmonary disease (for example, COPD or asthma) (with nocturnal oxygen use or daytime hypercapnia with documented arterial blood gasses showing pO 2 less than 60 or pCO 2 greater than 45),
+
+ neuromuscular disease (e.g., Parkinson s disease, spina bifida, myotonic dystrophy, amyotrophic lateral sclerosis),
+
+ stroke with residual respiratory effects,
+
+ epilepsy,
+
+ congestive heart failure (NYHA class III or IV or LVEF less than 45%),
+
+ pulmonary hypertension (mean pulmonary artery pressure greater than 25 mm Hg),
+
+ chronic opioid medication use,
+
+ super obesity (BMI greater than 45, or pulmonary function studies show obesity hypoventilation syndrome (BMI greater than 35 plus arterial blood gas with PCO 2 greater than 45, or BMI greater than 35 plus inability to lie flat in bed)); or
+ 
+
+ 
+
+ 
+ Member has one or more of the following comorbid sleep disorders:
+
+ 
+ periodic limb movement disorder (involuntary, jerking movements of the legs during sleep causing excessive daytime sleepiness (EDS) due to sleep fragmentation),
+
+ parasomnias that are unusual or atypical because of the individual s age at onset, the time, duration or frequency of occurrence of the behavior including, but not limited to: nocturnal seizures, psychogenic dissociative states, REM sleep behavior disorder, sleep talking and/or confusional arousals,
+
+ severe insomnia,
+
+ narcolepsy,
+
+ central sleep apnea or complex sleep apnea; or
+ 
+
+ 
+
+ Member has negative or technically inadequate portable monitoring results; or 
+
+ Member has low pretest probability of obstructive sleep apnea (normal BMI (less than 30), normal airway (Mallampati score 1 or 2), no snoring, and normal neck circumference (less than 17 inches in men, and less than 16 inches in women)); or 
+
+ Member lacks the mobility or dexterity to use portable monitoring equipment safely at home.
+
+ 
+ Aetna considers attended full-channel nocturnal polysomnography (NPSG) (Type I device) performed in a healthcare facility medically necessary for members who meet criteria for implantation of the Inspire System.
+
+ Note : Where attended NPSG is indicated, a split-night study NPSG is considered medically necessary, in which the final portion of the NPSG is used to titrate continuous positive airway pressure (CPAP), if the Apnea Hypopnea Index (AHI) is greater than 15 in first 2 hours of a diagnostic sleep study. An additional full-night CPAP titration NPSG is considered medically necessary only if the AHI is less than or equal to 15 during the first 2 hours of a diagnostic sleep study, or if the split-night study did not allow for the abolishment of the vast majority of obstructive respiratory events (see section I.B. below). 
+
+ 
+ Unattended (Home) Sleep Studies
+
+ Unattended (home) sleep studies using any of the following diagnostic techniques (see Appendix for definition of device types) are considered medically necessary for members with symptoms suggestive of OSA (see Appendix ) when the home sleep study is used as part of a comprehensive sleep evaluation:
+
+ 
+ Sleep monitoring using a Type II device; or 
+
+ Sleep monitoring using a Type III device, or 
+
+ Sleep monitoring using a Type IV(A) device, measuring airflow and at least 2 other channels and providing measurement of apnea-hypopnea index (AHI); or 
+
+ Sleep monitoring using a device that measures 3 or more channels that include pulse oximetry, actigraphy, and peripheral arterial tone (e.g., Watch-PAT device).
+
+ 
+ Note : Sleep studies using devices that do not provide a measurement of apnea-hypopnea index (AHI) and oxygen saturation are considered not medically necessary because they do not provide sufficient information to prescribe treatment. Examples include the Biancamed SleepMinder, SNAP testing with fewer than three channels, and the SleepImage Sleep Quality Screener. Note that the ApneaLink does not meet criteria as a covered type IV device because it does not measure airflow; however, the ApneaLink Plus records 5 channels, including airflow, and meets criteria for a covered sleep study device.
+
+ Repeat home sleep testing on multiple consecutive nights has no proven value.
+
+ 
+
+ 
+ Other Testing Indications
+
+ 
+ 
+ Attended full-channel nocturnal polysomnography (NPSG) (Type I device) performed in a healthcare facility is considered medically necessary for persons diagnosed with obstructive sleep apnea who have any of the following indications for attended NPSG:
+
+ 
+ To titrate CPAP in persons diagnosed with clinically significant OSA for whom in-laboratory NPSG was medically necessary, but who were unable to undergo a split-night study because they had an insufficient AHI (less than 15) during the first two hours of an attended NPSG; or 
+
+ To titrate CPAP in persons with clinically significant OSA for whom in-laboratory NPSG was medically necessary, and who underwent a split-night study that did not abolish the vast majority of obstructive respiratory events; or 
+
+ To monitor results from CPAP in persons with OSA who have persistent significant symptoms (disturbed sleep with significant arousals) despite documented AHI less than 5 on CPAP and documented compliance with CPAP (CPAP used for 70 percent of nights for four or more hours per night, for two or more months); or 
+
+ To confirm diagnosis of obstructive sleep apnea prior to surgical modifications of the upper airway.
+
+ 
+
+ Video-EEG-NPSG (NPSG with video monitoring of body positions and extended EEG channels) is considered medically necessary to assist with the diagnosis of paroxysmal arousals or other sleep disruptions that are thought to be seizure related when the initial clinical evaluation and results of a standard EEG are inconclusive.
+
+ SNAP testing using 3 or more channels is considered a medically necessary method of home sleep testing; SNAP testing using less than 3 channels is considered experimental, investigational, or unproven. See CPB 0336 Acoustic Pharyngometers and SNAP Testing System .
+
+ 
+
+ 
+ Repeat Sleep Study Indications
+
+ It may be necessary to perform repeat sleep studies up to twice a year for any of the following indications. Note: Where repeat testing is indicated, attended full-channel nocturnal polysomnography (NPSG) (Type I device) performed in a healthcare facility is considered medically necessary for persons who meet criteria for attended NPSG in section I.A. above; in all other cases, unattended (home) sleep studies are considered medically necessary:
+
+ 
+ To determine whether positive airway pressure treatment (i.e., CPAP, bilevel positive airway pressure (BiPAP), demand positive airway pressure (DPAP), variable positive airway pressure (VPAP), or auto-titrating positive airway pressure (AutoPAP)) continues to be effective in persons with new or persistent symptoms, after interrogation of current positive airway pressure device; or 
+
+ To determine whether positive airway pressure treatment settings need to be changed in persons with new or persistent symptoms, after interrogation of current positive airway pressure device. ( Note : This criterion does not apply to AutoPAP devices, as these devices are automatically titrated and do not require manual adjustment of treatment settings.); or 
+
+ For persons with substantial weight loss (loss of 10 percent or more body weight) or some other change in their medical condition that would affect the need for continued positive airway pressure treatment (e.g., heart attack, stroke, heart failure), to determine whether continued treatment with positive airway pressure treatment is necessary; or 
+
+ To assess treatment response after upper airway surgical procedures and after initial treatment with oral appliances.
+
+ 
+ Note : A home sleep study is performed over multiple nights with a single interpretation is considered a single sleep study for purposes of reimbursement.
+
+ Note : Repeat sleep testing (home or attended sleep studies) for persons getting replacement CPAP equipment is considered not medically necessary unless the member also has one of the indications for repeat testing listed above.
+
+ 
+ Treatment
+
+ Treatment of snoring alone, without significant OSA, is not considered medically necessary.
+
+ 
+ 
+ Continuous Positive Airway Pressure (CPAP)
+
+ It is expected that members receive lifestyle advice where applicable (i.e., helping people to lose weight, stop smoking and/or decrease alcohol consumption).
+
+ 
+ 
+ Aetna considers CPAP, CPAP with pressure relief technology (eg, C-Flex, C-Flex +) autoPAP (APAP), and APAP with pressure relief technology (e.g., A-Flex) medically necessary DME for members with a positive facility-based NPSG Footnote1 * , or with a positive home sleep test Footnote1 * including Type II, III, IV(A) or Watch-PAT devices, as defined by either of the following criteria:
+
+ 
+ Member's apnea-hypopnea index (AHI) or respiratory disturbance index (RDI) is greater than or equal to 15 events/hour with a minimum of 30 events; or 
+
+ AHI or RDI greater than or equal to 5 and less than 15 events/hour with a minimum of 10 events and at least one of the following is met:
+
+ 
+ Documented history of stroke; or 
+
+ Documented hypertension (systolic blood pressure greater than 140 mm Hg and/or diastolic blood pressure greater than 90 mm Hg); or 
+
+ Documented ischemic heart disease; or 
+
+ Documented symptoms of impaired cognition, mood disorders, or insomnia; or 
+
+ Excessive daytime sleepiness (documented by either Epworth greater than 10 (see Appendix )); or 
+
+ Greater than 20 episodes of oxygen desaturation (i.e., oxygen saturation of less than 85 %) during a full night sleep study, or any one episode of oxygen desaturation (i.e., oxygen saturation of less than 70 %).
+
+ 
+
+ 
+ Footnote1 *The sleep study is based on a minimum of 2 hours of continuous recorded sleep or shorter periods of continuous recorded sleep if the total number of recorded events during that shorter period is at least the number of events that would have been required in a 2-hour period. If the AHI or RDI is calculated based on less than 2 hours of sleep or recording time, the total number of recorded events used to calculate the AHI or RDI (respectively) must be at least the number of events that would have been required in a 2-hour period (i.e., must reach more than 30 events without symptoms or more than 10 events with symptoms). Projections of AHI or RDI based upon shorter testing times and/or fewer events are not acceptable for use in determining whether the member meets medical necessity criteria. In addition, estimates of AHI or RDI should include all stages of sleep. Estimates of AHI or RDI that only count events during periods of REM sleep (and exclude periods of non-REM sleep from the calculation) are not acceptable for use in determining whether the member meets medical necessity criteria.
+
+ Notes : For purposes of this policy, apnea is defined as a cessation of airflow for at least 10 seconds. Hypopnea is defined as an abnormal respiratory event lasting at least 10 seconds with at least a 30 % reduction in thoraco-abdominal movement or airflow as compared to baseline, and with at least a 3% oxygen desaturation and/or an arousal from sleep.
+
+ The apnea-hypopnea index (AHI) is equal to the average number of episodes of apnea and hypopnea per hour of sleep without the use of a positive airway pressure device. Sleep time can only be measured in a Type I (facility-based polysomnogram) or Type II sleep study. Thus the AHI is reported only in Type I or Type II sleep studies.
+
+ The respiratory disturbance index (RDI) is equal to the episodes of apnea and hypopnea per hour of recording without the use of a positive airway pressure device. The RDI is reported in Type III, Type IV, and other home sleep studies.
+
+ Leg movement, snoring, respiratory effort related arousals (RERAs), and other sleep disturbances that may be included by some polysomnographic facilities are not considered to meet the AHI and/or RDI definition in this policy. Although AHI and RDI have been used interchangeably, some facilities use the term RDI to describe a calculation that includes these other sleep disturbances. Requests for positive airway pressure devices will be considered not medically necessary if based upon an index that does not score apneas and hypopneas separately from other sleep disturbance events. Only persons with an AHI and/or RDI, as defined in this policy that meets medical necessity criteria may qualify for a positive airway pressure device.
+
+ 
+ BiPAP without a backup rate feature, BiPAP with pressure relief technology (Bi-Flex), DPAP, VPAP are considered medically necessary DME for members who are intolerant to CPAP or AutoPAP, or for whom CPAP or AutoPAP is ineffective. Ineffective is defined as documented failure to meet therapeutic goals using CPAP or AutoPAP during the titration portion of a facility-based study or during home use despite optimal therapy (i.e., proper mask selection and fitting and appropriate pressure settings). The records must document that both of the following medical necessity criteria are met:
+
+ 
+ An appropriate interface for the CPAP and AutoPAP has been properly fit and the member is using it without difficulty; and 
+
+ The current pressure setting of the CPAP or AutoPAP prevents the member from tolerating the therapy and lower pressure settings of the CPAP or AutoPAP were tried but failed to:
+
+ 
+ Adequately control the symptoms of OSA; or 
+
+ Improve sleep quality; or 
+
+ Reduce the AHI/RDI to acceptable levels.
+
+ 
+ These alternatives to CPAP may also be considered medically necessary for OSA members with concomitant breathing disorders, which include restrictive thoracic disorders, COPD, and nocturnal hypoventilation. An oral pressure appliance (OPAP) is considered medically necessary DME only on an exception basis for members who are unable to tolerate a standard nasal/face mask due to facial discomfort, sinus pain, or claustrophobia from masks. 
+
+ Replacement of positive airway pressure devices is considered medically necessary at the end of their 5-year reasonable useful lifetime (RUL). Replacement of these items is considered medically necessary prior to the end of the 5-year RUL due to a change in the member s condition. Replacement needed due to misuse or abuse are not covered.
+
+ 
+
+ 
+
+ 
+ Continued Medical Necessity of Positive Airway Pressure Devices Beyond Initial Authorization Period
+
+ Continued use of a positive airway pressure device beyond the initial authorization period is considered medically necessary if the treating physician documents that the member is benefiting from positive airway pressure therapy. Documentation of clinical benefit is demonstrated by:
+
+ 
+ Face-to-face clinical reevaluation by the treating physician with documentation that symptoms of obstructive sleep apnea are improved; and 
+
+ Objective evidence of adherence to use of the positive airway pressure device, reviewed by the treating physician. Adherence to therapy is defined as use of positive airway pressure four (4) or more hours per night on at least 70% of nights during a consecutive thirty (30) day period anytime during the initial period of usage.
+
+ 
+
+ 
+
+ 
+
+ 
+ Medically Necessary Accessories and Supplies
+
+ 
+ 
+ The following accessories and supplies are considered medically necessary for members who meet criteria for positive airway pressure (PAP) devices:
+
+ 
+ Chinstrap
+
+ Disposable or non-disposable filters
+
+ Full face mask with positive airway pressure device Footnote2 ** 
+
+ Headgear
+
+ Heated or non-heated humidifier
+
+ Nasal interface (mask or cannula type) for positive airway pressure device
+
+ Oral interface for positive airway pressure device
+
+ Replacement cushions and pillows for nasal application device
+
+ Replacement interface for full face mask
+
+ Tubing for heated or non-heated humidifier.
+
+ 
+ Footnote2 ** A nasal interface (mask or cannula type) may be used with a positive airway pressure device, with or without a head strap as an alternative to a full face mask. However, upgraded face mask is considered medically necessary only if there is documentation that the member needs a different mask because he/she cannot maintain CPAP pressures or that in order to get the pressure the mask needs to be so tight as to generate pressure sores.
+
+ 
+ The following positive airway pressure supplies are considered not medically necessary convenience items:
+
+ 
+ Positive airway pressure bed pillows
+
+ Batteries for positive airway pressure devices
+
+ DC adapters for positive airway pressure devices.
+
+ 
+ Note : Aetna considers a travel CPAP device as a convenience item.
+
+ Note : Aetna follows Medicare DME MAC rules with respect to the usual medically necessary quantity of supplies for positive airway pressure devices.
+ Upon individual review, positive airway pressure devices are considered a medically necessary form of non-invasive ventilation for members with lung disease without OSA. See CPB 0452 - Noninvasive Positive Pressure Ventilation . Requests for these devices for non-invasive ventilation of members with lung disease are subject to medical review.
+
+ 
+
+ 
+ Oral Appliances
+
+ 
+ 
+ Mandibular advancement oral appliances to reduce upper airway collapsibility or tongue retaining devices are considered medically necessary for members who have sleep test results that meets one of the following criteria:
+
+ 
+ The AHI or RDI is greater than or equal to 15 events per hour with a minimum of 30 events; or 
+
+ The AHI or RDI is greater than or equal to 5 and less than 15 events per hour with a minimum of 10 events and documentation of:
+
+ 
+ Documented history of stroke; or 
+
+ Documented hypertension (systolic blood pressure greater than 140 mm Hg and/or diastolic blood pressure greater than 90 mm Hg); or 
+
+ Documented ischemic heart disease; or 
+
+ Documented symptoms of impaired cognition, mood disorders, or insomnia; or 
+
+ Excessive daytime sleepiness (documented by either Epworth greater than 10 or MSLT less than 6); or 
+
+ Greater than 20 episodes of oxygen desaturation (i.e., oxygen saturation of less than 85 %) during a full night sleep study, or any 1 episode of oxygen desaturation (i.e., oxygen saturation of less than 70 %); or 
+
+ 
+
+ 
+ If the AHI is greater than 30 or the RDI is greater than 30 and meets either of the following:
+
+ 
+ The member is not able to tolerate a positive airway pressure (PAP) device; or 
+
+ The use of a PAP device is contraindicated. 
+
+ 
+
+ 
+
+ Replacement of oral appliances is considered medically necessary at the end of their 5-year RUL. Replacement of these items is considered medically necessary prior to the end of the 5-year RUL due to a change in the member s condition. Replacement needed due to misuse or abuse are not covered.
+
+ Oral appliances for snoring (e.g., Slow Wave DS8, and Snore Guard) are considered not medically necessary treatment of disease, as snoring is not considered a disease.
+
+ Compliance monitors for oral appliances have no proven value.
+
+ 
+ Note : The Oasys Oral Airway System, and the Silent Partner OSA appliance are considered equally effective to standard oral appliances. All follow-up care, including fitting, adjustments, modifications, professional services (not all-inclusive) required during the first 90 days after provision of the oral appliance are considered to be included in the payment for device.
+
+ Note : Dental rehabilitation services (dentures, bridgework, etc.) as treatment for OSA, even if medically necessary, are not available benefits under standard Aetna health insurance plans. Members should review their dental benefits plan, if any.
+
+ Note: The AM Aligner (an adjustable positioning dental device) is not covered because it is inclusive to the sleep appliance for the treatment of OSA
+
+ 
+ Medically Necessary Surgeries and Procedures
+
+ Medically necessary procedures for the treatment of OSA in adults include:
+
+ 
+ 
+ Adult Lingual or Pharyngeal Tonsillectomy and Adenoidectomy
+
+ Aetna considers pharyngeal and lingual tonsillectomy medically necessary as an isolated procedure in adult OSA where hypertrophied tonsils compromise the airway space. A tonsillectomy is also considered medically necessary with UPPP in members who meet medical necessity criteria for UPPP below. An adenoidectomy is considered medically necessary for significant nasopharyngeal obstruction due to adenoid hyperplasia. 
+
+ 
+ Drug-Induced Sleep Endoscopy (DISE)
+
+ Aetna considers the use of DISE medically necessary to evaluate appropriateness of FDA-approved hypoglossal nerve stimulation if multiple levels of obstruction are suspected, and when all of the criteria for hypoglossal nerve stimulation are met. Aetna considers DISE experimental, investigational, or unproven for all other indications because of insufficient evidence in the peer-reviewed published medical literature of its safety and effectiveness.
+
+ 
+ Hypoglossal Nerve Neuro-Stimulation
+
+ Aetna considers Food and Drug Administration (FDA)-approved hypoglossal nerve neuro-stimulation (e.g., Inspire II System, Inspire 3028 system for Upper Airway Stimulation (UAS) Therapy, Genio HGNS System) medically necessary for the treatment of moderate to severe obstructive sleep apnea when all of the following criteria are met:
+
+ 
+ Member is 18 years of age or older; and 
+
+ Body mass index (BMI) is less than 40 kg/m 2 ; and 
+
+ A polysomnography (PSG) is performed within 24 months of first consultation for Inspire implant; and 
+
+ Member has predominantly obstructive events (defined as central and mixed apneas less than 25% of the total AHI); and 
+
+ Apnea hypopnea index (AHI) is 15 to 100 events per hour; and 
+
+ Member has a minimum of one month of CPAP monitoring documentation that demonstrates CPAP failure (defined as AHI greater than 15 despite CPAP usage) or CPAP intolerance (defined as less than 4 hours per night, 5 nights per week); and 
+
+ Absence of complete concentric collapse at the soft palate level as seen on a drug-induced sleep endoscopy (DISE) procedure or flexible laryngoscopy; and 
+
+ No other anatomical findings that would compromise performance of device (e.g., tonsil size 3 or 4 per tonsillar hypertrophy grading scale. See Appendix ).
+
+ 
+ For hypoglossal nerve stimulation for adolescents with Down syndrome, see CPB 0752 - Obstructive Sleep Apnea in Children .
+
+Aetna considers hypoglossal nerve neuro-stimulation experimental, investigational, or unproven for all other indications.
+
+ Aetna considers non-FDA-approved hypoglossal nerve neuro-stimulation (e.g., the Apnex Hypoglossal Nerve Stimulation (HGNS ) System, the aura6000 Neuro-stimulation System, ImThera s Targeted Hypoglossal Neuro-stimulation Therapy, and WellStar upper airway neuro-stimulation implant) experimental, investigational, or unproven for the treatment of adult obstructive sleep apnea.
+
+ 
+ Jaw Realignment Surgery
+
+ (i.e., hyoid myotomy and suspension, mandibular osteotomy, genioglossal advancement)
+
+ Aetna considers jaw realignment surgery medically necessary for persons who fail other treatment approaches for OSA.
+
+ Although jaw realignment surgery may be considered medically necessary on an individual case basis, because of the extent of surgery, these cases may be subject to review by Aetna's Oral and Maxillofacial Surgery Unit to assess medical necessity.
+
+ Note : According to the medical literature, persons undergoing jaw realignment surgery must usually also undergo orthodontic therapy to correct changes in occlusion associated with the surgery. Orthodontic therapy (i.e., the placement of orthodontic brackets and wires) is excluded from coverage under standard Aetna medical plans regardless of medical necessity. Please check benefit plan descriptions for details. Benefits for orthodontic therapy may be available under the member's dental plan, if any.
+
+ 
+ Nasal Surgery
+
+ Aetna considers nasal valve surgery, polypectomy, septoplasty, and turbinectomy medically necessary for adults with nasal obstruction and CPAP intolerance related to nasal issues and high pressure requirements. Aetna considers a turbinectomy medically necessary for severe nasal obstruction due to hypertrophied inferior nasal turbinates. Aetna considers a polypectomy medically necessary for severe nasal obstruction due to nasal polyps. Note : Nasal valve surgery requires photos clearly documenting internal or external valve collapse contributing to nasal obstruction, per CPB 0005 - Septoplasty and Rhinoplasty .
+
+ 
+ Palatopharyngoplasty
+
+ Palatopharyngoplasty (uvulopalatopharyngoplasty (UPPP), uvulopharyngoplasty, uvulo-palatal flap, expansion pharyngoplasty, lateral pharyngoplasty, trans-palatal advancement pharyngoplasty, relocation pharyngoplasty) is used to treat OSA by enlarging the oropharynx; it is considered medically necessary for OSA members who meet the criteria for CPAP or AutoPAP (see above), but who have had an inadequate response or are intolerant to CPAP or AutoPAP, despite adjustments to pressure and mask, as appropriate. (Intolerance includes claustrophobia, difficulty tolerating pressure, inability to sleep with CPAP device, intolerance of nasal or mouth interface, nasal irritation, or repeated removal of CPAP unintentionally during sleep.) The medical records must document that the member has attempted CPAP or AutoPAP before considering surgery.
+
+ Aetna considers palatopharyngoplasty experimental, investigational, or unproven for persons with non-obstructive sleep apnea, upper airway resistance syndrome (UARS), and for all other indications.
+
+ 
+ The Zzoma Positional Device
+
+ Aetna considers the Zzoma positional device not medically necessary because it has not been proven to be superior to other interventions to keep a person in a non-supine position.
+
+ 
+ Tongue Base Reduction Surgery
+
+ Aetna considers tongue reduction procedures (midline glossectomy and lingualplasty) medically necessary for OSA to relieve obstruction in the lower pharyngeal airway.
+
+ 
+ Tonsillectomy
+
+ Aetna considers tonsillectomy medically necessary with UPPP in members who meet medical necessity criteria for UPPP (see above for criteria for CPAP or AutoPAP). 
+ 
+
+ 
+ Tracheostomy
+
+ Aetna considers tracheostomy medically necessary for those members with the most severe OSA not manageable by other interventions. Requests for tracheostomy for OSA are subject to medical review. Note : Aetna follows Medicare DME MAC rules for the medically necessary quantity of tracheostomy supplies for OSA and other indications.
+
+ 
+
+ 
+ Experimental, Investigational, or Unproven
+
+ 
+ 
+ Diagnostic Procedures, Techniques, and Testing
+
+ The following diagnostic procedures, techniques, and testing are considered experimental, investigational, or unproven in members with symptoms suggestive of OSA because their effectiveness for this indication has not been established:
+
+ 
+ Acoustic pharyngometry. See CPB 0336 - Acoustic Pharyngometers and SNAP Testing System ; or 
+
+ Actigraphy testing when used alone. Actigraphy, which consists of a small portable device that senses physical motion and stores the resulting information, has been used in research studies for the evaluation of rest-activity cycles. This technique, when used alone (single channel study), has not been validated as a method of diagnosing OSA. See CPB 0710 - Actigraphy and Accelerometry ; or 
+
+ AirLift procedure for tongue suspension for the treatment of obstructive sleep apnea; or 
+
+ Cephalographic X-rays for diagnosis of OSA. A single panoramic x-ray of the jaws and a lateral cephalometric x-ray are considered medically necessary for the evaluation for an oral appliance for OSA. A second lateral cephalometric x-ray with the bite registration or oral appliance in place is considered medically necessary to visualize the mandibular repositioning and the changes in the airway space. Additional x-rays are considered medically necessary when surgical intervention for OSA is being considered; or 
+
+ Daytime nap polysomnography; or 
+
+ Diagnostic audio recording, with or without pulse oximetry to diagnose sleep apnea; or 
+
+ Drug-induced sleep endoscopy (DISE procedure) for the treatment of tracheomalacia; or 
+
+ Dynamic sleep magnetic resonance imaging (MRI) for the diagnosis of OSA; or 
+
+ Elevoplasty (the Elevo Palatal Implant System) for the treatment of snoring; or 
+
+ Evaluation of gut microbiota for the management of OSA; or 
+
+ Genetic association studies (e.g., tumor necrosis factor-alpha (TNFA) 308 A/G polymorphism, angi

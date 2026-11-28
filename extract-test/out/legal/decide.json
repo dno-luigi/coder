@@ -1,0 +1,90 @@
+{
+  "name": "decide",
+  "path": "/alpha/decisions",
+  "status": 200,
+  "ms": 1632,
+  "cost": 0.000166,
+  "body": {
+    "model": "classify-1",
+    "state": {
+      "text": "EXTRACTED VALUES:\n- landlord_name: \"Mar. Limited Liability Company\" [verbatim]\n- tenant_name: \"Top Group Holdings, Inc.\" [verbatim]\n- premises_address: \"1120A Hacienda Blvd.. Hacienda Heights. CA 91745\" [verbatim]\n- commencement_date: \"13th day of July______. 2005\" [verbatim]\n- base_rent: \"Twelve Thousand Five Hundred and 00/100 Dollars ($12,500.00) per month\" [NOT verbatim]\n- security_deposit: \"null\" [verbatim]\n\nEVIDENCE WINDOWS (3 windows, 3934 chars):\n\n[chars 0-1001]\nEX-10.2\n 3\n v025985_ex10-2.txt\n \n Location: 1120A Hacienda Blvd.. Hacienda Heights. CA 91745\n ------------------------------------------------\n\nTHIS LEASE, is made and entered into this 13th day of July______. 2005, by and\nbetween Mar. Limited Liability Company (Landlord) and Top Group Holdings, Inc.,\nTenant, who are hereinafter respectively referred to as Landlord and Tenant,\nwithout regard to number or gender.\n\n WITNESSETH:\n\n1. USE.\n\n The Landlord hereby leases to Tenant and Tenant hereby hires from Landlord\n those certain premises as hereinafter described for the sole purposes of\n conducting thereon the following business under the following trade name:\n Soyodo, for a retail bookstore, including the sale of DVD's. VCD's.\n pre-recorded music, gifts, stationery and other related merchandise.\n Tenant shall not use the Demised Premises for any other purpose or operate\n its business in the Demised Premises under any different trade name\n whatsoever without Landlord's prior written consent\n\n[chars 3745-5215]\nhly Rental as provided in\n Article 4, below. The balance, if any, shall be applied to the next sums\n due Landlord hereunder. Thereafter the Guaranteed Minimum Monthly Rental\n shall be paid in equal monthly installments on the first day of each and\n every month in advance. Landlord and Tenant acknowledge and agree that\n immediately upon execution of this Lease, binding, legal obligations are\n created, and that without regard to the date upon which Tenant's\n obligation to pay rent commences, the relationship of Landlord and Tenant\n exists between the parties on the date the term commences.\n\n4. RENTAL.\n\n A. Guaranteed Minimum Monthly Rental. Tenant shall pay to Landlord\n during term of this Lease as the Guaranteed Minimum Monthly Rental\n for the Demised Premises the sum of Twelve Thousand Five Hundred and\n 00/100 Dollars ($12,500.00) per month which sum shall be paid in\n advance on the first day of each calendar month. However, Tenant\n shall pay to Landlord its initial payment of Guaranteed Minimum\n Monthly Rental at time of the Delivery of Possession of the Premises\n to Tenant. All rental to be paid by Tenant to Landlord shall be in\n lawful money of the United States of America and shall be paid\n without deduction or offset, prior notice or demand at the address\n designated in Article 34. Any rent payment not paid within five (5)\n days of its due date shall be subject to a ten percent (10%) late\n charge.\n\n B. Cost of Living Adjustment. The Guarante\n\n[chars 49716-51120]\nigned by\n Landlord, shall be binding upon Landlord.\n\n \n\nE. Limitation of Landlord's Consent.\n\n The consent to any proposed assignment of the Lease:\n\n (i) shall not be deemed to be a consent to any subsequent\n attempted or proposed assignment of the Lease;\n\n (ii) shall not be deemed to be a consent to any change in the use\n of the Premises or the trade name under which the Premises are\n to be operated; or\n\n (iii) shall not in any way relieve Tenant, or any Guarantor, and /or\n any Subsequent assignee or Guarantor of liability under this\n Lease. Any attempted or purported assignment of the Lease made\n without obtaining the prior written consent of Landlord shall,\n at the option of Landlord, be null and void and /or constitute\n a default under this Lease.\n\nF. Corporate Stock or Partnership Interests of Tenant.\n\n In the event Tenant is a corporation whose stock is not traded on a public\n stock exchange, or in the event Tenant is a partnership, any attempted\n dissolution, merger, consolidation, or other reorganization of such\n corporation or partnership, or any attempted sale or other transfer of a\n controlling percentage of the corporate stock of Tenant, or of controlling\n partnership interests in Tenant, as the case may be, shall constitute an\n attempted assignment of the Lease for all purposes of this Article. The\n term \"controlling percentage\" means the ownership of stock or partners\n"
+    },
+    "questions": {
+      "is_premises_lease": {
+        "type": "choice",
+        "instructions": "Is this document a lease of real property premises, rather than an equipment lease, a letter about leases, or a financing document?",
+        "criteria": {
+          "yes": "the document grants a leasehold interest in identified premises",
+          "no": "the document leases equipment, or is not a lease",
+          "insufficient_evidence": "the document does not identify what is being leased"
+        }
+      },
+      "term_over_five_years": {
+        "type": "choice",
+        "instructions": "Is the stated lease term longer than five years?",
+        "criteria": {
+          "yes": "a term longer than five years is stated",
+          "no": "a term of five years or less is stated",
+          "insufficient_evidence": "no term, or only an extension mechanism, is stated"
+        }
+      },
+      "tenant_may_terminate_early": {
+        "type": "choice",
+        "instructions": "Does the tenant have an express right to terminate the lease early?",
+        "criteria": {
+          "yes": "an early termination or break right is granted to the tenant",
+          "no": "the document states there is no early termination right",
+          "insufficient_evidence": "the document does not address early termination"
+        }
+      }
+    }
+  },
+  "response": {
+    "model": "scaledown/classify-1-20260928",
+    "answers": {
+      "is_premises_lease": {
+        "type": "choice",
+        "choice": "yes",
+        "probabilities": {
+          "yes": 0.9704878849216987,
+          "no": 0.02705040314172604,
+          "insufficient_evidence": 0.0024617119365753512
+        },
+        "confidence": 0.9704878849216987
+      },
+      "term_over_five_years": {
+        "type": "choice",
+        "choice": "insufficient_evidence",
+        "probabilities": {
+          "yes": 0.10580896324397938,
+          "no": 0.27936216458589597,
+          "insufficient_evidence": 0.6148288721701246
+        },
+        "confidence": 0.6148288721701246
+      },
+      "tenant_may_terminate_early": {
+        "type": "choice",
+        "choice": "insufficient_evidence",
+        "probabilities": {
+          "yes": 0.06171716367369512,
+          "no": 0.19548327165835516,
+          "insufficient_evidence": 0.7427995646679497
+        },
+        "confidence": 0.7427995646679497
+      }
+    },
+    "usage": {
+      "input_tokens": 4150,
+      "output_tokens": 3,
+      "cost": 0.000166,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.0002075,
+        "upstream_inference_prompt_cost": 0.0002075,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "id": "gen-dec-1795814632-v9qtgyP9WAmqIwj94BKn",
+    "provider": "ScaleDown"
+  }
+}

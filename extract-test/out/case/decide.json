@@ -1,0 +1,90 @@
+{
+  "name": "decide",
+  "path": "/alpha/decisions",
+  "status": 200,
+  "ms": 283,
+  "cost": 0.00015072,
+  "body": {
+    "model": "classify-1",
+    "state": {
+      "text": "EXTRACTED VALUES:\n- case_name: \"Faretta v. California\" [NOT verbatim]\n- citation: \"422 U.S. 806\" [verbatim]\n- court: \"Supreme Court\" [verbatim]\n- decision_date: \"June 30, 1975\" [verbatim]\n- authoring_justice: \"Mr. Justice STEWART\" [verbatim]\n- disposition: \"vacated and remanded\" [NOT verbatim]\n\nEVIDENCE WINDOWS (2 windows, 3055 chars):\n\n[chars 0-777]\nAnthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA. | Supreme Court | US Law | LII / Legal Information Institute \n\n \n \n \n\n \n \n\n \n \n\n \n \n \n \n\n \n \n \n\n \n \n \n\n \n \n \n \n \n\n \n\n \n \n\n \n \n \n \n\n \n \n\n \n \n \n\n \n\n \n\n \n\n \n \n \n Please help us improve our site!\n \n \n \n \n \n \n \n \n \n \n \n No thank you \n \n\n \n\n \n\n \n Skip to main content \n \n \n \n \n \n \n \n Cornell Law\n School \n Search\n Cornell \n \n\n \n\n \n \n \n \n \n \n Toggle navigation \n \n \n \n \n \n \n \n\n \n \n Please help\n us improve our site! \n\n \n \n \n \n Support Us! \n \n \n\n \n \n \n \n Search \n \n \n\n \n \n \n \n \n \n \n \n \n \n\n \n\n \n\n \n\n \n\n \n \n \n About\n LII \n \n \n Who We Are \n \n\n \n What We Do \n \n\n \n Who Pays For This \n \n\n \n Contact Us \n \n\n \n \n\n \n Get the\n law \n \n \n Constitution \n \n\n \n Supreme Court \n \n\n \n U.S. Code \n \n\n \n CFR \n \n\n \n Federal Rules \n \n \n Federa\n\n[chars 1028-3270]\naw \n \n\n \n Uniform laws \n \n\n \n Federal law \n \n\n \n World law \n \n\n \n \n\n \n \n\n \n Lawyer directory \n \n\n \n Legal encyclopedia \n \n \n Business law \n \n\n \n Constitutional law \n \n\n \n Criminal law \n \n\n \n Family law \n \n\n \n Employment law \n \n\n \n Money and Finances \n \n\n \n More... \n \n\n \n \n\n \n Help out \n \n \n Give \n \n\n \n Sponsor \n \n\n \n Advertise \n \n\n \n Create \n \n\n \n Promote \n \n\n \n Join Lawyer Directory \n \n\n \n \n\n \n \n \n \n \n\n \n\n \n \n\n \n\n \n \n \n\n \n\n \n \n \n\n \n \n \n \n \n \n \n \n LII \n\n \n \n \n U.S. Supreme Court \n\n \n \n \n Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.\n\n \n \n \n \n \n\n \n\n \n\n \n \n \n \n \n \n \n\n \n \n Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA. \n\n \n \n \n \n \n Supreme Court \n\n \n \n \n\n \n \n \n \n 422 U.S. 806\n\n 95 S.Ct. 2525.\n\n 45 L.Ed.2d 562\n\n Anthony Pasquall FARETTA, Petitioner,\nv.\nState of CALIFORNIA.\n\n No. 73—5772.\n\n Argued Nov. 19, 1974.\n\n Decided June 30, 1975.\n\n \n Syllabus\n\n The Sixth Amendment as made applicable to the States by the Fourteenth guarantees that a defendant in a state criminal trial has an independent constitutional right of self-representation and that he may proceed to defend himself without counsel when he voluntarily and intelligently elects to do so; and in this case the state courts erred in forcing petitioner against his will to accept a state-appointed public defender and in denying his request to conduct his own defense. Pp. 812-836.\n\n Vacated and remanded.\n\n Jerome B. Falk, Jr., San Francisco, Cal., for petitioner.\n\n Howard J. Schwab, Los Angeles, Cal., for respondent.\n\n Mr. Justice STEWART delivered the opinion of the Court.\n\n \n 1 \n The Sixth and Fourteenth Amendment s of our Constitution guarantee that a person brought to trial in any state or federal court must be afforded the right to the assistance of counsel before he can be validly convicted and punished by imprisonment. This clear constitutional rule has emerged from a series of cases decided here over the last 50 years. 1 The question before us now is whether a defendant in a state criminal trial has a constitutional right to proceed without counsel when he voluntarily and intelligently elects to do so. Stated another way, the question is whether a State may constitutionally hale a person into its criminal courts and \n"
+    },
+    "questions": {
+      "petitioner_got_relief": {
+        "type": "choice",
+        "instructions": "Did the petitioner obtain the relief sought — was the judgment under review reversed or vacated in his favour?",
+        "criteria": {
+          "yes": "the judgment below was reversed, vacated or remanded for further proceedings consistent with the opinion",
+          "no": "the judgment below was affirmed",
+          "insufficient_evidence": "the disposition cannot be determined from the document"
+        }
+      },
+      "self_representation_right_recognised": {
+        "type": "choice",
+        "instructions": "Did the Court recognise a constitutional right of a criminal defendant to represent himself?",
+        "criteria": {
+          "yes": "the Court holds that a defendant may proceed without counsel when he elects to do so",
+          "no": "the Court holds that counsel cannot be waived or that no such right exists",
+          "insufficient_evidence": "the opinion does not reach the question"
+        }
+      },
+      "dissent_exists": {
+        "type": "choice",
+        "instructions": "Was a dissenting opinion filed?",
+        "criteria": {
+          "yes": "one or more justices dissented",
+          "no": "the decision was unanimous and the document says so",
+          "insufficient_evidence": "the document does not show whether any justice dissented"
+        }
+      }
+    }
+  },
+  "response": {
+    "model": "scaledown/classify-1-20260928",
+    "answers": {
+      "petitioner_got_relief": {
+        "type": "choice",
+        "choice": "yes",
+        "probabilities": {
+          "yes": 0.9718860383469159,
+          "no": 0.025494479844684836,
+          "insufficient_evidence": 0.0026194818083993964
+        },
+        "confidence": 0.9718860383469159
+      },
+      "self_representation_right_recognised": {
+        "type": "choice",
+        "choice": "yes",
+        "probabilities": {
+          "yes": 0.9953133310617686,
+          "no": 0.0027652619790911616,
+          "insufficient_evidence": 0.0019214069591401276
+        },
+        "confidence": 0.9953133310617686
+      },
+      "dissent_exists": {
+        "type": "choice",
+        "choice": "insufficient_evidence",
+        "probabilities": {
+          "yes": 0.1199045975213556,
+          "no": 0.18336041328605404,
+          "insufficient_evidence": 0.6967349891925904
+        },
+        "confidence": 0.6967349891925904
+      }
+    },
+    "usage": {
+      "input_tokens": 3768,
+      "output_tokens": 3,
+      "cost": 0.00015072,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.0001884,
+        "upstream_inference_prompt_cost": 0.0001884,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "id": "gen-dec-1795815543-krFcFAr2OSZqpR0CpMaP",
+    "provider": "ScaleDown"
+  }
+}

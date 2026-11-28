@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "task_id": "ab-field-wording-2026-11-27",
+  "status": "proposed",
+  "request": {
+    "operator_instruction": "Take the rewritten field asks from the sheet — security deposit, case name, disposition, appeal deadline — and run them against the documents we already have, so I can see whether the instruction-style wording actually fixes what the short labels failed. Keep it under five cents.",
+    "objective": "Paired A/B of the archived description (what was actually sent and failed) against the sheet's instruction-style wording, on the same documents, same endpoint, same settings. Only the description text changes.",
+    "acceptance_criteria": [
+      "each arm uses the exact wording recovered from extract-test/out/<vertical>/locate.json or the sheet",
+      "every returned value is span-checked against the document it came from",
+      "old and new results are reported per document, including fields that become omitted",
+      "total model spend is printed and is below 0.05 USD"
+    ]
+  },
+  "authorization": {
+    "requester": "operator",
+    "approved_by": "operator",
+    "approved_at": "2026-11-27T00:00:00Z",
+    "scope": "Diagnostic A/B. No product code, no change to extract-test/run.mjs, no change to documents.",
+    "design_changes_permitted": false,
+    "commit_permitted": false,
+    "merge_permitted": false,
+    "deploy_permitted": false
+  },
+  "repository": {
+    "repository_identity": "dno-luigi/coder",
+    "remote": "https://github.com/dno-luigi/coder",
+    "base_commit": "7dd53360088acb9b1a49786244ef1f593287fb16",
+    "base_tree": "99912ff5ad3b7e4d548ab716929cbf67cd0a273",
+    "branch": "freebuff/impl-repair-p0p1-2026-11-27-r3"
+  },
+  "workspace": {
+    "implementer_worktree": "/workspace/chats/f6eb023e06dd01c0dc889d5b",
+    "verifier_worktree": null,
+    "worktree_isolation_required": false
+  },
+  "governance": {
+    "ethical_foundation_sha256": null,
+    "differential_foundation_sha256": null,
+    "unresolved": "Governance hashes referenced by sections 0-17 remain unestablished in this workspace; recorded, not fabricated. This card authorizes read-only reproduction under section 22.2.",
+    "governing_file": "AGENTS.md"
+  },
+  "allowed_paths": [
+    "extract-test/verify-tmp/",
+    "extract-test/out/ab-wording/"
+  ],
+  "allowed_commands": [
+    {
+      "argv": ["node", "extract-test/verify-tmp/ab-wording.mjs"],
+      "timeout_seconds": 420,
+      "purpose": "Run the paired A/B over 10 documents, 20 calls"
+    }
+  ],
+  "limits": {
+    "max_model_cost_usd": 0.05,
+    "max_total_model_calls": 24,
+    "max_execution_seconds": 420,
+    "max_command_count": 3,
+    "max_output_bytes": 200000
+  },
+  "handoff": { "required": true, "format_version": 1 },
+  "verification": {
+    "required": false,
+    "independent_execution": false,
+    "required_commands": [],
+    "note": "Single-agent paired run. Results are implementation evidence, not independent verification."
+  },
+  "stop_conditions": [
+    "Spend reaches 0.05 USD",
+    "More than 24 calls would be required",
+    "A write outside allowed_paths is required"
+  ]
+}

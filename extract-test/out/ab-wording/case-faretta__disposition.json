@@ -1,0 +1,36 @@
+{
+  "old": {
+    "arm": "old",
+    "status": 200,
+    "ms": 1078,
+    "cost": 0.00105328,
+    "values": [
+      {
+        "text": "Vacated and remanded",
+        "conf": 0.781,
+        "start": 30492,
+        "end": 30527,
+        "span": "Judgment vacated and case remanded.",
+        "spanOk": false
+      }
+    ],
+    "omitted": false
+  },
+  "new": {
+    "arm": "new",
+    "status": 200,
+    "ms": 890,
+    "cost": 0.00105356,
+    "values": [
+      {
+        "text": "Vacated and remanded.",
+        "conf": 0.976,
+        "start": 2412,
+        "end": 2433,
+        "span": "Vacated and remanded.",
+        "spanOk": true
+      }
+    ],
+    "omitted": false
+  }
+}

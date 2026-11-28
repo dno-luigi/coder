@@ -1,0 +1,36 @@
+{
+  "old": {
+    "arm": "old",
+    "status": 200,
+    "ms": 1216,
+    "cost": 0.0010528,
+    "values": [
+      {
+        "text": "Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.",
+        "conf": 0.788,
+        "start": 0,
+        "end": 61,
+        "span": "Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.",
+        "spanOk": true
+      }
+    ],
+    "omitted": false
+  },
+  "new": {
+    "arm": "new",
+    "status": 200,
+    "ms": 1198,
+    "cost": 0.00105364,
+    "values": [
+      {
+        "text": "Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.",
+        "conf": 0.889,
+        "start": 0,
+        "end": 61,
+        "span": "Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.",
+        "spanOk": true
+      }
+    ],
+    "omitted": false
+  }
+}

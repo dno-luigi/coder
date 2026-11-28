@@ -1,0 +1,632 @@
+{
+  "summary": {
+    "vertical": "legal",
+    "docs": 6,
+    "docs_zero_entity": 0,
+    "fields_expected": 36,
+    "fields_found": 34,
+    "values_returned": 34,
+    "values_verbatim": 21,
+    "escalation_rate": 0.49999999999999994,
+    "cost_usd": 0.004161,
+    "calls": 12,
+    "gate": 0.6
+  },
+  "results": [
+    {
+      "file": "01-property-lease.txt",
+      "chars": 60032,
+      "zero_entities": false,
+      "fields_expected": 6,
+      "fields_found": 6,
+      "values_returned": 6,
+      "values_verbatim": 3,
+      "fields": {
+        "landlord_name": [
+          {
+            "text": "One Directory Place LLC",
+            "confidence": 1,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 254
+          }
+        ],
+        "tenant_name": [
+          {
+            "text": "Directory Printing Company",
+            "confidence": 0.999,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 452
+          }
+        ],
+        "premises_address": [
+          {
+            "text": "380 West 37 th Street, Loveland, Colorado 80538",
+            "confidence": 0.203,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 512
+          }
+        ],
+        "commencement_date": [
+          {
+            "text": "August 1, 1995",
+            "confidence": 0.444,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 8410
+          }
+        ],
+        "base_rent": [
+          {
+            "text": "basic rent in Exhibit A",
+            "confidence": 0.531,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 8088
+          }
+        ],
+        "security_deposit": [
+          {
+            "text": "null",
+            "confidence": 0.908,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 0
+          }
+        ]
+      },
+      "decisions": {
+        "is_premises_lease": {
+          "choice": "yes",
+          "confidence": 0.8491623542062213,
+          "probabilities": {
+            "yes": 0.8491623542062213,
+            "no": 0.11464302395932181,
+            "insufficient_evidence": 0.03619462183445685
+          }
+        },
+        "term_over_five_years": {
+          "choice": "yes",
+          "confidence": 0.4831379709850414,
+          "probabilities": {
+            "yes": 0.4831379709850414,
+            "no": 0.29733675729254466,
+            "insufficient_evidence": 0.21952527172241387
+          }
+        },
+        "tenant_may_terminate_early": {
+          "choice": "yes",
+          "confidence": 0.8263871801135064,
+          "probabilities": {
+            "yes": 0.8263871801135064,
+            "no": 0.1338440145834868,
+            "insufficient_evidence": 0.039768805303006916
+          }
+        }
+      },
+      "escalations": [
+        {
+          "question": "term_over_five_years",
+          "choice": "yes",
+          "confidence": 0.4831379709850414
+        }
+      ],
+      "escalation_rate": 0.3333333333333333,
+      "reconciled": {}
+    },
+    {
+      "file": "02-property-lease.txt",
+      "chars": 60032,
+      "zero_entities": false,
+      "fields_expected": 6,
+      "fields_found": 5,
+      "values_returned": 5,
+      "values_verbatim": 3,
+      "fields": {
+        "landlord_name": [
+          {
+            "text": "399 Exterior Street Associates LLC",
+            "confidence": 0.702,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 363
+          }
+        ],
+        "tenant_name": [
+          {
+            "text": "Amboy Bus Co., Inc.",
+            "confidence": 0.785,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 544
+          }
+        ],
+        "premises_address": [
+          {
+            "text": "399 Exterior Street, Bronx, New York 10451",
+            "confidence": 0.904,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 600
+          }
+        ],
+        "commencement_date": [
+          {
+            "text": "April 21, 2005",
+            "confidence": 0.555,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 335
+          }
+        ],
+        "security_deposit": [
+          {
+            "text": "Seventy-Five Thousand ($75,000.00) Dollars",
+            "confidence": 0.99,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 4665
+          }
+        ]
+      },
+      "decisions": {
+        "is_premises_lease": {
+          "choice": "yes",
+          "confidence": 0.9741204874086158,
+          "probabilities": {
+            "yes": 0.9741204874086158,
+            "no": 0.022632772643275772,
+            "insufficient_evidence": 0.003246739948108408
+          }
+        },
+        "term_over_five_years": {
+          "choice": "insufficient_evidence",
+          "confidence": 0.6937802201154929,
+          "probabilities": {
+            "yes": 0.07347972764241784,
+            "no": 0.23274005224208918,
+            "insufficient_evidence": 0.6937802201154929
+          }
+        },
+        "tenant_may_terminate_early": {
+          "choice": "insufficient_evidence",
+          "confidence": 0.8593486461687733,
+          "probabilities": {
+            "yes": 0.04394213880825245,
+            "no": 0.09670921502297418,
+            "insufficient_evidence": 0.8593486461687733
+          }
+        }
+      },
+      "escalations": [
+        {
+          "question": "term_over_five_years",
+          "choice": "insufficient_evidence",
+          "confidence": 0.6937802201154929
+        },
+        {
+          "question": "tenant_may_terminate_early",
+          "choice": "insufficient_evidence",
+          "confidence": 0.8593486461687733
+        }
+      ],
+      "escalation_rate": 0.6666666666666666,
+      "reconciled": {}
+    },
+    {
+      "file": "03-property-lease.txt",
+      "chars": 35358,
+      "zero_entities": false,
+      "fields_expected": 6,
+      "fields_found": 6,
+      "values_returned": 6,
+      "values_verbatim": 3,
+      "fields": {
+        "landlord_name": [
+          {
+            "text": "OSAIR, INC.",
+            "confidence": 0.953,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 225
+          }
+        ],
+        "tenant_name": [
+          {
+            "text": "Energy West",
+            "confidence": 0.998,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 320
+          }
+        ],
+        "premises_address": [
+          {
+            "text": "Suite No. 260, containing approximately 1028 square feet of space of space of The Match Works, at 8500 Station Street, Mentor, Ohio, 44060",
+            "confidence": 0.567,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 468
+          }
+        ],
+        "commencement_date": [
+          {
+            "text": "January 1, 2008",
+            "confidence": 0.797,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 1310
+          }
+        ],
+        "base_rent": [
+          {
+            "text": "$1,200.00 (one thousand two hundred) per month",
+            "confidence": 0.985,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 1513
+          }
+        ],
+        "security_deposit": [
+          {
+            "text": "$0.00 Dollars and zero cents",
+            "confidence": 0.79,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 5625
+          }
+        ]
+      },
+      "decisions": {
+        "is_premises_lease": {
+          "choice": "yes",
+          "confidence": 0.9804574123037629,
+          "probabilities": {
+            "yes": 0.9804574123037629,
+            "no": 0.016818599540883276,
+            "insufficient_evidence": 0.0027239881553538267
+          }
+        },
+        "term_over_five_years": {
+          "choice": "no",
+          "confidence": 0.963892186758346,
+          "probabilities": {
+            "yes": 0.03424706395940966,
+            "no": 0.963892186758346,
+            "insufficient_evidence": 0.0018607492822443853
+          }
+        },
+        "tenant_may_terminate_early": {
+          "choice": "insufficient_evidence",
+          "confidence": 0.6683356814231992,
+          "probabilities": {
+            "yes": 0.06269525687506051,
+            "no": 0.2689690617017403,
+            "insufficient_evidence": 0.6683356814231992
+          }
+        }
+      },
+      "escalations": [
+        {
+          "question": "tenant_may_terminate_early",
+          "choice": "insufficient_evidence",
+          "confidence": 0.6683356814231992
+        }
+      ],
+      "escalation_rate": 0.3333333333333333,
+      "reconciled": {}
+    },
+    {
+      "file": "04-property-lease.txt",
+      "chars": 60031,
+      "zero_entities": false,
+      "fields_expected": 6,
+      "fields_found": 5,
+      "values_returned": 5,
+      "values_verbatim": 3,
+      "fields": {
+        "landlord_name": [
+          {
+            "text": "UNIQUE JEANS LIMITED",
+            "confidence": 0.953,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 482
+          }
+        ],
+        "tenant_name": [
+          {
+            "text": "HULTON PICTURE COMPANY LIMITED",
+            "confidence": 1,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 627
+          }
+        ],
+        "premises_address": [
+          {
+            "text": "21/31 Woodfield Place, London, W.9.",
+            "confidence": 0.854,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 224
+          }
+        ],
+        "commencement_date": [
+          {
+            "text": "Twenty-ninth day of September One thousand nine hundred and eighty-eight",
+            "confidence": 0.548,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 3374
+          }
+        ],
+        "base_rent": [
+          {
+            "text": "ONE HUNDRED AND SIXTY THOUSAND POUNDS ((pound)160,000.00.) per annum",
+            "confidence": 0.637,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 3542
+          }
+        ]
+      },
+      "decisions": {
+        "is_premises_lease": {
+          "choice": "yes",
+          "confidence": 0.8185657169813879,
+          "probabilities": {
+            "yes": 0.8185657169813879,
+            "no": 0.16899747757987665,
+            "insufficient_evidence": 0.012436805438735528
+          }
+        },
+        "term_over_five_years": {
+          "choice": "yes",
+          "confidence": 0.9559289117722747,
+          "probabilities": {
+            "yes": 0.9559289117722747,
+            "no": 0.03196447945701499,
+            "insufficient_evidence": 0.012106608770710337
+          }
+        },
+        "tenant_may_terminate_early": {
+          "choice": "insufficient_evidence",
+          "confidence": 0.6729067017562873,
+          "probabilities": {
+            "yes": 0.13892535871123168,
+            "no": 0.18816793953248098,
+            "insufficient_evidence": 0.6729067017562873
+          }
+        }
+      },
+      "escalations": [
+        {
+          "question": "tenant_may_terminate_early",
+          "choice": "insufficient_evidence",
+          "confidence": 0.6729067017562873
+        }
+      ],
+      "escalation_rate": 0.3333333333333333,
+      "reconciled": {}
+    },
+    {
+      "file": "05-property-lease.txt",
+      "chars": 60032,
+      "zero_entities": false,
+      "fields_expected": 6,
+      "fields_found": 6,
+      "values_returned": 6,
+      "values_verbatim": 4,
+      "fields": {
+        "landlord_name": [
+          {
+            "text": "SOUTHPORT BUSINESS PARK LIMITED PARTNERSHIP",
+            "confidence": 0.939,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 1579
+          }
+        ],
+        "tenant_name": [
+          {
+            "text": "CHARLES & COLVARD, LTD.",
+            "confidence": 0.995,
+            "verbatim": false,
+            "also_in_doc": true,
+            "start": 90
+          }
+        ],
+        "premises_address": [
+          {
+            "text": "170 Southport Drive , Morrisville, North Carolina 27560",
+            "confidence": 0.403,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 2164
+          }
+        ],
+        "commencement_date": [
+          {
+            "text": "April 1, 2014",
+            "confidence": 0.723,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 9577
+          }
+        ],
+        "base_rent": [
+          {
+            "text": "$ 545,160.00",
+            "confidence": 0.51,
+            "verbatim": false,
+            "also_in_doc": true,
+            "start": 7944
+          }
+        ],
+        "security_deposit": [
+          {
+            "text": "$136,290.00",
+            "confidence": 0.682,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 12240
+          }
+        ]
+      },
+      "decisions": {
+        "is_premises_lease": {
+          "choice": "yes",
+          "confidence": 0.9528098039743162,
+          "probabilities": {
+            "yes": 0.9528098039743162,
+            "no": 0.040612481619158786,
+            "insufficient_evidence": 0.006577714406524956
+          }
+        },
+        "term_over_five_years": {
+          "choice": "yes",
+          "confidence": 0.5857349084528729,
+          "probabilities": {
+            "yes": 0.5857349084528729,
+            "no": 0.25047340012562475,
+            "insufficient_evidence": 0.16379169142150235
+          }
+        },
+        "tenant_may_terminate_early": {
+          "choice": "yes",
+          "confidence": 0.4804110066630538,
+          "probabilities": {
+            "yes": 0.4804110066630538,
+            "no": 0.3141544424253539,
+            "insufficient_evidence": 0.2054345509115923
+          }
+        }
+      },
+      "escalations": [
+        {
+          "question": "term_over_five_years",
+          "choice": "yes",
+          "confidence": 0.5857349084528729
+        },
+        {
+          "question": "tenant_may_terminate_early",
+          "choice": "yes",
+          "confidence": 0.4804110066630538
+        }
+      ],
+      "escalation_rate": 0.6666666666666666,
+      "reconciled": {}
+    },
+    {
+      "file": "06-property-lease.txt",
+      "chars": 60031,
+      "zero_entities": false,
+      "fields_expected": 6,
+      "fields_found": 6,
+      "values_returned": 6,
+      "values_verbatim": 5,
+      "fields": {
+        "landlord_name": [
+          {
+            "text": "Mar. Limited Liability Company",
+            "confidence": 0.957,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 231
+          }
+        ],
+        "tenant_name": [
+          {
+            "text": "Top Group Holdings, Inc.",
+            "confidence": 0.986,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 277
+          }
+        ],
+        "premises_address": [
+          {
+            "text": "1120A Hacienda Blvd.. Hacienda Heights. CA 91745",
+            "confidence": 0.623,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 44
+          }
+        ],
+        "commencement_date": [
+          {
+            "text": "13th day of July______. 2005",
+            "confidence": 0.252,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 186
+          }
+        ],
+        "base_rent": [
+          {
+            "text": "Twelve Thousand Five Hundred and 00/100 Dollars ($12,500.00) per month",
+            "confidence": 0.84,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 4445
+          }
+        ],
+        "security_deposit": [
+          {
+            "text": "null",
+            "confidence": 0.787,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 50416
+          }
+        ]
+      },
+      "decisions": {
+        "is_premises_lease": {
+          "choice": "yes",
+          "confidence": 0.9704878849216987,
+          "probabilities": {
+            "yes": 0.9704878849216987,
+            "no": 0.02705040314172604,
+            "insufficient_evidence": 0.0024617119365753512
+          }
+        },
+        "term_over_five_years": {
+          "choice": "insufficient_evidence",
+          "confidence": 0.6148288721701246,
+          "probabilities": {
+            "yes": 0.10580896324397938,
+            "no": 0.27936216458589597,
+            "insufficient_evidence": 0.6148288721701246
+          }
+        },
+        "tenant_may_terminate_early": {
+          "choice": "insufficient_evidence",
+          "confidence": 0.7427995646679497,
+          "probabilities": {
+            "yes": 0.06171716367369512,
+            "no": 0.19548327165835516,
+            "insufficient_evidence": 0.7427995646679497
+          }
+        }
+      },
+      "escalations": [
+        {
+          "question": "term_over_five_years",
+          "choice": "insufficient_evidence",
+          "confidence": 0.6148288721701246
+        },
+        {
+          "question": "tenant_may_terminate_early",
+          "choice": "insufficient_evidence",
+          "confidence": 0.7427995646679497
+        }
+      ],
+      "escalation_rate": 0.6666666666666666,
+      "reconciled": {}
+    }
+  ]
+}

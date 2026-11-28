@@ -1,0 +1,128 @@
+{
+  "landlord_name": {
+    "status": 200,
+    "ms": 745,
+    "cost": 0.00054668,
+    "values": [],
+    "omitted": true
+  },
+  "tenant_name": {
+    "status": 200,
+    "ms": 561,
+    "cost": 0.0005466,
+    "values": [
+      {
+        "text": "CHARLES & COLVARD, LTD.",
+        "conf": 0.766,
+        "start": 1715,
+        "end": 1738,
+        "spanOk": true,
+        "normContained": true
+      }
+    ],
+    "omitted": false
+  },
+  "premises_address": {
+    "status": 200,
+    "ms": 633,
+    "cost": 0.00054644,
+    "values": [
+      {
+        "text": "170 Southport Drive, Morrisville, North Carolina 27560",
+        "conf": 0.895,
+        "start": 2164,
+        "end": 2219,
+        "spanOk": false,
+        "normContained": false
+      }
+    ],
+    "omitted": false
+  },
+  "commencement_date": {
+    "status": 200,
+    "ms": 959,
+    "cost": 0.00054644,
+    "values": [
+      {
+        "text": "April 1, 2014",
+        "conf": 0.723,
+        "start": 9577,
+        "end": 9590,
+        "spanOk": true,
+        "normContained": true
+      }
+    ],
+    "omitted": false
+  },
+  "base_rent": {
+    "status": 200,
+    "ms": 6257,
+    "cost": 0.00054748,
+    "values": [
+      {
+        "text": "$545,160.00",
+        "conf": 0.34,
+        "start": 8478,
+        "end": 8589,
+        "spanOk": false,
+        "normContained": false
+      },
+      {
+        "text": "$560,151.90",
+        "conf": 0.985,
+        "start": 0,
+        "end": 0,
+        "spanOk": false,
+        "normContained": false
+      },
+      {
+        "text": "$575,556.08",
+        "conf": 1,
+        "start": 0,
+        "end": 0,
+        "spanOk": false,
+        "normContained": false
+      },
+      {
+        "text": "$591,383.87",
+        "conf": 1,
+        "start": 0,
+        "end": 0,
+        "spanOk": false,
+        "normContained": false
+      },
+      {
+        "text": "$607,646.93",
+        "conf": 1,
+        "start": 0,
+        "end": 0,
+        "spanOk": false,
+        "normContained": false
+      },
+      {
+        "text": "$624,357.22",
+        "conf": 0.999,
+        "start": 0,
+        "end": 0,
+        "spanOk": false,
+        "normContained": false
+      },
+      {
+        "text": "$641,527.04",
+        "conf": 0.998,
+        "start": 0,
+        "end": 0,
+        "spanOk": false,
+        "normContained": false
+      }
+    ],
+    "omitted": false
+  },
+  "security_deposit": {
+    "status": 200,
+    "ms": 883,
+    "cost": 0.00054648,
+    "values": [],
+    "omitted": true
+  }
+}

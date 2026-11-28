@@ -1,0 +1,33 @@
+{
+  "ms": 372,
+  "cost": 0.00007488,
+  "state_chars": 6037,
+  "response": {
+    "model": "scaledown/classify-1-20260928",
+    "answers": {
+      "dissent_exists": {
+        "type": "choice",
+        "choice": "yes",
+        "probabilities": {
+          "yes": 0.9872764802422571,
+          "no": 0.009808993167221097,
+          "insufficient_evidence": 0.0029145265905216587
+        },
+        "confidence": 0.9872764802422571
+      }
+    },
+    "usage": {
+      "input_tokens": 1872,
+      "output_tokens": 1,
+      "cost": 0.00007488,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.0000936,
+        "upstream_inference_prompt_cost": 0.0000936,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "id": "gen-dec-1795815576-JRE4aAHX7q9itQ8ANTbk",
+    "provider": "ScaleDown"
+  }
+}

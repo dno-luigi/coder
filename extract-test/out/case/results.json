@@ -1,0 +1,147 @@
+{
+  "summary": {
+    "vertical": "case",
+    "docs": 1,
+    "docs_zero_entity": 0,
+    "fields_expected": 6,
+    "fields_found": 6,
+    "values_returned": 6,
+    "values_verbatim": 4,
+    "escalation_rate": 0.3333333333333333,
+    "cost_usd": 0.001209,
+    "calls": 2,
+    "gate": 0.6,
+    "decisions_total": 3,
+    "decisions_correct": 2,
+    "decisions_accuracy": 0.6666666666666666,
+    "confidently_wrong": 1
+  },
+  "results": [
+    {
+      "file": "faretta-422us806.txt",
+      "chars": 98690,
+      "zero_entities": false,
+      "fields_expected": 6,
+      "fields_found": 6,
+      "values_returned": 6,
+      "values_verbatim": 4,
+      "fields": {
+        "case_name": [
+          {
+            "text": "Faretta v. California",
+            "confidence": 0.713,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 0
+          }
+        ],
+        "citation": [
+          {
+            "text": "422 U.S. 806",
+            "confidence": 0.999,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 1728
+          }
+        ],
+        "court": [
+          {
+            "text": "Supreme Court",
+            "confidence": 0.949,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 64
+          }
+        ],
+        "decision_date": [
+          {
+            "text": "June 30, 1975",
+            "confidence": 0.98,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 1888
+          }
+        ],
+        "authoring_justice": [
+          {
+            "text": "Mr. Justice STEWART",
+            "confidence": 0.973,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 2551
+          }
+        ],
+        "disposition": [
+          {
+            "text": "vacated and remanded",
+            "confidence": 0.492,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 2412
+          }
+        ]
+      },
+      "decisions": {
+        "petitioner_got_relief": {
+          "choice": "yes",
+          "confidence": 0.9718860383469159,
+          "probabilities": {
+            "yes": 0.9718860383469159,
+            "no": 0.025494479844684836,
+            "insufficient_evidence": 0.0026194818083993964
+          }
+        },
+        "self_representation_right_recognised": {
+          "choice": "yes",
+          "confidence": 0.9953133310617686,
+          "probabilities": {
+            "yes": 0.9953133310617686,
+            "no": 0.0027652619790911616,
+            "insufficient_evidence": 0.0019214069591401276
+          }
+        },
+        "dissent_exists": {
+          "choice": "insufficient_evidence",
+          "confidence": 0.6967349891925904,
+          "probabilities": {
+            "yes": 0.1199045975213556,
+            "no": 0.18336041328605404,
+            "insufficient_evidence": 0.6967349891925904
+          }
+        }
+      },
+      "escalations": [
+        {
+          "question": "dissent_exists",
+          "choice": "insufficient_evidence",
+          "confidence": 0.6967349891925904
+        }
+      ],
+      "escalation_rate": 0.3333333333333333,
+      "reconciled": {},
+      "scored": {
+        "petitioner_got_relief": {
+          "got": "yes",
+          "want": "yes",
+          "confidence": 0.9718860383469159,
+          "correct": true,
+          "confidently_wrong": false
+        },
+        "self_representation_right_recognised": {
+          "got": "yes",
+          "want": "yes",
+          "confidence": 0.9953133310617686,
+          "correct": true,
+          "confidently_wrong": false
+        },
+        "dissent_exists": {
+          "got": "insufficient_evidence",
+          "want": "yes",
+          "confidence": 0.6967349891925904,
+          "correct": false,
+          "confidently_wrong": true
+        }
+      }
+    }
+  ]
+}

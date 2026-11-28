@@ -1,0 +1,49 @@
+{
+  "request": 19798,
+  "response": {
+    "id": "gen-1795815781-LcqhYMkChBwz7mha9o7l",
+    "object": "chat.completion",
+    "created": 1795815781,
+    "model": "scaledown/extract",
+    "provider": "ScaleDown",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": null,
+        "message": {
+          "role": "assistant",
+          "content": "{\"entities\":[{\"text\":\"Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.\",\"type\":\"case_name\",\"confidence\":0.338,\"start\":0,\"end\":61,\"context\":\"Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA. | Supreme Court | US Law | LII / Legal Information Institute \\n\\n \\n \\n \\n\\n \\n \\n\\n \\n \\n\\n \\n \\n \\n \\n\\n \\n \\n \\n\\n \\n \\n \\n\\n \\n \\n \\n \\n \\n\\n \\n\\n \\n \\n\\n \\n \\n \\n \\n\\n \\n \\n\\n \\n \\n \\n\\n \\n\\n \\n\\n \\n\\n \\n \\n \\n Please help us improve our site!\\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n No thank you \\n \\n\\n \\n\\n \\n\\n \\n Skip to main content \\n \\n \\n \\n \\n \\n \\n \\n Cornell Law\\n School \\n Search\\n Cornell \\n \\n\\n \\n\\n \\n \\n \\n \\n \\n \\n Toggle navigation \\n \\n \\n \\n \\n \\n \\n \\n\\n \\n \\n Please help\\n us improve our site! \\n\\n \\n \\n \\n \\n Support Us! \\n \\n \\n\\n \\n \\n \\n \\n Search \\n \\n \\n\\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n\\n \\n\\n \\n\\n \\n\\n \\n\\n \\n \\n \\n\"},{\"text\":\"422 U.S. 806\",\"type\":\"citation\",\"confidence\":0.973,\"start\":1728,\"end\":1740,\"context\":\"law \\n \\n\\n \\n Employment law \\n \\n\\n \\n Money and Finances \\n \\n\\n \\n More... \\n \\n\\n \\n \\n\\n \\n Help out \\n \\n \\n Give \\n \\n\\n \\n Sponsor \\n \\n\\n \\n Advertise \\n \\n\\n \\n Create \\n \\n\\n \\n Promote \\n \\n\\n \\n Join Lawyer Directory \\n \\n\\n \\n \\n\\n \\n \\n \\n \\n \\n\\n \\n\\n \\n \\n\\n \\n\\n \\n \\n \\n\\n \\n\\n \\n \\n \\n\\n \\n \\n \\n \\n \\n \\n \\n \\n LII \\n\\n \\n \\n \\n U.S. Supreme Court \\n\\n \\n \\n \\n Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.\\n\\n \\n \\n \\n \\n \\n\\n \\n\\n \\n\\n \\n \\n \\n \\n \\n \\n \\n\\n \\n \\n Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA. \\n\\n \\n \\n \\n \\n \\n Supreme Court \\n\\n \\n \\n \\n\\n \\n \\n \\n \\n 422 U.S. 806\\n\\n 95 S.Ct. 2525.\\n\\n 45 L.Ed.2d 562\\n\\n Anthony Pasquall FARETTA, Petitioner,\\nv.\\nState of CALIFORNIA.\\n\\n No. 73\\u20145772.\\n\\n Argued Nov. 19, 1974.\\n\\n Decided June 30, 1975.\\n\\n \\n Syllabus\\n\\n The Sixth Amendment as made applicable to the States by the Fourteenth guarantees that a defendant in a state criminal trial has an independent constitutional right of self-representation and that he may proceed to defend himself without counsel when he voluntarily and intelligently elects to do so; and in this case the \"},{\"text\":\"Supreme Court\",\"type\":\"court\",\"confidence\":0.996,\"start\":64,\"end\":77,\"context\":\"Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA. | Supreme Court | US Law | LII / Legal Information Institute \\n\\n \\n \\n \\n\\n \\n \\n\\n \\n \\n\\n \\n \\n \\n \\n\\n \\n \\n \\n\\n \\n \\n \\n\\n \\n \\n \\n \\n \\n\\n \\n\\n \\n \\n\\n \\n \\n \\n \\n\\n \\n \\n\\n \\n \\n \\n\\n \\n\\n \\n\\n \\n\\n \\n \\n \\n Please help us improve our site!\\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n No thank you \\n \\n\\n \\n\\n \\n\\n \\n Skip to main content \\n \\n \\n \\n \\n \\n \\n \\n Cornell Law\\n School \\n Search\\n Cornell \\n \\n\\n \\n\\n \\n \\n \\n \\n \\n \\n Toggle navigation \\n \\n \\n \\n \\n \\n \\n \\n\\n \\n \\n Please help\\n us improve our site! \\n\\n \\n \\n \\n \\n Support Us! \\n \\n \\n\\n \\n \\n \\n \\n Search \\n \\n \\n\\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n\\n \\n\\n \\n\\n \\n\\n \\n\\n \\n \\n \\n About\\n LII \\n \\n \"},{\"text\":\"June 30, 1975\",\"type\":\"decision_date\",\"confidence\":0.983,\"start\":1888,\"end\":1901,\"context\":\"\\n\\n \\n Join Lawyer Directory \\n \\n\\n \\n \\n\\n \\n \\n \\n \\n \\n\\n \\n\\n \\n \\n\\n \\n\\n \\n \\n \\n\\n \\n\\n \\n \\n \\n\\n \\n \\n \\n \\n \\n \\n \\n \\n LII \\n\\n \\n \\n \\n U.S. Supreme Court \\n\\n \\n \\n \\n Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.\\n\\n \\n \\n \\n \\n \\n\\n \\n\\n \\n\\n \\n \\n \\n \\n \\n \\n \\n\\n \\n \\n Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA. \\n\\n \\n \\n \\n \\n \\n Supreme Court \\n\\n \\n \\n \\n\\n \\n \\n \\n \\n 422 U.S. 806\\n\\n 95 S.Ct. 2525.\\n\\n 45 L.Ed.2d 562\\n\\n Anthony Pasquall FARETTA, Petitioner,\\nv.\\nState of CALIFORNIA.\\n\\n No. 73\\u20145772.\\n\\n Argued Nov. 19, 1974.\\n\\n Decided June 30, 1975.\\n\\n \\n Syllabus\\n\\n The Sixth Amendment as made applicable to the States by the Fourteenth guarantees that a defendant in a state criminal trial has an independent constitutional right of self-representation and that he may proceed to defend himself without counsel when he voluntarily and intelligently elects to do so; and in this case the state courts erred in forcing petitioner against his will to accept a state-appointed public defender and in denying his request to conduct his own defense. Pp. \"},{\"text\":\"Mr. Justice STEWART\",\"type\":\"authoring_justice\",\"confidence\":0.881,\"start\":2551,\"end\":2570,\"context\":\"independent constitutional right of self-representation and that he may proceed to defend himself without counsel when he voluntarily and intelligently elects to do so; and in this case the state courts erred in forcing petitioner against his will to accept a state-appointed public defender and in denying his request to conduct his own defense. Pp. 812-836.\\n\\n Vacated and remanded.\\n\\n Jerome B. Falk, Jr., San Francisco, Cal., for petitioner.\\n\\n Howard J. Schwab, Los Angeles, Cal., for respondent.\\n\\n Mr. Justice STEWART delivered the opinion of the Court.\\n\\n \\n 1 \\n The Sixth and Fourteenth Amendment s of our Constitution guarantee that a person brought to trial in any state or federal court must be afforded the right to the assistance of counsel before he can be validly convicted and punished by imprisonment. This clear constitutional rule has emerged from a series of cases decided here over the last 50 years. 1 The question before us now is whether a defendant in a state criminal trial has a constitutional right\"},{\"text\":\"Vacated and remanded.\",\"type\":\"disposition\",\"confidence\":0.669,\"start\":2412,\"end\":2433,\"context\":\"Syllabus\\n\\n The Sixth Amendment as made applicable to the States by the Fourteenth guarantees that a defendant in a state criminal trial has an independent constitutional right of self-representation and that he may proceed to defend himself without counsel when he voluntarily and intelligently elects to do so; and in this case the state courts erred in forcing petitioner against his will to accept a state-appointed public defender and in denying his request to conduct his own defense. Pp. 812-836.\\n\\n Vacated and remanded.\\n\\n Jerome B. Falk, Jr., San Francisco, Cal., for petitioner.\\n\\n Howard J. Schwab, Los Angeles, Cal., for respondent.\\n\\n Mr. Justice STEWART delivered the opinion of the Court.\\n\\n \\n 1 \\n The Sixth and Fourteenth Amendment s of our Constitution guarantee that a person brought to trial in any state or federal court must be afforded the right to the assistance of counsel before he can be validly convicted and punished by imprisonment. This clear constitutional rule has emerged from a series of cases decided\"}],\"structured_result\":null,\"ocr_text\":null,\"input_tokens\":5186}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 5186,
+      "completion_tokens": 1637,
+      "total_tokens": 6823,
+      "cost": 0.00020744,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00020744,
+        "upstream_inference_prompt_cost": 0.00020744,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  }
+}

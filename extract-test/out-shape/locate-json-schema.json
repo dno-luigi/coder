@@ -1,0 +1,85 @@
+{
+  "name": "locate-json-schema",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "ms": 600,
+  "cost": 0.00001572,
+  "body": {
+    "model": "scaledown/extract",
+    "messages": [
+      {
+        "role": "user",
+        "content": "COMMERCIAL LEASE — KEY TERMS\nLandlord: Bracken Property Holdings plc, of 3 Wellington Place, Leeds LS1 4AP.\nTenant: Halcyon Retail Limited, of 18 Kirkstall Road, Leeds LS3 1LY.\nPremises: Unit 14, Kingsway Retail Park, Gelderd Road, Leeds LS12 6BQ.\nTerm: ten (10) years commencing on 1 April 2024.\nRent: £84,500 per year, payable quarterly in advance.\nService charge: estimated at £6,200 for the first year.\nInsurance premium: not stated in this document."
+      }
+    ],
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "lease",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "tenant_name": {
+              "type": "string",
+              "description": "Find the full legal name of the tenant, including any company suffix."
+            },
+            "annual_rent": {
+              "type": "string",
+              "description": "Find the yearly rent figure, including the currency symbol."
+            },
+            "insurance_premium": {
+              "type": "string",
+              "description": "Find the annual insurance premium, including the currency symbol."
+            }
+          }
+        }
+      }
+    }
+  },
+  "raw": {
+    "id": "gen-1795814460-VRCHC6wlrbQZjeG5wrle",
+    "object": "chat.completion",
+    "created": 1795814460,
+    "model": "scaledown/extract",
+    "provider": "ScaleDown",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": null,
+        "message": {
+          "role": "assistant",
+          "content": "{\"entities\":[{\"text\":\"Halcyon Retail Limited\",\"type\":\"tenant_name\",\"confidence\":0.999,\"start\":116,\"end\":138,\"context\":\"COMMERCIAL LEASE \\u2014 KEY TERMS\\nLandlord: Bracken Property Holdings plc, of 3 Wellington Place, Leeds LS1 4AP.\\nTenant: Halcyon Retail Limited, of 18 Kirkstall Road, Leeds LS3 1LY.\\nPremises: Unit 14, Kingsway Retail Park, Gelderd Road, Leeds LS12 6BQ.\\nTerm: ten (10) years commencing on 1 April 2024.\\nRent: \\u00a384,500 per year, payable quarterly in advance.\\nService charge: estimated at \\u00a36,200 for the first year.\\nInsurance premium: not stated in this document.\"},{\"text\":\"\\u00a384,500\",\"type\":\"annual_rent\",\"confidence\":0.998,\"start\":303,\"end\":310,\"context\":\"COMMERCIAL LEASE \\u2014 KEY TERMS\\nLandlord: Bracken Property Holdings plc, of 3 Wellington Place, Leeds LS1 4AP.\\nTenant: Halcyon Retail Limited, of 18 Kirkstall Road, Leeds LS3 1LY.\\nPremises: Unit 14, Kingsway Retail Park, Gelderd Road, Leeds LS12 6BQ.\\nTerm: ten (10) years commencing on 1 April 2024.\\nRent: \\u00a384,500 per year, payable quarterly in advance.\\nService charge: estimated at \\u00a36,200 for the first year.\\nInsurance premium: not stated in this document.\"}],\"structured_result\":null,\"ocr_text\":null,\"input_tokens\":393}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 393,
+      "completion_tokens": 309,
+      "total_tokens": 702,
+      "cost": 0.00001572,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00001572,
+        "upstream_inference_prompt_cost": 0.00001572,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  }
+}

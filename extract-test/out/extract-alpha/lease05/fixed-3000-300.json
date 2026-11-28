@@ -1,0 +1,115 @@
+{
+  "doc": "extract-test/docs/legal-property/05-property-lease.txt",
+  "size": 3000,
+  "overlap": 300,
+  "fields": [
+    "landlord_name",
+    "tenant_name",
+    "premises_address",
+    "commencement_date",
+    "base_rent",
+    "security_deposit"
+  ],
+  "matches": [
+    {
+      "field": "landlord_name",
+      "text": "SOUTHPORT BUSINESS PARK LIMITED PARTNERSHIP",
+      "start": 1579,
+      "end": 1622,
+      "confidence": 0.997,
+      "context": "/17/13 \n\n 11/11/13 \n\n 11/19/13 \n\n 11/25/13 \n\n 11/27/13 \n\n \n\n \n\n \n\n [****] Confidential treatment requested pursuant to a request\nfor confidential treatment filed with the Securities and Exchange Commission. Omitted portions have been separately filed with\nthe Commission.\n\n \n\n \n\n \n \n\n \n\n \n\n \n\n LEASE AGREEMENT\n\n \n\n SINGLE STORY OFFICE\nBUILDING\n\n NORTH CAROLINA\n\n WAKE COUNTY\n\n \n\n THIS LEASE AGREEMENT ( Lease ),\nis made and entered into as of the\n\n \n\n 9th day of December, 2013\n\n by and between\n\n \n\n SOUTHPORT BUSINESS PARK LIMITED PARTNERSHIP\n\n a North Carolina limited partnership\n\n hereinafter referred to as Landlord \n\n \n\n AND\n\n \n\n CHARLES & COLVARD, LTD. \n\n \n\n a North Carolina corporation \n\n hereinafter referred to as Tenant \n\n \n\n \n\n STATEMENT OF PURPOSES \n\n \n\n Landlord is the owner of Southport Business Park, an office,\nresearch and development and distribution park located in the Town of Morrisville, Wake County, North Carolina ( Property ).\nLandlord and Tenant have agreed that Landlord shall lease to Tenant and Tenant shall lea",
+      "boundary": false,
+      "votes": 1,
+      "locatedBy": "span"
+    },
+    {
+      "field": "tenant_name",
+      "text": "CHARLES & COLVARD, LTD.",
+      "start": 1715,
+      "end": 1738,
+      "confidence": 0.995,
+      "context": "fidential treatment filed with the Securities and Exchange Commission. Omitted portions have been separately filed with\nthe Commission.\n\n \n\n \n\n \n \n\n \n\n \n\n \n\n LEASE AGREEMENT\n\n \n\n SINGLE STORY OFFICE\nBUILDING\n\n NORTH CAROLINA\n\n WAKE COUNTY\n\n \n\n THIS LEASE AGREEMENT ( Lease ),\nis made and entered into as of the\n\n \n\n 9th day of December, 2013\n\n by and between\n\n \n\n SOUTHPORT BUSINESS PARK LIMITED PARTNERSHIP\n\n a North Carolina limited partnership\n\n hereinafter referred to as Landlord \n\n \n\n AND\n\n \n\n CHARLES & COLVARD, LTD. \n\n \n\n a North Carolina corporation \n\n hereinafter referred to as Tenant \n\n \n\n \n\n STATEMENT OF PURPOSES \n\n \n\n Landlord is the owner of Southport Business Park, an office,\nresearch and development and distribution park located in the Town of Morrisville, Wake County, North Carolina ( Property ).\nLandlord and Tenant have agreed that Landlord shall lease to Tenant and Tenant shall lease from Landlord certain space located\nat 170 Southport Drive , Morrisville, North Carolina 27560 and have agreed to",
+      "boundary": false,
+      "votes": 1,
+      "locatedBy": "span"
+    },
+    {
+      "field": "commencement_date",
+      "text": "9th day of December, 2013",
+      "start": 1531,
+      "end": 1556,
+      "confidence": 0.8,
+      "context": "F. \n MANUFACTURING AREA \n \n\n \n\n \n\n 09/03/10\n\n 10/17/13 \n\n 11/11/13 \n\n 11/19/13 \n\n 11/25/13 \n\n 11/27/13 \n\n \n\n \n\n \n\n [****] Confidential treatment requested pursuant to a request\nfor confidential treatment filed with the Securities and Exchange Commission. Omitted portions have been separately filed with\nthe Commission.\n\n \n\n \n\n \n \n\n \n\n \n\n \n\n LEASE AGREEMENT\n\n \n\n SINGLE STORY OFFICE\nBUILDING\n\n NORTH CAROLINA\n\n WAKE COUNTY\n\n \n\n THIS LEASE AGREEMENT ( Lease ),\nis made and entered into as of the\n\n \n\n 9th day of December, 2013\n\n by and between\n\n \n\n SOUTHPORT BUSINESS PARK LIMITED PARTNERSHIP\n\n a North Carolina limited partnership\n\n hereinafter referred to as Landlord \n\n \n\n AND\n\n \n\n CHARLES & COLVARD, LTD. \n\n \n\n a North Carolina corporation \n\n hereinafter referred to as Tenant \n\n \n\n \n\n STATEMENT OF PURPOSES \n\n \n\n Landlord is the owner of Southport Business Park, an office,\nresearch and development and distribution park located in the Town of Morrisville, Wake County, North Carolina ( Property ).\nLandlord and Tenant ha",
+      "boundary": false,
+      "votes": 1,
+      "locatedBy": "span"
+    }
+  ],
+  "review": [
+    {
+      "field": "premises_address",
+      "text": "170 Southport Drive, Morrisville, North Carolina 27560",
+      "chunkStart": 0,
+      "reason": "answer carried no span; value does not occur in the chunk body"
+    },
+    {
+      "field": "security_deposit",
+      "text": "136290.00",
+      "chunkStart": 10800,
+      "reason": "answer carried no span; value does not occur in the chunk body"
+    }
+  ],
+  "resolved": {
+    "landlord_name": {
+      "status": "ok",
+      "needs_review": false,
+      "text": "SOUTHPORT BUSINESS PARK LIMITED PARTNERSHIP",
+      "start": 1579,
+      "end": 1622,
+      "votes": 1,
+      "confidence": 0.997,
+      "located_by": "span",
+      "alternatives": [],
+      "tiebreak": null
+    },
+    "tenant_name": {
+      "status": "ok",
+      "needs_review": false,
+      "text": "CHARLES & COLVARD, LTD.",
+      "start": 1715,
+      "end": 1738,
+      "votes": 1,
+      "confidence": 0.995,
+      "located_by": "span",
+      "alternatives": [],
+      "tiebreak": null
+    },
+    "premises_address": {
+      "status": "absent"
+    },
+    "commencement_date": {
+      "status": "ok",
+      "needs_review": false,
+      "text": "9th day of December, 2013",
+      "start": 1531,
+      "end": 1556,
+      "votes": 1,
+      "confidence": 0.8,
+      "located_by": "span",
+      "alternatives": [],
+      "tiebreak": null
+    },
+    "base_rent": {
+      "status": "absent"
+    },
+    "security_deposit": {
+      "status": "absent"
+    }
+  },
+  "usage": {
+    "calls": 23,
+    "cost_usd": 0.00085444,
+    "span_absent": 2,
+    "relocated_from_body": 0
+  }
+}

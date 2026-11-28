@@ -1,0 +1,90 @@
+{
+  "name": "locate",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "ms": 1371,
+  "cost": 0.00002396,
+  "body": {
+    "model": "scaledown/extract",
+    "messages": [
+      {
+        "role": "user",
+        "content": "MERIDIAN HEALTH PLAN\nEXPLANATION OF PAYMENT — REMITTANCE ADVICE\nSYNTHETIC DOCUMENT, authored for testing. No patient data.\n\nClaim number: CLM-2026-002233\nPatient: DE-IDENTIFIED\nDate of service: 02/11/2026\nProvider: Riverside Imaging Center, NPI 5551234567\nRemittance date: 09/01/2026\n\nBilled amount: $980.00\nAllowed amount: $610.00\nPaid amount: $488.00\nDenied amount: $370.00\nPatient responsibility: $122.00\n\nAdjustment reason: CARC 45 — Charge exceeds fee schedule/maximum allowable or contracted fee.\nThe denial of $370.00 reflects the difference between the billed amount and the allowed amount.\n\nAppeal rights: a reconsideration may be requested within 120 days of the remittance date where the\nprovider believes the procedure was miscoded or the fee schedule applied was incorrect.\n"
+      }
+    ],
+    "provider": {
+      "options": {
+        "scaledown": {
+          "entities": {
+            "claim_id": {
+              "description": "Find the claim number or claim identifier the payer assigned, exactly as written."
+            },
+            "date_of_service": {
+              "description": "Find the date of service the denial refers to, exactly as written."
+            },
+            "carc_code": {
+              "description": "Find each claim adjustment reason code (CARC) applied, exactly as written, for example \"CARC 16\"."
+            },
+            "billed_amount": {
+              "description": "Find the total amount billed, expressed as written, including the currency symbol."
+            },
+            "allowed_amount": {
+              "description": "Find the allowed amount, expressed as written; if the payer allowed nothing, return the zero amount as written."
+            },
+            "appeal_deadline": {
+              "description": "Find the last date on which an appeal may be filed, as written; compute it only if the letter states a filing window in days from the letter date."
+            }
+          },
+          "threshold": 0,
+          "context_chars": 200
+        }
+      }
+    }
+  },
+  "response": {
+    "id": "gen-1795814766-b1oRngGfnYExZqUGI2iW",
+    "object": "chat.completion",
+    "created": 1795814766,
+    "model": "scaledown/extract",
+    "provider": "ScaleDown",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": null,
+        "message": {
+          "role": "assistant",
+          "content": "{\"entities\":[{\"text\":\"CLM-2026-002233\",\"type\":\"claim_id\",\"confidence\":0.999,\"start\":138,\"end\":153,\"context\":\"MERIDIAN HEALTH PLAN\\nEXPLANATION OF PAYMENT \\u2014 REMITTANCE ADVICE\\nSYNTHETIC DOCUMENT, authored for testing. No patient data.\\n\\nClaim number: CLM-2026-002233\\nPatient: DE-IDENTIFIED\\nDate of service: 02/11/2026\\nProvider: Riverside Imaging Center, NPI 5551234567\\nRemittance date: 09/01/2026\\n\\nBilled amount: $980.00\\nAllowed amount: $610.00\\nPaid amount: $488.00\\nDenied amount: $370.00\\nPatient responsibility: $122.00\\n\\nAdjustment reason: CARC 45 \\u2014 Charge exceeds fee schedule/maximum allowable or contracted fee.\\nThe denial of $370.00 reflects the difference between the billed amount and the allowed amount.\\n\\nAppeal rights: a reconsideration may be requested within\"},{\"text\":\"02/11/2026\",\"type\":\"date_of_service\",\"confidence\":1.0,\"start\":194,\"end\":204,\"context\":\"MERIDIAN HEALTH PLAN\\nEXPLANATION OF PAYMENT \\u2014 REMITTANCE ADVICE\\nSYNTHETIC DOCUMENT, authored for testing. No patient data.\\n\\nClaim number: CLM-2026-002233\\nPatient: DE-IDENTIFIED\\nDate of service: 02/11/2026\\nProvider: Riverside Imaging Center, NPI 5551234567\\nRemittance date: 09/01/2026\\n\\nBilled amount: $980.00\\nAllowed amount: $610.00\\nPaid amount: $488.00\\nDenied amount: $370.00\\nPatient responsibility: $122.00\\n\\nAdjustment reason: CARC 45 \\u2014 Charge exceeds fee schedule/maximum allowable or contracted fee.\\nThe denial of $370.00 reflects the difference between the billed amount and the allowed amount.\\n\\nAppeal rights: a reconsideration may be requested within 120 days of the remittance date where the\\nprovider\"},{\"text\":\"CARC 45\",\"type\":\"carc_code\",\"confidence\":0.991,\"start\":428,\"end\":435,\"context\":\"MERIDIAN HEALTH PLAN\\nEXPLANATION OF PAYMENT \\u2014 REMITTANCE ADVICE\\nSYNTHETIC DOCUMENT, authored for testing. No patient data.\\n\\nClaim number: CLM-2026-002233\\nPatient: DE-IDENTIFIED\\nDate of service: 02/11/2026\\nProvider: Riverside Imaging Center, NPI 5551234567\\nRemittance date: 09/01/2026\\n\\nBilled amount: $980.00\\nAllowed amount: $610.00\\nPaid amount: $488.00\\nDenied amount: $370.00\\nPatient responsibility: $122.00\\n\\nAdjustment reason: CARC 45 \\u2014 Charge exceeds fee schedule/maximum allowable or contracted fee.\\nThe denial of $370.00 reflects the difference between the billed amount and the allowed amount.\\n\\nAppeal rights: a reconsideration may be requested within 120 days of the remittance date where the\\nprovider believes the procedure was miscoded or the fee schedule applied was incorrect.\\n\"},{\"text\":\"$980.00\",\"type\":\"billed_amount\",\"confidence\":1.0,\"start\":300,\"end\":307,\"context\":\"MERIDIAN HEALTH PLAN\\nEXPLANATION OF PAYMENT \\u2014 REMITTANCE ADVICE\\nSYNTHETIC DOCUMENT, authored for testing. No patient data.\\n\\nClaim number: CLM-2026-002233\\nPatient: DE-IDENTIFIED\\nDate of service: 02/11/2026\\nProvider: Riverside Imaging Center, NPI 5551234567\\nRemittance date: 09/01/2026\\n\\nBilled amount: $980.00\\nAllowed amount: $610.00\\nPaid amount: $488.00\\nDenied amount: $370.00\\nPatient responsibility: $122.00\\n\\nAdjustment reason: CARC 45 \\u2014 Charge exceeds fee schedule/maximum allowable or contracted fee.\\nThe denial of $370.00 reflects the difference between the billed amount and the allowed amount.\\n\\nAppeal rights: a reconsideration may be requested within 120 days of the remittance date where the\\nprovider believes the procedure was miscoded or the fee schedule applied was incorrect.\\n\"},{\"text\":\"$610.00\",\"type\":\"allowed_amount\",\"confidence\":1.0,\"start\":324,\"end\":331,\"context\":\"MERIDIAN HEALTH PLAN\\nEXPLANATION OF PAYMENT \\u2014 REMITTANCE ADVICE\\nSYNTHETIC DOCUMENT, authored for testing. No patient data.\\n\\nClaim number: CLM-2026-002233\\nPatient: DE-IDENTIFIED\\nDate of service: 02/11/2026\\nProvider: Riverside Imaging Center, NPI 5551234567\\nRemittance date: 09/01/2026\\n\\nBilled amount: $980.00\\nAllowed amount: $610.00\\nPaid amount: $488.00\\nDenied amount: $370.00\\nPatient responsibility: $122.00\\n\\nAdjustment reason: CARC 45 \\u2014 Charge exceeds fee schedule/maximum allowable or contracted fee.\\nThe denial of $370.00 reflects the difference between the billed amount and the allowed amount.\\n\\nAppeal rights: a reconsideration may be requested within 120 days of the remittance date where the\\nprovider believes the procedure was miscoded or the fee schedule applied was incorrect.\\n\"},{\"text\":\"120 days of the remittance date\",\"type\":\"appeal_deadline\",\"confidence\":0.504,\"start\":657,\"end\":688,\"context\":\"CLM-2026-002233\\nPatient: DE-IDENTIFIED\\nDate of service: 02/11/2026\\nProvider: Riverside Imaging Center, NPI 5551234567\\nRemittance date: 09/01/2026\\n\\nBilled amount: $980.00\\nAllowed amount: $610.00\\nPaid amount: $488.00\\nDenied amount: $370.00\\nPatient responsibility: $122.00\\n\\nAdjustment reason: CARC 45 \\u2014 Charge exceeds fee schedule/maximum allowable or contracted fee.\\nThe denial of $370.00 reflects the difference between the billed amount and the allowed amount.\\n\\nAppeal rights: a reconsideration may be requested within 120 days of the remittance date where the\\nprovider believes the procedure was miscoded or the fee schedule applied was incorrect.\\n\"}],\"structured_result\":null,\"ocr_text\":null,\"input_tokens\":599}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 599,
+      "completion_tokens": 1306,
+      "total_tokens": 1905,
+      "cost": 0.00002396,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00002396,
+        "upstream_inference_prompt_cost": 0.00002396,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "mode": "replay",
+  "documents": [
+    {
+      "document": "01-property-lease.txt",
+      "chars": 60032,
+      "windows": 10,
+      "merged": {
+        "fields": {
+          "landlord_name": {
+            "status": "ok",
+            "text": "One Directory Place LLC",
+            "global_start": 112,
+            "global_end": 135,
+            "votes": 10,
+            "confidence": 0.999,
+            "re_located_by": "window",
+            "offset_was_correct": false,
+            "alternatives": [],
+            "absent_sightings": 0
+          },
+          "tenant_name": {
+            "status": "ok",
+            "text": "Directory Printing Company",
+            "global_start": 140,
+            "global_end": 166,
+            "votes": 10,
+            "confidence": 1,
+            "re_located_by": "window",
+            "offset_was_correct": false,
+            "alternatives": [],
+            "absent_sightings": 0
+          },
+          "premises_address": {
+            "status": "conflict",
+            "text": "the address set forth in Exhibit A",
+            "global_start": 2045,
+            "global_end": 2079,
+            "votes": 7,
+            "confidence": 0.29,
+            "re_located_by": "window",
+            "offset_was_correct": true,
+            "alternatives": [
+              {
+                "text": "380 West 37 th Street, Loveland, Colorado 80538",
+                "at": 532,
+                "votes": 3
+              }
+            ],
+            "absent_sightings": 0
+          },
+          "commencement_date": {
+            "status": "conflict",
+            "text": "21 st day of July, 1995",
+            "global_start": 221,
+            "global_end": 244,
+            "votes": 4,
+            "confidence": 0.244,
+            "re_located_by": "document",
+            "offset_was_correct": false,
+            "alternatives": [
+              {
+                "text": "noon on the commencement date specified in Exhibit A",
+                "at": 4401,
+                "votes": 1
+              },
+              {
+                "text": "August, 1995",
+                "at": 8439,
+                "votes": 1
+              }
+            ],
+            "absent_sightings": 0
+          },
+          "base_rent": {
+            "status": "missing",
+            "absent_sightings": 0
+          },
+          "security_deposit": {
+            "status": "missing",
+            "absent_sightings": 0
+          }
+        },
+        "values_total": 4,
+        "resolved": 2,
+        "conflicts": 2,
+        "absent": 0,
+        "missing": 2,
+        "ungrounded_claims": [],
+        "positions_recovered_by_search": 1,
+        "returned_offsets_wrong": 3
+      },
+      "per_window": [
+        {
+          "window": 0,
+          "start": 0,
+          "end": 7882,
+          "prefix": 0,
+          "status": 200,
+          "entities": 4,
+          "duplicates": 0
+        },
+        {
+          "window": 1,
+          "start": 6282,
+          "end": 14080,
+          "prefix": 4000,
+          "status": 200,
+          "entities": 4,
+          "duplicates": 0
+        },
+        {
+          "window": 2,
+          "start": 12480,
+          "end": 20276,
+          "prefix": 4000,
+          "status": 200,
+          "entities": 3,
+          "duplicates": 0
+        },
+        {
+          "window": 3,
+          "start": 18676,
+          "end": 26669,
+          "prefix": 4000,
+          "status": 200,
+          "entities": 3,
+          "duplicates": 0
+        },
+        {
+          "window": 4,
+          "start": 25069,
+          "end": 33065,
+          "prefix": 4000,
+          "status": 200,
+          "entities": 3,
+          "duplicates": 0
+        },
+        {
+          "window": 5,
+          "start": 31465,
+          "end": 39350,
+          "prefix": 4000,
+          "status": 200,
+          "entities": 3,
+          "duplicates": 0
+        },
+        {
+          "window": 6,
+          "start": 37750,
+          "end": 45724,
+          "prefix": 4000,
+          "status": 200,
+          "entities": 4,
+          "duplicates": 0
+        },
+        {
+          "window": 7,
+          "start": 44124,
+          "end": 51938,
+          "prefix": 4000,
+          "status": 200,
+          "entities": 4,
+          "duplicates": 0
+        },
+        {
+          "window": 8,
+          "start": 50338,
+          "end": 58183,
+          "prefix": 4000,
+          "status": 200,
+          "entities": 4,
+          "duplicates": 0
+        },
+        {
+          "window": 9,
+          "start": 56583,
+          "end": 60032,
+          "prefix": 4000,
+          "status": 200,
+          "entities": 4,
+          "duplicates": 0
+        }
+      ]
+    }
+  ]
+}

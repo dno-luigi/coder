@@ -1,0 +1,36 @@
+{
+  "old": {
+    "arm": "old",
+    "status": 200,
+    "ms": 1291,
+    "cost": 0.00056844,
+    "values": [
+      {
+        "text": "Seventy-Five Thousand ($75,000.00) Dollars",
+        "conf": 0.957,
+        "start": 4665,
+        "end": 4707,
+        "span": "Seventy-Five Thousand ($75,000.00) Dollars",
+        "spanOk": true
+      }
+    ],
+    "omitted": false
+  },
+  "new": {
+    "arm": "new",
+    "status": 200,
+    "ms": 665,
+    "cost": 0.00056964,
+    "values": [
+      {
+        "text": "$75,000.00",
+        "conf": 0.629,
+        "start": 4688,
+        "end": 4698,
+        "span": "$75,000.00",
+        "spanOk": true
+      }
+    ],
+    "omitted": false
+  }
+}

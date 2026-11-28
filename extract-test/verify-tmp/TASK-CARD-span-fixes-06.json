@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "task_id": "span-fixes-06",
+  "status": "approved",
+  "request": {
+    "operator_instruction": "fix the span bugs in the script while you're at it — dropped span-less answers, null spans, and no tiebreak for fields that come back twice",
+    "objective": "Produce a corrected variant of the pasted extract.ts that keeps span-less answers, tolerates span:null, and resolves repeated values by a printed rule, without touching the verbatim paste used as a baseline.",
+    "acceptance_criteria": [
+      "extract-test/verify-tmp/extract-as-pasted.ts is unmodified (baseline preserved)",
+      "The corrected script validates span as nullable and as absent",
+      "An answer with no span is re-located in the chunk body before being sent to review",
+      "Repeated values for one field are resolved by a stated rule with losers retained in alternatives",
+      "The script runs to completion with exit code 0 on a real lease document"
+    ]
+  },
+  "authorization": {
+    "requester": "operator",
+    "approved_by": "operator",
+    "approved_at": "2026-11-28T00:00:00Z",
+    "scope": "Create extract-test/verify-tmp/extract-alpha.ts. No change to the paste, to run.mjs, to case files, fixtures, package.json or package-lock.json. zod and tsx are already installed and are not added to package.json.",
+    "design_changes_permitted": false,
+    "commit_permitted": true,
+    "merge_permitted": false,
+    "deploy_permitted": false
+  },
+  "repository": {
+    "repository_identity": "dno-luigi/coder",
+    "remote": "https://github.com/dno-luigi/coder",
+    "base_commit": "7dd53360088acb9b1a49786244ef1f593287fb16",
+    "base_tree": "99912ff5ad3b7e4d548ab716929cbf67cd0a273",
+    "branch": "freebuff/f6eb023e06dd01c0dc889d5b"
+  },
+  "workspace": {
+    "implementer_worktree": "/workspace/chats/f6eb023e06dd01c0dc889d5b",
+    "verifier_worktree": "not provisioned (single-agent measurement session)",
+    "worktree_isolation_required": false
+  },
+  "governance": {
+    "ethical_foundation_sha256": "not established in this workspace",
+    "differential_foundation_sha256": "not established in this workspace"
+  },
+  "allowed_paths": ["extract-test/verify-tmp/"],
+  "allowed_commands": [
+    {
+      "argv": ["npx", "tsx", "extract-test/verify-tmp/extract-alpha.ts", "<doc>", "--fields", "<six lease fields>"],
+      "timeout_seconds": 300,
+      "purpose": "Run the corrected script"
+    }
+  ],
+  "limits": {
+    "max_model_cost_usd": 0.02,
+    "max_total_model_calls": 60,
+    "max_execution_seconds": 900,
+    "max_command_count": 6,
+    "max_output_bytes": 500000
+  },
+  "handoff": { "required": true, "format_version": 1 },
+  "verification": { "required": true, "independent_execution": false, "required_commands": [] },
+  "stop_conditions": ["Cost or call limit reached", "Unauthorized file modification", "Acceptance criteria cannot be established"]
+}

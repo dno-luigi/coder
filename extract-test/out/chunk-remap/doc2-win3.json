@@ -1,0 +1,91 @@
+{
+  "name": "doc2-win3",
+  "status": 200,
+  "ms": 495,
+  "cost": 0.00007328,
+  "parse": "ok",
+  "count": 0,
+  "request": {
+    "model": "scaledown/extract",
+    "messages": [
+      {
+        "role": "user",
+        "content": "ny court proceeding Lessor shall be entitled to make claims\nfor the residual value of the fee interest in the Demised Premises and\nImprovements and Lessee shall be entitled to make claims for the value of its\nleasehold estate in this Lease if there is a total or constructive total\ncondemnation and for the value of the portion of the leasehold estate in this\nLease taken in the event of a partial condemnation and such awards as may be\nallowed for trade fixtures or for loss of business. If a court of competent jurisdiction shall\nhave conclusively determined that unpaid rent or additional rent under this\nLease shall be due and owing by Lessee to Lessor, the amount thereof shall be\npaid from Lessees award hereunder if such rent is unpaid at such time.\n\n \n\n Section 11.04. In the case of any one or more partial condemnations, the\nannual rent thereafter payable under this Lease shall be reduced in the same\nproportion as the amount of land originally subject hereto shall have been\nreduced by such taking.\n\n \n\n Section 11.05. If, at any time after the date hereof, the whole or any part\nof the Demised Premises or Improvements or of Lessees interest under this\nLease shall be taken or condemned by any governmental body or officer or other\ncompetent authority for its or their temporary use or occupancy, the foregoing\nprovisions of this Article shall not apply and Lessee shall continue to\npay, in the manner and at the times herein specified, the full amounts of the\nannual rent and all additional rent and other charges payable by Lessee\nhereunder, and, except only to the extent that Lessee may be prevented from so\ndoing pursuant to the terms of the order of the condemning authority, to\nperform and observe all of the other terms, covenants, conditions and\nobligations hereof upon the part of Lessee to be performed and observed, as\nthough such taking had not occurred. In the event of any such taking as in this\nSection 11.05 referred to, Lessee shall be entitled to receive the entire\namount of any award made for such taking, whether paid by way of damages, rent\nor otherwise, unless such period of temporary use or occupancy shall extend\nbeyond the Demised Term in which case such award shall be apportioned between\nLessor and Lessee as of such date of expiration. Lessee covenants that, upon\nthe termination of any such period of temporary use or occupancy (whether prior\nto or subsequent to the termination of this Lease), it will, at its sole cost\nand expense, restore the Demised Premises and the Improvements, as nearly as\nmay be reasonably possible, to the condition in which the same were immediately\nprior to such taking. To the extent that Lessor receives, by way of such\napportionment or otherwise, any award or payment to pay or compensate for the\nrestoration of the Premises, Lessor will pay such sum to Lessee.\n\n \n\n 16 \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n ARTICLE TWELVE\n\nLESSORS RIGHTS TO PERFORM LESSEES COVENANTS \n\n \n\n Section 12.01. Lessee covenants and agrees that if it shall at any time\nfail to pay, or cause to be paid, an expense, Tax, charge or obligation\npursuant to the provisions of Article Three hereof, or to take out, pay\nfor, maintain or deliver or cause to be taken out, paid for, maintained or\ndelivered any of the insurance policies provided for in Article Ten\nhereof, or shall fail to make any other payment or perform any other act which\nLessee is obligated to make or perform under this Lease, or cause such to be\ndone, then Lessor may, but shall not be obligated so to do, after ten (10) days\nnotice to Lessee (but without notice in the event of an emergency) and without\nwaiving, or releasing Lessee from, any obligation of Lessee in this Lease\ncontained, pay any such expense, Tax, charge or obligation or effect such\ninsurance coverage and pay premiums therefor, and may make any other payment or\nperform any other act which Lessee is obligated to perform under this Lease, in\nsuch manner and to such extent as shall be necessary, and, in exercising any\nsuch rights, pay necessary and incidental costs and expenses, employ counsel\nand incur and pay reasonable attorneys fees and expenses. All sums so paid by\nLessor and all necessary and incidental costs and expenses in connection with\nthe performance of any such act by Lessor, together with interest thereon at\nthe Involuntary Rate from the date of the making of such expenditure by Lessor,\nshall be deemed additional rent hereunder and, except as otherwise in this\nLease expressly provided, shall be payable to Lessor as additional rent on the\nnext rent payment date, and Lessee covenants to pay any such sum or sums with\ninterest as aforesaid and Lessor shall have the same rights and remedies in the\nevent of the non-payment thereof by Lessee as in the case of default by Lessee\nin the payment of the rent.\n\n \n\n ARTICLE THIRTEEN\n\nCONDITIONAL LIMITATIONS-DEFAULT PROVISIONS \n\n \n\n Section 13.01. This Lease and the Demised Term are subject to the\nlimitation that if, at any time during the Demised Term, any one or more of the\nfollowing events (herein called an event of default) shall occur, that is to\nsay:\n\n \n\n (i) if\nLessee shall make an assignment for the benefit of its creditors; or\n\n \n\n (ii) if\nany petition shall be filed against Lessee in any court, whether or not\npursuant to any statute of the United States or of any State, in any\nbankruptcy, reorganization, composition, extension, arrangement or insolvency\nproceedings, and Lessee shall thereafter be adjudicated bankrupt, or if such\nproceedings shall not be dismissed within sixty (60) days after the institution\nof the same; or if any such petition shall be so filed by Lessee or liquidator;\nor\n\n \n\n (iii) if,\nin any proceeding, a receiver, receiver and manager, trustee or liquidator be\nappointed for all or any portion of Lessees property, and such receiver,\nreceiver and manager, trustee or liquidator shall not be discharged within\nsixty (60) days after the appointment of such receiver, receiver and manager,\ntrustee or liquidator; or\n\n \n\n 17 \n\n \n\n \n\n \n\n \n\n \n\n \n\n \n\n (iv) if\nLessee shall fail to pay any installment of the rent provided for herein, or\nany part ther\n\n[TRUNCATED at 60000 of 105814]"
+      }
+    ],
+    "provider": {
+      "options": {
+        "scaledown": {
+          "entities": {
+            "landlord_name": {
+              "description": "Find the full legal name of the entity granting the lease, including any company or government suffix, exactly as written."
+            },
+            "tenant_name": {
+              "description": "Find the full legal name of the entity taking the lease, including any company suffix, exactly as written."
+            },
+            "premises_address": {
+              "description": "Find the postal address or legal description of the demised premises, exactly as written."
+            },
+            "commencement_date": {
+              "description": "Find the date on which the lease term commences, as written in the document."
+            },
+            "base_rent": {
+              "description": "Find the annual or monthly base rent figure stated in the rent clause, expressed as written, for example \"one hundred thousand dollars ($100,000) per year\"; do not normalise it."
+            },
+            "security_deposit": {
+              "description": "Find the security deposit or letter of credit amount required under the lease, expressed as written."
+            }
+          },
+          "threshold": 0,
+          "context_chars": 200
+        }
+      }
+    }
+  },
+  "response": {
+    "id": "gen-1795825587-zErNF11AyHO1L2FFS80P",
+    "object": "chat.completion",
+    "created": 1795825587,
+    "model": "scaledown/extract",
+    "provider": "ScaleDown",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": null,
+        "message": {
+          "role": "assistant",
+          "content": "{\"entities\":[],\"structured_result\":null,\"ocr_text\":null,\"input_tokens\":1832}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1832,
+      "completion_tokens": 19,
+      "total_tokens": 1851,
+      "cost": 0.00007328,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00007328,
+        "upstream_inference_prompt_cost": 0.00007328,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  }
+}

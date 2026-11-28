@@ -1,0 +1,20 @@
+{
+  "note": "Authored from the fetched text of 422 U.S. 806 (Cornell LII), not from memory. Document facts quoted: 'Decided June 30, 1975'; 'Mr. Justice STEWART delivered the opinion of the Court'; 'Judgment vacated and case remanded'; 'Mr. Chief Justice BURGER, with whom Mr. Justice BLACKMUN and Mr. Justice REHNQUIST join, dissenting'; 'No. 73—5772'.",
+  "case": {
+    "faretta-422us806.txt": {
+      "petitioner_got_relief": "yes",
+      "self_representation_right_recognised": "yes",
+      "dissent_exists": "yes"
+    }
+  },
+  "case_field_gold": {
+    "faretta-422us806.txt": {
+      "case_name": "Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA",
+      "citation": "422 U.S. 806",
+      "court": "Supreme Court of the United States",
+      "decision_date": "June 30, 1975",
+      "authoring_justice": "Mr. Justice STEWART",
+      "disposition": "Judgment vacated and case remanded"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "from": "agent-2",
+  "base_commit": "7dd53360088acb9b1a49786244ef1f593287fb16",
+  "vertical": "legal",
+  "documents_tested": 6,
+  "document_provenance": "public — SEC EDGAR exhibits (6 real property leases, fetched 2026-11-27, truncated at 60,000 characters)",
+  "metrics": {
+    "fields_found": "34/36",
+    "citation_verbatim": "21/34 exact; 32/34 after whitespace normalisation",
+    "decisions_correct": "not measured — no gold for the six real leases without reading them in full",
+    "escalation_rate": 0.5,
+    "confidently_wrong": 0,
+    "cost_usd": 0.004161,
+    "seconds_per_document": "3.2–4.8 locate + 0.3–1.6 decide"
+  },
+  "reproduced": [
+    "failure-mode-3 (absence read as negation), on the decision layer: a question about an insurance figure the document never states returned `no` at 0.420, with `insufficient_evidence` at 0.350 directly behind it",
+    "failure-mode-4 (third-label overlap): with three labels the argmax lands on `no` for absent evidence, which is the overlap the brief describes; adding the third label did not by itself fix it"
+  ],
+  "contradicted": [
+    "`24/24 citations verbatim` does not hold on real documents: 21/34 exact, 32/34 normalised. The gap is whitespace and punctuation, plus one currency mangling (`£160,000` returned as `(pound)160,000`) and two values that are the literal string `null`",
+    "`zero-entity cliff reproduced deterministically` did not reproduce: 0 zero-entity responses in 12 locate calls, of which 6 were real leases and 6 synthetic medical documents"
+  ],
+  "not_checked": [
+    "decisions_correct for real leases — scoring them needs a full read of six 60,000-character documents, which I did not do; the 18 decisions are recorded but unscored",
+    "any scanned or PDF document — the chat endpoint takes text only, and I had no scan to put through the alpha/extractions asset path",
+    "state starvation at scale — my harness assembles a header plus equal per-value windows instead of truncating, but the largest document tested was 60,000 characters against a 28,000-character window cap, so the 200 KB case is untested",
+    "whether a human reviewer would accept the 50% escalation rate as a product"
+  ],
+  "angles_unseen": [
+    "The verbatim metric is too strict to be a product metric: 62% exact against 94% normalised means most 'failures' are whitespace, and a packet built on the exact metric would throw away correct values. The citation check must normalise whitespace and punctuation before it decides anything.",
+    "The model returns the literal string `null` as a value at 0.908 and 0.787 confidence, both above the 0.6 gate. It means 'no deposit stated', but as delivered it renders `Security Deposit: null` in a packet. That is a one-line client filter, and it must exist before any packet ships.",
+    "EDGAR full-text search is not a lease corpus: of the first four 'lease' hits, one was a letter about leases, one an equipment lease and one a bond-financed lease. A product ingesting customer documents is unaffected; a product mining public filings needs a document-type gate before extraction, and that gate is itself a model job.",
+    "The 50% escalation is concentrated in the judgement questions (`tenant may terminate early`, `term over five years`), not the literal fields. Literal extraction is near-solved; the escalation cost sits exactly where a lease admin bills their time."
+  ],
+  "verdict": "GO-WITH-CONDITIONS",
+  "conditions": [
+    "Ship literal fields only, each with a citation that survives whitespace normalisation, and compute derived fields in code from those literals.",
+    "Filter the literal string `null` (and `NULL`, `N/A`, `none`) before a value reaches the packet; treat it as absence.",
+    "Do not price the abstract on the decision layer: 50% of judgement questions escalate, and that is the paralegal time the product is supposed to replace.",
+    "Publish the escalation rate per field, not per document, because it is the per-field rate that tells a buyer what they are still paying for."
+  ]
+}

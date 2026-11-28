@@ -1,0 +1,21 @@
+MERIDIAN HEALTH PLAN
+EXPLANATION OF PAYMENT — REMITTANCE ADVICE
+SYNTHETIC DOCUMENT, authored for testing. No patient data. Modelled on a standard 835 remittance.
+
+Claim number: CLM-2026-004411
+Patient: DE-IDENTIFIED
+Date of service: 03/14/2026
+Provider: Northgate Family Practice, NPI 1234567890
+Remittance date: 03/28/2026
+
+Billed amount: $1,240.00
+Allowed amount: $0.00
+Paid amount: $0.00
+Denied amount: $1,240.00
+
+Adjustment reason: CARC 16 — Claim/service lacks information or has submission/billing error(s).
+Remittance advice remark: N290 — Missing rendering provider taxonomy code.
+
+Appeal rights: the provider may request a first-level appeal within 180 days of the remittance date.
+Appeals received after that date will not be considered. This claim may be resubmitted with the
+missing taxonomy code, which cures the defect without an appeal.

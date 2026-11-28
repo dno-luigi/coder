@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "task_id": "extract-alpha-fields6-03",
+  "status": "proposed",
+  "request": {
+    "operator_instruction": "let's get it working (pasted Extractions-API chunking script)",
+    "objective": "On one real 60k lease, measure field-level recall of the alpha-extractions chunked pipeline with the six lease fields, once without a preamble and once with a 3000-code-point preamble, so the preamble's effect is measured rather than assumed.",
+    "acceptance_criteria": [
+      "Both runs use the same document, size 3000, overlap 300, and the same six fields",
+      "calls, summed usage.cost, per-window usable answers and preamble-answered counts are reported from the responses",
+      "Each answered field is checked against the source text at its reported global offset",
+      "No claim is made about correctness of a field that the document does not contain"
+    ]
+  },
+  "authorization": {
+    "requester": "operator",
+    "approved_by": "operator",
+    "approved_at": "2026-11-28T00:00:00Z",
+    "scope": "Two runs of extract-alpha.mjs over one lease (--header 0 and --header 3000); write to extract-test/out/extract-alpha/",
+    "design_changes_permitted": false,
+    "commit_permitted": false,
+    "merge_permitted": false,
+    "deploy_permitted": false
+  },
+  "repository": {
+    "repository_identity": "dno-luigi/coder",
+    "remote": "https://github.com/dno-luigi/coder",
+    "base_commit": "7dd53360088acb9b1a49786244ef1f593287fb16",
+    "base_tree": "99912ff5ad3b7e4d548ab716929cbf67cd0a273",
+    "branch": "freebuff/f6eb023e06dd01c0dc889d5b"
+  },
+  "workspace": {
+    "implementer_worktree": "/workspace/chats/f6eb023e06dd01c0dc889d5b",
+    "verifier_worktree": "not provisioned (measurement task, no code change)",
+    "worktree_isolation_required": false
+  },
+  "governance": {
+    "ethical_foundation_sha256": "not established in this workspace",
+    "differential_foundation_sha256": "not established in this workspace"
+  },
+  "allowed_paths": ["extract-test/verify-tmp/", "extract-test/out/extract-alpha/"],
+  "allowed_commands": [
+    {
+      "argv": ["node", "extract-test/verify-tmp/extract-alpha.mjs", "--doc", "extract-test/docs/legal-property/01-property-lease.txt", "--size", "3000", "--overlap", "300", "--header", "0", "--fields", "<six lease fields>"],
+      "timeout_seconds": 300,
+      "purpose": "Six-field run without a preamble"
+    },
+    {
+      "argv": ["node", "extract-test/verify-tmp/extract-alpha.mjs", "--doc", "extract-test/docs/legal-property/01-property-lease.txt", "--size", "3000", "--overlap", "300", "--header", "3000", "--fields", "<six lease fields>"],
+      "timeout_seconds": 300,
+      "purpose": "Six-field run with a definitions preamble"
+    }
+  ],
+  "limits": {
+    "max_model_cost_usd": 0.015,
+    "max_total_model_calls": 50,
+    "max_execution_seconds": 900,
+    "max_command_count": 6,
+    "max_output_bytes": 800000
+  },
+  "handoff": { "required": true, "format_version": 1 },
+  "verification": { "required": true, "independent_execution": false, "required_commands": [] },
+  "stop_conditions": ["Cost or call limit reached", "Unauthorized file modification", "Acceptance criteria cannot be established"]
+}

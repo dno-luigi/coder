@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "task_id": "lease05-07",
+  "status": "approved",
+  "request": {
+    "operator_instruction": "Run lease 05 to see if the mid-document deposit gets picked up",
+    "objective": "Separate referential starvation from correct abstention. On lease 01 every window after the opening returned nothing, but lease 01 contains no rent figure and no dollar amount after section 3, so a blind model and a correct abstention are indistinguishable there. Lease 05 states the security deposit at code point 12,241 of 60,032 — inside window 4 at 3000/300, the first window past the opening that returned nothing on lease 01.",
+    "acceptance_criteria": [
+      "Lease 05 extracted with no preamble (header 0), size 3000, overlap 300, six lease fields",
+      "security_deposit reported with a value and a code-point offset, or an explicit absence",
+      "Per-window contribution shown, so window 4 is identifiable",
+      "Lease 01 re-run under the identical fixed script as a control (deposit correctly absent there)",
+      "Every returned value verified verbatim at its reported code-point offset",
+      "calls and summed usage.cost reported"
+    ]
+  },
+  "authorization": {
+    "requester": "operator",
+    "approved_by": "operator",
+    "approved_at": "2026-11-28T00:00:00Z",
+    "scope": "Two runs of extract-alpha.ts: 05-property-lease.txt and 01-property-lease.txt, both size 3000 overlap 300 header 0, six fields. Write under extract-test/out/extract-alpha/.",
+    "design_changes_permitted": false,
+    "commit_permitted": true,
+    "merge_permitted": false,
+    "deploy_permitted": false
+  },
+  "repository": {
+    "repository_identity": "dno-luigi/coder",
+    "remote": "https://github.com/dno-luigi/coder",
+    "base_commit": "7dd53360088acb9b1a49786244ef1f593287fb16",
+    "base_tree": "99912ff5ad3b7e4d548ab716929cbf67cd0a273",
+    "branch": "freebuff/f6eb023e06dd01c0dc889d5b"
+  },
+  "workspace": {
+    "implementer_worktree": "/workspace/chats/f6eb023e06dd01c0dc889d5b",
+    "verifier_worktree": "not provisioned (measurement task)",
+    "worktree_isolation_required": false
+  },
+  "governance": {
+    "ethical_foundation_sha256": "not established in this workspace",
+    "differential_foundation_sha256": "not established in this workspace"
+  },
+  "allowed_paths": ["extract-test/verify-tmp/", "extract-test/out/extract-alpha/"],
+  "allowed_commands": [
+    {
+      "argv": ["npx", "tsx", "extract-test/verify-tmp/extract-alpha.ts", "extract-test/docs/legal-property/05-property-lease.txt", "--size", "3000", "--overlap", "300", "--fields", "<six lease fields>", "--out", "extract-test/out/extract-alpha/lease05/fixed-3000-300.json"],
+      "timeout_seconds": 300,
+      "purpose": "Lease 05 with a mid-document deposit, no preamble"
+    },
+    {
+      "argv": ["npx", "tsx", "extract-test/verify-tmp/extract-alpha.ts", "extract-test/docs/legal-property/01-property-lease.txt", "--size", "3000", "--overlap", "300", "--fields", "<six lease fields>", "--out", "extract-test/out/extract-alpha/lease01/fixed-3000-300.json"],
+      "timeout_seconds": 300,
+      "purpose": "Lease 01 control under the identical script"
+    }
+  ],
+  "limits": {
+    "max_model_cost_usd": 0.02,
+    "max_total_model_calls": 60,
+    "max_execution_seconds": 900,
+    "max_command_count": 6,
+    "max_output_bytes": 500000
+  },
+  "handoff": { "required": true, "format_version": 1 },
+  "verification": { "required": true, "independent_execution": false, "required_commands": [] },
+  "stop_conditions": ["Cost or call limit reached", "Unauthorized file modification", "Acceptance criteria cannot be established"]
+}

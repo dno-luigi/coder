@@ -1,0 +1,71 @@
+{
+  "id": "gen-1795815980-P2uELtbLuvltl5fz3Kgb",
+  "object": "response",
+  "created_at": 1795815980,
+  "model": "scaledown/extract",
+  "status": "completed",
+  "completed_at": 1795815981,
+  "output": [
+    {
+      "id": "msg_tmp_6l7ynpbt8ko",
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "{\"entities\":[{\"text\":\"Northwind Traders GmbH\",\"type\":\"vendor\",\"confidence\":0.999,\"start\":8,\"end\":30,\"context\":\"INVOICE\\nNorthwind Traders GmbH\\nInvoice No: NW-2026-0417\\nDate: 2026-09-30\\nDue: 2026-10-30\\n\\nConsulting (10h)         EUR 1,500.00\\nCloud hosting (Sept)     EUR 320.00\\n\\nSubtotal                 EUR 1,820.00\\nVAT 19%                  EUR 345.80\\nTotal due                EUR 2,165.80\"},{\"text\":\"NW-2026-0417\",\"type\":\"invoice_number\",\"confidence\":1.0,\"start\":43,\"end\":55,\"context\":\"INVOICE\\nNorthwind Traders GmbH\\nInvoice No: NW-2026-0417\\nDate: 2026-09-30\\nDue: 2026-10-30\\n\\nConsulting (10h)         EUR 1,500.00\\nCloud hosting (Sept)     EUR 320.00\\n\\nSubtotal                 EUR 1,820.00\\nVAT 19%                  EUR 345.80\\nTotal due                EUR 2,165.80\"},{\"text\":\"EUR 1,820.00\",\"type\":\"subtotal\",\"confidence\":0.996,\"start\":190,\"end\":202,\"context\":\"INVOICE\\nNorthwind Traders GmbH\\nInvoice No: NW-2026-0417\\nDate: 2026-09-30\\nDue: 2026-10-30\\n\\nConsulting (10h)         EUR 1,500.00\\nCloud hosting (Sept)     EUR 320.00\\n\\nSubtotal                 EUR 1,820.00\\nVAT 19%                  EUR 345.80\\nTotal due                EUR 2,165.80\"},{\"text\":\"EUR 345.80\",\"type\":\"vat\",\"confidence\":0.987,\"start\":228,\"end\":238,\"context\":\"INVOICE\\nNorthwind Traders GmbH\\nInvoice No: NW-2026-0417\\nDate: 2026-09-30\\nDue: 2026-10-30\\n\\nConsulting (10h)         EUR 1,500.00\\nCloud hosting (Sept)     EUR 320.00\\n\\nSubtotal                 EUR 1,820.00\\nVAT 19%                  EUR 345.80\\nTotal due                EUR 2,165.80\"},{\"text\":\"EUR 2,165.80\",\"type\":\"total\",\"confidence\":1.0,\"start\":264,\"end\":276,\"context\":\"INVOICE\\nNorthwind Traders GmbH\\nInvoice No: NW-2026-0417\\nDate: 2026-09-30\\nDue: 2026-10-30\\n\\nConsulting (10h)         EUR 1,500.00\\nCloud hosting (Sept)     EUR 320.00\\n\\nSubtotal                 EUR 1,820.00\\nVAT 19%                  EUR 345.80\\nTotal due                EUR 2,165.80\"},{\"text\":\"2026-10-30\",\"type\":\"due_date\",\"confidence\":0.999,\"start\":78,\"end\":88,\"context\":\"INVOICE\\nNorthwind Traders GmbH\\nInvoice No: NW-2026-0417\\nDate: 2026-09-30\\nDue: 2026-10-30\\n\\nConsulting (10h)         EUR 1,500.00\\nCloud hosting (Sept)     EUR 320.00\\n\\nSubtotal                 EUR 1,820.00\\nVAT 19%                  EUR 345.80\\nTotal due                EUR 2,165.80\"}],\"structured_result\":null,\"ocr_text\":null,\"input_tokens\":384}",
+          "annotations": [],
+          "logprobs": []
+        }
+      ]
+    }
+  ],
+  "error": null,
+  "incomplete_details": null,
+  "access_programs": null,
+  "tools": [],
+  "tool_choice": "auto",
+  "parallel_tool_calls": true,
+  "max_output_tokens": null,
+  "temperature": 1,
+  "top_p": 1,
+  "presence_penalty": 0,
+  "frequency_penalty": 0,
+  "top_logprobs": 0,
+  "max_tool_calls": null,
+  "metadata": {},
+  "background": false,
+  "previous_response_id": null,
+  "service_tier": "auto",
+  "truncation": "disabled",
+  "store": false,
+  "instructions": null,
+  "text": {
+    "format": {
+      "type": "text"
+    }
+  },
+  "reasoning": null,
+  "safety_identifier": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 591,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 975,
+    "cost": 0.00001536,
+    "is_byok": false,
+    "cost_details": {
+      "upstream_inference_cost": 0.00001536,
+      "upstream_inference_input_cost": 0.00001536,
+      "upstream_inference_output_cost": 0
+    }
+  }
+}

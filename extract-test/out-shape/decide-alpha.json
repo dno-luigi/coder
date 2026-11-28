@@ -1,0 +1,71 @@
+{
+  "name": "decide-alpha",
+  "path": "/alpha/decisions",
+  "status": 200,
+  "ms": 224,
+  "cost": 0.00003676,
+  "body": {
+    "model": "classify-1",
+    "state": {
+      "text": "COMMERCIAL LEASE — KEY TERMS\nLandlord: Bracken Property Holdings plc, of 3 Wellington Place, Leeds LS1 4AP.\nTenant: Halcyon Retail Limited, of 18 Kirkstall Road, Leeds LS3 1LY.\nPremises: Unit 14, Kingsway Retail Park, Gelderd Road, Leeds LS12 6BQ.\nTerm: ten (10) years commencing on 1 April 2024.\nRent: £84,500 per year, payable quarterly in advance.\nService charge: estimated at £6,200 for the first year.\nInsurance premium: not stated in this document.\n\nQUESTION CONTEXT: the lease is a ten year term from 1 April 2024, with no break option and no insurance figure."
+    },
+    "questions": {
+      "has_insurance_figure": {
+        "type": "choice",
+        "instructions": "Does the document state an annual insurance premium?",
+        "criteria": {
+          "yes": "the document states an insurance premium amount",
+          "no": "the document states that no premium applies",
+          "insufficient_evidence": "the document does not mention insurance at all"
+        }
+      },
+      "term_exceeds_five_years": {
+        "type": "choice",
+        "instructions": "Is the term longer than five years?",
+        "criteria": {
+          "yes": "the stated term is more than five years",
+          "no": "the stated term is five years or less",
+          "insufficient_evidence": "no term is stated"
+        }
+      }
+    }
+  },
+  "raw": {
+    "model": "scaledown/classify-1-20260928",
+    "answers": {
+      "has_insurance_figure": {
+        "type": "choice",
+        "choice": "no",
+        "probabilities": {
+          "yes": 0.22915998659197115,
+          "no": 0.4204041609158285,
+          "insufficient_evidence": 0.35043585249220033
+        },
+        "confidence": 0.4204041609158285
+      },
+      "term_exceeds_five_years": {
+        "type": "choice",
+        "choice": "yes",
+        "probabilities": {
+          "yes": 0.9918225784392319,
+          "no": 0.006847038731610835,
+          "insufficient_evidence": 0.001330382829157389
+        },
+        "confidence": 0.9918225784392319
+      }
+    },
+    "usage": {
+      "input_tokens": 919,
+      "output_tokens": 2,
+      "cost": 0.00003676,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.00004595,
+        "upstream_inference_prompt_cost": 0.00004595,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "id": "gen-dec-1795814461-0o5ubdBkP6ZlOCBxm91X",
+    "provider": "ScaleDown"
+  }
+}

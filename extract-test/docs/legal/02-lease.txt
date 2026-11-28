@@ -1,0 +1,1670 @@
+EX-10.14
+ 23
+ ea180762ex10-14_patriciaacq.htm
+ EQUIPMENT LEASE AGREEMENT, DATED AS OF JUNE 6, 2022, BY AND BETWEEN FARNAM STREET FINANCIAL, INC. AND THE COMPANY
+ 
+ 
+ 
+ 
+ 
+ 
+
+ Exhibit 10.14 
+
+ 
+
+ 
+
+ 
+
+ Lease Agreement Number SE060622 
+
+ 
+
+ LEASE AGREEMENT
+
+ 
+
+ This Lease Agreement, dated June 6, 2022
+by and between FARNAM STREET FINANCIAL, INC. (the Lessor ) with an office located at 5850 Opus Parkway, Suite 240,
+Minnetonka, MN 55343 and SERVE ROBOTICS INC. (the Lessee ) with an office located at 730 Broadway Street, Redwood
+City, CA 94063. 
+
+ 
+
+ Lessor hereby leases and grants to the Lessee
+the right to use and Lessee hereby rents and accepts the right to use the equipment (identified by serial number where serialized), services,
+and software provided by third parties and specifically identified on the Lease Schedule(s) attached hereto or incorporated herein by
+reference from time to time (collectively, such specifically identified equipment, software and services are the Equipment ),
+subject to the terms and conditions hereof, as supplemented with respect to each item of Equipment by the terms and conditions set forth
+in the appropriate Lease Schedule . The term Lease Agreement shall include this Lease Agreement and the various Lease
+Schedule(s) identifying each item of Equipment or the appropriate Lease Schedule(s) identifying one or more particular items of Equipment. 
+
+ 
+
+ 1. TERM :
+This Lease Agreement is effective from the date it is executed by both parties. The term of this Lease Agreement, as to all Equipment
+designated on any particular Lease Schedule, shall commence on the Installation Date for all Equipment on such Lease Schedule and shall
+continue for an initial period ending that number of months from the Commencement Date as set forth in such Lease Schedule (the Initial
+Term ) and shall continue from year to year thereafter until terminated. The term of this Lease Agreement as to all Equipment designated
+on any particular Lease Schedule may be terminated without cause at the end of the Initial Term or any year thereafter by either party
+mailing written notice of its termination to the other party not less than ninety (90) days prior to such termination date.
+
+ 
+
+ 2. COMMENCEMENT
+DATE : The Installation Date for each item of Equipment shall be the day said item of Equipment is installed at the Location of Installation,
+ready for use, and accepted in writing by the Lessee. The Commencement Date for any Lease Schedule is the first of the month following
+installation of all the Equipment on the Lease Schedule, unless the latest Installation Date for any Equipment on the Lease Schedule falls
+on the first day of the month in which case that is the Commencement Date. The Lessee agrees to complete, execute and deliver a Certificate(s)
+of Acceptance to Lessor upon installation of the Equipment. The parties understand that the Equipment is mobile robots, which will be
+stored and have a home base at the Location, but will be away from the Location from time to time as part of their mobile functions.
+
+ 
+
+ 3. LEASE
+CHARGE : The lease charges for the Equipment leased pursuant to this Lease Agreement shall be the aggregate Monthly Lease Charge(s) 
+as set forth on each and every Lease Schedule executed pursuant hereto (the aggregate Monthly Lease Charge(s) are the Lease
+Charges ). Lessee agrees to pay to Lessor the Lease Charges in accordance with the Lease Schedule(s), and the payments shall be
+made at Lessor s address indicated thereon. The Lease Charges shall be paid by Lessee monthly in advance with the first full month s
+payment due on the Commencement Date. If the Installation Date does not fall on the first day of a month, the Lease Charge for the period
+from the Installation Date to the Commencement Date shall be an amount equal to the Monthly Lease Charge divided by thirty
+(30) and multiplied by the number of days from and including the Installation Date to the Commencement Date and such amount shall
+be due and payable upon receipt of an invoice from Lessor. Charges for taxes made in accordance with Section 4 and charges made under
+any other provision of this Lease Agreement and payable by Lessee shall be paid to Lessor at Lessor s address specified on the Lease
+Schedule(s) on the date specified in invoices delivered to Lessee. If payment, as specified above, is not received by Lessor on the due
+date, Lessee agrees to and shall, to the extent permitted by law, pay on demand, as a late charge, an amount equal to one and one-half
+percent (1 1 / 2 %), or the maximum percentage allowed by law if less, of the amount past due ( Late Charges ).
+Late Charges shall be charged and added to any past due amount on the date such payment is due and every thirty (30) days thereafter
+until all past due amounts are paid in full to Lessor.
+
+ 
+
+ 
+
+ 
+ Page Number 1 of 10 
+
+ 
+
+ 
+
+ 
+
+ 4. TAXES :
+In addition to the Lease Charges set forth in Section 3, the Lessee shall reimburse Lessor for all license or registration fees,
+assessments, sales and use taxes, rental taxes, gross receipts taxes, personal property taxes and other taxes now or hereafter imposed
+by any government, agency, province or otherwise upon the Equipment, the Lease Charges or upon the ownership, leasing, renting, purchase,
+possession or use of the Equipment, whether the same be assessed to Lessor or Lessee (the Taxes ). Lessor shall file all
+property tax returns and pay all Taxes when due. Lessee, upon notice to Lessor, may, in Lessee s own name, contest or protest any
+Taxes, and Lessor shall honor any such notice except when in Lessor s reasonable opinion such contest is futile or will cause a
+levy or lien to arise on the Equipment or cloud Lessor s title thereto. Lessee shall, in addition, be responsible to Lessor for
+the payment and discharge of any penalties or interest as a result of Lessee s actions or inactions with respect to the Equipment.
+Nothing herein shall be construed to require Lessee to be responsible for any federal or state taxes or payments in lieu thereof, imposed
+upon or measured by the net income of Lessor, or state franchise taxes of Lessor, or except as provided hereinabove, any penalties or
+interest resulting from Lessor s failure to timely remit such tax payments.
+
+ 
+
+ 5. DELIVERY
+AND FREIGHT COSTS : Lessee shall accept delivery and install the Equipment before such time as the applicable vendor requires payment
+for such Equipment.
+
+ 
+
+ All transportation charges
+upon the Equipment for delivery to Lessee s designated Location of Installation are to be paid by Lessee. All rigging, drayage charges,
+structural alterations, rental of heavy equipment and/or other expense necessary to place the Equipment at the Location of Installation
+are to be promptly paid by Lessee.
+
+ 
+
+ 6. INSTALLATION :
+Lessee agrees to pay for the actual installation of the Equipment at Lessee s site. Lessee shall make available and agrees to pay
+for all costs associated with providing a suitable place of installation and necessary electrical power, outlets and air conditioning
+required for operating the Equipment as defined in the Equipment manufacturer s installation manual or instructions. All supplies
+consumed or required by the Equipment shall be furnished and paid for by Lessee.
+
+ 
+
+ 7. RETURN
+TO LESSOR : On the day following the last day of the lease term associated with a Lease Schedule (the Return Date ), Lessee
+shall cause and pay for all the Equipment (by serial number where serialized) on that Lease Schedule to be deinstalled, packed using the
+manufacturer s original packing materials or equivalent and shipped to the location(s) designated in writing by Lessor, which must
+be a location in the continental United States (the Return Location ). If all the Equipment on the applicable Lease
+Schedule is not at the Return Location within ten (10) days of the Return Date, or Lessee fails to deinstall and ship all the Equipment
+on the Return Date, then any written notice of termination delivered by Lessee shall become void, and the Lease Schedule shall continue
+in accordance with this Lease Agreement. Irrespective of any other provision hereof, Lessee will bear the risk of damage from fire, the
+elements or otherwise until delivery of the Equipment to the Return Location. At such time as the Equipment is delivered to the Lessor
+at the Return Location, the Equipment will be at the risk of Lessor. In the case of Equipment that is software or related implementation
+services, Lessee will erase, delete and destroy all electronic incidents of software, and deliver to Lessor all tangible items constituting
+software. At Lessor s request, Lessee will also certify in a written form acceptable to Lessor that: (i) all tangible Software
+has been delivered to Lessor; (ii) all intangible records have been destroyed; (iii) Lessee has not retained the software in
+any form; (iv) Lessee will not use the Software after the termination date of a Lease Schedule; and (v) Lessee has not received
+from the software supplier(s) anything of value relating to or in exchange for Lessee s use, rental or possession of the software
+during the duration of the applicable Lease Schedule (including a trade-in, substitution or upgrade allowance).
+
+ 
+
+ 
+
+ 
+ Page Number 2 of 10 
+
+ 
+
+ 
+
+ 
+
+ 8. MAINTENANCE :
+Lessee, at its sole expense, shall maintain the Equipment in good working order and condition. Lessee shall either self-maintain the Equipment
+or enter into, pay for and maintain in force during the entire term of any Lease Schedule, a maintenance agreement with the original manufacturer
+of the Equipment providing for continuous uninterrupted maintenance of the Equipment (the Maintenance Agreement ). Lessee
+will keep the Equipment in good working order and make all necessary adjustments and repairs to the Equipment. The manufacturer is hereby
+authorized to accept the directions of Lessee with respect thereto. Lessee agrees to allow the manufacturer full and free access to the
+Equipment. All maintenance and service charges, whether under the Maintenance Agreement or otherwise, and all expenses, if any, of the
+manufacturer s customer engineers, employees or independent contractors of Lessee incurred in connection with maintenance and repair
+services, shall be promptly paid by Lessee. Lessee warrants that all of the Equipment shall be in good working order operating according
+to manufacturer s specification and eligible for the manufacturer s standard maintenance agreement if commercially available
+upon delivery to and inspection and testing by the Lessor. If the Equipment is not operating according to manufacturer s specification,
+in good working order and/or certified by the manufacturer as eligible for the manufacturer s standard maintenance agreement if
+commercially available, Lessee agrees to reimburse Lessor for all costs, losses, expenses and fees associated with such equipment and
+the repair or replacement thereof.
+
+ 
+
+ 9. LOCATION,
+OWNERSHIP AND USE : The Equipment shall, at all times, be the sole and exclusive property of Lessor. Lessee shall have no right or
+property interest therein, except for the right to use the Equipment in the normal operation of its business at the Location of Installation,
+or as otherwise provided herein. The Equipment is and shall remain personal property even if installed in or attached to real property.
+
+ 
+
+ Lessee shall keep the Equipment
+at all times free and clear from all claims, levies, encumbrances and process. Lessee shall give Lessor immediate notice of any such attachment
+or other judicial process affecting any of the Equipment. Without Lessor s written permission, Lessee shall not attempt to or actually:
+(i) pledge, lend, create a security interest in, sublet, exchange, trade, assign, swap, use for an allowance or credit or otherwise;
+(ii) allow another to use; (iii) part with possession; (iv) dispose of; or (v) remove from the Location of Installation,
+any item of Equipment. If any item of Equipment is exchanged, assigned, traded, swapped, used for an allowance or credit or otherwise
+to acquire new or different equipment (the New Equipment ) without Lessor s prior written consent, then all of the
+New Equipment shall become Equipment owned by Lessor subject to this Lease Agreement and the applicable Lease Schedule.
+
+ 
+
+ Any feature(s) installed
+on the Equipment at the time of delivery that are not specified on the Lease Schedule(s) are and shall remain the sole property of the
+Lessor.
+
+ 
+
+ Lessee shall cause the Equipment
+to be operated in accordance with the applicable vendor s or manufacturer s manual of instructions by competent and qualified
+personnel.
+
+ 
+
+ 10. FINANCING
+STATEMENT : Lessor is hereby authorized by Lessee to cause this Lease Agreement or other instruments, including Uniform Commercial
+Code Financing Statements, to be filed or recorded for the purposes of showing Lessor s interest in the Equipment. Lessee agrees
+to execute any such instruments as Lessor may request from time to time.
+
+ 
+
+ 11. ALTERATIONS
+AND ATTACHMENTS : Upon prior written notice to Lessor, Lessee may, at its own expense, make minor alterations in or add attachments
+to the Equipment, provided such alterations and attachments shall not interfere with the normal operation of the Equipment and do not
+otherwise involve the pledge, assignment, exchange, trade or substitution of the Equipment or any component or part thereof. All such
+alterations and attachments that are hardware alterations and attachments to the Equipment shall become part of the Equipment leased to
+Lessee and owned by Lessor. If, in Lessor s sole determination, the alteration or attachment reduces the value of the Equipment
+or interferes with the normal and satisfactory operation or maintenance of any of the Equipment, or creates a safety hazard, Lessee shall,
+upon notice from Lessor to that effect, promptly remove the alteration or attachment at Lessee s expense and restore the Equipment
+to the condition the Equipment was in just prior to the alteration or attachment.
+
+ 
+
+ 
+
+ 
+ Page Number 3 of 10 
+
+ 
+
+ 
+
+ 
+
+ 12. LOSS
+AND DAMAGE : Lessee shall assume and bear the risk of loss, theft and damage (including any governmental requisition, condemnation
+or confiscation) to the Equipment and all component parts thereof from any and every cause whatsoever, whether or not covered by insurance.
+No loss or damage to the Equipment or any component part thereof shall impair any obligation of Lessee under this Lease Agreement, which
+shall continue in full force and effect except as hereinafter expressly provided. Lessee shall repair or cause to be repaired all damage
+to the Equipment. In the event that all or part of the Equipment shall, as a result of any cause whatsoever, become lost, stolen, destroyed,
+depleted or otherwise rendered irreparably unusable, damaged or consumed, which shall include Equipment that would be rendered unusable
+by the act of deinstalling for return to Lessor (e.g. leasehold improvements of real estate etc.) (collectively, the Loss )
+then Lessee shall, within ten (10) days after the Loss, fully inform Lessor in writing of such a Loss and shall pay to Lessor the
+following amounts: (i) the Monthly Lease Charges (and other amounts) then due and owing under this Lease Agreement, plus (ii) one-hundred
+(100%) percent of the original cost of the Equipment subject to the Loss if the loss occurs in either the installation period or during
+the first nine months of the Initial Term, and, thereafter, the original cost of the Equipment amortized by the subsequent Monthly Lease
+Charges received by Lessor during the Initial Term using an amortization rate of eight hundred and ninety (890) basis points over
+the interest rate of the three (3) year United States Treasury Note as reported by the Federal Reserve on the Commencement Date
+(collectively, the sum of (i) plus (ii) shall be the Casualty Loss Value ). If the Loss occurs after the Initial
+Term, (ii) above shall be the remaining unamortized balance as of the end of the Initial Term without further amortization (the Terminal
+Casualty Loss Value ). Upon receipt by Lessor of the Casualty Loss Value: (i) the applicable Equipment shall be removed from
+the Lease Schedule; and (ii) Lessee s obligation to pay Lease Charges associated with the applicable Equipment shall cease.
+Lessor may request, and Lessee shall complete, an affidavit(s) that swears out the facts supporting the Loss of any item of Equipment.
+
+ 
+
+ 13. INSURANCE :
+Until the Equipment is returned to Lessor or as otherwise herein provided, whether or not this Lease Agreement has terminated as to the
+Equipment, Lessee, at its expense, shall maintain: (i) property and casualty insurance insuring the Equipment for its Casualty Loss
+Value naming Lessor or its assigns as sole loss payee with respect to the Equipment loss proceeds; and (ii) comprehensive public
+liability and third-party property insurance naming Lessor and its assigns as additional loss payees. The insurance shall cover the interest
+of both the Lessor and Lessee in the Equipment, or as the case may be, shall protect both the Lessor and Lessee in respect to all risks
+arising out of the condition, delivery, installation, maintenance, use or operation of the Equipment. All such insurance shall provide
+for thirty (30) days prior written notice to Lessor of cancellation, restriction, or reduction of coverage (or ten (10) days
+in the case of cancellation for nonpayment of premiums). Lessee hereby irrevocably appoints Lessor as Lessee s attorney-in-fact
+to make claim for, receive payment of and execute and endorse all documents, checks or drafts for loss or damage or return premium under
+any insurance policy issued on the Equipment with respect to the Equipment only. Prior to installation of the Equipment, all policies
+or certificates of insurance shall be delivered to Lessor by Lessee. Lessee agrees to keep the Equipment insured with an insurance company
+which is at least A rated by A.M. Best. The proceeds of any loss or damage insurance with respect to the Equipment shall
+be payable to Lessor, but Lessor shall remit all such insurance proceeds to Lessee at such time as Lessee either (i) provides Lessor
+satisfactory proof that the damage has been repaired and the Equipment has been restored to good working order and condition or (ii) pays
+to Lessor the Casualty Loss Value. It is understood and agreed that any payments made by Lessee or its insurance carrier for loss or damage
+of any kind whatsoever to the Equipment are not made as accelerated rental payments or adjustments of rental, but are made solely as indemnity
+to Lessor for loss or damage of its Equipment.
+
+ 
+
+ 14. ENFORCEMENT
+OF WARRANTIES : Upon receipt of a written request from Lessee, Lessor shall, so long as this Lease Agreement is in force, take all
+reasonable action requested by Lessee to enforce the Equipment manufacturer s warranties (if any), expressed or implied, issued
+on or applicable to the Equipment, which are enforceable by Lessor in its own name. Lessor shall obtain for Lessee all service furnished
+by manufacturer in connection therewith (if any); provided, however, that Lessor shall not be required to commence any suit or action
+or resort to litigation to enforce any such warranty unless Lessee shall first pay to Lessor in advance all reasonable and documented
+out-of-pocket expenses in connection therewith, including reasonable and documented out-of-pocket attorney s fees.
+
+ 
+
+ If any such warranty shall
+be enforceable by Lessee in its own name, Lessee shall, upon receipt of written request from Lessor, so long as this Lease Agreement is
+in force, take all reasonable action requested by Lessor to enforce any such warranty, which is enforceable by Lessee in its own name;
+provided, however, that Lessee shall not be obligated to commence any suit or action or resort to litigation to enforce any such warranty
+unless Lessor shall pay all expenses in connection therewith.
+
+ 
+
+ 
+
+ 
+ Page Number 4 of 10 
+
+ 
+
+ 
+
+ 
+
+ 15. WARRANTIES,
+DISCLAIMERS AND INDEMNITY : THE LESSOR DOES NOT MAKE ANY WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING THE WARRANTY OF MERCHANTABILITY
+OR FITNESS FOR ANY PARTICULAR PURPOSE. LESSEE ACKNOWLEDGES THAT IT IS NOT RELYING ON LESSOR S SKILL OR JUDGEMENT TO SELECT OR FURNISH
+GOODS SUITABLE FOR ANY PARTICULAR PURPOSE AND THAT THERE ARE NO WARRANTIES CONTAINED IN THIS LEASE AGREEMENT. LESSEE ACKNOWLEDGES AND
+AGREES THAT LESSOR HAS NOT MADE ANY STATEMENT, REPRESENTATION OR WARRANTY RELATIVE TO THE ACCOUNTING OR TAX ENTRIES, TREATMENT, BENEFIT,
+USE OR CLASSIFICATION OF THE LEASE AGREEMENT OR ASSOCIATED LEASE SCHEDULES. LESSEE ACKNOWLEDGES THAT IT AND/OR ITS INDEPENDENT ACCOUNTANTS
+ARE SOLELY RESPONSIBLE FOR (i) ANY AND ALL OF LESSEE S ACCOUNTING AND TAX ENTRIES ASSOCIATED WITH THE LEASE AGREEMENT AND/OR
+THE LEASE SCHEDULES AND (ii) THE ACCOUNTING AND TAX TREATMENT, BENEFITS, USES AND CLASSIFICATION OF THE LEASE AGREEMENT OR ANY LEASE
+SCHEDULE. LESSOR SHALL NOT BE LIABLE FOR DAMAGES, INCLUDING SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR IN CONNECTION
+WITH THE PERFORMANCE OF THE EQUIPMENT OR ITS USE BY LESSEE, AND SHALL NOT BE LIABLE FOR ANY SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES
+ARISING OUT OF OR IN CONNECTION WITH LESSOR S FAILURE TO PERFORM ITS OBLIGATION HEREUNDER. THIS LEASE AGREEMENT IS A FINANCE
+LEASE AS THAT TERM IS DEFINED AND USED IN ARTICLE 2A OF THE UNIFORM COMMERCIAL CODE. NO RIGHTS OR REMEDIES REFERRED TO IN
+ARTICLE 2A OF THE UNIFORM COMMERCIAL CODE WILL BE CONFERRED ON LESSEE.
+
+ 
+
+ Lessee agrees that Lessor
+shall not be liable to Lessee for, and Lessee shall indemnify, defend and hold Lessor harmless with respect to, any claim from a third
+party for any liability, claim, loss, damage or reasonable and documented out-of-pocket expense of any kind or nature, whether based upon
+a theory of strict liability or otherwise, caused, directly or indirectly, by: (i) the inadequacy of any item of Equipment, including
+software, for any purpose; (ii) any deficiency or any latent or other defects in any Equipment, including software, whether or not
+detectable by Lessee; (iii) the selection, manufacture, rejection, ownership, lease, possession, maintenance, operation, use or performance
+of any item of Equipment, including software; (iv) any interruption or loss of service, use or performance of any item of Equipment,
+including software; (v) patent, trademark or copyright infringement; or (vi) any loss of business or other special, incidental
+or consequential damages whether or not resulting from any of the foregoing. Lessee s duty to defend and indemnify Lessor shall
+survive the expiration, termination, cancellation or assignment of this Lease Agreement or a Lease Schedule and shall be binding upon
+Lessee s successors and permitted assigns.
+
+ 
+
+ 16. EVENT
+OF DEFAULT : The occurrence of any of the following events shall constitute an Event of Default under this Lease Agreement and/or any
+Lease Schedule:
+
+ 
+
+ 
+ (1) the nonpayment by Lessee of any Lease Charges when due, or the nonpayment by Lessee of any other sum required
+hereunder to be paid by Lessee which non-payment continues for a period of ten (10) days from the date when due; 
+
+ 
+
+ 
+ (2) the failure of Lessee to perform any other term, covenant or condition of this Lease Agreement, any Lease
+Schedule or any other document, agreement or instrument executed pursuant hereto or in connection herewith, which is not cured within
+ten (10) days; 
+
+ 
+
+ 
+ (3) Lessee attempts to or does remove, transfer, sell, swap, assign, sublease, trade, exchange, encumber,
+receive an allowance or credit for, or part with possession of, any item of Equipment; 
+
+ 
+
+ 
+ (4) Lessee or any guarantor of this Lease Agreement ceases doing business as a going concern, is insolvent,
+makes an assignment for the benefit of creditors, fails to pay its debts as they become due, offers a settlement to creditors or calls
+a meeting of creditors for any such purpose, files a voluntary petition in bankruptcy, is subject to an involuntary petition in bankruptcy
+and such involuntary bankruptcy is not dismissed within sixty (60) days, is adjudicated bankrupt or insolvent, files or has filed
+against it a petition seeking any reorganization, arrangement or composition, under any present or future statute, law or regulation; 
+
+ 
+
+ 
+
+ 
+ Page Number 5 of 10 
+
+ 
+
+ 
+
+ 
+
+ 
+ (5) without Lessor s express prior written consent, (i) Lessee or any guarantor of this Lease Agreement
+sells, conveys, leases, exchanges or transfers all or substantially all of its assets other than to Lessee or such guarantor, (ii) Lessee
+or any guarantor of this Lease Agreement merges, consolidates, liquidates, dissolves or combines its assets with any other entity other
+than to Lessee or such guarantor, or (iii) if Lessee or any guarantor of this Lease Agreement is a corporation, partnership, limited
+liability company or other entity, more than 50% of the outstanding equity interests of Lessee or such guarantor are owned directly or
+indirectly at any time during the Term of this Lease Agreement by a person or group of persons other than the person(s) who held all of
+the outstanding equity interests on the date of this Lease Agreement; 
+
+ 
+
+ 
+ (6) any representations or warranties made at any time by Lessee or any guarantor in this Lease Agreement
+or in any agreement, statement, certificate, financial or credit information provided in connection herewith are false or misleading in
+any material respect when made; 
+
+ 
+
+ 
+ (7) Lessee or any guarantor of this Lease Agreement defaults under or otherwise has accelerated any obligation,
+credit agreement, loan agreement, conditional sales contract, capital lease, indenture or debenture for obligations in excess of $1,000,000;
+or Lessee or any guarantor of this Lease Agreement defaults under any other agreement now existing or hereafter made with Lessor, including
+an equipment purchase agreement; or 
+
+ 
+
+ 
+ (8) the breach or repudiation by any party thereto of any guaranty, subordination agreement or other agreement
+running in favor of Lessor obtained in connection with this Lease Agreement. 
+
+ 
+
+ 17. REMEDIES :
+Should any Event of Default occur and be continuing, Lessor may, in order to protect its interests and reasonably expected profits, with
+or without notice or demand upon Lessee, pursue and enforce, alternatively, successively and/or concurrently, any one or more of the following
+remedies:
+
+ 
+
+ 
+ (1) recover from Lessee all accrued and unpaid Lease Charges and other amounts due and owing on the date of
+the default; 
+
+ 
+
+ 
+ (2) recover from Lessee from time to time all Lease Charges and other amounts as and when becoming due hereunder; 
+
+ 
+
+ 
+ (3) accelerate, cause to become immediately due and recover the present value of all Lease Charges and other
+amounts due and/or likely to become due hereunder from the date of the default to the end of the lease term using a discount rate of three
+(3%) percent; 
+
+ 
+
+ 
+ (4) cause to become immediately due and payable and recover from Lessee the Casualty Loss Value of the Equipment; 
+
+ 
+
+ 
+ (5) terminate any or all of the Lessee s rights, but not its obligations, associated with the lease
+of Equipment under this Lease Agreement; 
+
+ 
+
+ 
+ (6) retake (by Lessor, independent contractor, or by requiring Lessee to assemble and surrender the Equipment
+in accordance with the provisions of Section 7 hereinabove) possession of the Equipment without terminating the Lease Schedule or
+the Lease Agreement free from claims by Lessee which claims are hereby expressly waived by Lessee; 
+
+ 
+
+ 
+ (7) require Lessee to deliver the Equipment to a location designated by Lessor; 
+
+ 
+
+ 
+
+ 
+ Page Number 6 of 10 
+
+ 
+
+ 
+
+ 
+
+ 
+ (8) proceed by court action to enforce performance by Lessee of its obligations associated with any Lease
+Schedule and/or this Lease Agreement; and/or 
+
+ 
+
+ 
+ (9) pursue any other remedy Lessor may otherwise have, at law, equity or under any statute, and recover damages
+and reasonable and documented out-of-pocket expenses (including reasonable and documented out-of-pocket attorneys fees) incurred
+by Lessor by reason of the Event of Default. 
+
+ 
+
+ Upon repossession of the
+Equipment, Lessor shall have the right to lease, sell or otherwise dispose of such Equipment in a commercially reasonable manner, with
+or without notice, at a public or private sale. Lessor s pursuit and enforcement of any one or more remedies shall not be deemed
+an election or waiver by Lessor of any other remedy. Lessor shall not be obligated to sell or re-lease the Equipment. Any sale or re-lease
+may be held at such place or places as are selected by Lessor, with or without having the Equipment present. Any such sale or re-lease,
+may be at wholesale or retail, in bulk or in parcels. Time and exactitude of each of the terms and conditions of this Lease Agreement
+are hereby declared to be of the essence. Lessor may accept past due payments in any amount without modifying the terms of this Lease
+Agreement and without waiving any rights of Lessor hereunder.
+
+ 
+
+ 18. COSTS
+AND ATTORNEYS FEES : In the event of any default, claim, proceeding, including a bankruptcy proceeding, arbitration, mediation,
+counter-claim, action (whether legal or equitable), appeal or otherwise, whether initiated by Lessor or Lessee (or a debtor-in-possession
+or bankruptcy trustee), which arises out of, under, or is related in any way to this Lease Agreement, any Lease Schedule, or any other
+document, agreement or instrument executed pursuant hereto or in connection herewith, or any governmental examination or investigation
+of Lessee, which requires Lessor s participation (individually and collectively, the Claim ), Lessee, in addition to
+all other sums which Lessee may be called upon to pay under the provisions of this Lease Agreement, shall pay to Lessor, on demand, all
+reasonable and documented out-of-pocket costs, expenses and fees paid or payable in connection with the Claim, including, but not limited
+to, reasonable and documented out-of-pocket attorneys fees and reasonable and documented out-of-pocket costs, including travel
+and related expenses incurred by Lessor or its attorneys.
+
+ 
+
+ 19. LESSOR S
+PERFORMANCE OPTION : Should Lessee fail to make any payment or to do any act as provided by this Lease Agreement, then Lessor shall
+have the right (but not the obligation), without notice to Lessee of its intention to do so and without releasing Lessee from any obligation
+hereunder to make or to do the same, to make advances to preserve the Equipment or Lessor s title thereto, and to pay, purchase,
+contest or compromise any insurance premium, encumbrance, charge, tax, lien or other sum which in the judgment of Lessor appears to affect
+the Equipment, and in exercising any such rights, Lessor may incur any liability and expend whatever amounts in its absolute discretion
+it may deem necessary therefor. All sums so incurred or expended by Lessor shall be due and payable by Lessee within ten (10) days
+of written notice thereof and provisions of reasonable supporting documentation therefor.
+
+ 
+
+ 20. QUIET
+POSSESSION AND INSPECTION : Lessor hereby covenants with Lessee that Lessee shall quietly possess the Equipment subject to and in accordance
+with the provisions hereof so long as Lessee is not in default hereunder; provided, however, that Lessor or its designated agent may,
+at any and all reasonable times during business hours, enter Lessee s premises for the purposes of inspecting the Equipment and
+the manner in which it is being used.
+
+ 
+
+ 
+
+ 
+ Page Number 7 of 10 
+
+ 
+
+ 
+
+ 
+
+ 21. ASSIGNMENTS :
+This Lease Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and assigns.
+Lessee, however, shall not assign this Lease Agreement or sublet any of the Equipment without first obtaining the express prior written
+consent of Lessor and its assigns, if any. If express prior written consent for either an assignment or change of control, defined as
+any of the events in section 16(5), is not provided by Lessor, Lessee shall purchase the Equipment from Lessor, in consideration
+for: (i) the greater of either the Equipment s retail in-place value or the Casualty Loss Value; plus (ii) all amounts
+then due and owing (including late fees and taxes); plus (iii) the present value of all future Monthly Lease Charges for the Initial
+Term or any renewal term thereafter discounted at a rate of three (3) percent. The sum of (i), (ii) and (iii) shall be payable at
+the close of the transaction requiring Lessor s consent, and the Lessor shall transfer the ownership of the Equipment to Lessee
+and terminate the Lease Agreement. Lessee acknowledges that the terms and conditions of this Lease Agreement have been fixed in anticipation
+of the possible assignment of Lessor s rights under this Lease Agreement and in and to the Equipment as collateral security to a
+third party ( Assignee herein) which will rely upon and be entitled to the benefit of the provisions of this Lease Agreement.
+Lessee agrees to provide Lessor or its potential assigns with Lessee s most recent audited and its most current financial statements.
+Lessee agrees with Lessor and such Assignee to recognize in writing any such assignment within fifteen (15) days after receipt of
+written notice thereof and to pay thereafter all sums due to Lessor hereunder directly to such Assignee if directed by Lessor, notwithstanding
+any defense, set-off or counterclaim whatsoever (whether arising from a breach of this Lease Agreement or not) that Lessee may from time
+to time have against Lessor. Upon such assignment, the Lessor shall remain obligated to perform any obligations it may have under this
+Lease Agreement and the Assignee shall (unless otherwise expressly agreed to in writing by the Assignee) have no obligation to perform
+such obligations. Any such assignment shall be subject to Lessee s rights to use and possess the Equipment so long as Lessee is
+not in default hereunder.
+
+ 
+
+ 22. SURVIVAL
+OF OBLIGATIONS : All covenants, agreements, representations, and warranties contained in this Lease Agreement, any Lease Schedule,
+or in any document attached thereto, shall be for the benefit of Lessor and Lessee and their successors, any assignee or secured party.
+Further, all covenants, agreements, representations, and warranties contained in this Lease Agreement, any Lease Schedule, or in any document
+attached thereto, shall survive the execution and delivery of this Lease Agreement and the expiration or other termination of this Lease
+Agreement.
+
+ 
+
+ 23. CORPORATE
+AUTHORITY : The parties hereto covenant and warrant that the persons executing this Lease Agreement and each Lease Schedule on their
+behalf have been duly authorized to do so, and this Lease Agreement and any Lease Schedule constitute a valid and binding obligation of
+the parties hereto. The Lessee will, if requested by Lessor, provide to Lessor, Certificates of Authority naming the officers of the Lessee
+who have the authority to execute this Lease Agreement and any Lease Schedules attached thereto.
+
+ 
+
+ 24. LANDLORDS 
+AND MORTGAGEES WAIVER : If requested, Lessee shall use commercially reasonable efforts to obtain customary access agreements,
+in form and substance satisfactory to Lessor, from all landlords and mortgagees of any premises upon which any Equipment is located permitting
+Lessor to enter such premises.
+
+ 
+
+ 25. MISCELLANEOUS :
+This Lease Agreement, the Lease Schedule(s), attached riders and any documents or instruments issued or executed pursuant hereto will
+have been made, executed and delivered in, and will be governed by the internal laws (as opposed to conflicts of law provisions) and decisions
+of, the State of Minnesota. Lessee and Lessor consent to jurisdiction of any local, state or federal court located within Minnesota. Venue
+will be in Minnesota and Lessee hereby waives local venue and any objection relating to Minnesota being an improper venue to conduct any
+proceeding relating to this Lease Agreement. At Lessor s sole election and determination, Lessor may select an alternative forum,
+including arbitration or mediation, to adjudicate any dispute arising out of this Lease Agreement. THE PARTIES HERETO, AFTER CONSULTING
+(OR HAVING HAD AN OPPORTUNITY TO CONSULT) WITH COUNSEL OF THEIR CHOICE, KNOWINGLY AND VOLUNTARILY WAIVE ANY RIGHT TO TRIAL BY JURY IN
+ANY ACTION OR PROCEEDING RELATING TO THIS LEASE, INCLUDING ANY LITIGATION REGARDING THE ENFORCEMENT OF THIS LEASE OR ANY RELATED AGREEMENT.
+
+ 
+
+ 
+
+ 
+ Page Number 8 of 10 
+
+ 
+
+ 
+
+ 
+
+ This Lease Agreement was
+jointly drafted by the parties, and the parties hereby agree that neither should be favored in the construction, interpretation or application
+of any provision or any ambiguity. There are no unwritten or oral agreements between the parties. This Lease Agreement and associated
+Lease Schedule(s) constitute the entire understanding and agreement between Lessor and Lessee with respect to the lease of the Equipment
+superseding all prior agreements, understandings, negotiations, discussions, proposals, representations, promises, commitments and offers
+between the parties, whether oral or written. No provision of this Lease Agreement or any Lease Schedule shall be deemed waived, amended,
+discharged or modified orally or by custom, usage or course of conduct unless such waiver, amendment or modification is in writing and
+signed by an officer of each of the parties hereto. If any one or more of the provisions of this Lease Agreement or any Lease Schedule
+is for any reason held invalid, illegal or unenforceable, the remaining provisions of this Lease Agreement and any such Lease Schedule
+will be unimpaired, and the invalid, illegal or unenforceable provisions shall be replaced by a mutually acceptable valid, legal and enforceable
+provision that is closest to the original intention of the parties. Lessee agrees that neither the manufacturer, nor the supplier, nor
+any of their salespersons, employees or agents are agents of Lessor.
+
+ 
+
+ Any notice provided for herein
+shall be in writing and sent by certified or registered mail to the parties at the addresses stated on page 1 of this Lease Agreement.
+This Lease Agreement shall not become effective until delivered to Lessor at its offices at Minnetonka, Minnesota and executed by Lessor.
+If this Lease Agreement shall be executed by Lessor prior to being executed by Lessee, it shall become void at Lessor s option five
+(5) days after the date of Lessor s execution hereof, unless Lessor shall have received by such date a copy hereof executed
+by a duly authorized representative of Lessee.
+
+ 
+
+ This Lease Agreement is made
+subject to the terms and conditions included herein and Lessee s acceptance is effective only to the extent that such terms and
+conditions are consistent with the terms and conditions herein. Any acceptance which contains terms and conditions which are in addition
+to or inconsistent with the terms and conditions herein will be a counter-offer and will not be binding unless agreed to in writing by
+Lessor.
+
+ 
+
+ The terms used in this Lease
+Agreement, unless otherwise defined, shall have the meanings ascribed to them in the Lease Schedule(s).
+
+ 
+
+ 26. REPOSSESSION :
+LESSEE ACKNOWLEDGES THAT, PURSUANT TO SECTION 17 HEREOF, LESSOR HAS BEEN GIVEN THE RIGHT TO REPOSSESS THE EQUIPMENT SHOULD LESSEE
+BECOME IN DEFAULT OF ITS OBLIGATIONS HEREUNDER. LESSEE HEREBY WAIVES THE RIGHT, IF ANY, TO REQUIRE LESSOR TO GIVE LESSEE NOTICE AND A
+JUDICIAL HEARING PRIOR TO EXERCISING SUCH RIGHT OF REPOSSESSION.
+
+ 
+
+ 27. NET
+LEASE : This Lease Agreement is a net lease and Lessee s obligations to pay all Lease Charges and other amounts payable hereunder
+shall be absolute and unconditional and, except as expressly provided herein, shall not be subject to any: (i) delay, abatement,
+reduction, defense, counterclaim, set-off, or recoupment; (ii) discontinuance or termination of any license; (iii) Equipment
+failure, defect or deficiency; (iv) damage to or destruction of the Equipment; or (v) dissatisfaction with the Equipment or
+otherwise, including any present or future claim against Lessor or the manufacturer, supplier, reseller or vendor of the Equipment. To
+the extent that the Equipment includes intangible (or intellectual) property, Lessee understands and agrees that: (i) Lessor is not
+a party to and does not have any responsibility under any software license and/or other agreement with respect to any software; and (ii) Lessee
+will be responsible to pay all of the Lease Charges and perform all its other obligations under this Lease Agreement despite any defect,
+deficiency, failure, termination, dissatisfaction, damage or destruction of any software or software license. Except as expressly provided
+herein, this Lease Agreement shall not terminate for any reason, including any defect in the Equipment or Lessor s title thereto
+or any destruction or loss of use of any item of Equipment.
+
+ 
+
+ 28. HEADINGS :
+Section headings herein are used for convenience only and shall not otherwise affect the provisions of this Lease Agreement.
+
+ 
+
+ 
+
+ 
+ Page Number 9 of 10 
+
+ 
+
+ 
+
+ 
+
+ IN WITNESS WHEREOF, the parties hereto have caused
+this Lease Agreement to be signed by their respective duly authorized representative.
+
+ 
+
+ 
+ 
+ Every Term is Agreed to and Accepted: 
+ 
+ Every Term is Agreed to and Accepted: 
+
+ 
+ FARNAM STREET FINANCIAL, INC. 
+ 
+ SERVE ROBOTICS INC. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ By: 
+ /s/ Steven C. Morgan 
+ 
+ By: 
+ /s/ Touraj Parang 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Print 
+ 
+ 
+ Print 
+ 
+
+ 
+ Name: 
+ Steven C. Morgan 
+ 
+ Name: 
+ Touraj Parang 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Title: 
+ President 
+ 
+ Title: 
+ COO 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Date: 
+ June 20, 2022 
+ 
+ Date: 
+ 6/17/2022 
+
+ 
+
+ 
+
+ 
+ Page Number 10 of 10 
+
+ 
+
+ 
+
+ 
+
+ LEASE SCHEDULE
+NO. 001
+
+ 
+
+ This Lease Schedule is issued pursuant to the
+Lease Agreement Number SE060622 dated June 6, 2022. The terms of the Lease Agreement and serial numbers contained on Certificate(s)
+of Acceptance are a part hereof and are incorporated by reference herein.
+
+ 
+
+ 
+ 
+ 
+ 
+ LESSOR 
+ 
+ LESSEE 
+
+ 
+ 
+ Farnam Street Financial, Inc. 
+ Serve Robotics Inc. 
+
+ 
+ 
+ 5850 Opus Parkway, Suite 240 
+ 730 Broadway Street 
+
+ 
+ 
+ Minnetonka, MN 55343 
+ Redwood City, CA 94063 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ SUPPLIER OF EQUIPMENT 
+ LOCATION OF EQUIPMENT 
+
+ 
+ 
+ Various 
+ TBD 
+
+ 
+
+ 
+
+ Initial Term of Lease from Commencement Date :
+24 Months
+
+ 
+
+ Monthly Lease Charge : $176,073.80, or $788,298.80 if
+the Expansion Option is chosen.
+
+ 
+
+ Anticipated Delivery and Installation :
+June 2022 thru September 2022, or thru April 2023 if the Expansion Option is chosen.
+
+ 
+
+ Projected Commencement Date : October 1,
+2022, or May 1, 2023, if the Expansion Option is chosen.
+
+ 
+
+ Security Deposit : Upon Lessee s execution
+of this Lease Schedule, Lessee shall deliver a security deposit in the amount of $352,147.60. Upon acceptance of the Expansion Option,
+the security deposit will be increased to $1,576,597.60. Provided that there has been no event of default and Lessee has returned all
+the Equipment under this Lease Schedule per the terms of the Lease Agreement, this security deposit will be returned to Lessee.
+
+ 
+
+ EQUIPMENT 
+
+ 
+
+ 
+ 
+ MANUFACTURER 
+ QTY 
+ MACHINE/MODEL 
+ EQUIPMENT
+ DESCRIPTION (including features ) 
+
+ 
+ Various 
+ 
+ 
+ Autonomous Sidewalk Robots, Manufacturer Fees & Shipping 
+
+ 
+
+ 
+
+ The cost of all the Equipment on this Lease Schedule
+shall total $4,200,000.00. The Monthly Lease Charge listed above is calculated based on the agreement that this cost will be comprised
+of $3,500,000.00 of hardware at a lease rate factor of 0.040815 per $1.00 and $700,000.00 of non-hardware costs at a lease rate
+factor of 0.047459 per $1.00. Should the total cost of the Equipment exceed or be less than that indicated above, Lessor and Lessee
+agree that the Monthly Lease Charge above will be adjusted accordingly to reflect this actual cost at the Installation Date of the additional
+Equipment. If the total cost of non-hardware exceeds that indicated above, the non-hardware portion of the commitment above will be adjusted
+accordingly dollar for dollar by the amount of the additional non-hardware. This Lease Schedule No. 001 will Commence on the first
+of the month following the later of (i) the date the Lessee has satisfied its commitment to install all of the Equipment, as described
+above; or (ii) Lessor s receipt of Lessee s executed commencing Lease Schedule. A revised Lease Schedule No. 001R
+to replace this Lease Schedule No. 001 shall be executed by both parties to reflect the actual Equipment cost accepted and the commensurate
+Monthly Lease Charge, including any adjustments required under the Monthly Lease Charge Adjustment Rider. The Monthly Lease Charge will
+be prorated and charged as interim rent between the Installation Date of each item of equipment, as Lessee indicates on the Certificate(s)
+of Acceptance, and the Commencement Date. Interim rent due prior to the Commencement Date shall not reduce or offset Lessee s post-Commencement
+Monthly Lease Charge obligations hereunder.
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ Expansion Option : If the parties agree
+during the installation phase of this Lease Schedule, the hardware amount will be increased by $15,000,000.00 for a total Equipment
+commitment of $19,200,000.00.
+
+ 
+
+ 
+
+ 
+ 
+ Every Term is Agreed to and Accepted: 
+ 
+ Every Term is Agreed to and Accepted: 
+
+ 
+ FARNAM STREET FINANCIAL, INC. 
+ 
+ SERVE ROBOTICS INC. 
+
+ 
+ LESSOR 
+ 
+ LESSEE 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ By: 
+ /s/ Steven C. Morgan 
+ 
+ By: 
+ /s/ Touraj Parang 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Print 
+ 
+ 
+ Print 
+ 
+
+ 
+ Name: 
+ Steven C. Morgan 
+ 
+ Name: 
+ Touraj Parang 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Title: 
+ President 
+ 
+ Title: 
+ COO 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Date: 
+ June 20, 2022 
+ 
+ Date: 
+ 6/17/2022 
+
+ 
+
+ 
+
+ 
+ 
+ Rider Number: 
+ 001 
+
+ 
+ Lease Agreement Number: 
+ SE060622 
+
+ 
+ Lease Schedule Number(s): 
+ ALL 
+
+ 
+ Lessee Name: 
+ SERVE ROBOTICS INC. 
+
+ 
+ Lease Agreement Dated: 
+ JUNE 6, 2022 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ MONTHLY LEASE CHARGE
+ADJUSTMENT
+
+ 
+
+ This Lease Schedule is intended to be a fixed
+rate lease during the installation period and from the Commencement Date to the end of the term. The three-year treasury rate is an integral
+part of calculating the Monthly Lease Charge for this Lease Schedule. The Lessor and Lessee agree that the Monthly Lease Charge shall
+be fixed upon execution of this Lease and that should the three year treasury note increase between the execution of this Lease Schedule
+and the Commencement Date, the Monthly Lease Charge will be adjusted on the Commencement Date to reflect such increase and will then be
+fixed for the term of this Lease Schedule.
+
+ 
+
+ 
+
+ 
+ 
+ Every Term is Agreed to and Accepted: 
+ 
+ Every Term is Agreed to and Accepted: 
+
+ 
+ FARNAM STREET FINANCIAL, INC. 
+ 
+ SERVE ROBOTICS INC. 
+
+ 
+ LESSOR 
+ 
+ LESSEE 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ By: 
+ /s/ Steven C. Morgan 
+ 
+ By: 
+ /s/ Touraj Parang 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Print 
+ 
+ 
+ Print 
+ 
+
+ 
+ Name: 
+ Steven C. Morgan 
+ 
+ Name: 
+ Touraj Parang 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Title: 
+ President 
+ 
+ Title: 
+ COO 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Date: 
+ June 20, 2022 
+ 
+ Date: 
+ 6/17/2022 
+
+ 
+
+ 
+
+ 
+ 
+ Rider Number: 
+ 002 
+
+ 
+ Lease Agreement Number: 
+ SE060622 
+
+ 
+ Lease Schedule Number(s): 
+ ALL 
+
+ 
+ Lessee Name: 
+ SERVE ROBOTICS INC. 
+
+ 
+ Lease Agreement Dated: 
+ JUNE 6, 2022 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ RIGHT OF FIRST
+REFUSAL
+
+ 
+
+ Lessee shall notify Lessor ( Third Party
+Lease Offer Notice ) within ten (10) business days after receiving any bona fide offer in writing from a third party to lease
+equipment constituting robots of the type used in Lessee s robot delivery business ( Offered Robot Equipment ) to Lessee,
+which offer Lessee intends to accept (a Third-Party Offer ). Prior to accepting such offer, Lessee shall make an offer (the
+ Right of First Refusal ) to lease the Robot Equipment which is the subject of the Third-Party Offer (the Offered Lease )
+from Lessor upon the same terms and conditions of the Third Party Offer and in accordance with the terms and conditions set forth below.
+
+ 
+
+ (a) Notice . Subject to
+confidentiality requirements imposed by the applicable third party, the Third-Party Lease Offer Notice shall state the economic terms
+(including, but not limited to, equipment cost, monthly rental amount, purchase options), the terms and conditions of the Third Party
+Offer and the name of the third-party offeror, together with a copy of all writings between the third-party offeror and Lessee necessary
+to establish the terms of the Third Party Offer. Upon receipt of the Third-Party Lease Offer Notice, Lessor shall have the right but not
+the obligation to enter into the Offered Lease with Lessee upon the terms and conditions of the Third-Party Offer, subject to subparagraph
+below.
+
+ 
+
+ (b) Exercise . The Right
+of First Refusal shall first be exercisable by Lessor with respect to all, but not less than all, of the Offered Robot Equipment by delivery
+of written notice of exercise to Lessee within five (5) days after receipt of the Third-Party Lease Offer Notice. If Lessor does
+not exercise its Right of First Refusal or otherwise respond to Lessee within the time period as set forth above, the Right of First Refusal
+with respect to the Third-Party Lease Offer Notice under consideration shall be deemed to have expired.
+
+ 
+
+ (c) Expiration . The Right
+of First Refusal shall terminate on the termination date of the last Lease Schedule.
+
+ 
+
+ (d) Default . Should Lessee
+accept a Third Party Offer without either providing Lessor with a Third-Party Lease Offer Notice or, when notice has been provided, allowing
+Lessor to enter into the Offered Lease, Lessee will pay to Lessor a fee equal to five (5) percent of the equipment cost subject to
+the Offered Lease within thirty (30) days of executing the Offered Lease. Notwithstanding any provision to the contrary in the Lease
+Agreement or applicable Lease Schedule, any security deposits paid under Lease Schedules covered hereunder shall be held by Lessor until
+the expiration of this rider.
+
+ 
+
+ 
+ 
+ Every Term is Agreed to and Accepted: 
+ 
+ Every Term is Agreed to and Accepted: 
+
+ 
+ FARNAM STREET FINANCIAL, INC. 
+ 
+ SERVE ROBOTICS INC. 
+
+ 
+ LESSOR 
+ 
+ LESSOR 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ By: 
+ /s/ Steven C. Morgan 
+ 
+ By: 
+ /s/ Touraj Parang 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Print 
+ 
+ 
+ Print 
+ 
+
+ 
+ Name: 
+ Steven C. Morgan 
+ 
+ Name: 
+ Touraj Parang 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Title: 
+ President 
+ 
+ Title: 
+ COO 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Date: 
+ June 20, 2022 
+ 
+ Date: 
+ 6/17/2022 
+
+ 
+
+ 
+
+ 
+ 
+ Rider Number: 
+ 003 
+
+ 
+ Lease Agreement Number: 
+ SE060622 
+
+ 
+ Lease Schedule Number(s): 
+ ALL 
+
+ 
+ Lessee Name: 
+ SERVE ROBOTICS INC. 
+
+ 
+ Lease Agreement Dated: 
+ JUNE 6, 2022 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ PURCHASE OPTION
+
+ 
+
+ Provided that (i) an Event of Default has
+not occurred, (ii) Lessor has received all of the Lease Charges due under the Lease Schedule prior to Lessee exercising this option
+to purchase (including all late fees whether billed or unbilled), (iii) Lessor has received payment for all unpaid late fees and
+estimated property taxes, if any, and (iv) Lessor has received written notice of Lessee s election to exercise this purchase
+option not less than ninety (90) days prior to the last date of the initial term of this Lease Schedule, then Lessee shall have the
+option to purchase the Equipment in its physical possession and on Lease Schedule No. 001 on the last day of the initial term, in
+whole and not in part, for either (A) forty (40) percent of the original Equipment cost plus applicable taxes, or, if Lessee
+has elected the Expansion Option under Lease Schedule No. 001 and has installed all of the Equipment under the expansion, (B) on
+an in-place basis and operating according to the manufacturer s specifications, for the then determined mutually-agreed purchase
+price not to exceed forty percent (40%) of the original Equipment cost (plus applicable taxes). If a sale is not consummated, the notice
+provided to exercise this option shall be accepted as a notice to terminate and return all of the Equipment, and Lessee will return all
+of the Equipment on this Lease Schedule in accordance with the Lease Agreement. If Lessee does not return all of the Equipment, Lease
+Schedule No. 001 will continue in accordance with the Lease Agreement.
+
+ 
+
+ Lessee will receive title to the Equipment free
+and clear of all known liens only after Lessee has performed all of its obligations associated with the Lease Agreement and Lessor has
+been paid all sums due or becoming due under both this purchase option and the Lease Agreement, including, whether billed or not, all
+lease charges, taxes, and late fees. Lessor shall retain as income all monies received in association with the Lease Schedule including
+all rent, taxes, security deposits and other monthly lease charges and Lessee hereby waives any right to offset these monies against the
+costs associated with the exercise of this purchase option. Any sales or use tax due and not paid on these monies shall be added to the
+purchase price above.
+
+ 
+
+ 
+ 
+ Every Term is Agreed to and Accepted: 
+ 
+ Every Term is Agreed to and Accepted: 
+
+ 
+ FARNAM STREET FINANCIAL, INC. 
+ 
+ SERVE ROBOTICS INC. 
+
+ 
+ LESSOR 
+ 
+ LESSEE 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ By: 
+ /s/ Steven C. Morgan 
+ 
+ By: 
+ /s/ Touraj Parang 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Print 
+ 
+ 
+ Print 
+ 
+
+ 
+ Name: 
+ Steven C. Morgan 
+ 
+ Name: 
+ Touraj Parang 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Title: 
+ President 
+ 
+ Title: 
+ COO 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ Date: 
+ June 20, 2022 
+ 
+ Date: 
+ 6/17/2022 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ INCUMBENCY CERTIFICATE
+
+ 
+
+ I, _________________________________________,
+Secretary of Serve Robotics Inc., a Delaware corporation (the Company ) do hereby certify that:
+
+ 
+
+ 
+ 1. The persons whose names, titles and signatures that appear below ( Authorized Person ) are
+duly elected or appointed, qualified and authorized, on behalf of the Company, to execute and deliver any lease agreement and related
+documents, including, but not limited to, lease schedules, documents, riders, certificates of acceptance by and between Farnam Street
+Financial, Inc. and the Company (collectively, the Lease Documents ); 
+
+ 
+
+ 
+ 2. The Company shall be bound by any Lease Document that is executed and delivered by an Authorized Person; 
+
+ 
+
+ 
+ 3. The execution and delivery of any Lease Document is not prohibited by or in any manner restricted by the
+terms of the Company s certificate of incorporation, its by-laws, or by any loan agreement, indenture or contract to which the Company
+is a party or under which it is bound; and 
+
+ 
+
+ 
+ 4. The signatures below are the true, correct and genuine signatures of the below-named persons: 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ Authorized
+ 
+ Authorized 
+
+ 
+ Signature: _______________________________________ 
+ Signature: ______________________________________ 
+
+ 
+ 
+ 
+
+ 
+ Print 
+ Print 
+
+ 
+ Name: __________________________________________ 
+ Name: _________________________________________ 
+
+ 
+ 
+ 
+
+ 
+ Title: ___________________________________________ 
+ Title: __________________________________________ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ Authorized 
+ Authorized 
+
+ 
+ Signature: _______________________________________ 
+ Signature: _______________________________________ 
+
+ 
+ 
+ 
+
+ 
+ Print 
+ Print 
+
+ 
+ Name: __________________________________________ 
+ Name: __________________________________________ 
+
+ 
+ 
+ 
+
+ 
+ Title: ___________________________________________ 
+ Title: ___________________________________________ 
+
+ 
+
+ 
+
+ IN WITNESS WHEREOF, the undersigned does hereby
+execute this Certificate this 6 th day of June, 2022.
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ Corporate Secretary 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ ADDENDUM NO. 1
+
+ 
+
+ This transaction is a true lease and is not intended
+by the parties as a secured transaction. Filing is only intended to make the true lease a matter of public record. Farnam Street Financial,
+Inc. is the owner of all the equipment contained on this filing and any and all other equipment now or hereafter the subject of any lease
+agreement or lease schedule by and between the parties and all accessories, attachments, additions, and any substitutions and/or replacement
+of the equipment contained on this filing or any lease agreement or lease schedule between the parties. The lessee has no rights, express
+or implied, to sell, exchange, encumber, or otherwise dispose of any equipment contained on this filing or any lease agreement or lease
+schedule by and between the parties. The parties agree that this financing statement covers any and all equipment now or hereafter the
+subject of any lease agreement or lease schedule by and between the parties, including, but not limited to equipment contained on or subject
+to Lease Agreement Number SE060622 or any lease schedule executed pursuant thereto, together with all substitutions, replacements,
+accessions, process, rent, revenue, insurance, and proceeds related to the equipment contained on this filing or any lease agreement or
+lease schedule by and between the parties.
+
+ 
+
+ 
+
+ 
+ 
+ Every Term is Agreed to and Accepted: 
+ 
+ Every Term is Agreed to and Accepted: 
+
+ 
+ FARNAM STREET FINANCIAL, INC. 
+ 
+ SERVE ROBOTICS INC. 
+
+ 
+ LESSOR 
+ 
+ LESSOR 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ By: 
+ /s/ Steven C. Morgan 
+ 
+ By: 
+ /s/ Touraj Parang 
+
+ 
+ Print 
+ 
+ 
+ Print 
+ 
+
+ 
+ Name: 
+ Steven C. Morgan 
+ 
+ Name: 
+ Touraj Parang 
+
+ 
+ Title: 
+ President 
+ 
+ Title: 
+ COO 
+
+ 
+ Date: 
+ June 20, 2022 
+ 
+ Date: 
+ 6/17/2022

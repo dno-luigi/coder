@@ -1,0 +1,400 @@
+{
+  "summary": {
+    "vertical": "priorauth",
+    "docs": 3,
+    "docs_zero_entity": 0,
+    "fields_expected": 15,
+    "fields_found": 13,
+    "values_returned": 13,
+    "values_verbatim": 12,
+    "escalation_rate": 0.3333333333333333,
+    "cost_usd": 0.000275,
+    "calls": 6,
+    "gate": 0.6,
+    "decisions_total": 12,
+    "decisions_correct": 10,
+    "decisions_accuracy": 0.8333333333333334,
+    "confidently_wrong": 1
+  },
+  "results": [
+    {
+      "file": "note-1.txt",
+      "chars": 639,
+      "zero_entities": false,
+      "fields_expected": 5,
+      "fields_found": 5,
+      "values_returned": 5,
+      "values_verbatim": 4,
+      "fields": {
+        "patient_age": [
+          {
+            "text": "52 years",
+            "confidence": 0.621,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 115
+          }
+        ],
+        "diagnosis": [
+          {
+            "text": "obstructive sleep apnoea, moderate, confirmed on attended polysomnography",
+            "confidence": 0.606,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 178
+          }
+        ],
+        "requested_service": [
+          {
+            "text": "initiation of bilevel positive airway pressure therapy with heated humidification",
+            "confidence": 0.996,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 556
+          }
+        ],
+        "prior_treatment": [
+          {
+            "text": "nasal CPAP trialled for 8 weeks with adherence of 5.1 hours per night; symptoms improved but the patient cannot tolerate the mask. Mandibular advancement device discussed.",
+            "confidence": 0.438,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 329
+          }
+        ],
+        "severity_finding": [
+          {
+            "text": "apnoea-hypopnoea index 22.4 events per hour, lowest oxygen saturation 84%",
+            "confidence": 0.932,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 271
+          }
+        ]
+      },
+      "decisions": {
+        "A_age_over_18": {
+          "choice": "met",
+          "confidence": 0.9935822189458361,
+          "probabilities": {
+            "met": 0.9935822189458361,
+            "not_met": 0.002444976314555905,
+            "insufficient_evidence": 0.003972804739608184
+          }
+        },
+        "B_diagnosis_supported": {
+          "choice": "met",
+          "confidence": 0.9911870587549675,
+          "probabilities": {
+            "met": 0.9911870587549675,
+            "not_met": 0.0057038202396388045,
+            "insufficient_evidence": 0.0031091210053936463
+          }
+        },
+        "C_severity_documented": {
+          "choice": "met",
+          "confidence": 0.9881004496398352,
+          "probabilities": {
+            "met": 0.9881004496398352,
+            "not_met": 0.007701503311980794,
+            "insufficient_evidence": 0.004198047048184067
+          }
+        },
+        "D_conservative_treatment": {
+          "choice": "met",
+          "confidence": 0.9697283747015994,
+          "probabilities": {
+            "met": 0.9697283747015994,
+            "not_met": 0.021204223129241088,
+            "insufficient_evidence": 0.009067402169159447
+          }
+        }
+      },
+      "escalations": [],
+      "escalation_rate": 0,
+      "reconciled": {},
+      "scored": {
+        "A_age_over_18": {
+          "got": "met",
+          "want": "met",
+          "confidence": 0.9935822189458361,
+          "correct": true,
+          "confidently_wrong": false
+        },
+        "B_diagnosis_supported": {
+          "got": "met",
+          "want": "met",
+          "confidence": 0.9911870587549675,
+          "correct": true,
+          "confidently_wrong": false
+        },
+        "C_severity_documented": {
+          "got": "met",
+          "want": "met",
+          "confidence": 0.9881004496398352,
+          "correct": true,
+          "confidently_wrong": false
+        },
+        "D_conservative_treatment": {
+          "got": "met",
+          "want": "met",
+          "confidence": 0.9697283747015994,
+          "correct": true,
+          "confidently_wrong": false
+        }
+      }
+    },
+    {
+      "file": "note-2.txt",
+      "chars": 488,
+      "zero_entities": false,
+      "fields_expected": 5,
+      "fields_found": 4,
+      "values_returned": 4,
+      "values_verbatim": 4,
+      "fields": {
+        "patient_age": [
+          {
+            "text": "34",
+            "confidence": 0.998,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 115
+          }
+        ],
+        "diagnosis": [
+          {
+            "text": "probable sleep-disordered breathing",
+            "confidence": 0.966,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 213
+          }
+        ],
+        "requested_service": [
+          {
+            "text": "attended polysomnography",
+            "confidence": 0.444,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 462
+          }
+        ],
+        "prior_treatment": [
+          {
+            "text": "none",
+            "confidence": 0.828,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 392
+          }
+        ]
+      },
+      "decisions": {
+        "C_severity_documented": {
+          "choice": "insufficient_evidence",
+          "confidence": null,
+          "forced_by": "missing severity_finding"
+        },
+        "A_age_over_18": {
+          "choice": "met",
+          "confidence": 0.9867978991110756,
+          "probabilities": {
+            "met": 0.9867978991110756,
+            "not_met": 0.008172508308034818,
+            "insufficient_evidence": 0.005029592580889633
+          }
+        },
+        "B_diagnosis_supported": {
+          "choice": "insufficient_evidence",
+          "confidence": 0.5910447143321227,
+          "probabilities": {
+            "met": 0.19827573369833013,
+            "not_met": 0.21067955196954724,
+            "insufficient_evidence": 0.5910447143321227
+          }
+        },
+        "D_conservative_treatment": {
+          "choice": "not_met",
+          "confidence": 0.7522712955494613,
+          "probabilities": {
+            "met": 0.14616665782687663,
+            "not_met": 0.7522712955494613,
+            "insufficient_evidence": 0.10156204662366203
+          }
+        }
+      },
+      "escalations": [
+        {
+          "question": "C_severity_documented",
+          "choice": "insufficient_evidence",
+          "confidence": null,
+          "forced_by": "missing severity_finding"
+        },
+        {
+          "question": "B_diagnosis_supported",
+          "choice": "insufficient_evidence",
+          "confidence": 0.5910447143321227
+        }
+      ],
+      "escalation_rate": 0.5,
+      "reconciled": {},
+      "scored": {
+        "C_severity_documented": {
+          "got": "insufficient_evidence",
+          "want": "insufficient_evidence",
+          "confidence": null,
+          "correct": true,
+          "confidently_wrong": false
+        },
+        "A_age_over_18": {
+          "got": "met",
+          "want": "met",
+          "confidence": 0.9867978991110756,
+          "correct": true,
+          "confidently_wrong": false
+        },
+        "B_diagnosis_supported": {
+          "got": "insufficient_evidence",
+          "want": "insufficient_evidence",
+          "confidence": 0.5910447143321227,
+          "correct": true,
+          "confidently_wrong": false
+        },
+        "D_conservative_treatment": {
+          "got": "not_met",
+          "want": "not_met",
+          "confidence": 0.7522712955494613,
+          "correct": true,
+          "confidently_wrong": false
+        }
+      }
+    },
+    {
+      "file": "note-3.txt",
+      "chars": 487,
+      "zero_entities": false,
+      "fields_expected": 5,
+      "fields_found": 4,
+      "values_returned": 4,
+      "values_verbatim": 4,
+      "fields": {
+        "patient_age": [
+          {
+            "text": "17 years",
+            "confidence": 0.561,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 123
+          }
+        ],
+        "diagnosis": [
+          {
+            "text": "obstructive sleep apnoea suspected in an adolescent with adenotonsillar hypertrophy",
+            "confidence": 0.899,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 193
+          }
+        ],
+        "requested_service": [
+          {
+            "text": "adenotonsillectomy and post-operative sleep study",
+            "confidence": 0.995,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 436
+          }
+        ],
+        "prior_treatment": [
+          {
+            "text": "nasal steroid spray for 6 weeks without improvement",
+            "confidence": 0.95,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 363
+          }
+        ]
+      },
+      "decisions": {
+        "C_severity_documented": {
+          "choice": "insufficient_evidence",
+          "confidence": null,
+          "forced_by": "missing severity_finding"
+        },
+        "A_age_over_18": {
+          "choice": "not_met",
+          "confidence": 0.9579668360776279,
+          "probabilities": {
+            "met": 0.03842828256620459,
+            "not_met": 0.9579668360776279,
+            "insufficient_evidence": 0.003604881356167435
+          }
+        },
+        "B_diagnosis_supported": {
+          "choice": "insufficient_evidence",
+          "confidence": 0.5026653650941676,
+          "probabilities": {
+            "met": 0.16862742404544917,
+            "not_met": 0.32870721086038324,
+            "insufficient_evidence": 0.5026653650941676
+          }
+        },
+        "D_conservative_treatment": {
+          "choice": "met",
+          "confidence": 0.9834399589271424,
+          "probabilities": {
+            "met": 0.9834399589271424,
+            "not_met": 0.009770874058845577,
+            "insufficient_evidence": 0.0067891670140121365
+          }
+        }
+      },
+      "escalations": [
+        {
+          "question": "C_severity_documented",
+          "choice": "insufficient_evidence",
+          "confidence": null,
+          "forced_by": "missing severity_finding"
+        },
+        {
+          "question": "B_diagnosis_supported",
+          "choice": "insufficient_evidence",
+          "confidence": 0.5026653650941676
+        }
+      ],
+      "escalation_rate": 0.5,
+      "reconciled": {},
+      "scored": {
+        "C_severity_documented": {
+          "got": "insufficient_evidence",
+          "want": "insufficient_evidence",
+          "confidence": null,
+          "correct": true,
+          "confidently_wrong": false
+        },
+        "A_age_over_18": {
+          "got": "not_met",
+          "want": "not_met",
+          "confidence": 0.9579668360776279,
+          "correct": true,
+          "confidently_wrong": false
+        },
+        "B_diagnosis_supported": {
+          "got": "insufficient_evidence",
+          "want": "not_met",
+          "confidence": 0.5026653650941676,
+          "correct": false,
+          "confidently_wrong": false
+        },
+        "D_conservative_treatment": {
+          "got": "met",
+          "want": "insufficient_evidence",
+          "confidence": 0.9834399589271424,
+          "correct": false,
+          "confidently_wrong": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "task_id": "diagnostic-invoice-recipe-reproduction-2026-11-27",
+  "status": "proposed",
+  "request": {
+    "operator_instruction": "Operator supplied the OpenRouter page \"Extract Invoice Fields with ScaleDown Extract\" and asked, by the standing pattern of this conversation, whether its claims hold. No product change requested.",
+    "objective": "Reproduce the page's documented call shape and test four of its claims: the Responses API accepts provider.options.scaledown.entities; the captured start/end offsets index into the invoice; the same invoice run twice returns the same fields; a field absent from the invoice is omitted.",
+    "acceptance_criteria": [
+      "invoice-probe.mjs executes and writes run1.json, run2.json, run3.json",
+      "each of the six documented offsets is checked against INVOICE.slice(start,end) and the result is printed",
+      "two identical calls are compared field by field and the comparison is printed",
+      "the VAT-removed call reports whether a vat entity was returned",
+      "reported cost and call count match the recorded usage"
+    ]
+  },
+  "authorization": {
+    "requester": "operator",
+    "approved_by": "operator",
+    "approved_at": "2026-11-27T00:00:00Z",
+    "scope": "Diagnostic reproduction only. Read-only with respect to the repository's product code; writes confined to extract-test/verify-tmp/ and extract-test/out/invoice/.",
+    "design_changes_permitted": false,
+    "commit_permitted": false,
+    "merge_permitted": false,
+    "deploy_permitted": false
+  },
+  "repository": {
+    "repository_identity": "dno-luigi/coder",
+    "remote": "https://github.com/dno-luigi/coder",
+    "base_commit": "7dd53360088acb9b1a49786244ef1f593287fb16",
+    "base_tree": "99912ff5ad3b7e4d548ab716929cbf67cd0a273",
+    "branch": "freebuff/impl-repair-p0p1-2026-11-27-r3"
+  },
+  "workspace": {
+    "implementer_worktree": "/workspace/chats/f6eb023e06dd01c0dc889d5b",
+    "verifier_worktree": null,
+    "worktree_isolation_required": false
+  },
+  "governance": {
+    "ethical_foundation_sha256": null,
+    "differential_foundation_sha256": null,
+    "unresolved": "The hashes of the documents referenced by §§0-17 are not established in this workspace, and no verifier worktree is provisioned. Recorded as a limitation rather than fabricated. This card authorizes a read-only reproduction under §22.2; it does not assert governance integrity.",
+    "governing_file": "AGENTS.md"
+  },
+  "allowed_paths": [
+    "extract-test/verify-tmp/",
+    "extract-test/out/invoice/"
+  ],
+  "allowed_commands": [
+    {
+      "argv": ["node", "extract-test/verify-tmp/invoice-probe.mjs"],
+      "timeout_seconds": 180,
+      "purpose": "Run the three-call reproduction probe"
+    }
+  ],
+  "limits": {
+    "max_model_cost_usd": 0.02,
+    "max_total_model_calls": 6,
+    "max_execution_seconds": 300,
+    "max_command_count": 3,
+    "max_output_bytes": 200000
+  },
+  "handoff": {
+    "required": true,
+    "format_version": 1
+  },
+  "verification": {
+    "required": false,
+    "independent_execution": false,
+    "required_commands": [],
+    "note": "Single-agent diagnostic. Results are implementation evidence, not independent verification; reported as UNVERIFIED where that distinction applies."
+  },
+  "stop_conditions": [
+    "Model cost exceeds 0.02 USD",
+    "More than 6 model calls are required",
+    "A write outside allowed_paths is required",
+    "An acceptance criterion cannot be established"
+  ]
+}

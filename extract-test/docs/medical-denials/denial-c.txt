@@ -1,0 +1,21 @@
+MERIDIAN HEALTH PLAN
+EXPLANATION OF PAYMENT — REMITTANCE ADVICE
+SYNTHETIC DOCUMENT, authored for testing. No patient data.
+
+Claim number: CLM-2026-002233
+Patient: DE-IDENTIFIED
+Date of service: 02/11/2026
+Provider: Riverside Imaging Center, NPI 5551234567
+Remittance date: 09/01/2026
+
+Billed amount: $980.00
+Allowed amount: $610.00
+Paid amount: $488.00
+Denied amount: $370.00
+Patient responsibility: $122.00
+
+Adjustment reason: CARC 45 — Charge exceeds fee schedule/maximum allowable or contracted fee.
+The denial of $370.00 reflects the difference between the billed amount and the allowed amount.
+
+Appeal rights: a reconsideration may be requested within 120 days of the remittance date where the
+provider believes the procedure was miscoded or the fee schedule applied was incorrect.

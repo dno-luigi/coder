@@ -1,0 +1,333 @@
+{
+  "rows": [
+    {
+      "id": "lease-01",
+      "field": "security_deposit",
+      "old": {
+        "arm": "old",
+        "status": 200,
+        "ms": 506,
+        "cost": 0.00052928,
+        "values": [],
+        "omitted": true
+      },
+      "new": {
+        "arm": "new",
+        "status": 200,
+        "ms": 529,
+        "cost": 0.00053048,
+        "values": [],
+        "omitted": true
+      }
+    },
+    {
+      "id": "lease-02",
+      "field": "security_deposit",
+      "old": {
+        "arm": "old",
+        "status": 200,
+        "ms": 1291,
+        "cost": 0.00056844,
+        "values": [
+          {
+            "text": "Seventy-Five Thousand ($75,000.00) Dollars",
+            "conf": 0.957,
+            "start": 4665,
+            "end": 4707,
+            "span": "Seventy-Five Thousand ($75,000.00) Dollars",
+            "spanOk": true
+          }
+        ],
+        "omitted": false
+      },
+      "new": {
+        "arm": "new",
+        "status": 200,
+        "ms": 665,
+        "cost": 0.00056964,
+        "values": [
+          {
+            "text": "$75,000.00",
+            "conf": 0.629,
+            "start": 4688,
+            "end": 4698,
+            "span": "$75,000.00",
+            "spanOk": true
+          }
+        ],
+        "omitted": false
+      }
+    },
+    {
+      "id": "lease-03",
+      "field": "security_deposit",
+      "old": {
+        "arm": "old",
+        "status": 200,
+        "ms": 812,
+        "cost": 0.00033644,
+        "values": [
+          {
+            "text": "$0.00",
+            "conf": 0.92,
+            "start": 5661,
+            "end": 5666,
+            "span": "$0.00",
+            "spanOk": true
+          }
+        ],
+        "omitted": false
+      },
+      "new": {
+        "arm": "new",
+        "status": 200,
+        "ms": 882,
+        "cost": 0.00033764,
+        "values": [
+          {
+            "text": "$0.00",
+            "conf": 0.989,
+            "start": 5661,
+            "end": 5666,
+            "span": "$0.00",
+            "spanOk": true
+          }
+        ],
+        "omitted": false
+      }
+    },
+    {
+      "id": "lease-04",
+      "field": "security_deposit",
+      "old": {
+        "arm": "old",
+        "status": 200,
+        "ms": 449,
+        "cost": 0.00052428,
+        "values": [],
+        "omitted": true
+      },
+      "new": {
+        "arm": "new",
+        "status": 422,
+        "ms": 21437,
+        "cost": 0,
+        "values": [],
+        "omitted": true,
+        "error": "{\"error\":{\"message\":\"Provider returned error\",\"code\":422,\"metadata\":{\"raw\":\"{\\\"detail\\\":\\\"Extraction could not complete within the output budget. Simplify the entity schema or shorten the input text.\\"
+      }
+    },
+    {
+      "id": "lease-05",
+      "field": "security_deposit",
+      "old": {
+        "arm": "old",
+        "status": 200,
+        "ms": 410,
+        "cost": 0.00054648,
+        "values": [],
+        "omitted": true
+      },
+      "new": {
+        "arm": "new",
+        "status": 200,
+        "ms": 3152,
+        "cost": 0.00054768,
+        "values": [
+          {
+            "text": "$136,290.00",
+            "conf": 0.602,
+            "start": 12240,
+            "end": 12251,
+            "span": "$136,290.00",
+            "spanOk": true
+          },
+          {
+            "text": "$90,860.00",
+            "conf": 0.802,
+            "start": 12597,
+            "end": 12607,
+            "span": "$90,860.00",
+            "spanOk": true
+          },
+          {
+            "text": "$45,430.00",
+            "conf": 0.999,
+            "start": 12679,
+            "end": 12689,
+            "span": "$45,430.00",
+            "spanOk": true
+          }
+        ],
+        "omitted": false
+      }
+    },
+    {
+      "id": "lease-06",
+      "field": "security_deposit",
+      "old": {
+        "arm": "old",
+        "status": 200,
+        "ms": 568,
+        "cost": 0.000528,
+        "values": [],
+        "omitted": true
+      },
+      "new": {
+        "arm": "new",
+        "status": 200,
+        "ms": 505,
+        "cost": 0.0005292,
+        "values": [],
+        "omitted": true
+      }
+    },
+    {
+      "id": "case-faretta",
+      "field": "case_name",
+      "old": {
+        "arm": "old",
+        "status": 200,
+        "ms": 1216,
+        "cost": 0.0010528,
+        "values": [
+          {
+            "text": "Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.",
+            "conf": 0.788,
+            "start": 0,
+            "end": 61,
+            "span": "Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.",
+            "spanOk": true
+          }
+        ],
+        "omitted": false
+      },
+      "new": {
+        "arm": "new",
+        "status": 200,
+        "ms": 1198,
+        "cost": 0.00105364,
+        "values": [
+          {
+            "text": "Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.",
+            "conf": 0.889,
+            "start": 0,
+            "end": 61,
+            "span": "Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.",
+            "spanOk": true
+          }
+        ],
+        "omitted": false
+      }
+    },
+    {
+      "id": "case-faretta",
+      "field": "disposition",
+      "old": {
+        "arm": "old",
+        "status": 200,
+        "ms": 1078,
+        "cost": 0.00105328,
+        "values": [
+          {
+            "text": "Vacated and remanded",
+            "conf": 0.781,
+            "start": 30492,
+            "end": 30527,
+            "span": "Judgment vacated and case remanded.",
+            "spanOk": false
+          }
+        ],
+        "omitted": false
+      },
+      "new": {
+        "arm": "new",
+        "status": 200,
+        "ms": 890,
+        "cost": 0.00105356,
+        "values": [
+          {
+            "text": "Vacated and remanded.",
+            "conf": 0.976,
+            "start": 2412,
+            "end": 2433,
+            "span": "Vacated and remanded.",
+            "spanOk": true
+          }
+        ],
+        "omitted": false
+      }
+    },
+    {
+      "id": "denial-a",
+      "field": "appeal_deadline",
+      "old": {
+        "arm": "old",
+        "status": 200,
+        "ms": 293,
+        "cost": 0.00001996,
+        "values": [],
+        "omitted": true
+      },
+      "new": {
+        "arm": "new",
+        "status": 200,
+        "ms": 239,
+        "cost": 0.00002016,
+        "values": [],
+        "omitted": true
+      }
+    },
+    {
+      "id": "denial-b",
+      "field": "appeal_deadline",
+      "old": {
+        "arm": "old",
+        "status": 200,
+        "ms": 246,
+        "cost": 0.00001904,
+        "values": [],
+        "omitted": true
+      },
+      "new": {
+        "arm": "new",
+        "status": 200,
+        "ms": 205,
+        "cost": 0.00001924,
+        "values": [],
+        "omitted": true
+      }
+    },
+    {
+      "id": "denial-c",
+      "field": "appeal_deadline",
+      "old": {
+        "arm": "old",
+        "status": 200,
+        "ms": 262,
+        "cost": 0.00001928,
+        "values": [],
+        "omitted": true
+      },
+      "new": {
+        "arm": "new",
+        "status": 200,
+        "ms": 390,
+        "cost": 0.00001948,
+        "values": [
+          {
+            "text": "120 days of the remittance date",
+            "conf": 0.639,
+            "start": 657,
+            "end": 688,
+            "span": "120 days of the remittance date",
+            "spanOk": true
+          }
+        ],
+        "omitted": false
+      }
+    }
+  ],
+  "spent": 0.009878,
+  "calls": 22
+}

@@ -1,0 +1,401 @@
+EX-10.1
+ 2
+ cm-2ndamendmentexecuted.htm
+ EX-10.1
+ 
+ 
+ 
+ cm-2ndamendmentexecuted 
+ 
+ 
+ 
+ 
+ 
+ 
+ Execution Version SECOND AMENDMENT SECOND AMENDMENT, dated as of August 26, 2020 (this “Amendment”), to the Credit Agreement, dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018 and as further amended, supplemented or otherwise modified from time to time, the “Credit Agreement” and, as amended by this Amendment, the “Amended Credit Agreement”), by and among Columbus McKinnon Corporation, a New York corporation (the “Company”) , Columbus McKinnon EMEA GmbH (the “German Borrower” and, together with the Company and any other Designated Borrower, the “Borrowers”), certain Subsidiaries of the Company party thereto, the lenders from time to time party thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. W I T N E S S E T H: WHEREAS, pursuant to the Credit Agreement, the Lenders have agreed to make, and have made, certain loans and other extensions of credit to the Borrowers; WHEREAS, pursuant to Section 10.01 of the Credit Agreement, the Borrowers have requested that the Revolving Termination Date be extended and certain other amendments be made as provided herein; WHEREAS, (i) JPMorgan Chase Bank, N.A. is a joint lead arranger and book manager for this Amendment, (ii) BMO Capital Markets Corp. is a joint lead arranger for this Amendment solely with respect to the Revolving Facility and (iii) PNC Capital Markets LLC is joint lead arranger and book manager and a syndication agent for this Amendment; WHEREAS, Section 10.01 of the Credit Agreement permits the Company to amend provisions of the Credit Agreement, with the written consent of the Administrative Agent, the Required Lenders, the Loan Parties and, with respect to certain amendments set forth herein, each Revolving Lender; WHEREAS, the Company, Administrative Agent, Required Lenders, Loan Parties and Revolving Lenders are willing to agree to this Amendment on the terms set forth herein; NOW THEREFORE, in consideration of the premises and mutual covenants hereinafter set forth, the parties hereto agree as follows: SECTION 1. Definitions. Unless otherwise defined herein, terms defined in the Credit Agreement and used herein shall have the meanings given to them in the Credit Agreement. SECTION 2. Amendments to the Credit Agreement. Section 1.01 of the Credit Agreement is hereby amended as follows: (a) The following definitions are hereby added in the appropriate alphabetical order to Section 1.01: “Second Amendment” shall mean the Second Amendment, dated as of the Second Amendment Effective Date, to this Agreement. “Second Amendment Effective Date” shall mean August 26, 2020. 
+
+ 
+ 
+
+ 
+ 
+ 
+ (b) Clause (b) of the definition of “Applicable Rate” is hereby amended and restated in its entirety as follows: “(b) with respect to Revolving Loans, from time to time, the following percentages per annum, based upon the Total Leverage Ratio as set forth in the most recent Compliance Certificate received by the Administrative Agent pursuant to Section 6.02(a): Level Total Leverage Ratio Commitment Eurocurrency Standby Commercial Base Fee Rate/CDOR Letter of Letter of Rate Rate/HIBOR Credit Fee Credit and Rate Bankers’ Acceptance Fees I Greater than or equal to 0.55% 3.25% 3.25% 1.625% 2.25% 4.00x II Less than 4.00x but 0.50% 3.00% 3.00% 1.50% 2.00% greater than or equal to 3.25x III Less than 3.25 but 0.45% 2.75% 2.75% 1.375% 1.75% greater than or equal to 2.50x IV Less than 2.50x but 0.40% 2.50% 2.50% 1.25% 1.50% greater than or equal to 1.75x V Less than 1.75x but 0.35% 2.25% 2.25% 1.125% 1.25% greater than or equal to 1.00x VI Less than 1.00x 0.30% 2.00% 2.00% 1.00% 1.00% Any increase or decrease in the Applicable Rate resulting from a change in the Total Leverage Ratio shall become effective as of the first Business Day immediately following the date a Compliance Certificate is delivered pursuant to Section 6.02(a); provided, that if a Compliance Certificate is not delivered when due in accordance with Section 6.02(a), then Pricing Level I shall apply as of the first Business Day after the date on which such Compliance Certificate was required to have been delivered until the first Business Day immediately after Compliance Certificate is delivered.” (c) The definition of “Revolving Termination Date” is hereby amended and restated in its entirety as follows: “Revolving Termination Date” means August 25, 2023. SECTION 3. Effectiveness. This Amendment shall become effective on and as of the date (the “Second Amendment Effective Date”) on which the following conditions have been satisfied: (a) The Administrative Agent (or its counsel) shall have received (i) a duly executed and completed counterpart hereof that bears the signature of the Company, (ii) a duly executed and completed counterpart hereof that bears the signature of the Administrative Agent and (iii) Lender Addendum, executed and delivered by each Revolving Lender and the Required Lenders. 2 
+
+ 
+ 
+
+ 
+ 
+ 
+ (b) The Administrative Agent shall have received an Acknowledgment and Confirmation in the form of Annex I hereto from an authorized officer of each Loan Party. (c) The Administrative Agent shall have received all fees payable thereto or to any Lender on or prior to the Second Amendment Effective Date. (d) To the extent invoiced, the Administrative Agent shall have received reimbursement or payment of all reasonable out-of- pocket expenses (including reasonable fees, charges and disbursements of Simpson Thacher & Bartlett LLP) in connection with this Amendment and any other reasonable out-of- pocket expenses required to be reimbursed or paid by the Loan Parties under the Amended Credit Agreement or under any Loan Document. (e) No Event of Default or Default shall have occurred and be continuing. (f) The Administrative Agent shall have received a certificate signed by a Responsible Officer of the Company, certifying on behalf of the Company that, (i) after giving effect to this Amendment, the representations and warranties set forth in the Loan Documents, as amended by this Amendment, are true and correct in all material respects on and as of the Second Amendment Effective Date as if made on and as of such date, except to the extent such representations and warranties expressly relate to an earlier date (in which case such representations and warranties are true and correct in all material respects as of such earlier date (other than the representations and warranties contained in Section 5.21 of the Credit Agreement, which shall be true and correct in all material respects as of the Second Amendment Effective Date)); provided that any representation or warranty that is qualified as to “materiality”, “Material Adverse Effect” or similar language shall be true and correct in all respects, and (ii) no Default or Event of Default has occurred and is continuing on the Second Amendment Effective Date after giving effect to this Amendment. (g) The Administrative Agent shall have received, on behalf of itself and the Lenders on the Second Amendment Effective Date (after giving effect hereto), a favorable written opinion of DLA Piper LLP (US), counsel to the Loan Parties, addressed to the Administrative Agent and each Lender, in form and substance reasonably satisfactory to the Administrative Agent. (h) The Administrative Agent shall have received in the case of the Company each of the items referred to in clauses (i), (ii) and (iii) below: (i) a copy of the certificate or articles of incorporation, including all amendments thereto certified as of a recent date by the relevant authority of the jurisdiction of its organization, and a certificate as to the good standing as of a recent date from such Secretary of State; (ii) a certificate of the Secretary or Assistant Secretary or similar officer of the Company dated the Second Amendment Effective Date and certifying: (A) that attached thereto is a true and complete copy of the by-laws of the Company as in effect on the Second Amendment Effective Date and at all times since a date prior to the date of the resolutions described in clause (B) below, (B) that attached thereto is a true and complete copy of resolutions duly adopted by the Board of Directors (or equivalent governing body) of the Company authorizing the execution, delivery and performance of this 3 
+
+ 
+ 
+
+ 
+ 
+ 
+ Amendment and the other Loan Documents to which such person is a party and the borrowings thereunder, and that such resolutions have not been modified, rescinded or amended and are in full force and effect on the Second Amendment Effective Date, (C) that the certificate or articles of incorporation of the Company has not been amended since the date of the last amendment thereto disclosed pursuant to clause (i) above, and (D) as to the incumbency and specimen signature of each officer executing any Loan Document (including the Acknowledgment and Confirmation in the form of Annex I hereto) or any other document delivered in connection herewith on behalf of the Company; and (iii) a certificate of a director or another officer as to the incumbency and specimen signature of the Secretary or Assistant Secretary or similar officer executing the certificate pursuant to clause (ii) above. SECTION 4. Representations and Warranties. The Company represents and warrants to each of the Lenders and the Administrative Agent that as of the Second Amendment Effective Date: 4.1. This Amendment has been duly authorized, executed and delivered by it and this Amendment and the Amended Credit Agreement constitutes its valid and binding obligation, enforceable against it in accordance with its terms, subject to applicable bankruptcy, insolvency, reorganization, moratorium or other laws affecting creditors’ rights generally and subject to general principles of equity, regardless of whether considered in a proceeding in equity or at law. 4.2. Each of the representations and warranties set forth in Article V of the Amended Credit Agreement are true and correct in all material respects on and as of the Second Amendment Effective Date with the same effect as though made on and as of the Second Amendment Effective Date, except to the extent such representations and warranties expressly relate to an earlier date (in which case such representations and warranties are true and correct in all material respects as of such earlier date (other than the representations and warranties contained in Section 5.21 of the Amended Credit Agreement, which shall be true and correct in all material respects as of the Second Amendment Effective Date)); provided that any representation or warranty that is qualified as to “materiality”, “Material Adverse Effect” or similar language shall be true and correct in all respects. SECTION 5. Effect of Amendment. 5.1. Except as expressly set forth herein, this Amendment shall not by implication or otherwise limit, impair, constitute a waiver of or otherwise affect the rights and remedies of the Lenders or the Administrative Agent under the Credit Agreement or any other Loan Document, and shall not alter, modify, amend or in any way affect any of the terms, conditions, obligations, covenants or agreements contained in the Credit Agreement or any other provision of the Credit Agreement or of any other Loan Document, all of which are ratified and affirmed in all respects and shall continue in full force and effect. Nothing herein shall be deemed to entitle the Company to a consent to, or a waiver, amendment, modification or other change of, any of the terms, conditions, obligations, covenants or agreements contained in the Credit Agreement or any other Loan Document in similar or different circumstances. 5.2. On and after the Second Amendment Effective Date, each reference in the Amended Credit Agreement to “this Agreement”, “hereunder”, “hereof”, “herein”, or words of like import, and each 4 
+
+ 
+ 
+
+ 
+ 
+ 
+ reference to the Credit Agreement in any other Loan Document shall be deemed a reference to the Amended Credit Agreement. This Amendment and the Acknowledgment and Confirmation shall constitute a “Loan Document” for all purposes of the Amended Credit Agreement and the other Loan Documents. 5.3. Except as expressly provided herein or in the Amended Credit Agreement, the Amended Revolving Loan Facility shall be subject to the terms and provisions of the Amended Credit Agreement and the other Loan Documents. SECTION 6. General. 6.1. GOVERNING LAW. THIS AMENDMENT AND THE RIGHTS AND OBLIGATIONS OF THE PARTIES UNDER THIS AMENDMENT SHALL BE CONSTRUED IN ACCORDANCE WITH AND GOVERNED BY THE LAWS OF THE STATE OF NEW YORK. 6.2. Costs and Expenses. The Company agrees to reimburse the Administrative Agent for its reasonable out-of-pocket expenses in connection with this Amendment, including the reasonable fees, charges and disbursements of Simpson Thacher & Bartlett LLP, primary counsel for the Administrative Agent. 6.3. Counterparts. This Amendment may be executed by one or more of the parties to this Amendment on any number of separate counterparts, and all of said counterparts taken together shall be deemed to constitute one and the same instrument. Delivery of an executed signature page of this Amendment by email or facsimile transmission (or other electronic transmission) shall be effective as delivery of a manually executed counterpart hereof. 6.4. Headings. The headings of this Amendment are used for convenience of reference only, are not part of this Amendment and shall not affect the construction of, or be taken into consideration in interpreting, this Amendment. [remainder of page intentionally left blank] 5 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ , 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Bank of Montreal – Chicago Branch Institution: Executing as a Lender: By: Name: Matt Matthew Gerber Gerber Title: Managing Director For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Bank of Montreal – London Branch Institution: Executing as a Lender: By: Name: Scott Matthews Title: CFO, International For any institution requiring a second signature line: By: Name: William Smith Title: MD, Head of International 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of HSBC Bank USA, NA Institution: Executing as a Lender: By: Name: Alexander Caldiero Title: Vice President For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. 55 Loan Strategy Fund Series 3 A Series Trust of Multi Manager Global Name of Investment Trust Institution: By: BlackRock Financial Management Inc., Its Investment Manager Executing as a Lender: By: Name: Rob Jacobi Title: Authorized Signatory For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. 55 Loan Strategy Fund Series 4 a Series Trust of Multi Manager Global Name of Investment Trust Institution: By: BlackRock Financial Management Inc., Its Investment Manager Executing as a Lender: By: Name: Rob Jacobi Title: Authorized Signatory For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of 610 Funding CLO 1, Ltd. Institution: By: Anchorage Capital Group, L.L.C., its Collateral Manager Executing as a Lender: By: Name: Melissa Griffiths Title: Authorized Signatory For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of 610 Funding CLO 2, Ltd. Institution: By: Anchorage Capital Group, L.L.C., its Collateral Manager Executing as a Lender: By: Name: Melissa Griffiths Title: Authorized Signatory For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of 610 Funding CLO 3, Ltd. Institution: By: Anchorage Capital Group, L.L.C., its Collateral Manager Executing as a Lender: By: Name: Melissa Griffiths Title: Authorized Signatory For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of ABR Reinsurance LTD. Institution: By: BlackRock Financial Management, Inc., its Investment Manager Executing as a Lender: By: Name: Rob Jacobi Title: Authorized Signatory For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of ACE Property & Casualty Insurance Company Institution: BY: BlackRock Financial Management, Inc., its Investment Advisor Executing as a Lender: By: Name: Rob Jacobi Title: Authorized Signatory For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of AIMCO CLO, SERIES 2015-A Institution: By: Allstate Investment Management Company, as Collateral Manager Executing as a Lender: By: Name: Christopher Goergen Title: Sr. Portfolio Manager For any institution requiring a second signature line: By: Name: Kyle Roth Title: Portfolio Manager 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of AIMCO CLO, SERIES 2017-A Institution: By: Allstate Investment Management Company, as Collateral Manager Executing as a Lender: By: Name: Christopher Goergen Title: Sr. Portfolio Manager For any institution requiring a second signature line: By: Name: Kyle Roth Title: Portfolio Manager 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. AMADABLUM US Leveraged Loan Fund a Series Trust of Global Multi Name of Portfolio Investment Trust Institution: By: Invesco Senior Secured Management, Inc. as Investment Manager Executing as a Lender: By: Name: Kevin Egan Title: Authorized Individual For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. AMMC CLO 19, LIMITED Name of By: American Money Management Corp., Institution: as Collateral Manager Executing as a Lender: By: Name: David Meyer Title: Senior Vice President For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. AMMC CLO 20, LIMITED Name of By: American Money Management Corp., Institution: as Collateral Manager Executing as a Lender: By: Name: David Meyer Title: Senior Vice President For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Argo Re LTD Institution: by: Wells Capital Management, as Investment Advisor Executing as a Lender: By: Name: Roberto Vargas Title: Trading Operations Specialist For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Argonaut Insurance Company Institution: by: Wells Capital Management, as Investment Advisor Executing as a Lender: By: Name: Roberto Vargas Title: Trading Operations Specialist For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Bank of Montreal – Chicago Branch Institution: Executing as a Lender: By: Name: Matt Matthew Gerber Gerber Title: Managing Director For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of BEAN CREEK CLO, LTD. Institution: Executing as a Lender: By: Name: BRYAN S. HIGGINS Title: MANAGER 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of CLEAR CREEK CLO, LTD. Institution: Executing as a Lender: By: Name: BRYAN S. HIGGINS Title: MANAGER 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of DEER CREEK CLO, LTD. Institution: Executing as a Lender: By: Name: BRYAN S. HIGGINS Title: MANAGER 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of SILVER CREEK CLO, LTD. Institution: Executing as a Lender: By: Name: BRYAN S. HIGGINS Title: MANAGER 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Black Diamond CLO 2013-1 Ltd. Institution: By: Black Diamond CLO 2013-1 Adviser, L.L.C. As its Collateral Manager Executing as a Lender: By: Name: Stephen H. Deckoff Title: Managing Principal For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of BlackRock Floating Rate Income Portfolio of BlackRock Funds V Institution: By: BlackRock Advisors, LLC, its Investment Advisor Executing as a Lender: By: Name: Rob Jacobi Title: Authorized Signatory For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of BlackRock Floating Rate Income Strategies Fund, Inc. Institution: BY: BlackRock Financial Management, Inc., its Sub-Advisor Executing as a Lender: By: Name: Rob Jacobi Title: Authorized Signatory For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of BlackRock Floating Rate Income Trust Institution: By: BlackRock Advisors, LLC, its Investment Advisor Executing as a Lender: By: Name: Rob Jacobi Title: Authorized Signatory For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of BlackRock Limited Duration Income Trust Institution: BY: BlackRock Financial Management, Inc., its Sub-Advisor Executing as a Lender: By: Name: Rob Jacobi Title: Authorized Signatory For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of BARINGS CLO LTD. 2018-I Institution: By: Barings LLC as Collateral Manager Executing as a Lender: By: Name: James Chemplavil Title: Director 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of BARINGS CLO LTD. 2018-III Institution: By: Barings LLC as Collateral Manager Executing as a Lender: By: Name: James Chemplavil Title: Director 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Blue Ridge CLO Ltd. I Institution: By: Barings LLC as Investment Manager Executing as a Lender: By: Name: James Chemplavil Title: Director 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Blue Ridge CLO Ltd. II Institution: By: Barings LLC as Investment Manager Executing as a Lender: By: Name: James Chemplavil Title: Director 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Boyd Watterson Limited Duration Enhanced Income Fund Institution: Executing as a Lender: By: Name: mike krushena Title: EVP - Portfolio Manager For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Carlyle US CLO 2016-4, Ltd. Institution: Executing as a Lender: By: Name: Linda Pace Title: Managing Director For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Carlyle US CLO 2017-1, Ltd. Institution: Executing as a Lender: By: Name: Linda Pace Title: Managing Director For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Carlyle US CLO 2017-3 Ltd. Institution: Executing as a Lender: By: Name: Linda Pace Title: Managing Director For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Carlyle US CLO 2017-4, Ltd. Institution: Executing as a Lender: By: Name: Linda Pace Title: Managing Director For any institution requiring a second signature line: By: Name: Title: 
+
+ 
+ 
+
+ 
+ 
+ 
+ LENDER ADDENDUM TO THE AMENDMENT OF THE CREDIT AGREEMENT REFERRED TO BELOW This Lender Addendum (this “Lender Addendum”) is referred to in, and is a signature page to, the Second Amendment (the “Amendment”) to the Credit Agreement dated as of January 31, 2017 (as amended by the First Amendment, dated as of February 26, 2018, the “Credit Agreement”), among Columbus McKinnon Corporation (the “Company”), Columbus McKinnon EMEA GmbH, certain Subsidiaries of the Company party thereto, the several lenders from time to time parties thereto (the “Lenders”), JPMorgan Chase Bank, N.A., as administrative agent (in such capacity, the “Administrative Agent”) and the other agents parties thereto. Capitalized terms used but not defined in this Lender Addendum have the meanings assigned to such terms in the Amendment or the Credit Agreement, as applicable. By executing this Lender Addendum as a Lender, the undersigned institution agrees to the terms of the Amendment and the Credit Agreement as amended thereby. Name of Carlyle US CLO 2019-2 Ltd Institution: Executing as a Lender: By: Name: Linda Pace Title: Managing Director For any institution requiring a second signature line: By: Na
+
+[TRUNCATED at 60000 characters of 325019]

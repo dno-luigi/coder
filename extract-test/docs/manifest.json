@@ -1,0 +1,82 @@
+[
+  {
+    "kind": "legal",
+    "name": "01-lease.txt",
+    "url": "https://www.sec.gov/Archives/edgar/data/1159281/000110465916153821/a16-20586_2ex99d1.htm",
+    "cik": "1159281",
+    "accession": "0001104659-16-153821",
+    "source_bytes": 113798,
+    "chars_kept": 34528,
+    "chars_total": 34528,
+    "sha256": "873d159fe00447083c2ce61c4861db10ed59bd89940cb4881999d40767d80603",
+    "provenance": "public — SEC EDGAR"
+  },
+  {
+    "kind": "legal",
+    "name": "02-lease.txt",
+    "url": "https://www.sec.gov/Archives/edgar/data/1832483/000121390023063662/ea180762ex10-14_patriciaacq.htm",
+    "cik": "1832483",
+    "accession": "0001213900-23-063662",
+    "source_bytes": 116078,
+    "chars_kept": 57444,
+    "chars_total": 57444,
+    "sha256": "9d3b307629dfbd58e38cc5651aeabc55eb92f81ee5c9c266664437b03d96950a",
+    "provenance": "public — SEC EDGAR"
+  },
+  {
+    "kind": "legal",
+    "name": "03-lease.txt",
+    "url": "https://www.sec.gov/Archives/edgar/data/1325878/000129993317000650/exhibit2.htm",
+    "cik": "1325878",
+    "accession": "0001299933-17-000650",
+    "source_bytes": 116552,
+    "chars_kept": 60042,
+    "chars_total": 89314,
+    "sha256": "d57f5a35b9eb516b82d9be5f726e6af24841dcdf17d6f613b95500670b717fae",
+    "provenance": "public — SEC EDGAR"
+  },
+  {
+    "kind": "legal",
+    "name": "04-lease.txt",
+    "url": "https://www.sec.gov/Archives/edgar/data/1094320/000095014403012447/g85712exv10w21.txt",
+    "cik": "1094320",
+    "accession": "0000950144-03-012447",
+    "source_bytes": 17893,
+    "chars_kept": 14294,
+    "chars_total": 14294,
+    "sha256": "153a817caa29c179c0877ffc43d600b25f81a34e600f294d8c91eca0947045a2",
+    "provenance": "public — SEC EDGAR"
+  },
+  {
+    "kind": "legal",
+    "name": "05-credit.txt",
+    "url": "https://www.sec.gov/Archives/edgar/data/1005229/000100522920000280/cm-2ndamendmentexecuted.htm",
+    "cik": "1005229",
+    "accession": "0001005229-20-000280",
+    "source_bytes": 557944,
+    "chars_kept": 60043,
+    "chars_total": 325019,
+    "sha256": "95e82995de59a6d856b4ee51a9d961d81cd6cb5afc66599ca34cdae3841b2be7",
+    "provenance": "public — SEC EDGAR"
+  },
+  {
+    "kind": "legal",
+    "name": "06-credit.txt",
+    "url": "https://www.sec.gov/Archives/edgar/data/1019272/000114420414039502/v382023_ex10-5.htm",
+    "cik": "1019272",
+    "accession": "0001144204-14-039502",
+    "source_bytes": 266273,
+    "chars_kept": 60043,
+    "chars_total": 143233,
+    "sha256": "9b52705bba779c6e509b67c89e596f8c12af52b78fac54c4da0402a25899a38e",
+    "provenance": "public — SEC EDGAR"
+  },
+  {
+    "kind": "medical",
+    "name": "policy-0004.txt",
+    "url": "https://www.aetna.com/cpb/medical/data/1_99/0004.html",
+    "source_bytes": 575614,
+    "chars_kept": 30000,
+    "provenance": "public — payer medical policy page, no PHI"
+  }
+]

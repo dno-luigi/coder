@@ -1,0 +1,32 @@
+{
+ "status": 200,
+ "window": [
+  9000,
+  12000
+ ],
+ "fields": [
+  "premises_address",
+  "security_deposit"
+ ],
+ "body": {
+  "model": "scaledown/extract-20260928",
+  "answers": {
+   "premises_address": {
+    "type": "text",
+    "value": null
+   },
+   "security_deposit": {
+    "type": "text",
+    "value": null
+   }
+  },
+  "truncated": false,
+  "usage": {
+   "input_tokens": 884,
+   "output_tokens": 0,
+   "cost": 0.00003536
+  },
+  "id": "gen-dec-1795828128-vKtorNgdT3QgZQCEHING",
+  "provider": "ScaleDown"
+ }
+}

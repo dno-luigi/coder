@@ -1,0 +1,82 @@
+{
+  "doc": "extract-test/docs/legal-property/01-property-lease.txt",
+  "size": 3000,
+  "overlap": 300,
+  "fields": [
+    "landlord_name",
+    "tenant_name",
+    "premises_address",
+    "commencement_date",
+    "base_rent",
+    "security_deposit"
+  ],
+  "matches": [
+    {
+      "field": "landlord_name",
+      "text": "One Directory Place LLC",
+      "start": 112,
+      "end": 135,
+      "confidence": 0.991,
+      "context": "EX-10.2\n 3\n dex102.htm\n LEASE BETWEEN ONE DIRECTORY PLACE LLC AND DIRECTORY PRINTING COMPANY\n \n \n Lease between One Directory Place LLC and Directory Printing Company \n \n \n\n Exhibit 10.2 \n LEASE \n This Lease is made this 21 st day of July, 1995, between One Directory Place LLC, a Colorado\nlimited liability company (Landlord), whose address is c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111, and Directory Printing Company, a Delaware corporation (Tenant),\nwhose address is 380 West 37 th Street, Loveland,\nColorado 80538. \n \n\n \n \n I. \n GENERAL \n\n 1.1\n Consideration . Landlord",
+      "boundary": false,
+      "votes": 1,
+      "locatedBy": "span"
+    },
+    {
+      "field": "tenant_name",
+      "text": "Directory Printing Company",
+      "start": 140,
+      "end": 166,
+      "confidence": 0.999,
+      "context": "EX-10.2\n 3\n dex102.htm\n LEASE BETWEEN ONE DIRECTORY PLACE LLC AND DIRECTORY PRINTING COMPANY\n \n \n Lease between One Directory Place LLC and Directory Printing Company \n \n \n\n Exhibit 10.2 \n LEASE \n This Lease is made this 21 st day of July, 1995, between One Directory Place LLC, a Colorado\nlimited liability company (Landlord), whose address is c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111, and Directory Printing Company, a Delaware corporation (Tenant),\nwhose address is 380 West 37 th Street, Loveland,\nColorado 80538. \n \n\n \n \n I. \n GENERAL \n\n 1.1\n Consideration . Landlord enters into this Lease in cons",
+      "boundary": false,
+      "votes": 1,
+      "locatedBy": "span"
+    }
+  ],
+  "review": [],
+  "resolved": {
+    "landlord_name": {
+      "status": "ok",
+      "needs_review": false,
+      "text": "One Directory Place LLC",
+      "start": 112,
+      "end": 135,
+      "votes": 1,
+      "confidence": 0.991,
+      "located_by": "span",
+      "alternatives": [],
+      "tiebreak": null
+    },
+    "tenant_name": {
+      "status": "ok",
+      "needs_review": false,
+      "text": "Directory Printing Company",
+      "start": 140,
+      "end": 166,
+      "votes": 1,
+      "confidence": 0.999,
+      "located_by": "span",
+      "alternatives": [],
+      "tiebreak": null
+    },
+    "premises_address": {
+      "status": "absent"
+    },
+    "commencement_date": {
+      "status": "absent"
+    },
+    "base_rent": {
+      "status": "absent"
+    },
+    "security_deposit": {
+      "status": "absent"
+    }
+  },
+  "usage": {
+    "calls": 23,
+    "cost_usd": 0.00083752,
+    "span_absent": 0,
+    "relocated_from_body": 0
+  }
+}

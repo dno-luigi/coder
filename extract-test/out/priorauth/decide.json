@@ -1,0 +1,90 @@
+{
+  "name": "decide",
+  "path": "/alpha/decisions",
+  "status": 200,
+  "ms": 305,
+  "cost": 0.00006304,
+  "body": {
+    "model": "classify-1",
+    "state": {
+      "text": "EXTRACTED VALUES:\n- patient_age: \"17 years\" [verbatim]\n- diagnosis: \"obstructive sleep apnoea suspected in an adolescent with adenotonsillar hypertrophy\" [verbatim]\n- requested_service: \"adenotonsillectomy and post-operative sleep study\" [verbatim]\n- prior_treatment: \"nasal steroid spray for 6 weeks without improvement\" [verbatim]\n\nEVIDENCE WINDOWS (1 windows, 503 chars):\n\n[chars 0-487]\nPAEDIATRIC RESPIRATORY CLINIC — CONSULTATION NOTE\nSYNTHETIC DOCUMENT, authored for testing. No patient data.\n\nPatient age: 17 years.\nReferral: snoring and poor school performance.\n\nImpression: obstructive sleep apnoea suspected in an adolescent with adenotonsillar hypertrophy.\nSeverity has not been measured; polysomnography is being arranged.\n\nPrior treatment: nasal steroid spray for 6 weeks without improvement.\n\nRequested service: adenotonsillectomy and post-operative sleep study.\n\n"
+    },
+    "questions": {
+      "A_age_over_18": {
+        "type": "choice",
+        "instructions": "Is the patient 18 years of age or older?",
+        "criteria": {
+          "met": "the note states an age of 18 or more",
+          "not_met": "the note states an age below 18",
+          "insufficient_evidence": "the note does not state an age"
+        }
+      },
+      "B_diagnosis_supported": {
+        "type": "choice",
+        "instructions": "Does the note establish a diagnosis of obstructive sleep apnoea in an adult?",
+        "criteria": {
+          "met": "the note states a diagnosis of obstructive sleep apnoea",
+          "not_met": "the note states a different diagnosis",
+          "insufficient_evidence": "the note records symptoms but no diagnosis"
+        }
+      },
+      "D_conservative_treatment": {
+        "type": "choice",
+        "instructions": "Has conservative treatment been tried, where the policy requires it?",
+        "criteria": {
+          "met": "the note records prior conservative treatment",
+          "not_met": "the note states no conservative treatment was tried",
+          "insufficient_evidence": "the note does not address prior treatment"
+        }
+      }
+    }
+  },
+  "response": {
+    "model": "scaledown/classify-1-20260928",
+    "answers": {
+      "A_age_over_18": {
+        "type": "choice",
+        "choice": "not_met",
+        "probabilities": {
+          "met": 0.03842828256620459,
+          "not_met": 0.9579668360776279,
+          "insufficient_evidence": 0.003604881356167435
+        },
+        "confidence": 0.9579668360776279
+      },
+      "B_diagnosis_supported": {
+        "type": "choice",
+        "choice": "insufficient_evidence",
+        "probabilities": {
+          "met": 0.16862742404544917,
+          "not_met": 0.32870721086038324,
+          "insufficient_evidence": 0.5026653650941676
+        },
+        "confidence": 0.5026653650941676
+      },
+      "D_conservative_treatment": {
+        "type": "choice",
+        "choice": "met",
+        "probabilities": {
+          "met": 0.9834399589271424,
+          "not_met": 0.009770874058845577,
+          "insufficient_evidence": 0.0067891670140121365
+        },
+        "confidence": 0.9834399589271424
+      }
+    },
+    "usage": {
+      "input_tokens": 1576,
+      "output_tokens": 3,
+      "cost": 0.00006304,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.0000788,
+        "upstream_inference_prompt_cost": 0.0000788,
+        "upstream_inference_completions_cost": 0
+      }
+    },
+    "id": "gen-dec-1795814772-g2jZECLXmk1rH0hjCDS4",
+    "provider": "ScaleDown"
+  }
+}

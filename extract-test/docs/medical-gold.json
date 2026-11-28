@@ -1,0 +1,13 @@
+{
+  "note": "Synthetic documents authored for this test, so the gold is authored with them. Decisions are what a competent reviewer would answer from the document alone.",
+  "denial": {
+    "denial-a.txt": { "denial_is_appealable": "yes", "appeal_window_open": "no", "reason": "CARC 16 is curable and appealable; 180 days from 2026-03-28 gives 2026-09-24, which has passed as at 2026-11-27." },
+    "denial-b.txt": { "denial_is_appealable": "yes", "appeal_window_open": "no", "reason": "CARC 197 can be rebutted by retro-authorization; 60 days from 2026-04-19 gives 2026-06-18, passed." },
+    "denial-c.txt": { "denial_is_appealable": "yes", "appeal_window_open": "yes", "reason": "CARC 45 is appealable as a coding/fee-schedule dispute; 120 days from 2026-09-01 gives 2026-12-30, still open." }
+  },
+  "priorauth": {
+    "note-1.txt": { "A_age_over_18": "met", "B_diagnosis_supported": "met", "C_severity_documented": "met", "D_conservative_treatment": "met" },
+    "note-2.txt": { "A_age_over_18": "met", "B_diagnosis_supported": "insufficient_evidence", "C_severity_documented": "insufficient_evidence", "D_conservative_treatment": "not_met" },
+    "note-3.txt": { "A_age_over_18": "not_met", "B_diagnosis_supported": "not_met", "C_severity_documented": "insufficient_evidence", "D_conservative_treatment": "insufficient_evidence" }
+  }
+}

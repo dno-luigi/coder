@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "task_id": "extract-alpha-bigwin-05",
+  "status": "proposed",
+  "request": {
+    "operator_instruction": "let's get it working (pasted Extractions-API chunking script)",
+    "objective": "Test whether 8000-code-point windows with 1600 overlap and a 4000-code-point preamble recover mid-document fields on /api/alpha/extractions, where 3000/300 windows returned nothing outside windows 0-3.",
+    "acceptance_criteria": [
+      "Same document and six fields as prior runs; size 8000, overlap 1600, header 4000",
+      "Per-window body-kept counts reported to show whether mid-document windows contribute",
+      "answered_from_preamble reported so the preamble re-read effect is separated from real body recall",
+      "Every answered value verified verbatim at its reported code-point offset",
+      "calls and summed usage.cost reported"
+    ]
+  },
+  "authorization": {
+    "requester": "operator",
+    "approved_by": "operator",
+    "approved_at": "2026-11-28T00:00:00Z",
+    "scope": "One run of extract-alpha.mjs with --size 8000 --overlap 1600 --header 4000; write to extract-test/out/extract-alpha/bigwin",
+    "design_changes_permitted": false,
+    "commit_permitted": false,
+    "merge_permitted": false,
+    "deploy_permitted": false
+  },
+  "repository": {
+    "repository_identity": "dno-luigi/coder",
+    "remote": "https://github.com/dno-luigi/coder",
+    "base_commit": "7dd53360088acb9b1a49786244ef1f593287fb16",
+    "base_tree": "99912ff5ad3b7e4d548ab716929cbf67cd0a273",
+    "branch": "freebuff/f6eb023e06dd01c0dc889d5b"
+  },
+  "workspace": {
+    "implementer_worktree": "/workspace/chats/f6eb023e06dd01c0dc889d5b",
+    "verifier_worktree": "not provisioned (measurement task, no code change)",
+    "worktree_isolation_required": false
+  },
+  "governance": {
+    "ethical_foundation_sha256": "not established in this workspace",
+    "differential_foundation_sha256": "not established in this workspace"
+  },
+  "allowed_paths": ["extract-test/verify-tmp/", "extract-test/out/extract-alpha/"],
+  "allowed_commands": [
+    {
+      "argv": ["node", "extract-test/verify-tmp/extract-alpha.mjs", "--doc", "extract-test/docs/legal-property/01-property-lease.txt", "--size", "8000", "--overlap", "1600", "--header", "4000", "--fields", "<six lease fields>"],
+      "timeout_seconds": 300,
+      "purpose": "Eight-thousand-code-point windows with a 4000 preamble"
+    }
+  ],
+  "limits": {
+    "max_model_cost_usd": 0.01,
+    "max_total_model_calls": 20,
+    "max_execution_seconds": 600,
+    "max_command_count": 4,
+    "max_output_bytes": 500000
+  },
+  "handoff": { "required": true, "format_version": 1 },
+  "verification": { "required": true, "independent_execution": false, "required_commands": [] },
+  "stop_conditions": ["Cost or call limit reached", "Unauthorized file modification", "Acceptance criteria cannot be established"]
+}

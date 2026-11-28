@@ -1,0 +1,21 @@
+MERIDIAN HEALTH PLAN
+EXPLANATION OF PAYMENT — REMITTANCE ADVICE
+SYNTHETIC DOCUMENT, authored for testing. No patient data.
+
+Claim number: CLM-2026-005107
+Patient: DE-IDENTIFIED
+Date of service: 04/02/2026
+Provider: Lakeside Orthopaedic Associates, NPI 9876543210
+Remittance date: 04/19/2026
+
+Billed amount: $4,860.00
+Allowed amount: $0.00
+Paid amount: $0.00
+Denied amount: $4,860.00
+
+Adjustment reason: CARC 197 — Precertification/authorization/notification absent.
+Remittance advice remark: N54 — Service not authorized by the payer.
+
+Appeal rights: a retrospective authorization review may be requested within 60 days of the
+remittance date. The clinical record may support a retroactive authorization where the service was
+urgent or where authorization was requested and not decided in time.

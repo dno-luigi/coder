@@ -1,0 +1,12 @@
+PAEDIATRIC RESPIRATORY CLINIC — CONSULTATION NOTE
+SYNTHETIC DOCUMENT, authored for testing. No patient data.
+
+Patient age: 17 years.
+Referral: snoring and poor school performance.
+
+Impression: obstructive sleep apnoea suspected in an adolescent with adenotonsillar hypertrophy.
+Severity has not been measured; polysomnography is being arranged.
+
+Prior treatment: nasal steroid spray for 6 weeks without improvement.
+
+Requested service: adenotonsillectomy and post-operative sleep study.

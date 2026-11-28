@@ -1,0 +1,142 @@
+{
+  "doc": "extract-test/docs/legal-property/05-property-lease.txt",
+  "size": 3000,
+  "overlap": 300,
+  "fields": [
+    "landlord_name",
+    "tenant_name",
+    "premises_address",
+    "commencement_date",
+    "base_rent",
+    "security_deposit"
+  ],
+  "matches": [
+    {
+      "field": "landlord_name",
+      "text": "SOUTHPORT BUSINESS PARK LIMITED PARTNERSHIP",
+      "start": 1579,
+      "end": 1622,
+      "confidence": 0.997,
+      "context": "/17/13 \n\n 11/11/13 \n\n 11/19/13 \n\n 11/25/13 \n\n 11/27/13 \n\n \n\n \n\n \n\n [****] Confidential treatment requested pursuant to a request\nfor confidential treatment filed with the Securities and Exchange Commission. Omitted portions have been separately filed with\nthe Commission.\n\n \n\n \n\n \n \n\n \n\n \n\n \n\n LEASE AGREEMENT\n\n \n\n SINGLE STORY OFFICE\nBUILDING\n\n NORTH CAROLINA\n\n WAKE COUNTY\n\n \n\n THIS LEASE AGREEMENT ( Lease ),\nis made and entered into as of the\n\n \n\n 9th day of December, 2013\n\n by and between\n\n \n\n SOUTHPORT BUSINESS PARK LIMITED PARTNERSHIP\n\n a North Carolina limited partnership\n\n hereinafter referred to as Landlord \n\n \n\n AND\n\n \n\n CHARLES & COLVARD, LTD. \n\n \n\n a North Carolina corporation \n\n hereinafter referred to as Tenant \n\n \n\n \n\n STATEMENT OF PURPOSES \n\n \n\n Landlord is the owner of Southport Business Park, an office,\nresearch and development and distribution park located in the Town of Morrisville, Wake County, North Carolina ( Property ).\nLandlord and Tenant have agreed that Landlord shall lease to Tenant and Tenant shall lea",
+      "boundary": false,
+      "votes": 1,
+      "locatedBy": "span"
+    },
+    {
+      "field": "tenant_name",
+      "text": "CHARLES & COLVARD, LTD.",
+      "start": 1715,
+      "end": 1738,
+      "confidence": 0.994,
+      "context": "fidential treatment filed with the Securities and Exchange Commission. Omitted portions have been separately filed with\nthe Commission.\n\n \n\n \n\n \n \n\n \n\n \n\n \n\n LEASE AGREEMENT\n\n \n\n SINGLE STORY OFFICE\nBUILDING\n\n NORTH CAROLINA\n\n WAKE COUNTY\n\n \n\n THIS LEASE AGREEMENT ( Lease ),\nis made and entered into as of the\n\n \n\n 9th day of December, 2013\n\n by and between\n\n \n\n SOUTHPORT BUSINESS PARK LIMITED PARTNERSHIP\n\n a North Carolina limited partnership\n\n hereinafter referred to as Landlord \n\n \n\n AND\n\n \n\n CHARLES & COLVARD, LTD. \n\n \n\n a North Carolina corporation \n\n hereinafter referred to as Tenant \n\n \n\n \n\n STATEMENT OF PURPOSES \n\n \n\n Landlord is the owner of Southport Business Park, an office,\nresearch and development and distribution park located in the Town of Morrisville, Wake County, North Carolina ( Property ).\nLandlord and Tenant have agreed that Landlord shall lease to Tenant and Tenant shall lease from Landlord certain space located\nat 170 Southport Drive , Morrisville, North Carolina 27560 and have agreed to",
+      "boundary": false,
+      "votes": 1,
+      "locatedBy": "span"
+    },
+    {
+      "field": "premises_address",
+      "text": "170 Southport Drive, Morrisville, North Carolina 27560",
+      "start": 2164,
+      "end": 2219,
+      "confidence": 0.522,
+      "context": "hereinafter referred to as Landlord \n\n \n\n AND\n\n \n\n CHARLES & COLVARD, LTD. \n\n \n\n a North Carolina corporation \n\n hereinafter referred to as Tenant \n\n \n\n \n\n STATEMENT OF PURPOSES \n\n \n\n Landlord is the owner of Southport Business Park, an office,\nresearch and development and distribution park located in the Town of Morrisville, Wake County, North Carolina ( Property ).\nLandlord and Tenant have agreed that Landlord shall lease to Tenant and Tenant shall lease from Landlord certain space located\nat 170 Southport Drive , Morrisville, North Carolina 27560 and have agreed to enter into this Lease to evidence the terms\nand conditions of the leasing of the space by Landlord to Tenant.\n\n \n\n NOW, THEREFORE, in consideration of the foregoing and the mutual\ncovenants, conditions and agreements herein contained and other good and valuable consideration the receipt and sufficiency of\nwhich are mutually acknowledged, Landlord and Tenant hereby agree as follows:\n\n \n\n ARTICLE 1 \n\n BASIC PROVISIONS \n\n \n\n SECTION 1.01 - THE DEMISED PREMISES \n\n Subject in all ",
+      "boundary": false,
+      "votes": 1,
+      "locatedBy": "relocated-in-body-punctuation-insensitive"
+    },
+    {
+      "field": "commencement_date",
+      "text": "9th day of December, 2013",
+      "start": 1531,
+      "end": 1556,
+      "confidence": 0.829,
+      "context": "F. \n MANUFACTURING AREA \n \n\n \n\n \n\n 09/03/10\n\n 10/17/13 \n\n 11/11/13 \n\n 11/19/13 \n\n 11/25/13 \n\n 11/27/13 \n\n \n\n \n\n \n\n [****] Confidential treatment requested pursuant to a request\nfor confidential treatment filed with the Securities and Exchange Commission. Omitted portions have been separately filed with\nthe Commission.\n\n \n\n \n\n \n \n\n \n\n \n\n \n\n LEASE AGREEMENT\n\n \n\n SINGLE STORY OFFICE\nBUILDING\n\n NORTH CAROLINA\n\n WAKE COUNTY\n\n \n\n THIS LEASE AGREEMENT ( Lease ),\nis made and entered into as of the\n\n \n\n 9th day of December, 2013\n\n by and between\n\n \n\n SOUTHPORT BUSINESS PARK LIMITED PARTNERSHIP\n\n a North Carolina limited partnership\n\n hereinafter referred to as Landlord \n\n \n\n AND\n\n \n\n CHARLES & COLVARD, LTD. \n\n \n\n a North Carolina corporation \n\n hereinafter referred to as Tenant \n\n \n\n \n\n STATEMENT OF PURPOSES \n\n \n\n Landlord is the owner of Southport Business Park, an office,\nresearch and development and distribution park located in the Town of Morrisville, Wake County, North Carolina ( Property ).\nLandlord and Tenant ha",
+      "boundary": false,
+      "votes": 1,
+      "locatedBy": "span"
+    },
+    {
+      "field": "security_deposit",
+      "text": "136290.00",
+      "start": 12241,
+      "end": 12251,
+      "confidence": 0.36,
+      "context": "hs\nfollowing the Commencement Date (currently projected to be April, 2014 through October, 2014). \n\n \n\n SECTION 1.06 SECURITY DEPOSIT \n\n Tenant hereby agrees to pay to Landlord when Tenant submits\nthe executed Lease to Landlord, the sum of: Forty Five Thousand Four Hundred Thirty Dollars ($45,430.00) and on or before\nthe Commencement Date an additional Ninety Thousand Eight Hundred Sixty Dollars ($90,860.00) for a total of One Hundred Thirty\nSix Thousand Two Hundred Ninety and 00/100 DOLLARS ( $136,290.00 ), hereinafter referred to as (the Security Deposit ),\nwhich sum Landlord shall retain as security for the performance by Tenant of each of its obligations hereunder. At the end of\nthe Twenty-eighth (28th) full month of the Term (provided there is no uncured Event of Default), Landlord shall refund Ninety Thousand\nEight Hundred Sixty Dollars ($90,860.00) leaving a balance of Forty Five Thousand Four Hundred Thirty Dollars ($45,430.00) as Security\nDeposit. The Security Deposit shall be held, app",
+      "boundary": false,
+      "votes": 1,
+      "locatedBy": "relocated-in-body-punctuation-insensitive"
+    }
+  ],
+  "review": [],
+  "resolved": {
+    "landlord_name": {
+      "status": "ok",
+      "needs_review": false,
+      "text": "SOUTHPORT BUSINESS PARK LIMITED PARTNERSHIP",
+      "start": 1579,
+      "end": 1622,
+      "votes": 1,
+      "confidence": 0.997,
+      "located_by": "span",
+      "alternatives": [],
+      "tiebreak": null
+    },
+    "tenant_name": {
+      "status": "ok",
+      "needs_review": false,
+      "text": "CHARLES & COLVARD, LTD.",
+      "start": 1715,
+      "end": 1738,
+      "votes": 1,
+      "confidence": 0.994,
+      "located_by": "span",
+      "alternatives": [],
+      "tiebreak": null
+    },
+    "premises_address": {
+      "status": "ok",
+      "needs_review": false,
+      "text": "170 Southport Drive, Morrisville, North Carolina 27560",
+      "start": 2164,
+      "end": 2219,
+      "votes": 1,
+      "confidence": 0.522,
+      "located_by": "relocated-in-body-punctuation-insensitive",
+      "alternatives": [],
+      "tiebreak": null
+    },
+    "commencement_date": {
+      "status": "ok",
+      "needs_review": false,
+      "text": "9th day of December, 2013",
+      "start": 1531,
+      "end": 1556,
+      "votes": 1,
+      "confidence": 0.829,
+      "located_by": "span",
+      "alternatives": [],
+      "tiebreak": null
+    },
+    "base_rent": {
+      "status": "absent"
+    },
+    "security_deposit": {
+      "status": "ok",
+      "needs_review": false,
+      "text": "136290.00",
+      "start": 12241,
+      "end": 12251,
+      "votes": 1,
+      "confidence": 0.36,
+      "located_by": "relocated-in-body-punctuation-insensitive",
+      "alternatives": [],
+      "tiebreak": null
+    }
+  },
+  "usage": {
+    "calls": 23,
+    "cost_usd": 0.00085444,
+    "span_absent": 2,
+    "relocated_from_body": 2
+  }
+}

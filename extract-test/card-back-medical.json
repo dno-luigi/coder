@@ -1,0 +1,43 @@
+{
+  "from": "agent-2",
+  "base_commit": "7dd53360088acb9b1a49786244ef1f593287fb16",
+  "vertical": "medical-billing",
+  "documents_tested": 6,
+  "document_provenance": "synthetic — 3 denial letters and 3 clinical notes authored for this test, modelled on a real public payer policy (Aetna CPO 0004, obstructive sleep apnoea) and standard 835 remittance fields. No PHI was sent, generated or received.",
+  "metrics": {
+    "fields_found": "31/33 across both sub-tests (18/18 denials, 13/15 prior-authorisation notes)",
+    "citation_verbatim": "29/31 exact (17/18 denial, 12/13 notes)",
+    "decisions_correct": "14/18 as scored (4/6 denial, 10/12 prior auth); 17/18 after adjudication — see contradicted",
+    "escalation_rate": 0.222,
+    "confidently_wrong": 0,
+    "cost_usd": 0.000518,
+    "seconds_per_document": "0.6–2.1"
+  },
+  "reproduced": [
+    "failure-mode-3 (absence read as negation): on a document that never mentions an insurance figure, the three-label decision returned `no` at 0.420 rather than `insufficient_evidence` at 0.350. The gate at 0.6 catches it, but the argmax is wrong before the gate is applied",
+    "failure-mode-1 (zero-entity cliff) did not reproduce here: 0 zero-entity responses across 6 medical documents"
+  ],
+  "contradicted": [
+    "My own `confidently_wrong` count is wrong, and it is wrong in the direction that flatters the model: all 3 hits (2 denial, 1 prior auth) dissolve on inspection. The denial rubric asked 'is the appeal window open as at the letter date', and the model answered that question correctly every time; the gold I wrote answered 'is it open today', which the rubric never asked. On the prior-auth note, `nasal steroid spray for 6 weeks` is conservative treatment, so `met` at 0.983 is defensible and my `insufficient_evidence` label was the error.",
+    "The `extractor locates, it does not judge` claim is supported: the extract layer returned nothing at all for the absent insurance field, while the decision layer committed to an answer. The split behaves as described, and the decision layer is the one that needs a rubric review before it needs a model review."
+  ],
+  "not_checked": [
+    "any real denial letter or EOB — none is publicly available without PHI, so every medical document here is synthetic and the accuracy figures are only as good as my authoring",
+    "the prior-authorisation criteria as a payer would actually apply them: I used a real public policy's criteria but wrote the notes myself, so 'insufficient evidence' versus 'not met' is my judgement, not a payer's",
+    "scanned faxes and PDFs, which is how denials actually arrive",
+    "whether the 180/60/120-day windows in my synthetic letters match any real payer's"
+  ],
+  "angles_unseen": [
+    "The commercially important question is 'is the window open now', and neither the rubric nor the state contained today's date. A deadline product whose decision layer cannot see the current date will answer a confident question that nobody asked. That is a one-line fix and it is the difference between a useful triage and a liability.",
+    "The data-handling gate is worse than the brief assumed, because there are two parties in the path. ScaleDown publishes zero retention (prompts never written to disk, including on failure), no training on customer data, US-only processing, and self-hosted/VPC including air-gapped — but HIPAA and SOC 2 are 'in progress', which is not a BAA. OpenRouter sits in front of it as the router and offers a DPA, not a BAA, and its ZDR enforcement covers provider retention, not the router's own. A BAA from the model provider would not cover the router, and PHI would pass through both.",
+    "Self-hosted ScaleDown in a customer VPC removes the whole question and is the only configuration in which I would process PHI or privileged material. That changes the product from a SaaS margin to an enterprise deployment, which is a different business than the one the brief assumes.",
+    "For England & Wales privileged material specifically, the blocker is not only retention but location: US-only processing by default, with written consent required otherwise. That is a cross-border transfer question, and it needs the same answer as the medical one before either vertical is sellable."
+  ],
+  "verdict": "NO-GO",
+  "conditions": [
+    "No PHI over the current path: no BAA from the model provider, and the router in the path has none either.",
+    "Put the current date in the decision state and ask the deadline question about today, not about the letter date.",
+    "Re-run the denial triage on real (de-identified) denials before any accuracy claim survives contact with a customer.",
+    "If the vertical is pursued, pursue it self-hosted in the customer's VPC; that is the configuration the provider's own documentation supports for this data class."
+  ]
+}

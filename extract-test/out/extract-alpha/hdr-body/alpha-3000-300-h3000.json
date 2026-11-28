@@ -1,0 +1,1770 @@
+{
+ "summary": {
+  "doc": "extract-test/docs/legal-property/01-property-lease.txt",
+  "model": "scaledown/extract",
+  "chars": 60032,
+  "windows": 23,
+  "calls": 23,
+  "cost_usd": 0.00154008,
+  "size": 3000,
+  "overlap": 300,
+  "header": 3000,
+  "fields_answered": "5/6",
+  "spans_present": 73,
+  "spans_absent": 7,
+  "spans_present_but_unusable": 0,
+  "answered_from_preamble": 66,
+  "values_without_a_body_match": 73,
+  "per_window_kept": [
+   4,
+   1,
+   0,
+   2,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "resolved": {
+   "landlord_name": {
+    "status": "ok",
+    "text": "One Directory Place LLC",
+    "global_start": 254,
+    "global_end": 277,
+    "votes": 1,
+    "confidence": 0.999,
+    "re_located_by": "span",
+    "alternatives": [],
+    "absent_sightings": 0
+   },
+   "tenant_name": {
+    "status": "ok",
+    "text": "Directory Printing Company",
+    "global_start": 452,
+    "global_end": 478,
+    "votes": 1,
+    "confidence": 0.999,
+    "re_located_by": "span",
+    "alternatives": [],
+    "absent_sightings": 0
+   },
+   "premises_address": {
+    "status": "ok",
+    "text": "c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111",
+    "global_start": 347,
+    "global_end": 446,
+    "votes": 1,
+    "confidence": 0.36,
+    "re_located_by": "span",
+    "alternatives": [],
+    "absent_sightings": 3
+   },
+   "commencement_date": {
+    "status": "conflict",
+    "text": "21 st day of July, 1995",
+    "global_start": 221,
+    "global_end": 244,
+    "votes": 1,
+    "confidence": 0.606,
+    "re_located_by": "span",
+    "alternatives": [
+     {
+      "text": "noon on the commencement date specified in Exhibit A",
+      "at": 4401,
+      "votes": 1
+     },
+     {
+      "text": "the first day of August, 1995",
+      "at": 8422,
+      "votes": 1
+     }
+    ],
+    "absent_sightings": 10
+   },
+   "base_rent": {
+    "status": "ok",
+    "text": "monthly rent specified in Exhibit A",
+    "global_start": 8355,
+    "global_end": 8390,
+    "votes": 1,
+    "confidence": 0.709,
+    "re_located_by": "span",
+    "alternatives": [],
+    "absent_sightings": 22
+   },
+   "security_deposit": {
+    "status": "absent",
+    "absent_sightings": 23
+   }
+  },
+  "ungrounded_claims": [
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 1,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 1,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "the address set forth in Exhibit A",
+    "window": 1,
+    "confidence": 0.299,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 2,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 2,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "380 West 37 th Street, Loveland, Colorado 80538",
+    "window": 2,
+    "confidence": 0.208,
+    "how": "not-in-body"
+   },
+   {
+    "field": "commencement_date",
+    "text": "21 st day of July, 1995",
+    "window": 2,
+    "confidence": 0.449,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 3,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 3,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "the address set forth in Exhibit A",
+    "window": 3,
+    "confidence": 0.331,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 4,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 4,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "the address set forth in Exhibit A",
+    "window": 4,
+    "confidence": 0.468,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 5,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 5,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "380 West 37 th Street, Loveland, Colorado 80538",
+    "window": 5,
+    "confidence": 0.129,
+    "how": "not-in-body"
+   },
+   {
+    "field": "commencement_date",
+    "text": "21 st day of July, 1995",
+    "window": 5,
+    "confidence": 0.488,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 6,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 6,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "the address set forth in Exhibit A",
+    "window": 6,
+    "confidence": 0.286,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 7,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 7,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "380 West 37th Street, Loveland, Colorado 80538",
+    "window": 7,
+    "confidence": 0.155,
+    "how": "not-in-body"
+   },
+   {
+    "field": "commencement_date",
+    "text": "21 st day of July, 1995",
+    "window": 7,
+    "confidence": 0.216,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 8,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 8,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111",
+    "window": 8,
+    "confidence": 0.284,
+    "how": "not-in-body"
+   },
+   {
+    "field": "commencement_date",
+    "text": "21 st day of July, 1995",
+    "window": 8,
+    "confidence": 0.49,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 9,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 9,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "the address set forth in Exhibit A",
+    "window": 9,
+    "confidence": 0.415,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 10,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 10,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111",
+    "window": 10,
+    "confidence": 0.423,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 11,
+    "confidence": 0.992,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 11,
+    "confidence": 0.998,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "380 West 37th Street, Loveland, Colorado 80538",
+    "window": 11,
+    "confidence": 0.211,
+    "how": "not-in-body"
+   },
+   {
+    "field": "commencement_date",
+    "text": "21st day of July, 1995",
+    "window": 11,
+    "confidence": 0.215,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 12,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 12,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "the address set forth in Exhibit A",
+    "window": 12,
+    "confidence": 0.299,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 13,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 13,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111",
+    "window": 13,
+    "confidence": 0.361,
+    "how": "not-in-body"
+   },
+   {
+    "field": "commencement_date",
+    "text": "21 st day of July, 1995",
+    "window": 13,
+    "confidence": 0.603,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 14,
+    "confidence": 0.998,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 14,
+    "confidence": 0.995,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 15,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 15,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "380 West 37 th Street, Loveland, Colorado 80538",
+    "window": 15,
+    "confidence": 0.158,
+    "how": "not-in-body"
+   },
+   {
+    "field": "commencement_date",
+    "text": "21 st day of July, 1995",
+    "window": 15,
+    "confidence": 0.273,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 16,
+    "confidence": 0.997,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 16,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 17,
+    "confidence": 0.998,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 17,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "the address set forth in Exhibit A",
+    "window": 17,
+    "confidence": 0.282,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 18,
+    "confidence": 0.998,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 18,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "the address set forth in Exhibit A",
+    "window": 18,
+    "confidence": 0.347,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 19,
+    "confidence": 0.995,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 19,
+    "confidence": 0.998,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "380 West 37 th Street, Loveland, Colorado 80538",
+    "window": 19,
+    "confidence": 0.16,
+    "how": "not-in-body"
+   },
+   {
+    "field": "commencement_date",
+    "text": "21 st day of July, 1995",
+    "window": 19,
+    "confidence": 0.31,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 20,
+    "confidence": 0.999,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 20,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111",
+    "window": 20,
+    "confidence": 0.267,
+    "how": "not-in-body"
+   },
+   {
+    "field": "commencement_date",
+    "text": "21 st day of July, 1995",
+    "window": 20,
+    "confidence": 0.523,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 21,
+    "confidence": 0.996,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 21,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "landlord_name",
+    "text": "One Directory Place LLC",
+    "window": 22,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "tenant_name",
+    "text": "Directory Printing Company",
+    "window": 22,
+    "confidence": 1,
+    "how": "not-in-body"
+   },
+   {
+    "field": "premises_address",
+    "text": "c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111",
+    "window": 22,
+    "confidence": 0.373,
+    "how": "not-in-body"
+   },
+   {
+    "field": "commencement_date",
+    "text": "21 st day of July, 1995",
+    "window": 22,
+    "confidence": 0.56,
+    "how": "not-in-body"
+   }
+  ]
+ },
+ "perWindow": [
+  {
+   "window": 0,
+   "start": 0,
+   "end": 3000,
+   "prefix_chars": 0,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 0.999
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 0.999
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111",
+     "span": [
+      347,
+      446
+     ],
+     "confidence": 0.36
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "21 st day of July, 1995",
+     "span": [
+      221,
+      244
+     ],
+     "confidence": 0.606
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 4
+  },
+  {
+   "window": 1,
+   "start": 2700,
+   "end": 5700,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 1
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 1
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "the address set forth in Exhibit A",
+     "span": [
+      2045,
+      2079
+     ],
+     "confidence": 0.299
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "noon on the commencement date specified in Exhibit A",
+     "span": [
+      4701,
+      4753
+     ],
+     "confidence": 0.61
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 1
+  },
+  {
+   "window": 2,
+   "start": 5400,
+   "end": 8400,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      112,
+      135
+     ],
+     "confidence": 0.999
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      140,
+      166
+     ],
+     "confidence": 1
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "380 West 37 th Street, Loveland, Colorado 80538",
+     "confidence": 0.208
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "21 st day of July, 1995",
+     "span": [
+      221,
+      244
+     ],
+     "confidence": 0.449
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 3,
+   "start": 8100,
+   "end": 11100,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 1
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 0.999
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "the address set forth in Exhibit A",
+     "span": [
+      2045,
+      2079
+     ],
+     "confidence": 0.331
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "the first day of August, 1995",
+     "span": [
+      3322,
+      3351
+     ],
+     "confidence": 0.523
+    },
+    "base_rent": {
+     "type": "text",
+     "value": "monthly rent specified in Exhibit A",
+     "span": [
+      3255,
+      3290
+     ],
+     "confidence": 0.709
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": "null",
+     "confidence": 0.771
+    }
+   },
+   "kept": 2
+  },
+  {
+   "window": 4,
+   "start": 10800,
+   "end": 13800,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 0.999
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 1
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "the address set forth in Exhibit A",
+     "span": [
+      2045,
+      2079
+     ],
+     "confidence": 0.468
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "null",
+     "confidence": 0.556
+    },
+    "base_rent": {
+     "type": "text",
+     "value": "null",
+     "confidence": 0.997
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": "null",
+     "confidence": 0.994
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 5,
+   "start": 13500,
+   "end": 16500,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 1
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 1
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "380 West 37 th Street, Loveland, Colorado 80538",
+     "confidence": 0.129
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "21 st day of July, 1995",
+     "span": [
+      221,
+      244
+     ],
+     "confidence": 0.488
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 6,
+   "start": 16200,
+   "end": 19200,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 0.999
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 0.999
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "the address set forth in Exhibit A",
+     "span": [
+      2045,
+      2079
+     ],
+     "confidence": 0.286
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": null
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 7,
+   "start": 18900,
+   "end": 21900,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 0.999
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 0.999
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "380 West 37th Street, Loveland, Colorado 80538",
+     "confidence": 0.155
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "21 st day of July, 1995",
+     "span": [
+      221,
+      244
+     ],
+     "confidence": 0.216
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 8,
+   "start": 21600,
+   "end": 24600,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 1
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 1
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111",
+     "span": [
+      347,
+      446
+     ],
+     "confidence": 0.284
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "21 st day of July, 1995",
+     "span": [
+      221,
+      244
+     ],
+     "confidence": 0.49
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 9,
+   "start": 24300,
+   "end": 27300,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 1
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 1
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "the address set forth in Exhibit A",
+     "span": [
+      2045,
+      2079
+     ],
+     "confidence": 0.415
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": null
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 10,
+   "start": 27000,
+   "end": 30000,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 0.999
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 0.999
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111",
+     "span": [
+      347,
+      446
+     ],
+     "confidence": 0.423
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": null
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 11,
+   "start": 29700,
+   "end": 32700,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 0.992
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 0.998
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "380 West 37th Street, Loveland, Colorado 80538",
+     "confidence": 0.211
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "21st day of July, 1995",
+     "confidence": 0.215
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 12,
+   "start": 32400,
+   "end": 35400,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 1
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 1
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "the address set forth in Exhibit A",
+     "span": [
+      2045,
+      2079
+     ],
+     "confidence": 0.299
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": null
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 13,
+   "start": 35100,
+   "end": 38100,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 1
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 1
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111",
+     "span": [
+      347,
+      446
+     ],
+     "confidence": 0.361
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "21 st day of July, 1995",
+     "span": [
+      221,
+      244
+     ],
+     "confidence": 0.603
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 14,
+   "start": 37800,
+   "end": 40800,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      112,
+      135
+     ],
+     "confidence": 0.998
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      140,
+      166
+     ],
+     "confidence": 0.995
+    },
+    "premises_address": {
+     "type": "text",
+     "value": null
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": null
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 15,
+   "start": 40500,
+   "end": 43500,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 0.999
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 0.999
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "380 West 37 th Street, Loveland, Colorado 80538",
+     "confidence": 0.158
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "21 st day of July, 1995",
+     "span": [
+      221,
+      244
+     ],
+     "confidence": 0.273
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 16,
+   "start": 43200,
+   "end": 46200,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      112,
+      135
+     ],
+     "confidence": 0.997
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      140,
+      166
+     ],
+     "confidence": 0.999
+    },
+    "premises_address": {
+     "type": "text",
+     "value": null
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": null
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 17,
+   "start": 45900,
+   "end": 48900,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 0.998
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 0.999
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "the address set forth in Exhibit A",
+     "span": [
+      2045,
+      2079
+     ],
+     "confidence": 0.282
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": null
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 18,
+   "start": 48600,
+   "end": 51600,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 0.998
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 0.999
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "the address set forth in Exhibit A",
+     "span": [
+      2045,
+      2079
+     ],
+     "confidence": 0.347
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": null
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 19,
+   "start": 51300,
+   "end": 54300,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 0.995
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 0.998
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "380 West 37 th Street, Loveland, Colorado 80538",
+     "confidence": 0.16
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "21 st day of July, 1995",
+     "span": [
+      221,
+      244
+     ],
+     "confidence": 0.31
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 20,
+   "start": 54000,
+   "end": 57000,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 0.999
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 1
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111",
+     "span": [
+      347,
+      446
+     ],
+     "confidence": 0.267
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "21 st day of July, 1995",
+     "span": [
+      221,
+      244
+     ],
+     "confidence": 0.523
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 21,
+   "start": 56700,
+   "end": 59700,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 0.996
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 1
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "null",
+     "confidence": 0.272
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "null",
+     "confidence": 0.949
+    },
+    "base_rent": {
+     "type": "text",
+     "value": "null",
+     "confidence": 0.999
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": "null",
+     "confidence": 1
+    }
+   },
+   "kept": 0
+  },
+  {
+   "window": 22,
+   "start": 59400,
+   "end": 60032,
+   "prefix_chars": 3000,
+   "answers": {
+    "landlord_name": {
+     "type": "text",
+     "value": "One Directory Place LLC",
+     "span": [
+      254,
+      277
+     ],
+     "confidence": 1
+    },
+    "tenant_name": {
+     "type": "text",
+     "value": "Directory Printing Company",
+     "span": [
+      452,
+      478
+     ],
+     "confidence": 1
+    },
+    "premises_address": {
+     "type": "text",
+     "value": "c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111",
+     "span": [
+      347,
+      446
+     ],
+     "confidence": 0.373
+    },
+    "commencement_date": {
+     "type": "text",
+     "value": "21 st day of July, 1995",
+     "span": [
+      221,
+      244
+     ],
+     "confidence": 0.56
+    },
+    "base_rent": {
+     "type": "text",
+     "value": null
+    },
+    "security_deposit": {
+     "type": "text",
+     "value": null
+    }
+   },
+   "kept": 0
+  }
+ ]
+}

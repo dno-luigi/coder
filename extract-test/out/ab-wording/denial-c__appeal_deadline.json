@@ -1,0 +1,27 @@
+{
+  "old": {
+    "arm": "old",
+    "status": 200,
+    "ms": 262,
+    "cost": 0.00001928,
+    "values": [],
+    "omitted": true
+  },
+  "new": {
+    "arm": "new",
+    "status": 200,
+    "ms": 390,
+    "cost": 0.00001948,
+    "values": [
+      {
+        "text": "120 days of the remittance date",
+        "conf": 0.639,
+        "start": 657,
+        "end": 688,
+        "span": "120 days of the remittance date",
+        "spanOk": true
+      }
+    ],
+    "omitted": false
+  }
+}

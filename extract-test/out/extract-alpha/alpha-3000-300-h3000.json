@@ -1,0 +1,599 @@
+{
+ "summary": {
+  "doc": "extract-test/docs/legal-property/01-property-lease.txt",
+  "chars": 60032,
+  "windows": 23,
+  "calls": 23,
+  "cost_usd": 0.00143428,
+  "size": 3000,
+  "overlap": 300,
+  "header": 3000,
+  "fields_answered": "1/2",
+  "spans_present": 16,
+  "spans_absent": 7,
+  "spans_present_but_unusable": 0,
+  "ungrounded": 5,
+  "per_window_usable": [
+   1,
+   1,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "resolved": {
+   "invoice_number": {
+    "status": "absent",
+    "absent_sightings": 23
+   },
+   "effective_date": {
+    "status": "conflict",
+    "text": "July, 1995",
+    "global_start": 234,
+    "global_end": 244,
+    "votes": 16,
+    "confidence": 0.331,
+    "re_located_by": "span",
+    "alternatives": [
+     {
+      "text": "true",
+      "at": 35928,
+      "votes": 2
+     }
+    ]
+   }
+  },
+  "ungrounded_claims": [
+   {
+    "field": "effective_date",
+    "text": "July 21, 1995",
+    "window": 2,
+    "confidence": 0.528
+   },
+   {
+    "field": "effective_date",
+    "text": "1995-07-21",
+    "window": 9,
+    "confidence": 0.63
+   },
+   {
+    "field": "effective_date",
+    "text": "1995-07-21",
+    "window": 10,
+    "confidence": 0.48
+   },
+   {
+    "field": "effective_date",
+    "text": "1995-07-21",
+    "window": 16,
+    "confidence": 0.545
+   },
+   {
+    "field": "effective_date",
+    "text": "21st day of July, 1995",
+    "window": 19,
+    "confidence": 0.492
+   }
+  ]
+ },
+ "perWindow": [
+  {
+   "window": 0,
+   "start": 0,
+   "end": 3000,
+   "prefix_chars": 0,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.331
+    }
+   },
+   "usable": 1
+  },
+  {
+   "window": 1,
+   "start": 2700,
+   "end": 5700,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "true",
+     "confidence": 0.756
+    }
+   },
+   "usable": 1
+  },
+  {
+   "window": 2,
+   "start": 5400,
+   "end": 8400,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July 21, 1995",
+     "confidence": 0.528
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 3,
+   "start": 8100,
+   "end": 11100,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.323
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 4,
+   "start": 10800,
+   "end": 13800,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.38
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 5,
+   "start": 13500,
+   "end": 16500,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.465
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 6,
+   "start": 16200,
+   "end": 19200,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.604
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 7,
+   "start": 18900,
+   "end": 21900,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.36
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 8,
+   "start": 21600,
+   "end": 24600,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.311
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 9,
+   "start": 24300,
+   "end": 27300,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "1995-07-21",
+     "confidence": 0.63
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 10,
+   "start": 27000,
+   "end": 30000,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "1995-07-21",
+     "confidence": 0.48
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 11,
+   "start": 29700,
+   "end": 32700,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.494
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 12,
+   "start": 32400,
+   "end": 35400,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "true",
+     "confidence": 0.481
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 13,
+   "start": 35100,
+   "end": 38100,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.338
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 14,
+   "start": 37800,
+   "end": 40800,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.591
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 15,
+   "start": 40500,
+   "end": 43500,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.411
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 16,
+   "start": 43200,
+   "end": 46200,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "1995-07-21",
+     "confidence": 0.545
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 17,
+   "start": 45900,
+   "end": 48900,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.551
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 18,
+   "start": 48600,
+   "end": 51600,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.435
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 19,
+   "start": 51300,
+   "end": 54300,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "21st day of July, 1995",
+     "confidence": 0.492
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 20,
+   "start": 54000,
+   "end": 57000,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.407
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 21,
+   "start": 56700,
+   "end": 59700,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.424
+    }
+   },
+   "usable": 0
+  },
+  {
+   "window": 22,
+   "start": 59400,
+   "end": 60032,
+   "prefix_chars": 3000,
+   "status": "ok",
+   "answers": {
+    "invoice_number": {
+     "type": "text",
+     "value": null
+    },
+    "effective_date": {
+     "type": "text",
+     "value": "July, 1995",
+     "span": [
+      234,
+      244
+     ],
+     "confidence": 0.57
+    }
+   },
+   "usable": 0
+  }
+ ]
+}

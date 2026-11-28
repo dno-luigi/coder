@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "task_id": "extract-alpha-bodyonly-04",
+  "status": "proposed",
+  "request": {
+    "operator_instruction": "let's get it working (pasted Extractions-API chunking script)",
+    "objective": "Re-run the six-field lease extraction with a 3000-code-point preamble under body-only evidence accounting, replacing the previous run whose 22-vote counts were inflated by preamble matches.",
+    "acceptance_criteria": [
+      "Same document, size 3000, overlap 300, header 3000, six fields as the previous run",
+      "answered_from_preamble and values_without_a_body_match are reported",
+      "No field is credited with votes from windows that never contained it in their body",
+      "Values are printed with their global code-point offsets"
+    ]
+  },
+  "authorization": {
+    "requester": "operator",
+    "approved_by": "operator",
+    "approved_at": "2026-11-28T00:00:00Z",
+    "scope": "One run of extract-alpha.mjs with --header 3000; write to extract-test/out/extract-alpha/hdr-body",
+    "design_changes_permitted": false,
+    "commit_permitted": false,
+    "merge_permitted": false,
+    "deploy_permitted": false
+  },
+  "repository": {
+    "repository_identity": "dno-luigi/coder",
+    "remote": "https://github.com/dno-luigi/coder",
+    "base_commit": "7dd53360088acb9b1a49786244ef1f593287fb16",
+    "base_tree": "99912ff5ad3b7e4d548ab716929cbf67cd0a273",
+    "branch": "freebuff/f6eb023e06dd01c0dc889d5b"
+  },
+  "workspace": {
+    "implementer_worktree": "/workspace/chats/f6eb023e06dd01c0dc889d5b",
+    "verifier_worktree": "not provisioned (measurement task, no code change)",
+    "worktree_isolation_required": false
+  },
+  "governance": {
+    "ethical_foundation_sha256": "not established in this workspace",
+    "differential_foundation_sha256": "not established in this workspace"
+  },
+  "allowed_paths": ["extract-test/verify-tmp/", "extract-test/out/extract-alpha/"],
+  "allowed_commands": [
+    {
+      "argv": ["node", "extract-test/verify-tmp/extract-alpha.mjs", "--doc", "extract-test/docs/legal-property/01-property-lease.txt", "--size", "3000", "--overlap", "300", "--header", "3000", "--fields", "<six lease fields>"],
+      "timeout_seconds": 300,
+      "purpose": "Six-field run with a preamble and body-only evidence accounting"
+    }
+  ],
+  "limits": {
+    "max_model_cost_usd": 0.01,
+    "max_total_model_calls": 30,
+    "max_execution_seconds": 600,
+    "max_command_count": 4,
+    "max_output_bytes": 500000
+  },
+  "handoff": { "required": true, "format_version": 1 },
+  "verification": { "required": true, "independent_execution": false, "required_commands": [] },
+  "stop_conditions": ["Cost or call limit reached", "Unauthorized file modification", "Acceptance criteria cannot be established"]
+}

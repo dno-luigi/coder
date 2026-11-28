@@ -1,0 +1,36 @@
+{
+  "old": {
+    "arm": "old",
+    "status": 200,
+    "ms": 812,
+    "cost": 0.00033644,
+    "values": [
+      {
+        "text": "$0.00",
+        "conf": 0.92,
+        "start": 5661,
+        "end": 5666,
+        "span": "$0.00",
+        "spanOk": true
+      }
+    ],
+    "omitted": false
+  },
+  "new": {
+    "arm": "new",
+    "status": 200,
+    "ms": 882,
+    "cost": 0.00033764,
+    "values": [
+      {
+        "text": "$0.00",
+        "conf": 0.989,
+        "start": 5661,
+        "end": 5666,
+        "span": "$0.00",
+        "spanOk": true
+      }
+    ],
+    "omitted": false
+  }
+}

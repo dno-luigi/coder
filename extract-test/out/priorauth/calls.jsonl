@@ -1,0 +1,6 @@
+{"name":"locate","status":200,"ms":1722,"cost":0.00001824}
+{"name":"decide","status":200,"ms":249,"cost":0.00010148}
+{"name":"locate","status":200,"ms":1095,"cost":0.00001636}
+{"name":"decide","status":200,"ms":238,"cost":0.0000592}
+{"name":"locate","status":200,"ms":1133,"cost":0.00001652}
+{"name":"decide","status":200,"ms":305,"cost":0.00006304}

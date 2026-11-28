@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "task_id": "extract-alpha-verbatim-01",
+  "status": "proposed",
+  "request": {
+    "operator_instruction": "This uses the documented Extractions API ... Install zod and tsx, set OPENROUTER_API_KEY, then run npx tsx extract.ts document.txt",
+    "objective": "Execute the pasted script unmodified against one real 60k-char lease and record, from the response itself, whether model scaledown/extract on POST /api/alpha/extractions returns a usable span for each answer.",
+    "acceptance_criteria": [
+      "The pasted script runs unmodified against extract-test/docs/legal-property/01-property-lease.txt",
+      "Every per-window HTTP status and the count of answers with and without span is recorded",
+      "The raw response body of at least one window is preserved as evidence",
+      "Whether any field reaches matches[] versus review[] is reported from observed output only"
+    ]
+  },
+  "authorization": {
+    "requester": "operator",
+    "approved_by": "operator",
+    "approved_at": "2026-11-28T00:00:00Z",
+    "scope": "One run of extract-as-pasted.ts over one lease; one zod install without saving; read-only inspection of existing outputs",
+    "design_changes_permitted": false,
+    "commit_permitted": false,
+    "merge_permitted": false,
+    "deploy_permitted": false
+  },
+  "repository": {
+    "repository_identity": "dno-luigi/coder",
+    "remote": "https://github.com/dno-luigi/coder",
+    "base_commit": "7dd53360088acb9b1a49786244ef1f593287fb16",
+    "base_tree": "99912ff5ad3b7e4d548ab716929cbf67cd0a273",
+    "branch": "freebuff/f6eb023e06dd01c0dc889d5b"
+  },
+  "workspace": {
+    "implementer_worktree": "/workspace/chats/f6eb023e06dd01c0dc889d5b",
+    "verifier_worktree": "not provisioned (measurement task, no code change)",
+    "worktree_isolation_required": false
+  },
+  "governance": {
+    "ethical_foundation_sha256": "not established in this workspace",
+    "differential_foundation_sha256": "not established in this workspace"
+  },
+  "allowed_paths": [
+    "extract-test/verify-tmp/",
+    "extract-test/out/extract-alpha/"
+  ],
+  "allowed_commands": [
+    {
+      "argv": ["npm", "install", "--no-save", "--no-package-lock", "zod"],
+      "timeout_seconds": 120,
+      "purpose": "Provide the import the pasted script requires, without touching package.json or the lockfile"
+    },
+    {
+      "argv": ["npx", "tsx", "extract-test/verify-tmp/extract-as-pasted.ts", "extract-test/docs/legal-property/01-property-lease.txt"],
+      "timeout_seconds": 300,
+      "purpose": "Execute the pasted pipeline against one real lease"
+    }
+  ],
+  "limits": {
+    "max_model_cost_usd": 0.02,
+    "max_total_model_calls": 30,
+    "max_execution_seconds": 600,
+    "max_command_count": 6,
+    "max_output_bytes": 500000
+  },
+  "handoff": { "required": true, "format_version": 1 },
+  "verification": {
+    "required": true,
+    "independent_execution": false,
+    "required_commands": []
+  },
+  "stop_conditions": [
+    "Cost or call limit reached",
+    "Unauthorized file modification",
+    "The route returns 4xx for the documented body shape",
+    "Acceptance criteria cannot be established"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "landlord_name": {
+    "status": 200,
+    "ms": 876,
+    "cost": 0.0005282,
+    "values": [
+      {
+        "text": "Mar. Limited Liability Company",
+        "conf": 0.992,
+        "start": 231,
+        "end": 261,
+        "spanOk": true,
+        "normContained": true
+      }
+    ],
+    "omitted": false
+  },
+  "tenant_name": {
+    "status": 200,
+    "ms": 1039,
+    "cost": 0.00052812,
+    "values": [
+      {
+        "text": "Top Group Holdings, Inc.",
+        "conf": 0.967,
+        "start": 277,
+        "end": 301,
+        "spanOk": true,
+        "normContained": true
+      }
+    ],
+    "omitted": false
+  },
+  "premises_address": {
+    "status": 200,
+    "ms": 647,
+    "cost": 0.00052796,
+    "values": [
+      {
+        "text": "1120A Hacienda Blvd.. Hacienda Heights. CA 91745",
+        "conf": 0.891,
+        "start": 44,
+        "end": 92,
+        "spanOk": true,
+        "normContained": true
+      }
+    ],
+    "omitted": false
+  },
+  "commencement_date": {
+    "status": 200,
+    "ms": 648,
+    "cost": 0.00052796,
+    "values": [],
+    "omitted": true
+  },
+  "base_rent": {
+    "status": 200,
+    "ms": 1794,
+    "cost": 0.000529,
+    "values": [
+      {
+        "text": "Twelve Thousand Five Hundred and 00/100 Dollars ($12,500.00) per month",
+        "conf": 0.896,
+        "start": 4445,
+        "end": 4585,
+        "spanOk": false,
+        "normContained": true
+      }
+    ],
+    "omitted": false
+  },
+  "security_deposit": {
+    "status": 200,
+    "ms": 373,
+    "cost": 0.000528,
+    "values": [],
+    "omitted": true
+  }
+}

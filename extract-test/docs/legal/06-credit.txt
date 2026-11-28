@@ -1,0 +1,1262 @@
+EX-10.5
+ 6
+ v382023_ex10-5.htm
+ EXHIBIT 10.5
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ Exhibit
+10.5 
+
+ 
+
+ 
+
+ INTERCREDITOR AGREEMENT 
+
+ 
+
+ This INTERCREDITOR
+AGREEMENT is dated as of June 19, 2014 and entered into by CO PERATIEVE CENTRALE RAIFFEISEN-BOERENLEENBANK B.A., RABOBANK
+NEDERLAND , NEW YORK BRANCH ( Rabobank ), in its capacity as collateral agent for the Committed Lenders
+(as defined below), including its successors and assigns from time to time (in such capacity, the Committed Collateral
+Agent ), and Rabobank, in its capacity as collateral agent for the Uncommitted Lenders (as defined below), including
+its successors and assigns from time to time (in such capacity, the Uncommitted Collateral Agent ).
+
+ 
+
+ RECITALS 
+
+ 
+
+ A. Empire
+Resources, Inc., a Delaware corporation (the Company ), the several Lenders from time to time parties thereto
+and Rabobank, as Agent (in such capacity, the Committed Agent ), have entered into an Amended and Restated
+Credit Agreement dated as of the date hereof providing for a revolving credit facility (as amended, restated, supplemented, modified,
+replaced or refinanced from time to time, the Committed Credit Agreement );
+
+ 
+
+ B. The
+obligations of the Company under the Committed Credit Agreement will be secured by liens on substantially all the assets of the
+Company in favor of the Committed Collateral Agent, pursuant to the terms of the Committed Credit Agreement Collateral Documents
+(as hereinafter defined);
+
+ 
+
+ C. The
+Company, the several Lenders from time to time parties thereto and Rabobank, as Agent (in such capacity, the Uncommitted
+Agent ), have entered into a Credit Agreement dated as of the date hereof providing for an uncommitted revolving credit
+facility (as amended, restated, supplemented, modified, replaced or refinanced from time to time, the Uncommitted Credit
+Agreement );
+
+ 
+
+ D. The
+obligations of the Company under the Uncommitted Credit Agreement will be secured by liens on substantially all the assets of the
+Company in favor of the Uncommitted Collateral Agent, pursuant to the terms of the Uncommitted Credit Agreement Collateral Documents
+(as hereinafter defined);
+
+ 
+
+ E. The
+Committed Collateral Agent and the Uncommitted Collateral Agent are entering into this Agreement in order to (1) subordinate
+the liens of the Uncommitted Collateral Agent granted pursuant to the Uncommitted Credit Agreement Collateral Documents to the
+liens of the Committed Collateral Agent over the Committed Credit Agreement Priority Collateral (as defined below) pursuant to
+the Committed Credit Agreement Collateral Documents, upon the terms and subject to the conditions set forth in this Agreement;
+and (2) subordinate the liens of the Committed Collateral Agent granted pursuant to the Committed Credit Agreement Collateral
+Documents to the liens of the Uncommitted Collateral Agent over the Uncommitted Credit Agreement Priority Collateral (as defined
+below) pursuant to the Uncommitted Credit Agreement Collateral Documents;
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ F. Each
+of the Committed Collateral Agent and the Uncommitted Collateral Agent is entering into this Agreement to set forth the respective
+rights and remedies of the Committed Credit Agreement Claimholders (as hereinafter defined), on the one hand, and the Uncommitted
+Credit Agreement Claimholders (as hereinafter defined), on the other hand, with respect to the Committed Credit Agreement Priority
+Collateral and Uncommitted Credit Agreement Priority Collateral; and
+
+ 
+
+ It is a condition to
+the obligation of the Committed Lenders to make revolving loans under the Committed Credit Agreement and a requirement under the
+Uncommitted Credit Agreement that the Committed Collateral Agent and the Uncommitted Collateral Agent shall have executed and delivered
+this Agreement.
+
+ 
+
+ AGREEMENT 
+
+ 
+
+ In consideration of
+the foregoing, the mutual covenants and obligations herein set forth and for other good and valuable consideration, the sufficiency
+and receipt of which are hereby acknowledged, the parties hereto, intending to be legally bound, hereby agree as follows:
+
+ 
+
+ SECTION 1. Definitions. 
+
+ 
+
+ 1.1 Defined
+Terms. 
+
+ 
+
+ As used in this Agreement,
+the following terms shall have the meanings set forth in this Section:
+
+ 
+
+ Advance Letter
+of Credit means any commercial letter of credit the issuance of which has been irrevocably requested by the Company
+for the purpose of securing the purchase price of inventory which, upon issuance of such letter of credit, will qualify as Eligible
+Inventory Ordered Under L/C (as defined in the Committed Credit Agreement or Uncommitted Credit Agreement, as applicable).
+
+ 
+
+ Affiliate 
+means, with respect to a specified Person, another Person that directly, or indirectly through one or more intermediaries, controls
+or is controlled by or is under common control with the Person specified. For purposes of this definition, a Person shall be deemed
+to control or be controlled by a Person if such Person possesses, directly or indirectly, power to
+direct or cause the direction of the management or policies of such Person whether through ownership of equity interests, by contract
+or otherwise.
+
+ 
+
+ Agreement 
+means this Intercreditor Agreement, as amended, restated, renewed, extended, supplemented or otherwise modified from time to time.
+
+ 
+
+ Bankruptcy
+Code means Title 11 of the United States Code entitled Bankruptcy, as now and hereafter in effect, or
+any successor statute.
+
+ 
+
+ Bankruptcy
+Law means the Bankruptcy Code and any similar federal, state or foreign law for the relief of debtors.
+
+ 
+
+ 
+ 2 
+
+ 
+
+ 
+
+ 
+
+ Borrowing
+Base Certificate has the respective meaning assigned to that term in the Committed Credit Agreement or the Uncommitted
+Credit Agreement, as applicable.
+
+ 
+
+ Borrowing
+Base Deficiency means, with respect to the Committed Credit Agreement or the Uncommitted Credit Agreement, at any time
+that the aggregate Credit Exposure (as defined in the Committed Credit Agreement or the Uncommitted Credit Agreement, as the case
+may be) exceeds the applicable Borrowing Base (as defined in the Committed Credit Agreement or the Uncommitted Credit Agreement,
+as the case may be) as set forth on a Borrowing Base Certificate (or an Interim Borrowing Base Certificate) delivered by the Company
+to the Committed Agent or the Uncommitted Agent, as the case may be.
+
+ 
+
+ Borrowing
+Base Deficiency Amount means, with respect to the Committed Credit Agreement or the Uncommitted Credit Agreement, at
+any time there exists a Borrowing Base Deficiency, the excess of the applicable Credit Exposure (as defined in the Committed Credit
+Agreement or the Uncommitted Credit Agreement, as the case may be) at such time over the applicable Borrowing Base (as defined
+in the Committed Credit Agreement or the Uncommitted Credit Agreement, as the case may be) as set forth in the Borrowing Base Certificate
+(or Interim Borrowing Base Certificate) delivered by the Company to the Committed Agent or the Uncommitted Agent, as the case may
+be, used in determining the existence of such Borrowing Base Deficiency.
+
+ 
+
+ Borrowing
+Base Discrepancy Notice has the meaning assigned to such term in Section 2.3(a)(i).
+
+ 
+
+ Borrowing
+Base Excess means, with respect to the Committed Credit Agreement or the Uncommitted Credit Agreement, at any time that
+the applicable Borrowing Base (as defined in the Committed Credit Agreement or the Uncommitted Credit Agreement, as the case may
+be) exceeds the aggregate Credit Exposure (as defined in the Committed Credit Agreement or the Uncommitted Credit Agreement, as
+the case may be) as set forth on a Borrowing Base Certificate (or an Interim Borrowing Base Certificate) delivered by the Company
+to the Committed Agent or the Uncommitted Agent, as the case may be.
+
+ 
+
+ Borrowing
+Base Excess Amount means, with respect to the Committed Credit Agreement or the Uncommitted Credit Agreement, at any
+time there exists a Borrowing Base Excess, the excess of the applicable Borrowing Base (as defined in the Committed Credit Agreement
+or the Uncommitted Credit Agreement, as the case may be) at such time over the aggregate Credit Exposure (as defined in
+the Committed Credit Agreement or the Uncommitted Credit Agreement, as the case may be) as set forth in the Borrowing Base Certificate
+(or Interim Borrowing Base Certificate) delivered by the Company to the Committed Agent or the Uncommitted Agent, as the case may
+be, used in determining the existence of such Borrowing Base Excess.
+
+ 
+
+ Business
+Day means any day on which commercial banks are not authorized or required to close in New York City.
+
+ 
+
+ Collateral 
+means, collectively, the Committed Collateral and the Uncommitted Collateral.
+
+ 
+
+ 
+ 3 
+
+ 
+
+ 
+
+ 
+
+ Committed
+Collateral means Collateral as such term is defined in the Security Agreement (as
+defined in the Committed Credit Agreement).
+
+ 
+
+ Committed
+Collateral Agent has the meaning assigned to that term in the Recitals to this Agreement.
+
+ 
+
+ Committed
+Credit Agreement has the meaning assigned to that term in the Recitals to this Agreement.
+
+ 
+
+ Committed
+Credit Agreement Claimholders means, at any relevant time, the holders of Committed Credit Agreement Obligations at
+that time, including the Committed Lenders and the agents under the Committed Loan Documents.
+
+ 
+
+ Committed
+Credit Agreement Collateral Account means the Collateral Account , as defined in the Committed Credit Agreement.
+
+ 
+
+ Committed
+Credit Agreement Collateral Documents means the Security Documents (as defined in the Committed Credit Agreement) and
+any other agreement, document or instrument pursuant to which a Lien is granted securing any Committed Credit Agreement Obligations
+or under which rights or remedies with respect to such Liens are governed and any Guaranty of any Committed Credit Agreement Obligations.
+
+ 
+
+ Committed
+Credit Agreement Priority Collateral means, as of any day of determination, (a) all of the assets and property
+of the Company set forth on the Borrowing Base Certificate (or Interim Borrowing Base Certificate) delivered pursuant to Section 8.01(d)
+of the Committed Credit Agreement as of such day (or, if such day is not a day on which a Borrowing Base Certificate is to be delivered
+pursuant to Section 8.01(d) of the Committed Credit Agreement (or not a day on which an Interim Borrowing Base Certificate
+is delivered pursuant to Section 8.01(d) of the Committed Credit Agreement), the Borrowing Base Certificate (or Interim Borrowing
+Base Certificate) most recently delivered pursuant to Section 8.01(d) of the Committed Credit Agreement), as such assets and
+property may be adjusted pursuant to Section 2.3, (b) the Committed Credit Agreement Collateral Account and all funds
+therein and all amounts credited thereto, (c) the JPM Account and all funds therein and all amounts credited thereto, (d) the
+Advance Letters of Credit issued under the Committed Credit Agreement and (e) all proceeds of the foregoing. If any new Borrowing
+Base Certificate (or Interim Borrowing Base Certificate) delivered pursuant to the Committed Credit Agreement shows a deficiency
+and if the reason for such deficiency is in whole or in part that the Company has violated Section 8.27 of the Committed Credit
+Agreement or because assets set forth on the Borrowing Base Certificate (or Interim Borrowing Base Certificate) previously delivered
+became ineligible, then the improperly removed assets or the ineligible assets shall continue to be Committed Credit Agreement
+Priority Collateral until the next Borrowing Base Certificate is delivered pursuant to the Committed Credit Agreement showing an
+excess.
+
+ 
+
+ Committed
+Credit Agreement Obligations means, all Obligations outstanding under the Committed Credit Agreement and the other Committed
+Loan Documents, including, without limitation, all interest accrued or accruing (or which would, absent commencement of an Insolvency
+or Liquidation Proceeding, accrue) after commencement of an Insolvency or Liquidation Proceeding in accordance with the rate specified
+in the relevant Committed Loan Document whether or not the claim for such interest is allowed as a claim in such Insolvency or
+Liquidation Proceeding.
+
+ 
+
+ 
+ 4 
+
+ 
+
+ 
+
+ 
+
+ Committed
+Lenders means the Banks under and as defined in the Committed Loan Documents.
+
+ 
+
+ Committed
+Loan Documents means the Committed Credit Agreement and the Basic Documents (as defined in the Committed Credit Agreement),
+and each of the other agreements, documents and instruments providing for or evidencing any other Committed Credit Agreement Obligation,
+and any other document or instrument executed or delivered at any time in connection with any Committed Credit Agreement Obligations,
+including any intercreditor or joinder agreement among holders of Committed Credit Agreement Obligations, to the extent such are
+effective at the relevant time, as each may be amended, restated, supplemented, modified, renewed or extended from time to time
+in accordance with the provisions of this Agreement.
+
+ 
+
+ Common Collateral 
+means all Collateral that is not Committed Credit Agreement Priority Collateral or Uncommitted Credit Agreement Priority Collateral.
+
+ 
+
+ Company 
+has the meaning assigned to that term in the Recitals to this Agreement.
+
+ 
+
+ DIP Financing 
+has the meaning assigned to that term in Section 6.1.
+
+ 
+
+ Discharge
+of Committed Credit Agreement Obligations means, except to the extent otherwise expressly provided in Section 5.3:
+
+ 
+
+ (a) payment
+in full in cash of the principal of and interest (including interest accruing on or after the commencement of any Insolvency or
+Liquidation Proceeding, whether or not such interest would be allowed in such Insolvency or Liquidation Proceeding), on all Obligations
+outstanding under the Committed Loan Documents and constituting Committed Credit Agreement Obligations;
+
+ 
+
+ (b) payment
+in full in cash of all other Committed Credit Agreement Obligations (other than contingent indemnification obligations to the extent
+no claim giving rise thereto has been asserted) that are due and payable or otherwise accrued and owing at or prior to the time
+such principal and interest are paid;
+
+ 
+
+ (c) termination
+or expiration of all commitments, if any, to extend credit that would constitute Committed Credit Agreement Obligations; and
+
+ 
+
+ (d) termination
+or cash collateralization (in an amount and manner set forth in the Committed Credit Agreement) of all letters of credit issued
+under the Committed Loan Documents and constituting Committed Credit Agreement Obligations.
+
+ 
+
+ Discharge
+of Uncommitted Credit Agreement Obligations means, except to the extent otherwise expressly provided in Section 5.3:
+
+ 
+
+ 
+ 5 
+
+ 
+
+ 
+
+ 
+
+ (a) payment
+in full in cash of the principal of and interest (including interest accruing on or after the commencement of any Insolvency or
+Liquidation Proceeding, whether or not such interest would be allowed in such Insolvency or Liquidation Proceeding), on all Obligations
+outstanding under the Uncommitted Loan Documents and constituting Uncommitted Credit Agreement Obligations;
+
+ 
+
+ (b) payment
+in full in cash of all other Uncommitted Credit Agreement Obligations (other than contingent indemnification obligations to the
+extent no claim giving rise thereto has been asserted) that are due and payable or otherwise accrued and owing at or prior to the
+time such principal and interest are paid;
+
+ 
+
+ (c) termination
+or expiration of all obligations, if any, to extend credit that would constitute Uncommitted Credit Agreement Obligations; and
+
+ 
+
+ (d) termination
+or cash collateralization (in an amount and manner set forth in the Uncommitted Credit Agreement) of all letters of credit issued
+under the Uncommitted Loan Documents and constituting Uncommitted Credit Agreement Obligations.
+
+ 
+
+ Excess
+Committed Assets has the meaning assigned to such term in Section 2.3(b)(ii).
+
+ 
+
+ Excess
+Uncommitted Assets has the meaning assigned to such term in Section 2.3(a)(ii).
+
+ 
+
+ Exercise
+Date has the meaning assigned to such term in Section 4.1(b).
+
+ 
+
+ Governmental
+Authority means any federal, state, municipal, national or other government, governmental department, commission, board,
+bureau, court, agency or instrumentality or political subdivision thereof or any entity or officer exercising executive, legislative,
+judicial, regulatory or administrative functions of or pertaining to any government or any court, in each case whether associated
+with a state of the United States, the United States, or a foreign entity or government.
+
+ 
+
+ Indebtedness 
+means and includes all Obligations that constitute Indebtedness within the meaning of the Committed Credit Agreement
+or the Uncommitted Credit Agreement, as applicable.
+
+ 
+
+ Insolvency
+or Liquidation Proceeding means:
+
+ 
+
+ (a) any
+voluntary or involuntary case or proceeding under the Bankruptcy Code with respect to the Company;
+
+ 
+
+ (b) any
+other voluntary or involuntary insolvency, reorganization or bankruptcy case or proceeding, or any receivership, liquidation, reorganization
+or other similar case or proceeding with respect to the Company or with respect to a material portion of its assets;
+
+ 
+
+ 
+ 6 
+
+ 
+
+ 
+
+ 
+
+ (c) any
+liquidation, dissolution, reorganization or winding up of the Company whether voluntary or involuntary and whether or not involving
+insolvency or bankruptcy; or
+
+ 
+
+ (d) any
+assignment for the benefit of creditors or any other marshalling of assets and liabilities of the Company.
+
+ 
+
+ Interim
+Borrowing Base Certificate has the respective meaning assigned to that term in the Committed Credit Agreement or the
+Uncommitted Credit Agreement, as applicable.
+
+ 
+
+ JPM Account 
+means account number 9102535458 maintained by the Company with JPMorgan Chase Bank, N.A.
+
+ 
+
+ Lenders 
+means the Committed Lenders and the Uncommitted Lenders.
+
+ 
+
+ Lien 
+means any lien, mortgage, pledge, assignment, security interest, charge or encumbrance of any kind (including any agreement to
+give any of the foregoing, any conditional sale or other title retention agreement, and any lease in the nature thereof) and any
+option, trust, UCC financing statement or other preferential arrangement having the practical effect of any of the foregoing.
+
+ 
+
+ New Committed
+Credit Agreement Agent has the meaning assigned to that term in Section 5.3(a).
+
+ 
+
+ New Committed
+Credit Agreement Debt Notice has the meaning assigned to that term in Section 5.3(a).
+
+ 
+
+ New Uncommitted
+Credit Agreement Agent has the meaning assigned to that term in Section 5.3(b).
+
+ 
+
+ New Uncommitted
+Credit Agreement Debt Notice has the meaning assigned to that term in Section 5.3(b).
+
+ 
+
+ Obligations 
+means all Obligations (as defined in the Committed Credit Agreement or the Uncommitted Credit Agreement, as applicable) of the
+Company from time to time owed to any agent or trustee, the Committed Credit Agreement Claimholders, the Uncommitted Credit Agreement
+Claimholders or any of them or their respective Affiliates, in each case under the Committed Loan Documents, the Uncommitted Loan
+Documents, whether for principal, interest, fees, expenses, indemnification or otherwise and all guarantees of any of the foregoing.
+
+ 
+
+ Person 
+means any natural person, corporation, limited liability company, trust, joint venture, association, company, partnership, governmental
+authority or other entity.
+
+ 
+
+ Priority
+Collateral means, the Committed Credit Agreement Priority Collateral or the Uncommitted Priority Collateral, as applicable.
+
+ 
+
+ Recovery 
+has the meaning set forth in Section 6.5.
+
+ 
+
+ 
+ 7 
+
+ 
+
+ 
+
+ 
+
+ Refinance 
+means, in respect of any Indebtedness, to refinance, extend, renew, defease, amend, modify, supplement, restructure, replace, refund
+or repay, or to issue other indebtedness, in exchange or replacement for, such Indebtedness in whole or in part. Refinanced 
+and Refinancing shall have correlative meanings.
+
+ 
+
+ Required
+Committed Lenders means Committed Lenders having 51% of the aggregate amount of the Revolving Loan Commitments (as defined
+in the Committed Credit Agreement) or, if the Revolving Loan Commitments have terminated, Committed Lenders holding at least 51%
+of the aggregate amount of the Credit Exposure (as defined in the Committed Credit Agreement). If at the time of the calculation
+of the Required Committed Lenders, (i) one or more Committed Lenders are also Uncommitted Lenders or (ii) one or more
+Defaulting Banks (as defined in the Committed Credit Agreement) exists, the Credit Exposure and unused Revolving Loan Commitments
+of each Committed Lender that is also an Uncommitted Lenders and each Defaulting Bank shall be excluded from both the numerator
+and denominator of the calculation.
+
+ 
+
+ Subsidiary 
+means, with respect to any Person, any corporation, partnership, limited liability company, association, joint venture or other
+business entity of which more than 50% of the total voting power of shares of stock or other ownership interests entitled (without
+regard to the occurrence of any contingency) to vote in the election of the Person or Persons (whether directors, managers, trustees
+or other Persons performing similar functions) having the power to direct or cause the direction of the management and policies
+thereof is at the time owned or controlled, directly or indirectly, by that Person or one or more of the other Subsidiaries of
+that Person or a combination thereof.
+
+ 
+
+ UCC 
+means the Uniform Commercial Code (or any similar or equivalent legislation) as in effect in any applicable jurisdiction.
+
+ 
+
+ Uncommitted
+Collateral Agent has the meaning assigned to that term in the Recitals to this Agreement.
+
+ 
+
+ Uncommitted
+Credit Agreement has the meaning assigned to that term in the Recitals to this Agreement.
+
+ 
+
+ Uncommitted
+Credit Agreement Claimholders means, at any relevant time, the holders of Uncommitted Credit Agreement Obligations at
+that time, including the Uncommitted Lenders and the agents under the Uncommitted Loan Documents.
+
+ 
+
+ Uncommitted
+Credit Agreement Collateral Account means the Collateral Account as defined in the Uncommitted Credit
+Agreement.
+
+ 
+
+ 
+ 8 
+
+ 
+
+ 
+
+ 
+
+ Uncommitted
+Credit Agreement Priority Collateral means, as of any day of determination, (a) all of the assets and property
+of the Company set forth on the Borrowing Base Certificate (or Interim Borrowing Base Certificate) delivered pursuant to Section 8.01(d)
+of the Uncommitted Credit Agreement as of such day (or, if such day is not a day on which a Borrowing Base Certificate is to be
+delivered pursuant to Section 8.01(d) of the Uncommitted Credit Agreement (or not a day on which an Interim Borrowing Base
+Certificate is delivered pursuant to Section 8.01(d) of the Uncommitted Credit Agreement), the Borrowing Base Certificate
+(or Interim Borrowing Base Certificate) most recently delivered pursuant to Section 8.01(d) of the Uncommitted Credit Agreement),
+as such assets and property may be adjusted pursuant to Section 2.3, provided that unless each of the Committed Lenders
+shall have approved in writing of the opening by the Company of a deposit account (which may contain Uncommitted Credit Agreement
+Priority Collateral) to service only accounts receivable which are Uncommitted Credit Agreement Priority Collateral, Uncommitted
+Credit Agreement Priority Collateral shall not include deposit accounts or cash (other than the Uncommitted Credit Agreement Collateral
+Account and cash in the Uncommitted Credit Agreement Collateral Account), (b) the Uncommitted Credit Agreement Collateral
+Account and all funds therein and amounts credited thereto, (c) the Advance Letters of Credit issued under the Uncommitted
+Credit Agreement and (d) all proceeds of the foregoing (except to the extent such proceeds are deposited in the JPM Account
+or the Committed Credit Agreement Collateral Account) . If any new Borrowing Base Certificate (or Interim Borrowing Base Certificate)
+delivered pursuant to the Uncommitted Credit Agreement shows a deficiency and if the reason for such deficiency is in whole or
+in part that the Company has violated Section 8.27 of the Uncommitted Credit Agreement or because assets set forth on the
+Borrowing Base Certificate (or Interim Borrowing Base Certificate) previously delivered became ineligible, then the improperly
+removed assets or the ineligible assets shall continue to be Uncommitted Credit Agreement Priority Collateral until the next Borrowing
+Base Certificate is delivered pursuant to the Uncommitted Credit Agreement showing an excess.
+
+ 
+
+ Uncommitted
+Credit Agreement Collateral Documents means the Security Documents (as defined in the Uncommitted Credit Agreement)
+and any other agreement, document or instrument pursuant to which a Lien is granted securing any Uncommitted Credit Agreement Obligations
+or under which rights or remedies with respect to such Liens are governed and any Guaranty of any Uncommitted Credit Agreement
+Obligations.
+
+ 
+
+ Uncommitted
+Credit Agreement Obligations means, all Obligations outstanding under the Uncommitted Credit Agreement and the other
+Uncommitted Loan Documents, including, without limitation, all interest accrued or accruing (or which would, absent commencement
+of an Insolvency or Liquidation Proceeding, accrue) after commencement of an Insolvency or Liquidation Proceeding in accordance
+with the rate specified in the relevant Uncommitted Loan Document whether or not the claim for such interest is allowed as a claim
+in such Insolvency or Liquidation Proceeding.
+
+ 
+
+ Uncommitted
+Collateral means Collateral as such term is defined in the Security Agreement (as
+defined in the Uncommitted Credit Agreement).
+
+ 
+
+ Uncommitted
+Lenders means the Banks under and as defined in the Uncommitted Loan Documents.
+
+ 
+
+ Uncommitted
+Loan Documents means the Uncommitted Credit Agreement and the Basic Documents (as defined in the Uncommitted Credit
+Agreement), and each of the other agreements, documents and instruments providing for or evidencing any other Uncommitted Credit
+Agreement Obligation, and any other document or instrument executed or delivered at any time in connection with any Uncommitted
+Credit Agreement Obligations, including any intercreditor or joinder agreement among holders of Uncommitted Credit Agreement Obligations,
+to the extent such are effective at the relevant time, as each may be amended, restated, supplemented, modified, renewed or extended
+from time to time in accordance with the provisions of this Agreement.
+
+ 
+
+ 
+ 9 
+
+ 
+
+ 
+
+ 
+
+ 1.2 Terms
+Generally. 
+
+ 
+
+ The definitions of
+terms in this Agreement shall apply equally to the singular and plural forms of the terms defined. Whenever the context may require,
+any pronoun shall include the corresponding masculine, feminine and neuter forms. The words include, includes 
+and including shall be deemed to be followed by the phrase without limitation. The word will 
+shall be construed to have the same meaning and effect as the word shall. Unless the context requires otherwise:
+
+ 
+
+ (a) any
+definition of or reference to any agreement, instrument or other document herein shall be construed as referring to such agreement,
+instrument or other document as from time to time amended, restated, supplemented, modified, renewed or extended;
+
+ 
+
+ (b) any
+reference herein to any Person shall be construed to include such Person s permitted successors and assigns;
+
+ 
+
+ (c) the
+words herein, hereof and hereunder, and words of similar import, shall be construed to
+refer to this Agreement in its entirety and not to any particular provision hereof;
+
+ 
+
+ (d) all
+references herein to Sections shall be construed to refer to Sections of this Agreement; and
+
+ 
+
+ (e) the
+words asset and property shall be construed to have the same meaning and effect and to refer to any
+and all tangible and intangible assets and properties, including cash, securities, accounts and contract rights.
+
+ 
+
+ SECTION 2. Lien Priorities. 
+
+ 
+
+ 2.1 Relative
+Priorities. 
+
+ 
+
+ Notwithstanding the
+date, time, method, manner or order of grant, attachment or perfection of any Liens securing the Committed Credit Agreement Obligations
+or the Uncommitted Credit Agreement Obligations granted on the Collateral and notwithstanding any provision of the UCC, or any
+other applicable law or the Committed Loan Documents or the Uncommitted Loan Documents, or any other circumstance whatsoever, each
+of the Committed Collateral Agent, on behalf of itself and the Committed Credit Agreement Claimholders, and the Uncommitted Collateral
+Agent on behalf of the Uncommitted Credit Agreement Claimholders, hereby agrees that:
+
+ 
+
+ (a) any
+Lien on the Committed Credit Agreement Priority Collateral securing any Committed Credit Agreement Obligations now or hereafter
+held by or on behalf of the Committed Collateral Agent or any Committed Credit Agreement Claimholders or any agent or trustee therefor,
+regardless of how acquired, whether by grant, possession, statute, operation of law, subrogation or otherwise, shall be senior
+in all respects and prior to any Lien on the Committed Credit Agreement Priority Collateral securing any Uncommitted Credit Agreement
+Obligations;
+
+ 
+
+ 
+ 10 
+
+ 
+
+ 
+
+ 
+
+ (b) any
+Lien on the Committed Credit Agreement Priority Collateral securing any Uncommitted Credit Agreement Obligations now or hereafter
+held by or on behalf of the Uncommitted Collateral Agent, any Uncommitted Credit Agreement Claimholders or any agent or trustee
+therefor regardless of how acquired, whether by grant, possession, statute, operation of law, subrogation or otherwise, shall be
+junior and subordinate in all respects to all Liens on the Committed Credit Agreement Priority Collateral securing any Committed
+Credit Agreement Obligations. All Liens on the Committed Credit Agreement Priority Collateral securing any Committed Credit Agreement
+Obligations shall be and remain senior in all respects and prior to all Liens on the Committed Credit Agreement Priority Collateral
+securing any Uncommitted Credit Agreement Obligations for all purposes, whether or not such Liens securing any Committed Credit
+Agreement Obligations are subordinated to any Lien securing any other obligation of the Company or any other Person;
+
+ 
+
+ (c) any
+Lien on the Uncommitted Credit Agreement Priority Collateral securing any Uncommitted Credit Agreement Obligations now or hereafter
+held by or on behalf of the Uncommitted Collateral Agent or any Uncommitted Credit Agreement Claimholders or any agent or trustee
+therefor, regardless of how acquired, whether by grant, possession, statute, operation of law, subrogation or otherwise, shall
+be senior in all respects and prior to any Lien on the Uncommitted Credit Agreement Priority Collateral securing any Committed
+Credit Agreement Obligations;
+
+ 
+
+ (d) any
+Lien on the Uncommitted Credit Agreement Priority Collateral securing any Committed Credit Agreement Obligations now or hereafter
+held by or on behalf of the Committed Collateral Agent, any Committed Credit Agreement Claimholders or any agent or trustee therefor,
+regardless of how acquired, whether by grant, possession, statute, operation of law, subrogation or otherwise, shall be junior
+and subordinate in all respects to all Liens on the Uncommitted Credit Agreement Priority Collateral securing any Uncommitted Credit
+Agreement Obligations. All Liens on the Uncommitted Credit Agreement Priority Collateral securing any Uncommitted Credit Agreement
+Obligations shall be and remain senior in all respects and prior to all Liens on the Uncommitted Credit Agreement Priority Collateral
+securing any Committed Credit Agreement Obligations for all purposes, whether or not such Liens securing any Uncommitted Credit
+Agreement Obligations are subordinated to any Lien securing any other obligation of the Company or any other Person; and
+
+ 
+
+ (e) any
+Lien on the Common Collateral securing any Committed Credit Agreement Obligations now or hereafter held by or on behalf of the
+Committed Collateral Agent or any Committed Credit Agreement Claimholders or any agent or trustee therefor, shall be pari passu 
+in all respects with any Lien on the Common Collateral securing any Uncommitted Credit Agreement Obligations now or hereafter held
+by or on behalf of the Uncommitted Collateral Agent or any Uncommitted Credit Agreement Claimholders or any agent or trustee therefor,
+in each case regardless of how acquired, whether by grant, possession, statute, operation of law, subrogation or otherwise.
+
+ 
+
+ 
+ 11 
+
+ 
+
+ 
+
+ 
+
+ 2.2 Prohibition
+on Contesting Liens. 
+
+ 
+
+ Each of the Uncommitted
+Collateral Agent, for itself and on behalf of each Uncommitted Credit Agreement Claimholder, and the Committed Collateral Agent,
+for itself and on behalf of each Committed Credit Agreement Claimholder, agrees that it will not (and hereby waives any right to)
+contest or support any other Person in contesting, in any proceeding (including any Insolvency or Liquidation Proceeding), the
+perfection, priority, validity or enforceability of a Lien held by or on behalf of any of the Committed Credit Agreement Claimholders
+in the Committed Credit Agreement Priority Collateral and the Common Collateral or by or on behalf of any of the Uncommitted Credit
+Agreement Claimholders or on its own behalf in the Uncommitted Credit Agreement Priority Collateral and the Common Collateral,
+as the case may be, or the provisions of this Agreement; provided that nothing in this Agreement shall be construed to prevent
+or impair the rights of the Committed Collateral Agent or any Committed Credit Agreement Claimholder or the Uncommitted Collateral
+Agent or any Uncommitted Credit Agreement Claimholder to enforce this Agreement, including the provisions of this Agreement relating
+to the priority of the Liens securing the Committed Credit Agreement Obligations and the priority of the Liens securing the Uncommitted
+Credit Agreement Obligations as provided in Sections 2.1 and 3.1.
+
+ 
+
+ 2.3 Reallocation
+of Priority Collateral. 
+
+ 
+
+ (a) (i)
+In the event that (A) the Company shall have delivered to the Committed Agent and the Committed Lenders pursuant to the Committed
+Credit Agreement a Borrowing Base Certificate (or an Interim Borrowing Base Certificate) that shows there exists a Borrowing Base
+Deficiency under the Committed Credit Agreement and (B)(I) the corresponding Borrowing Base Certificate (or Interim Borrowing
+Base Certificate) delivered by the Company to the Uncommitted Agent and the Uncommitted Lenders pursuant to the Uncommitted Credit
+Agreement shows that there is a Borrowing Base Excess under the Uncommitted Credit Agreement and (II) no Event of Default
+(as defined under either the Committed Credit Agreement or the Uncommitted Credit Agreement) (other than as a result of non-compliance
+with Section 2.11(a) of the Committed Credit Agreement or the Uncommitted Credit Agreement, or Section 2.3(a)(ii), 2.3(a)(iv),
+2.3(a)(v), 2.3(b)(ii) or 2.3(b)(iv) hereof) exists, the Committed Agent shall promptly (and in any event by 5:00 p.m. on the day
+of receipt of such Borrowing Base Certificate (or Interim Borrowing Base Certificate), or, if the Committed Agent shall have received
+such Borrowing Base Certificate (or Interim Borrowing Base Certificate) after 5:00 p.m. on such day or a day other than a
+Business Day, by 12:00 p.m. on the next succeeding Business Day) provide the Committed Lenders, the Uncommitted Agent and
+the Uncommitted Lenders with written notice (each a Borrowing Base Discrepancy Notice ) of such Borrowing Base
+Deficiency.
+
+ 
+
+ (ii) Concurrently
+with the delivery of the Borrowing Base Certificates (or Interim Borrowing Base Certificates) described in clause (a)(i) above,
+in the event that a Borrowing Base Deficiency shall exist under the Committed Credit Agreement, the Company shall prepay the Committed
+Credit Agreement Obligations in accordance with Section 2.11(a) of the Committed Credit Agreement (including, without limitation,
+from proceeds of borrowings under the Uncommitted Credit Agreement); provided that the Company shall not prepay the Committed
+Credit Agreement Obligations from funds constituting Uncommitted Credit Agreement Priority Collateral in an amount in excess of
+the Borrowing Base Excess under the Uncommitted Credit Agreement.
+
+ 
+
+ 
+ 12 
+
+ 
+
+ 
+
+ 
+
+ (iii) In
+the event that the Company shall not have sufficient funds to eliminate such Borrowing Base Deficiency in accordance with clause (a)(ii)
+above, not later than 5:00 p.m. New York City time on the Business Day immediately succeeding the day on which such Borrowing Base
+Discrepancy Notice shall have been delivered, all of the Uncommitted Lenders shall identify assets (the Excess Uncommitted
+Assets ) included in the Uncommitted Credit Agreement Borrowing Base (as set forth the Borrowing Base Certificate (or
+Interim Borrowing Base Certificate) delivered pursuant to the Uncommitted Credit Agreement) that satisfy the eligibility requirements
+under the Committed Credit Agreement for inclusion in the Committed Credit Agreement Borrowing Base in an amount equal to the lesser
+of (x) the Borrowing Base Deficiency under the Committed Credit Agreement and (y) the Borrowing Base Excess under the
+Uncommitted Credit Agreement. Promptly upon the determination of the Excess Uncommitted Assets by all of the Uncommitted Lenders,
+the Uncommitted Agent shall deliver to the Committed Agent, the Committed Lenders and the Uncommitted Lenders a list of the Excess
+Uncommitted Assets.
+
+ 
+
+ (iv) In
+the event that all of the Uncommitted Lenders shall fail to determine such Excess Uncommitted Assets by 5:00 p.m. New York City
+time on the Business Day immediately succeeding the day on which such Borrowing Base Discrepancy Notice shall have been delivered,
+the Uncommitted Agent shall provide notice thereof to the Company and the Company shall determine such Excess Uncommitted Assets
+by no later than 12:00 p.m. New York City time on the Business Day immediately following the date of receipt of such notice from
+the Uncommitted Agent, and shall deliver to the Committed Agent, the Uncommitted Agent, the Committed Lenders and the Uncommitted
+Lenders a list of such Excess Uncommitted Assets.
+
+ 
+
+ (v) In
+the event that the Company shall fail to determine such Excess Uncommitted Assets by 12:00 p.m. New York City time on the Business
+Day immediately following the date of receipt of the notice delivered by the Uncommitted Agent pursuant to Section 2.3(a)(iv),
+the Committed Agent shall provide notice thereof to the Committed Lenders and the Required Committed Lenders shall determine such
+Excess Uncommitted Assets by no later than 5:00 p.m. New York City time on the Business Day that is three (3) Business Days after
+the date of receipt of the notice delivered by the Uncommitted Agent pursuant to Section 2.3(a)(iv), and shall deliver to the Committed
+Agent, the Committed Lenders, the Uncommitted Agent and the Uncommitted Lenders a list of such Excess Uncommitted Assets.
+
+ 
+
+ (vi) Provided
+that no Event of Default (as defined under either the Committed Credit Agreement or the Uncommitted Credit Agreement) (other than
+as a result of non-compliance with Section 2.11(a) of the Committed Credit Agreement or the Uncommitted Credit Agreement,
+or Section 2.3(a)(ii), 2.3(a)(iv), 2.3(a)(v), 2.3(b)(ii) or 2.3(b)(iv) hereof) shall have occurred and be continuing, upon
+determination of such Excess Uncommitted Assets under Section 2(a)(iii), 2(a)(iv) or 2(a)(v) hereof, without any action by
+the Committed Agent, the Uncommitted Agent, the Committed Collateral Agent, the Uncommitted Collateral Agent, the Committed Lenders
+or the Uncommitted Lenders, such Excess Uncommitted Assets automatically shall (A) be removed from the Uncommitted Credit
+Agreement Borrowing Base, (B) no longer be deemed Uncommitted Credit Agreement Priority Collateral, (C) be included in
+the Committed Credit Agreement Borrowing Base and (D) be deemed Committed Credit Agreement Priority Collateral.
+
+ 
+
+ 
+ 13 
+
+ 
+
+ 
+
+ 
+
+ (b) (i)
+In the event that (A) the Company shall have delivered to the Uncommitted Agent and the Uncommitted Lenders pursuant to the Uncommitted
+Credit Agreement a Borrowing Base Certificate (or an Interim Borrowing Base Certificate) that shows there exists a Borrowing Base
+Deficiency under the Uncommitted Credit Agreement and (B)(I) the corresponding Borrowing Base Certificate (or Interim Borrowing
+Base Certificate) delivered by the Company to the Committed Agent and the Committed Lenders pursuant to the Committed Credit Agreement
+shows that there is a Borrowing Base Excess under the Committed Credit Agreement and (II) no Event of Default (as defined
+under either the Committed Credit Agreement or the Uncommitted Credit Agreement) (other than as a result of non-compliance with
+Section 2.11(a) of the Committed Credit Agreement or the Uncommitted Credit Agreement, or Section 2.3(a)(ii), 2.3(a)(iv),
+2.3(a)(v), 2.3(b)(ii) or 2.3(b)(iv) hereof) exists, the Uncommitted Agent shall promptly (and in any event by 5:00 p.m. on the
+day of receipt of such Borrowing Base Certificate (or Interim Borrowing Base Certificate), or, if the Uncommitted Agent shall have
+received such Borrowing Base Certificate (or Interim Borrowing Base Certificate) after 5:00 p.m. on such day or a day other than
+a Business Day, by 12:00 p.m. on the next succeeding Business Day) provide the Uncommitted Lenders, the Committed Agent and the
+Committed Lenders with a Borrowing Base Discrepancy Notice of such Borrowing Base Deficiency.
+
+ 
+
+ (ii) Concurrently
+with the delivery of the Borrowing Base Certificates (or Interim Borrowing Base Certificates) described in clause (b)(i) above,
+in the event that a Borrowing Base Deficiency shall exist under the Uncommitted Credit Agreement, the Company shall prepay the
+Uncommitted Credit Agreement Obligations in accordance with Section 2.11(a) of the Uncommitted Credit Agreement (including,
+without limitation, from proceeds of borrowings under the Committed Credit Agreement); provided that the Company shall not
+prepay the Uncommitted Credit Agreement Obligations from funds constituting Committed Credit Agreement Priority Collateral in an
+amount in excess of the Borrowing Base Excess under the Committed Credit Agreement.
+
+ 
+
+ (iii) In
+the event that the Company shall not have sufficient funds to eliminate such Borrowing Base Deficiency in accordance with clause (b)(ii)
+above, not later than 5:00 p.m. New York City time on the Business Day immediately succeeding the day on which such Borrowing Base
+Discrepancy Notice shall have been delivered, all of the Committed Lenders shall identify assets (the Excess Committed
+Assets ) included in the Committed Credit Agreement Borrowing Base (as set forth the Borrowing Base Certificate (or Interim
+Borrowing Base Certificate) delivered pursuant to the Committed Credit Agreement) that satisfy the eligibility requirements under
+the Uncommitted Credit Agreement for inclusion in the Uncommitted Credit Agreement Borrowing Base in an amount equal to the lesser
+of (x) the Borrowing Base Deficiency under the Uncommitted Credit Agreement (after giving effect to the prepayment of the
+Uncommitted Credit Agreement Obligations pursuant to clause (ii) above) and (y) the Borrowing Base Excess under the Committed
+Credit Agreement, provided that such Excess Committed Assets shall not at any time include cash. Promptly upon the determination
+of the Excess Committed Assets by all of the Committed Lenders, the Committed Agent shall deliver to the Uncommitted Agent, the
+Uncommitted Lenders and the Committed Lenders a list of such Excess Committed Assets.
+
+ 
+
+ 
+ 14 
+
+ 
+
+ 
+
+ 
+
+ (iv) In
+the event that all of the Committed Lenders shall fail to determine such Excess Committed Assets by 5:00 p.m. New York City time
+on the Business Day immediately succeeding the day on which such Borrowing Base Discrepancy Notice shall have been delivered, the
+Committed Agent shall provide notice thereof to the Company and the Company shall determine such Excess Committed Assets by no
+later than 12:00 p.m. New York City time on the Business Day immediately following the date of receipt of such notice from the
+Committed Agent, and shall deliver to the Committed Agent, the Uncommitted Agent, the Committed Lenders and the Uncommitted Lenders
+a list of such Excess Committed Assets.
+
+ 
+
+ (v) Provided
+that no Event of Default (as defined under either the Committed Credit Agreement or the Uncommitted Credit Agreement) (other than
+as a result of non-compliance with Section 2.11(a) of the Committed Credit Agreement or the Uncommitted Credit Agreement,
+or Section 2.3(a)(ii), 2.3(a)(iv), 2.3(a)(v), 2.3(b)(ii) or 2.3(b)(iv) hereof) shall have occurred and be continuing, upon
+determination of such Excess Committed Assets, without any action by the Committed Agent, the Uncommitted Agent, the Committed
+Collateral Agent, the Uncommitted Collateral Agent, the Committed Lenders or the Uncommitted Lenders, such Excess Committed Assets
+automatically shall (A) be removed from the Committed Credit Agreement Borrowing Base, (B) no longer be deemed Committed
+Credit Agreement Priority Collateral, (C) be included in the Uncommitted Credit Agreement Borrowing Base and (D) be deemed
+Uncommitted Credit Agreement Priority Collateral.
+
+ 
+
+ (c) Each
+of the Committed Agent and the Uncommitted Agent shall cause the Company to promptly deliver each Borrowing Base Certificate and
+Interim Borrowing Base Certificate delivered pursuant to the Committed Credit Agreement or the Uncommitted Credit Agreement to
+each Committed Lender and Uncommitted Lender.
+
+ 
+
+ SECTION 3. Enforcement. 
+
+ 
+
+ 3.1 Exercise
+of Remedies - Uncommitted Collateral Agent. 
+
+ 
+
+ (a) Until
+the Discharge of Committed Credit Agreement Obligations has occurred, whether or not any Insolvency or Liquidation Proceeding has
+been commenced by or against the Company, the Uncommitted Collateral Agent agrees on its own behalf and on behalf of the Uncommitted
+Credit Agreement Claimholders that the Uncommitted Collateral Agent and the Uncommitted Credit Agreement Claimholders:
+
+ 
+
+ (1) are
+prohibited from exercising, and will not exercise or seek to exercise, any rights or remedies with respect to any Committed Credit
+Agreement Priority Collateral (including, in respect of the Committed Credit Agreement Priority Collateral, the exercise of any
+right of setoff or any right under any lockbox agreement, account control agreement, landlord waiver or bailee s letter or
+similar agreement or arrangement to which the Uncommitted Collateral Agent or any Uncommitted Credit Agreement Claimholder is a
+party) or institute any action or proceeding with respect to such rights or remedies (including any action of foreclosure), notwithstanding
+that the Uncommitted Collateral Agent or any Uncommitted Credit Agreement Claimholder shall have declared the existence of any
+Event of Default under and as defined in any Uncommitted Loan Document and/or demanded the repayment of all the principal amount
+of any Uncommitted Credit Agreement Obligations;
+
+ 
+
+ 
+ 15 
+
+ 
+
+ 
+
+ 
+
+ (2) are
+prohibited from contesting, protesting or objecting, and will not contest, protest or object, to any foreclosure proceeding or
+action brought by the Committed Collateral Agent or any Committed Credit Agreement Claimholder in respect of the Committed Credit
+Agreement Priority Collateral or any other exercise by the Committed Collateral Agent or any Committed Credit Agreement Claimholder
+of any rights and remedies relating to the Committed Credit Agreement Priority Collateral under the Committed Loan Documents or
+otherwise; and
+
+ 
+
+ (3) except
+as may be permitted in Section 3.1(c), will not object to the forbearance by the Committed Collateral Agent or the Committed Credit
+Agreement Claimholders from bringing or pursuing any foreclosure proceeding in respect of the Committed Credit Agreement Priority
+Collateral or action or any other exercise of any rights or remedies relating to the Committed Credit Agreement Priority Collateral;
+
+ 
+
+ provided , that, the Liens granted
+in Committed Credit Agreement Priority Collateral to secure the Uncommitted Credit Agreement Obligations shall attach to any proceeds
+resulting from actions taken by the Committed Collateral Agent or any Committed Credit Agreement Claimholder in accordance with
+this Agreement after application of such proceeds to the extent necessary to meet the requirements of a Discharge of Committed
+Credit Agreement Obligations.
+
+ 
+
+ (b) Until
+the Discharge of Committed Credit Agreement Obligations has occurred, whether or not any Insolvency or Liquidation Proceeding has
+been commenced by or against the Company, the Committed Collateral Agent and the Committed Credit Agreement Claimholders shall
+have the right to enforce rights, exercise remedies (including set-off and the right to credit bid their debt) and make determinations
+regarding the release, disposition, or restrictions with respect to the Committed Credit Agreement Priority Collateral without
+any consultation with or the consent of the Uncommitted Collateral Agent or any Uncommitted Credit Agreement Claimholder; provided 
+that the Lien securing the Uncommitted Credit Agreement Obligations shall remain on the proceeds of such Committed Credit Agreement
+Priority Collateral released or disposed of subject to the relative priorities described in Section 2. In exercising rights and
+remedies with respect to the Committed Credit Agreement Priority Collateral, the Committed Collateral Agent and the Committed Credit
+Agreement Claimholders may enforce the provisions of the Committed Loan Documents and exercise remedies thereunder, all in such
+order and in such manner as they may determine in the exercise of their sole discretion. Such exercise and enforcement shall include
+the rights of an agent appointed by them to sell or otherwise dispose of Committed Credit Agreement Priority Collateral upon foreclosure,
+to incur expenses in connection with such sale or disposition, and to exercise all the rights and remedies of a secured creditor
+under the UCC and of a secured creditor under Bankruptcy Laws of any applicable jurisdiction.
+
+ 
+
+ (c) Notwithstanding
+the foregoing, the Uncommitted Collateral Agent or to the extent permitted under the Uncommitted Loan Documents, the Uncommitted
+Credit Agreement Claimholders may:
+
+ 
+
+ 
+ 16 
+
+ 
+
+ 
+
+ 
+
+ (1) file
+a claim or statement of interest with respect to the Uncommitted Credit Agreement Obligations; provided that an Insolvency
+or Liquidation Proceeding has been commenced by or against the Company;
+
+ 
+
+ (2) take
+any action (not adverse to the priority status of the Liens on the Committed Credit Agreement Priority Collateral securing the
+Committed Credit Agreement Obligations, or the rights of the Committed Collateral Agent or the Committed Credit Agreement Claimholders
+to exercise remedies in respect thereof) in order to create, perfect, preserve or protect its Lien on the Collateral;
+
+ 
+
+ (3) file
+any necessary responsive or defensive pleadings in opposition to any motion, claim, adversary proceeding or other pleading made
+by any person objecting to or otherwise seeking the disallowance of the claims of the Uncommitted Credit Agreement Claimholders,
+including any claims secured by the Collateral, if any, in each case in accordance with the terms of this Agreement;
+
+ 
+
+ (4) file
+any pleadings, objections, motions or agreements which assert rights or interests available to unsecured creditors of the Company
+arising under either any Insolvency or Liquidation Proceeding or applicable non-bankruptcy law, in each case not inconsistent with
+the terms of this Agreement; and
+
+ 
+
+ (5) vote
+on any plan of reorganization, file any proof of claim, make other filings and make any arguments and motions that are, in each
+case, in accordance with the terms of this Agreement, with respect to the Uncommitted Credit Agreement Obligations and the Collateral.
+
+ 
+
+ The Uncommitted Collateral Agent, on behalf
+of itself and the Uncommitted Credit Agreement Claimholders, agrees that it will not take or receive any Committed Credit Agreement
+Priority Collateral or any proceeds of Committed Credit Agreement Priority Collateral in connection with the exercise of any right
+or remedy (including set-off) with respect to any Collateral in its capacity as a creditor in violation of this Agreement. Without
+limiting the generality of the foregoing, unless and until the Discharge of Committed Credit Agreement Obligations has occurred,
+except as expressly provided in Section 6.3(c) and this Section 3.1(c), the sole right of the Uncommitted Collateral Agent and
+the Uncommitted Credit Agreement Claimholders with respect to the Committed Credit Agreement Priority Collateral is to hold a Lien
+on the Committed Credit Agreement Priority Collateral pursuant to the Uncommitted Credit Agreement Collateral Documents for the
+period and to the extent granted therein and to receive a share of the proceeds thereof, if any, after the Discharge of Committed
+Credit Agreement Obligations has occurred.
+
+ 
+
+ (d) Subject
+to Section 6.3(c):
+
+ 
+
+ (1) the
+Uncommitted Collateral Agent, for itself and on behalf of the Uncommitted Credit Agreement Claimholders, agrees that the Uncommitted
+Collateral Agent and the Uncommitted Credit Agreement Claimholders will not take any action that would hinder any exercise of remedies
+in respect of the Committed Credit Agreement Priority Collateral or the Common Collateral under the Committed Loan Documents
+or is otherwise prohibited hereunder, including any sale, lease, exchange, transfer or other disposition of the Committed Credit
+Agreement Priority Collateral or the Common Collateral, whether by foreclosure or otherwise;
+
+ 
+
+ 
+ 17 
+
+ 
+
+ 
+
+ 
+
+ (2) the
+Uncommitted Collateral Agent, for itself and on behalf of the Uncommitted Credit Agreement Claimholders, hereby waives any and
+all rights it or the Uncommitted Credit Agreement Claimholders may have as a junior lien creditor in respect of the Committed Credit
+Agreement Priority Collateral or otherwise to object to the manner in which the Committed Collateral Agent or the Committed Credit
+Agreement Claimholders seek to enforce or collect the Committed Credit Agreement Obligations or the Liens securing the Committed
+Credit Agreement Obligations granted in any of the Committed Credit Agreement Priority Collateral undertaken in accordance with
+this Agreement, regardless of whether any action or failure to act by or on behalf of the Committed Collateral Agent or Committed
+Credit Agreement Claimholders is adverse to the interest of the Uncommitted Credit Agreement Claimholders; and
+
+ 
+
+ (3) the
+Uncommitted Collateral Agent, for itself and on behalf of the Uncommitted Credit Agreement Claimholders, hereby acknowledges and
+agrees that no covenant, agreement or restriction contained in the Uncommitted Credit Agreement Collateral Documents or any other
+Uncommitted Loan Document (other than this Agreement) shall be deemed to restrict in any way the rights and remedies of the Committed
+Collateral Agent or the Committed Credit Agreement Claimholders with respect to the Committed Credit Agreement Priority Collateral
+or the Common Collateral as set forth in this Agreement and the Committed Loan Documents.
+
+ 
+
+ (e) Except
+as otherwise specifically set forth in Sections 3.1(a) and 3.1(d), the Uncommitted Collateral Agent and the Uncommitted Credit
+Agreement Claimholders may exercise rights and remedies as unsecured creditors against the Company in accordance with the terms
+of the Uncommitted Loan Documents and applicable law; provided that in the event that the Uncommitted Collateral Agent or
+any Uncommitted Credit Agreement Claimholder becomes a judgment Lien creditor in respect of Committed Credit Agreement Priority
+Collateral as a result of its enforcement of its rights as an unsecured creditor with respect to the Uncommitted Credit Agreement
+Obligations, such judgment Lien shall be subject to the terms of this Agreement for all purposes (including in relation to the
+Committed Credit Agreement Obligations) as the other Liens securing the Uncommitted Credit Agreement Obligations are subject to
+this Agreement.
+
+ 
+
+ (f) Nothing
+in this Agreement shall prohibit the receipt by the Uncommitted Collateral Agent or any Uncommitted Credit Agreement Claimholder
+of the required payments of interest, principal and other amounts owed in respect of the Uncommitted Credit Agreement Obligations
+so long as such receipt is not the direct or indirect result of the exercise by the Uncommitted Collateral Agent or any Uncommitted
+Credit Agreement Claimholder of rights or remedies as a secured creditor in respect of Committed Credit Agreement Priority Collateral
+(including set-off) or enforcement in contravention of this Agreement of any Lien held by any of them in the Committed Credit Agreement
+Priority Collateral; provided that if any Committed Credit Agreement Claimholder shall notify the Uncommitted Collateral
+Agent that such funds are identifiable cash proceeds of Committed Credit Agreement Priority Collateral within 60 days of the receipt
+of such funds by the Uncommitted Collateral Agent or such Uncommitted Credit Agreement Claimholder, as the case may be, the Uncommitted
+Collateral Agent or such Uncommitted Credit Agreement Claimholder, as the case may be, shall promptly pay over such funds to the
+Committed Collateral Agent. Nothing in this Agreement impairs or otherwise adversely affects any rights or remedies the Committed
+Collateral Agent or the Committed Credit Agreement Claimholders may have with respect to the Committed Credit Agreement Priority
+Collateral and the Common Collateral.
+
+ 
+
+ 
+ 18 
+
+ 
+
+ 
+
+ 
+
+ 3.2 Exercise
+of Remedies Committed Collateral Agent 
+
+ 
+
+ (a) Until
+the Discharge of Uncommitted Credit Agreement Obligations has occurred, whether or not any Insolvency or Liquidation Proceeding
+has been commenced by or against the Company, the Committed Collateral Agent agrees on its own behalf and on behalf of the Committed
+Credit Agreement Claimholders that the Committed Collateral Agent and the Committed Credit Agreement Claimholders:
+
+ 
+
+ (1) are
+prohibited from exercising, and will not exercise or seek to exercise, any rights or remedies with respect to any Uncommitted Credit
+Agreement Priority Collateral (including, in respect of the Uncommitted Credit Agreement Priority Collateral, the exercise of any
+right of setoff or any right under any lockbox agreement, account control agreement, landlord waiver or bailee s letter or
+similar agreement or arrangement to which the Committed Collateral Agent or any Committed Lender is a party) or institute any action
+or proceeding with respect to such rights or remedies (including any action of foreclosure), notwithstanding that the Committed
+Collateral Agent or any Committed Credit Agreement Claimholder shall have declared the existence of any Event of Default under
+any Committed Loan Documents and demanded the repayment of all the principal amount of any Committed Credit Agreement Obligations;
+
+ 
+
+ (2) are
+prohibited from contesting, protesting or objecting, and will not contest, protest or object, to any foreclosure proceeding or
+action brought by the Uncommitted Collateral Agent or any Uncommitted Credit Agreement Claimholder in respect of the Uncommitted
+Credit Agreement Priority Collateral or any other exercise by the Uncommitted Collateral Agent or any Uncommitted Credit Agreement
+Claimholder of any rights and remedies relating to the Uncommitted Credit Agreement Priority Collateral under the Uncommitted Loan
+Documents or otherwise; and
+
+ 
+
+ (3) except
+as may be permitted in Section 3.2(c), will not object to the forbearance by the Uncommitted Collateral Agent or the Uncommitted
+Credit Agreement Claimholders from bringing or pursuing any foreclosure proceeding or action in respect of the Uncommitted Credit
+Agreement Priority Collateral or any other exercise of any rights or remedies relating to t
+
+[TRUNCATED at 60000 characters of 143233]

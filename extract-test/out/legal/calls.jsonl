@@ -1,0 +1,12 @@
+{"name":"locate","status":200,"ms":2881,"cost":0.00053512}
+{"name":"decide","status":200,"ms":289,"cost":0.00014356}
+{"name":"locate","status":200,"ms":2871,"cost":0.00057428}
+{"name":"decide","status":200,"ms":295,"cost":0.0001498}
+{"name":"locate","status":200,"ms":3148,"cost":0.00034228}
+{"name":"decide","status":200,"ms":504,"cost":0.00017272}
+{"name":"locate","status":200,"ms":4769,"cost":0.00053012}
+{"name":"decide","status":200,"ms":712,"cost":0.00015028}
+{"name":"locate","status":200,"ms":4122,"cost":0.00055232}
+{"name":"decide","status":200,"ms":713,"cost":0.0003106}
+{"name":"locate","status":200,"ms":4402,"cost":0.00053384}
+{"name":"decide","status":200,"ms":1632,"cost":0.000166}

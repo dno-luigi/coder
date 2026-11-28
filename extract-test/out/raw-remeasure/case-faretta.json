@@ -1,0 +1,98 @@
+{
+  "case_name": {
+    "status": 200,
+    "ms": 1214,
+    "cost": 0.0010528,
+    "values": [
+      {
+        "text": "Anthony Pasquall FARETTA, Petitioner, v. State of CALIFORNIA.",
+        "conf": 0.788,
+        "start": 0,
+        "end": 61,
+        "spanOk": true,
+        "normContained": true
+      }
+    ],
+    "omitted": false
+  },
+  "citation": {
+    "status": 200,
+    "ms": 902,
+    "cost": 0.0010532,
+    "values": [
+      {
+        "text": "422 U.S. 806",
+        "conf": 0.992,
+        "start": 1728,
+        "end": 1740,
+        "spanOk": true,
+        "normContained": true
+      }
+    ],
+    "omitted": false
+  },
+  "court": {
+    "status": 200,
+    "ms": 1175,
+    "cost": 0.00105268,
+    "values": [
+      {
+        "text": "Supreme Court",
+        "conf": 0.842,
+        "start": 64,
+        "end": 77,
+        "spanOk": true,
+        "normContained": true
+      }
+    ],
+    "omitted": false
+  },
+  "decision_date": {
+    "status": 200,
+    "ms": 857,
+    "cost": 0.00105312,
+    "values": [
+      {
+        "text": "June 30, 1975",
+        "conf": 0.98,
+        "start": 1888,
+        "end": 1901,
+        "spanOk": true,
+        "normContained": true
+      }
+    ],
+    "omitted": false
+  },
+  "authoring_justice": {
+    "status": 200,
+    "ms": 886,
+    "cost": 0.00105292,
+    "values": [
+      {
+        "text": "Mr. Justice STEWART",
+        "conf": 0.612,
+        "start": 2551,
+        "end": 2570,
+        "spanOk": true,
+        "normContained": true
+      }
+    ],
+    "omitted": false
+  },
+  "disposition": {
+    "status": 200,
+    "ms": 1000,
+    "cost": 0.00105328,
+    "values": [
+      {
+        "text": "Vacated and remanded",
+        "conf": 0.868,
+        "start": 30323,
+        "end": 30455,
+        "spanOk": false,
+        "normContained": true
+      }
+    ],
+    "omitted": false
+  }
+}

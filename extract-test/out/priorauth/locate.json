@@ -1,0 +1,87 @@
+{
+  "name": "locate",
+  "path": "/v1/chat/completions",
+  "status": 200,
+  "ms": 1133,
+  "cost": 0.00001652,
+  "body": {
+    "model": "scaledown/extract",
+    "messages": [
+      {
+        "role": "user",
+        "content": "PAEDIATRIC RESPIRATORY CLINIC — CONSULTATION NOTE\nSYNTHETIC DOCUMENT, authored for testing. No patient data.\n\nPatient age: 17 years.\nReferral: snoring and poor school performance.\n\nImpression: obstructive sleep apnoea suspected in an adolescent with adenotonsillar hypertrophy.\nSeverity has not been measured; polysomnography is being arranged.\n\nPrior treatment: nasal steroid spray for 6 weeks without improvement.\n\nRequested service: adenotonsillectomy and post-operative sleep study.\n"
+      }
+    ],
+    "provider": {
+      "options": {
+        "scaledown": {
+          "entities": {
+            "patient_age": {
+              "description": "Find the patient age in years, exactly as written."
+            },
+            "diagnosis": {
+              "description": "Find the diagnosis or indication for the requested service, exactly as written."
+            },
+            "requested_service": {
+              "description": "Find the service being requested, exactly as written."
+            },
+            "prior_treatment": {
+              "description": "Find any conservative or prior treatment already tried for this condition, exactly as written."
+            },
+            "severity_finding": {
+              "description": "Find any measured severity finding, such as an apnoea-hypopnoea index or oxygen saturation, exactly as written."
+            }
+          },
+          "threshold": 0,
+          "context_chars": 200
+        }
+      }
+    }
+  },
+  "response": {
+    "id": "gen-1795814771-3gf7IovHePUYHdWHECK9",
+    "object": "chat.completion",
+    "created": 1795814771,
+    "model": "scaledown/extract",
+    "provider": "ScaleDown",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": null,
+        "message": {
+          "role": "assistant",
+          "content": "{\"entities\":[{\"text\":\"17 years\",\"type\":\"patient_age\",\"confidence\":0.561,\"start\":123,\"end\":131,\"context\":\"PAEDIATRIC RESPIRATORY CLINIC \\u2014 CONSULTATION NOTE\\nSYNTHETIC DOCUMENT, authored for testing. No patient data.\\n\\nPatient age: 17 years.\\nReferral: snoring and poor school performance.\\n\\nImpression: obstructive sleep apnoea suspected in an adolescent with adenotonsillar hypertrophy.\\nSeverity has not been measured; polysomnography is being arranged.\\n\\nPrior treatment: nasal steroid spray for 6 weeks without improvement.\\n\\nRequested service: adenotonsillectomy and post-operative sleep study.\\n\"},{\"text\":\"obstructive sleep apnoea suspected in an adolescent with adenotonsillar hypertrophy\",\"type\":\"diagnosis\",\"confidence\":0.899,\"start\":193,\"end\":276,\"context\":\"PAEDIATRIC RESPIRATORY CLINIC \\u2014 CONSULTATION NOTE\\nSYNTHETIC DOCUMENT, authored for testing. No patient data.\\n\\nPatient age: 17 years.\\nReferral: snoring and poor school performance.\\n\\nImpression: obstructive sleep apnoea suspected in an adolescent with adenotonsillar hypertrophy.\\nSeverity has not been measured; polysomnography is being arranged.\\n\\nPrior treatment: nasal steroid spray for 6 weeks without improvement.\\n\\nRequested service: adenotonsillectomy and post-operative sleep study.\\n\"},{\"text\":\"adenotonsillectomy and post-operative sleep study\",\"type\":\"requested_service\",\"confidence\":0.995,\"start\":436,\"end\":485,\"context\":\"PAEDIATRIC RESPIRATORY CLINIC \\u2014 CONSULTATION NOTE\\nSYNTHETIC DOCUMENT, authored for testing. No patient data.\\n\\nPatient age: 17 years.\\nReferral: snoring and poor school performance.\\n\\nImpression: obstructive sleep apnoea suspected in an adolescent with adenotonsillar hypertrophy.\\nSeverity has not been measured; polysomnography is being arranged.\\n\\nPrior treatment: nasal steroid spray for 6 weeks without improvement.\\n\\nRequested service: adenotonsillectomy and post-operative sleep study.\\n\"},{\"text\":\"nasal steroid spray for 6 weeks without improvement\",\"type\":\"prior_treatment\",\"confidence\":0.95,\"start\":363,\"end\":414,\"context\":\"PAEDIATRIC RESPIRATORY CLINIC \\u2014 CONSULTATION NOTE\\nSYNTHETIC DOCUMENT, authored for testing. No patient data.\\n\\nPatient age: 17 years.\\nReferral: snoring and poor school performance.\\n\\nImpression: obstructive sleep apnoea suspected in an adolescent with adenotonsillar hypertrophy.\\nSeverity has not been measured; polysomnography is being arranged.\\n\\nPrior treatment: nasal steroid spray for 6 weeks without improvement.\\n\\nRequested service: adenotonsillectomy and post-operative sleep study.\\n\"}],\"structured_result\":null,\"ocr_text\":null,\"input_tokens\":413}",
+          "refusal": null,
+          "reasoning": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 413,
+      "completion_tokens": 659,
+      "total_tokens": 1072,
+      "cost": 0.00001652,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00001652,
+        "upstream_inference_prompt_cost": 0.00001652,
+        "upstream_inference_completions_cost": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  }
+}

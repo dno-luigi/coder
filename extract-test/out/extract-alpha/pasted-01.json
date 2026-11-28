@@ -1,0 +1,23 @@
+{
+  "matches": [
+    {
+      "field": "effective_date",
+      "text": "July, 1995",
+      "start": 234,
+      "end": 244,
+      "confidence": 0.336,
+      "context": "EX-10.2\n 3\n dex102.htm\n LEASE BETWEEN ONE DIRECTORY PLACE LLC AND DIRECTORY PRINTING COMPANY\n \n \n Lease between One Directory Place LLC and Directory Printing Company \n \n \n\n Exhibit 10.2 \n LEASE \n This Lease is made this 21 st day of July, 1995, between One Directory Place LLC, a Colorado\nlimited liability company (Landlord), whose address is c/o DPC Development Company, 7000 E. Belleview Avenue, Suite 290, Greenwood Village, Colorado 80111, and Directory Printing Company, a Delaware corporation (Tenant),\nwhose address is 380 West 37 th Street, Loveland,\nColorado 80538. \n \n\n \n \n I. \n GENERAL \n\n 1.1\n Consideration . Landlord enters into this Lease in consideration of the payment by Tenant of the rents herein reserved and the keepin",
+      "boundary": false
+    },
+    {
+      "field": "effective_date",
+      "text": "August, 1995",
+      "start": 8439,
+      "end": 8451,
+      "confidence": 0.577,
+      "context": "andlord, without offset, deduction or abatement, except as expressly set forth herein, basic rent for the full Lease Term in the amount\nspecified as basic rent in Exhibit A attached hereto (Basic Rent). All monetary requirements referred to in this Lease shall be in United States dollars. \n 4.2 Monthly Rent . Basic Rent shall be payable monthly in advance, without notice, in equal installments in the amount of monthly rent specified in Exhibit A (Monthly Rent) commencing on\nthe first day of August, 1995, and continuing on the first day of each month thereafter for the balance of the Lease Term. Basic Rent for the period from the Commencement Date through and including July 31, 1995 has been paid by Tenant to\nLandlord in connection with the execution of this Lease. \n 4.3 Place of Payments . Basic Rent and all other sums\npayable by Tenant to Landlord under this Lease shall be paid to Landlord at the place for payments specified in Exhibit A, or such other place as Landlord may, from time to time",
+      "boundary": false
+    }
+  ],
+  "review": []
+}

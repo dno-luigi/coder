@@ -1,0 +1,153 @@
+{
+  "table": [
+    {
+      "id": "lease-01",
+      "harness": {
+        "found": 6,
+        "exact": 3,
+        "contained": 4,
+        "ungrounded": 2,
+        "bad": [
+          {
+            "field": "commencement_date",
+            "text": "August 1, 1995",
+            "conf": 0.444
+          },
+          {
+            "field": "security_deposit",
+            "text": "null",
+            "conf": 0.908
+          }
+        ]
+      },
+      "raw": {
+        "found": 1,
+        "exact": 1,
+        "contained": 1,
+        "ungrounded": 0,
+        "bad": []
+      }
+    },
+    {
+      "id": "lease-02",
+      "harness": {
+        "found": 5,
+        "exact": 3,
+        "contained": 5,
+        "ungrounded": 0,
+        "bad": []
+      },
+      "raw": {
+        "found": 4,
+        "exact": 2,
+        "contained": 4,
+        "ungrounded": 0,
+        "bad": []
+      }
+    },
+    {
+      "id": "lease-03",
+      "harness": {
+        "found": 6,
+        "exact": 3,
+        "contained": 6,
+        "ungrounded": 0,
+        "bad": []
+      },
+      "raw": {
+        "found": 6,
+        "exact": 4,
+        "contained": 6,
+        "ungrounded": 0,
+        "bad": []
+      }
+    },
+    {
+      "id": "lease-04",
+      "harness": {
+        "found": 5,
+        "exact": 3,
+        "contained": 5,
+        "ungrounded": 0,
+        "bad": []
+      },
+      "raw": {
+        "found": 4,
+        "exact": 2,
+        "contained": 4,
+        "ungrounded": 0,
+        "bad": []
+      }
+    },
+    {
+      "id": "lease-05",
+      "harness": {
+        "found": 6,
+        "exact": 4,
+        "contained": 6,
+        "ungrounded": 0,
+        "bad": []
+      },
+      "raw": {
+        "found": 4,
+        "exact": 2,
+        "contained": 2,
+        "ungrounded": 2,
+        "bad": [
+          {
+            "field": "premises_address",
+            "text": "170 Southport Drive, Morrisville, North Carolina 27560",
+            "conf": 0.895
+          },
+          {
+            "field": "base_rent",
+            "text": "$545,160.00",
+            "conf": 0.34
+          }
+        ]
+      }
+    },
+    {
+      "id": "lease-06",
+      "harness": {
+        "found": 6,
+        "exact": 5,
+        "contained": 6,
+        "ungrounded": 0,
+        "bad": []
+      },
+      "raw": {
+        "found": 4,
+        "exact": 3,
+        "contained": 4,
+        "ungrounded": 0,
+        "bad": []
+      }
+    },
+    {
+      "id": "case-faretta",
+      "harness": {
+        "found": 6,
+        "exact": 4,
+        "contained": 5,
+        "ungrounded": 1,
+        "bad": [
+          {
+            "field": "case_name",
+            "text": "Faretta v. California",
+            "conf": 0.713
+          }
+        ]
+      },
+      "raw": {
+        "found": 6,
+        "exact": 5,
+        "contained": 6,
+        "ungrounded": 0,
+        "bad": []
+      }
+    }
+  ],
+  "spent": 0.024522960000000007,
+  "calls": 42
+}

@@ -1,0 +1,351 @@
+{
+  "summary": {
+    "vertical": "denial",
+    "docs": 3,
+    "docs_zero_entity": 0,
+    "fields_expected": 18,
+    "fields_found": 18,
+    "values_returned": 18,
+    "values_verbatim": 17,
+    "escalation_rate": 0,
+    "cost_usd": 0.000243,
+    "calls": 6,
+    "gate": 0.6,
+    "decisions_total": 6,
+    "decisions_correct": 4,
+    "decisions_accuracy": 0.6666666666666666,
+    "confidently_wrong": 2
+  },
+  "results": [
+    {
+      "file": "denial-a.txt",
+      "chars": 852,
+      "zero_entities": false,
+      "fields_expected": 6,
+      "fields_found": 6,
+      "values_returned": 6,
+      "values_verbatim": 6,
+      "fields": {
+        "claim_id": [
+          {
+            "text": "CLM-2026-004411",
+            "confidence": 0.999,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 177
+          }
+        ],
+        "date_of_service": [
+          {
+            "text": "03/14/2026",
+            "confidence": 1,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 233
+          }
+        ],
+        "carc_code": [
+          {
+            "text": "CARC 16",
+            "confidence": 0.987,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 436
+          }
+        ],
+        "billed_amount": [
+          {
+            "text": "$1,240.00",
+            "confidence": 1,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 340
+          }
+        ],
+        "allowed_amount": [
+          {
+            "text": "$0.00",
+            "confidence": 0.999,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 366
+          }
+        ],
+        "appeal_deadline": [
+          {
+            "text": "180 days of the remittance date",
+            "confidence": 0.634,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 658
+          }
+        ]
+      },
+      "decisions": {
+        "denial_is_appealable": {
+          "choice": "yes",
+          "confidence": 0.730770629732451,
+          "probabilities": {
+            "yes": 0.730770629732451,
+            "no": 0.11835768461190417,
+            "insufficient_evidence": 0.15087168565564485
+          }
+        },
+        "appeal_window_open": {
+          "choice": "yes",
+          "confidence": 0.7887106226799313,
+          "probabilities": {
+            "yes": 0.7887106226799313,
+            "no": 0.1532468438415171,
+            "insufficient_evidence": 0.05804253347855165
+          }
+        }
+      },
+      "escalations": [],
+      "escalation_rate": 0,
+      "reconciled": {
+        "billed": 1240,
+        "allowed": 0,
+        "calculated_denial": 1240,
+        "stated_denial": 1240,
+        "denial_matches": true
+      },
+      "scored": {
+        "denial_is_appealable": {
+          "got": "yes",
+          "want": "yes",
+          "confidence": 0.730770629732451,
+          "correct": true,
+          "confidently_wrong": false
+        },
+        "appeal_window_open": {
+          "got": "yes",
+          "want": "no",
+          "confidence": 0.7887106226799313,
+          "correct": false,
+          "confidently_wrong": true
+        }
+      }
+    },
+    {
+      "file": "denial-b.txt",
+      "chars": 795,
+      "zero_entities": false,
+      "fields_expected": 6,
+      "fields_found": 6,
+      "values_returned": 6,
+      "values_verbatim": 5,
+      "fields": {
+        "claim_id": [
+          {
+            "text": "CLM-2026-005107",
+            "confidence": 1,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 138
+          }
+        ],
+        "date_of_service": [
+          {
+            "text": "04/02/2026",
+            "confidence": 1,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 194
+          }
+        ],
+        "carc_code": [
+          {
+            "text": "CARC 197",
+            "confidence": 0.992,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 403
+          }
+        ],
+        "billed_amount": [
+          {
+            "text": "$4,860.00",
+            "confidence": 1,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 307
+          }
+        ],
+        "allowed_amount": [
+          {
+            "text": "$0.00",
+            "confidence": 1,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 333
+          }
+        ],
+        "appeal_deadline": [
+          {
+            "text": "06/18/2026",
+            "confidence": 0.61,
+            "verbatim": false,
+            "also_in_doc": false,
+            "start": 603
+          }
+        ]
+      },
+      "decisions": {
+        "denial_is_appealable": {
+          "choice": "yes",
+          "confidence": 0.9766749167532295,
+          "probabilities": {
+            "yes": 0.9766749167532295,
+            "no": 0.01236935283625807,
+            "insufficient_evidence": 0.01095573041051256
+          }
+        },
+        "appeal_window_open": {
+          "choice": "yes",
+          "confidence": 0.6640909156806117,
+          "probabilities": {
+            "yes": 0.6640909156806117,
+            "no": 0.28398019043397554,
+            "insufficient_evidence": 0.05192889388541281
+          }
+        }
+      },
+      "escalations": [],
+      "escalation_rate": 0,
+      "reconciled": {
+        "billed": 4860,
+        "allowed": 0,
+        "calculated_denial": 4860,
+        "stated_denial": 4860,
+        "denial_matches": true
+      },
+      "scored": {
+        "denial_is_appealable": {
+          "got": "yes",
+          "want": "yes",
+          "confidence": 0.9766749167532295,
+          "correct": true,
+          "confidently_wrong": false
+        },
+        "appeal_window_open": {
+          "got": "yes",
+          "want": "no",
+          "confidence": 0.6640909156806117,
+          "correct": false,
+          "confidently_wrong": true
+        }
+      }
+    },
+    {
+      "file": "denial-c.txt",
+      "chars": 787,
+      "zero_entities": false,
+      "fields_expected": 6,
+      "fields_found": 6,
+      "values_returned": 6,
+      "values_verbatim": 6,
+      "fields": {
+        "claim_id": [
+          {
+            "text": "CLM-2026-002233",
+            "confidence": 0.999,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 138
+          }
+        ],
+        "date_of_service": [
+          {
+            "text": "02/11/2026",
+            "confidence": 1,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 194
+          }
+        ],
+        "carc_code": [
+          {
+            "text": "CARC 45",
+            "confidence": 0.991,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 428
+          }
+        ],
+        "billed_amount": [
+          {
+            "text": "$980.00",
+            "confidence": 1,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 300
+          }
+        ],
+        "allowed_amount": [
+          {
+            "text": "$610.00",
+            "confidence": 1,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 324
+          }
+        ],
+        "appeal_deadline": [
+          {
+            "text": "120 days of the remittance date",
+            "confidence": 0.504,
+            "verbatim": true,
+            "also_in_doc": true,
+            "start": 657
+          }
+        ]
+      },
+      "decisions": {
+        "denial_is_appealable": {
+          "choice": "yes",
+          "confidence": 0.9678954241142875,
+          "probabilities": {
+            "yes": 0.9678954241142875,
+            "no": 0.022488141414272397,
+            "insufficient_evidence": 0.009616434471439938
+          }
+        },
+        "appeal_window_open": {
+          "choice": "yes",
+          "confidence": 0.6021495080821732,
+          "probabilities": {
+            "yes": 0.6021495080821732,
+            "no": 0.2574926552587731,
+            "insufficient_evidence": 0.14035783665905383
+          }
+        }
+      },
+      "escalations": [],
+      "escalation_rate": 0,
+      "reconciled": {
+        "billed": 980,
+        "allowed": 610,
+        "calculated_denial": 370,
+        "stated_denial": 370,
+        "denial_matches": true
+      },
+      "scored": {
+        "denial_is_appealable": {
+          "got": "yes",
+          "want": "yes",
+          "confidence": 0.9678954241142875,
+          "correct": true,
+          "confidently_wrong": false
+        },
+        "appeal_window_open": {
+          "got": "yes",
+          "want": "yes",
+          "confidence": 0.6021495080821732,
+          "correct": true,
+          "confidently_wrong": false
+        }
+      }
+    }
+  ]
+}

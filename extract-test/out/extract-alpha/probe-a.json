@@ -1,0 +1,37 @@
+{
+ "status": 200,
+ "window": [
+  0,
+  3000
+ ],
+ "fields": [
+  "invoice_number",
+  "effective_date"
+ ],
+ "body": {
+  "model": "scaledown/extract-20260928",
+  "answers": {
+   "invoice_number": {
+    "type": "text",
+    "value": null
+   },
+   "effective_date": {
+    "type": "text",
+    "value": "July, 1995",
+    "span": [
+     234,
+     244
+    ],
+    "confidence": 0.336
+   }
+  },
+  "truncated": false,
+  "usage": {
+   "input_tokens": 963,
+   "output_tokens": 0,
+   "cost": 0.00003852
+  },
+  "id": "gen-dec-1795828127-fkdiswoQSWDJtBO1ys1x",
+  "provider": "ScaleDown"
+ }
+}

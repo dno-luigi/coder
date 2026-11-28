@@ -1,0 +1,18 @@
+{
+  "old": {
+    "arm": "old",
+    "status": 200,
+    "ms": 293,
+    "cost": 0.00001996,
+    "values": [],
+    "omitted": true
+  },
+  "new": {
+    "arm": "new",
+    "status": 200,
+    "ms": 239,
+    "cost": 0.00002016,
+    "values": [],
+    "omitted": true
+  }
+}
